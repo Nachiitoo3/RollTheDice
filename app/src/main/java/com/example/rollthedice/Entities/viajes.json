@@ -1,0 +1,1202 @@
+[
+    {
+        "pregunta": "¿En qué ciudad puedes encontrar la Torre Eiffel?",
+        "respuesta_correcta": "París",
+        "opciones_respuesta": [
+            "Roma",
+            "París",
+            "Madrid",
+            "Berlín"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es la moneda oficial de Japón?",
+        "respuesta_correcta": "Yen",
+        "opciones_respuesta": [
+            "Won",
+            "Yen",
+            "Euro",
+            "Dólar"
+        ]
+    },
+    {
+        "pregunta": "¿En qué país se encuentra la Acrópolis?",
+        "respuesta_correcta": "Grecia",
+        "opciones_respuesta": [
+            "Grecia",
+            "Italia",
+            "Turquía",
+            "Egipto"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es la montaña más alta de la Tierra?",
+        "respuesta_correcta": "Everest",
+        "opciones_respuesta": [
+            "Everest",
+            "Kilimanjaro",
+            "Mont Blanc",
+            "McKinley"
+        ]
+    },
+    {
+        "pregunta": "¿En qué país se celebra el famoso Festival de las Linternas Flotantes?",
+        "respuesta_correcta": "Tailandia",
+        "opciones_respuesta": [
+            "China",
+            "Japón",
+            "Corea del Sur",
+            "Tailandia"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es la capital de Canadá?",
+        "respuesta_correcta": "Ottawa",
+        "opciones_respuesta": [
+            "Toronto",
+            "Ottawa",
+            "Vancouver",
+            "Montreal"
+        ]
+    },
+    {
+        "pregunta": "¿En qué país se encuentra la Gran Muralla?",
+        "respuesta_correcta": "China",
+        "opciones_respuesta": [
+            "Japón",
+            "China",
+            "Corea del Sur",
+            "Vietnam"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es la ciudad conocida como 'La Ciudad Eterna'?",
+        "respuesta_correcta": "Roma",
+        "opciones_respuesta": [
+            "Atenas",
+            "Roma",
+            "Estambul",
+            "El Cairo"
+        ]
+    },
+    {
+        "pregunta": "¿Dónde se encuentra el Museo del Louvre?",
+        "respuesta_correcta": "París",
+        "opciones_respuesta": [
+            "Londres",
+            "París",
+            "Nueva York",
+            "Madrid"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el nombre de la famosa playa de Río de Janeiro?",
+        "respuesta_correcta": "Copacabana",
+        "opciones_respuesta": [
+            "Miami Beach",
+            "Copacabana",
+            "Bondi Beach",
+            "Waikiki Beach"
+        ]
+    },
+    {
+        "pregunta": "¿En qué país se encuentra la Torre de Pisa?",
+        "respuesta_correcta": "Italia",
+        "opciones_respuesta": [
+            "Francia",
+            "Italia",
+            "España",
+            "Grecia"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es la moneda oficial de Suiza?",
+        "respuesta_correcta": "Franco suizo",
+        "opciones_respuesta": [
+            "Euro",
+            "Franco suizo",
+            "Corona danesa",
+            "Libra esterlina"
+        ]
+    },
+    {
+        "pregunta": "¿En qué ciudad se encuentra la Estatua de la Libertad?",
+        "respuesta_correcta": "Nueva York",
+        "opciones_respuesta": [
+            "Nueva York",
+            "Washington D.C.",
+            "Los Ángeles",
+            "San Francisco"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el nombre del famoso palacio parisino que alberga obras de arte como la Mona Lisa?",
+        "respuesta_correcta": "Museo Louvre",
+        "opciones_respuesta": [
+            "Museo Británico",
+            "Museo del Prado",
+            "Museo Louvre",
+            "Galería Uffizi"
+        ]
+    },
+    {
+        "pregunta": "¿En qué país se celebra el Festival de Diwali?",
+        "respuesta_correcta": "India",
+        "opciones_respuesta": [
+            "China",
+            "India",
+            "Tailandia",
+            "Japón"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es la capital de Sudáfrica?",
+        "respuesta_correcta": "Bloemfontein",
+        "opciones_respuesta": [
+            "Ciudad del Cabo",
+            "Pretoria",
+            "Johannesburgo",
+            "Bloemfontein"
+        ]
+    },
+    {
+        "pregunta": "¿En qué ciudad se encuentra el Cristo Redentor?",
+        "respuesta_correcta": "Río de Janeiro",
+        "opciones_respuesta": [
+            "Río de Janeiro",
+            "Buenos Aires",
+            "Bogotá",
+            "Lima"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es la isla más grande del mundo?",
+        "respuesta_correcta": "Groenlandia",
+        "opciones_respuesta": [
+            "Groenlandia",
+            "Borneo",
+            "Madagascar",
+            "Java"
+        ]
+    },
+    {
+        "pregunta": "¿Qué famoso arquitecto diseñó la Sagrada Familia en Barcelona?",
+        "respuesta_correcta": "Antoni Gaudí",
+        "opciones_respuesta": [
+            "Frank Gehry",
+            "Antoni Gaudí",
+            "Zaha Hadid",
+            "Norman Foster"
+        ]
+    },
+    {
+        "pregunta": "¿En qué país se encuentra el Parque Nacional Serengeti?",
+        "respuesta_correcta": "Tanzania",
+        "opciones_respuesta": [
+            "Kenia",
+            "Sudáfrica",
+            "Tanzania",
+            "Uganda"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es la ciudad conocida como 'La Ciudad de los Canales'?",
+        "respuesta_correcta": "Venecia",
+        "opciones_respuesta": [
+            "Venecia",
+            "Ámsterdam",
+            "Estocolmo",
+            "Brujas"
+        ]
+    },
+    {
+        "pregunta": "¿En qué país se encuentra el Parque Nacional Yellowstone?",
+        "respuesta_correcta": "Estados Unidos",
+        "opciones_respuesta": [
+            "Canadá",
+            "Estados Unidos",
+            "México",
+            "Australia"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es la capital de Turquía?",
+        "respuesta_correcta": "Ankara",
+        "opciones_respuesta": [
+            "Atenas",
+            "Estambul",
+            "Ankara",
+            "Beirut"
+        ]
+    },
+    {
+        "pregunta": "¿Dónde se encuentra la Gran Barrera de Coral?",
+        "respuesta_correcta": "Australia",
+        "opciones_respuesta": [
+            "México",
+            "Australia",
+            "Brasil",
+            "Tailandia"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es la capital de Islandia?",
+        "respuesta_correcta": "Reikiavik",
+        "opciones_respuesta": [
+            "Reikiavik",
+            "Oslo",
+            "Helsinki",
+            "Copenhague"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el desierto más seco del mundo?",
+        "respuesta_correcta": "Atacama",
+        "opciones_respuesta": [
+            "Atacama",
+            "Sahara",
+            "Kalahari",
+            "Gobi"
+        ]
+    },
+    {
+        "pregunta": "¿Qué ciudad europea es conocida por su sistema de canales y bicicletas?",
+        "respuesta_correcta": "Ámsterdam",
+        "opciones_respuesta": [
+            "Ámsterdam",
+            "Copenhague",
+            "Estocolmo",
+            "Bruselas"
+        ]
+    },
+    {
+        "pregunta": "¿En qué país se encuentra la antigua ciudad de Petra?",
+        "respuesta_correcta": "Jordania",
+        "opciones_respuesta": [
+            "Grecia",
+            "Egipto",
+            "Jordania",
+            "Irak"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es la capital de Argentina?",
+        "respuesta_correcta": "Buenos Aires",
+        "opciones_respuesta": [
+            "Río de Janeiro",
+            "Santiago",
+            "Buenos Aires",
+            "Lima"
+        ]
+    },
+    {
+        "pregunta": "¿En qué país se encuentra la antigua ciudad de Efeso?",
+        "respuesta_correcta": "Turquía",
+        "opciones_respuesta": [
+            "Grecia",
+            "Turquía",
+            "Egipto",
+            "Italia"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es la capital de Croacia?",
+        "respuesta_correcta": "Zagreb",
+        "opciones_respuesta": [
+            "Liubliana",
+            "Zagreb",
+            "Belgrado",
+            "Sarajevo"
+        ]
+    },
+    {
+        "pregunta": "¿Dónde se encuentra la famosa isla de Santorini?",
+        "respuesta_correcta": "Grecia",
+        "opciones_respuesta": [
+            "Italia",
+            "Grecia",
+            "Turquía",
+            "España"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el nombre del río que atraviesa París?",
+        "respuesta_correcta": "Sena",
+        "opciones_respuesta": [
+            "Sena",
+            "Támesis",
+            "Danubio",
+            "Rin"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es la ciudad más grande de África?",
+        "respuesta_correcta": "Lagos",
+        "opciones_respuesta": [
+            "Lagos",
+            "El Cairo",
+            "Johannesburgo",
+            "Casablanca"
+        ]
+    },
+    {
+        "pregunta": "¿En qué país se encuentra el Parque Nacional Banff?",
+        "respuesta_correcta": "Canadá",
+        "opciones_respuesta": [
+            "Canadá",
+            "Estados Unidos",
+            "Noruega",
+            "Nueva Zelanda"
+        ]
+    },
+    {
+        "pregunta": "¿Qué famosa ciudad es conocida como 'La Ciudad del Papa'?",
+        "respuesta_correcta": "Ciudad del Vaticano",
+        "opciones_respuesta": [
+            "Roma",
+            "Milán",
+            "Ciudad del Vaticano",
+            "Nápoles"
+        ]
+    },
+    {
+        "pregunta": "¿En qué país se encuentra Machu Picchu?",
+        "respuesta_correcta": "Perú",
+        "opciones_respuesta": [
+            "Perú",
+            "México",
+            "Colombia",
+            "Ecuador"
+        ]
+    },
+    {
+        "pregunta": "¿Dónde se celebra el famoso festival de Oktoberfest?",
+        "respuesta_correcta": "Múnich",
+        "opciones_respuesta": [
+            "Viena",
+            "Berlín",
+            "Múnich",
+            "Ámsterdam"
+        ]
+    },
+    {
+        "pregunta": "¿En qué país se encuentra la ciudad de Marrakech, conocida por sus mercados y arquitectura única?",
+        "respuesta_correcta": "Marruecos",
+        "opciones_respuesta": [
+            "Egipto",
+            "Marruecos",
+            "Turquía",
+            "Jordania"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es la lengua oficial de Brasil?",
+        "respuesta_correcta": "Portugués",
+        "opciones_respuesta": [
+            "Español",
+            "Portugués",
+            "Inglés",
+            "Brasileño"
+        ]
+    },
+    {
+        "pregunta": "¿En qué continente se encuentra el desierto del Sahara?",
+        "respuesta_correcta": "África",
+        "opciones_respuesta": [
+            "África",
+            "Asia",
+            "América del Norte",
+            "Australia"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el símbolo nacional de Canadá?",
+        "respuesta_correcta": "Hoja de arce",
+        "opciones_respuesta": [
+            "Canguro",
+            "Hoja de arce",
+            "Kiwi",
+            "Tulipán"
+        ]
+    },
+    {
+        "pregunta": "¿Qué ciudad es conocida como 'La Ciudad de los Rascacielos'?",
+        "respuesta_correcta": "Nueva York",
+        "opciones_respuesta": [
+            "Chicago",
+            "Nueva York",
+            "Los Ángeles",
+            "Houston"
+        ]
+    },
+    {
+        "pregunta": "¿En qué país se encuentra el Taj Mahal?",
+        "respuesta_correcta": "India",
+        "opciones_respuesta": [
+            "India",
+            "Nepal",
+            "Bangladesh",
+            "Sri Lanka"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el río más largo del mundo?",
+        "respuesta_correcta": "Amazonas",
+        "opciones_respuesta": [
+            "Amazonas",
+            "Nilo",
+            "Yangtsé",
+            "Misisipi"
+        ]
+    },
+    {
+        "pregunta": "¿En qué país se encuentra el Parque Nacional Yellowstone?",
+        "respuesta_correcta": "Estados Unidos",
+        "opciones_respuesta": [
+            "Canadá",
+            "Estados Unidos",
+            "México",
+            "Costa Rica"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el nombre del famoso monumento en Atenas dedicado a la diosa Atenea?",
+        "respuesta_correcta": "Partenón",
+        "opciones_respuesta": [
+            "Partenón",
+            "Coloso de Rodas",
+            "Templo de Artemisa",
+            "Mausoleo de Halicarnaso"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es la ciudad conocida como 'La Ciudad del Amor'?",
+        "respuesta_correcta": "París",
+        "opciones_respuesta": [
+            "Venecia",
+            "París",
+            "Praga",
+            "Barcelona"
+        ]
+    },
+    {
+        "pregunta": "¿En qué país se celebra el Carnaval de Río de Janeiro?",
+        "respuesta_correcta": "Brasil",
+        "opciones_respuesta": [
+            "Colombia",
+            "Argentina",
+            "Brasil",
+            "México"
+        ]
+    },
+    {
+        "pregunta": "¿En qué país se encuentra Stonehenge?",
+        "respuesta_correcta": "Inglaterra",
+        "opciones_respuesta": [
+            "Escocia",
+            "Gales",
+            "Inglaterra",
+            "Irlanda"
+        ]
+    },
+    {
+        "pregunta": "¿En qué país se encuentra la ciudad de Chefchaouen, conocida por sus edificaciones de color azul?",
+        "respuesta_correcta": "Marruecos",
+        "opciones_respuesta": [
+            "Marruecos",
+            "Grecia",
+            "India",
+            "Brasil"
+        ]
+    },
+    {
+        "pregunta": "¿En qué país se encuentra la región de Transilvania, asociada con la leyenda de Drácula?",
+        "respuesta_correcta": "Rumania",
+        "opciones_respuesta": [
+            "Rumania",
+            "Bulgaria",
+            "Hungría",
+            "Serbia"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es la ciudad conocida por sus 'puertas al infierno', causadas por la quema de gas natural?",
+        "respuesta_correcta": "Turkmenistán",
+        "opciones_respuesta": [
+            "Dubái",
+            "Moscú",
+            "Ashgabat",
+            "Turkmenistán"
+        ]
+    },
+    {
+        "pregunta": "¿Dónde se encuentra la Ciudad Prohibida, un antiguo complejo palaciego imperial?",
+        "respuesta_correcta": "China",
+        "opciones_respuesta": [
+            "Japón",
+            "China",
+            "Corea del Sur",
+            "Tailandia"
+        ]
+    },
+    {
+        "pregunta": "¿En qué país se encuentra la ciudad de Petra, famosa por sus estructuras labradas en la roca?",
+        "respuesta_correcta": "Jordania",
+        "opciones_respuesta": [
+            "Egipto",
+            "Israel",
+            "Jordania",
+            "Líbano"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el nombre del parque nacional en Bolivia conocido por su gran espejo de sal?",
+        "respuesta_correcta": "Salar de Uyuni",
+        "opciones_respuesta": [
+            "Parque Nacional Los Glaciares",
+            "Parque Nacional Torres del Paine",
+            "Salar de Uyuni",
+            "Parque Nacional Nahuel Huapi"
+        ]
+    },
+    {
+        "pregunta": "¿En qué país se encuentra el festival de Holi, conocido por lanzar polvos de colores?",
+        "respuesta_correcta": "India",
+        "opciones_respuesta": [
+            "Tailandia",
+            "India",
+            "Nepal",
+            "Sri Lanka"
+        ]
+    },
+    {
+        "pregunta": "¿Dónde se encuentra el famoso jardín Keukenhof, conocido por sus campos de tulipanes?",
+        "respuesta_correcta": "Países Bajos",
+        "opciones_respuesta": [
+            "Alemania",
+            "Países Bajos",
+            "Bélgica",
+            "Austria"
+        ]
+    },
+    {
+        "pregunta": "¿En qué país se encuentra la ciudad de Cappadocia, conocida por sus formaciones rocosas y vuelos en globo?",
+        "respuesta_correcta": "Turquía",
+        "opciones_respuesta": [
+            "Grecia",
+            "Turquía",
+            "Italia",
+            "Croacia"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el nombre del monumento ubicado en Turquía, conocido por ser una estructura funeraria monumental?",
+        "respuesta_correcta": "Mausoleo de Halicarnaso",
+        "opciones_respuesta": [
+            "Mausoleo de Halicarnaso",
+            "Coloso de Rodas",
+            "Partenón",
+            "Faro de Alejandría"
+        ]
+    },
+    {
+        "pregunta": "¿En qué país se encuentra la región de Capadocia, famosa por sus ciudades subterráneas y paisajes lunares?",
+        "respuesta_correcta": "Turquía",
+        "opciones_respuesta": [
+            "Grecia",
+            "Turquía",
+            "Italia",
+            "Croacia"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el nombre del sitio arqueológico en México, famoso por sus estructuras piramidales?",
+        "respuesta_correcta": "Teotihuacán",
+        "opciones_respuesta": [
+            "Chichén Itzá",
+            "Teotihuacán",
+            "Tulum",
+            "Palenque"
+        ]
+    },
+    {
+        "pregunta": "¿En qué país se encuentra el Valle de las Flores, un destino alpino reconocido por su flora diversa?",
+        "respuesta_correcta": "India",
+        "opciones_respuesta": [
+            "Suiza",
+            "India",
+            "Austria",
+            "Noruega"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el nombre del sitio arqueológico en México, conocido por sus cabezas colosales de piedra?",
+        "respuesta_correcta": "La Venta",
+        "opciones_respuesta": [
+            "Monte Albán",
+            "Palenque",
+            "La Venta",
+            "Uxmal"
+        ]
+    },
+    {
+        "pregunta": "¿En qué país se encuentra la isla de Pascua, famosa por sus moáis?",
+        "respuesta_correcta": "Chile",
+        "opciones_respuesta": [
+            "Hawái",
+            "Chile",
+            "Nueva Zelanda",
+            "Fiyi"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el nombre de la antigua ciudad en Jordania, tallada en roca arenisca rosa?",
+        "respuesta_correcta": "Petra",
+        "opciones_respuesta": [
+            "Jerash",
+            "Petra",
+            "Amán",
+            "Aqaba"
+        ]
+    },
+    {
+        "pregunta": "¿En qué país se encuentra la cueva de Waitomo, famosa por sus larvas luminosas?",
+        "respuesta_correcta": "Nueva Zelanda",
+        "opciones_respuesta": [
+            "Australia",
+            "Nueva Zelanda",
+            "Japón",
+            "Canadá"
+        ]
+    },
+    {
+        "pregunta": "¿Dónde se encuentra la histórica ciudad de Carcasona, famosa por sus murallas y castillos?",
+        "respuesta_correcta": "Francia",
+        "opciones_respuesta": [
+            "Francia",
+            "Italia",
+            "España",
+            "Portugal"
+        ]
+    },
+    {
+        "pregunta": "¿En qué país se encuentra la región de Meteora, famosa por sus monasterios construidos en lo alto de formaciones rocosas?",
+        "respuesta_correcta": "Grecia",
+        "opciones_respuesta": [
+            "España",
+            "Grecia",
+            "Italia",
+            "Croacia"
+        ]
+    },
+    {
+        "pregunta": "¿En qué país se encuentra la ciudad de Valparaíso, famosa por sus coloridos cerros y arte callejero?",
+        "respuesta_correcta": "Chile",
+        "opciones_respuesta": [
+            "Argentina",
+            "Chile",
+            "Perú",
+            "Uruguay"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el nombre del complejo de templos budistas en Camboya, conocido por su gran árbol abrazando la estructura?",
+        "respuesta_correcta": "Angkor Wat",
+        "opciones_respuesta": [
+            "Wat Arun",
+            "Angkor Wat",
+            "Wat Phra Kaew",
+            "Wat Mahathat"
+        ]
+    },
+    {
+        "pregunta": "¿En qué país se encuentra la ciudad de Dubrovnik, conocida como la 'Perla del Adriático'?",
+        "respuesta_correcta": "Croacia",
+        "opciones_respuesta": [
+            "Italia",
+            "Croacia",
+            "Grecia",
+            "Turquía"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el nombre del sitio arqueológico en Turquía, conocido por su estructura circular y misterioso origen?",
+        "respuesta_correcta": "Göbekli Tepe",
+        "opciones_respuesta": [
+            "Göbekli Tepe",
+            "Éfeso",
+            "Pamukkale",
+            "Antalya"
+        ]
+    },
+    {
+        "pregunta": "¿En qué país se encuentra la ciudad de Fez, conocida por su antigua medina y artesanías?",
+        "respuesta_correcta": "Marruecos",
+        "opciones_respuesta": [
+            "Marruecos",
+            "Argelia",
+            "Túnez",
+            "Libia"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el término japonés para el arte de doblar papel, creando figuras sin cortes ni pegamento?",
+        "respuesta_correcta": "Origami",
+        "opciones_respuesta": [
+            "Origami",
+            "Kabuki",
+            "Sumi-e",
+            "Haiku"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el saludo tradicional tailandés realizado colocando las palmas juntas y haciendo una reverencia?",
+        "respuesta_correcta": "Sawasdee",
+        "opciones_respuesta": [
+            "Namaste",
+            "Sawasdee",
+            "Konnichiwa",
+            "Annyeong"
+        ]
+    },
+    {
+        "pregunta": "¿Qué festival hindú se celebra con la quema de hogueras y el lanzamiento de colores?",
+        "respuesta_correcta": "Holi",
+        "opciones_respuesta": [
+            "Diwali",
+            "Holi",
+            "Navaratri",
+            "Raksha Bandhan"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el nombre del instrumento musical tradicional de Escocia, un tipo de gaita?",
+        "respuesta_correcta": "Cornamusa",
+        "opciones_respuesta": [
+            "Dulzaina",
+            "Cornamusa",
+            "Sitar",
+            "Shamisen"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el instrumento musical típico de la música flamenca española?",
+        "respuesta_correcta": "Guitarra",
+        "opciones_respuesta": [
+            "Guitarra",
+            "Violín",
+            "Acordeón",
+            "Tambor"
+        ]
+    },
+    {
+        "pregunta": "¿Qué danza tradicional hawaiana se caracteriza por movimientos suaves y fluidos?",
+        "respuesta_correcta": "Hula",
+        "opciones_respuesta": [
+            "Hula",
+            "Polka",
+            "Baile de la lluvia",
+            "Fandango"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el baile nacional de Argentina, conocido por su pasión y movimientos dramáticos?",
+        "respuesta_correcta": "Tango",
+        "opciones_respuesta": [
+            "Samba",
+            "Tango",
+            "Flamenco",
+            "Joropo"
+        ]
+    },
+    {
+        "pregunta": "¿Qué arte tradicional de la India se centra en la decoración de manos y pies con diseños intrincados?",
+        "respuesta_correcta": "Henna",
+        "opciones_respuesta": [
+            "Rangoli",
+            "Henna",
+            "Kolam",
+            "Alpana"
+        ]
+    },
+    {
+        "pregunta": "¿Qué baile tradicional griego se caracteriza por la formación de un círculo y movimientos en grupo?",
+        "respuesta_correcta": "Zorba",
+        "opciones_respuesta": [
+            "Tarantela",
+            "Zorba",
+            "Sirtaki",
+            "Syrtos"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el nombre del tradicional teatro japonés con máscaras y movimientos estilizados?",
+        "respuesta_correcta": "Noh",
+        "opciones_respuesta": [
+            "Noh",
+            "Kabuki",
+            "Bunraku",
+            "Kyogen"
+        ]
+    },
+    {
+        "pregunta": "¿Qué tipo de arte marcial es nativo de Brasil y se enfoca en técnicas de lucha y grapples?",
+        "respuesta_correcta": "Jiu-jitsu",
+        "opciones_respuesta": [
+            "Aikido",
+            "Capoeira",
+            "Jiu-jitsu",
+            "Krav Maga"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el nombre del antiguo sistema de escritura de los egipcios?",
+        "respuesta_correcta": "Jeroglíficos",
+        "opciones_respuesta": [
+            "Hieroglíficos",
+            "Cuneiforme",
+            "Jeroglíficos",
+            "Escritura Rúnica"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el baile nacional de Cuba, caracterizado por movimientos sensuales y pasión?",
+        "respuesta_correcta": "Salsa",
+        "opciones_respuesta": [
+            "Salsa",
+            "Merengue",
+            "Bachata",
+            "Cha-cha-chá"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el nombre del baile tradicional de la cultura maorí de Nueva Zelanda, que utiliza palos rituales?",
+        "respuesta_correcta": "Haka",
+        "opciones_respuesta": [
+            "Haka",
+            "Poi",
+            "Hula",
+            "Siva"
+        ]
+    },
+    {
+        "pregunta": "¿Qué arte marcial tradicionalmente proviene de Tailandia y utiliza técnicas de golpeo y clinch?",
+        "respuesta_correcta": "Muay Thai",
+        "opciones_respuesta": [
+            "Muay Thai",
+            "Silat",
+            "Krav Maga",
+            "Wushu"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el nombre del instrumento de cuerda tradicional de la música árabe?",
+        "respuesta_correcta": "Laud",
+        "opciones_respuesta": [
+            "Darbuka",
+            "Laud",
+            "Ney",
+            "Sitar"
+        ]
+    },
+    {
+        "pregunta": "¿Qué arte marcial tradicionalmente proviene de Brasil y se centra en el uso del cuerpo y la fluidez de movimientos?",
+        "respuesta_correcta": "Capoeira",
+        "opciones_respuesta": [
+            "Jiu-jitsu",
+            "Capoeira",
+            "Aikido",
+            "Taekwondo"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es la bebida tradicional de Japón?",
+        "respuesta_correcta": "Sake",
+        "opciones_respuesta": [
+            "Sake",
+            "Tequila",
+            "Vodka",
+            "Whisky"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el deporte más popular en Estados Unidos?",
+        "respuesta_correcta": "Baloncesto",
+        "opciones_respuesta": [
+            "Fútbol",
+            "Béisbol",
+            "Baloncesto",
+            "Hockey"
+        ]
+    },
+    {
+        "pregunta": "¿Qué país es conocido como la cuna del tango?",
+        "respuesta_correcta": "Argentina",
+        "opciones_respuesta": [
+            "España",
+            "Argentina",
+            "Italia",
+            "Francia"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es la moneda oficial de la Unión Europea?",
+        "respuesta_correcta": "Euro",
+        "opciones_respuesta": [
+            "Euro",
+            "Libra esterlina",
+            "Franco suizo",
+            "Yen japonés"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es la capital de Australia?",
+        "respuesta_correcta": "Canberra",
+        "opciones_respuesta": [
+            "Canberra",
+            "Sídney",
+            "Melbourne",
+            "Brisbane"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es la bebida nacional de Rusia?",
+        "respuesta_correcta": "Vodka",
+        "opciones_respuesta": [
+            "Vodka",
+            "Whisky",
+            "Tequila",
+            "Sake"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el continente más grande del mundo?",
+        "respuesta_correcta": "Asia",
+        "opciones_respuesta": [
+            "África",
+            "Europa",
+            "Asia",
+            "América"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el nombre de la isla más grande de Japón?",
+        "respuesta_correcta": "Hokkaido",
+        "opciones_respuesta": [
+            "Kyushu",
+            "Shikoku",
+            "Hokkaido",
+            "Honshu"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el símbolo nacional de Irlanda?",
+        "respuesta_correcta": "Trébol",
+        "opciones_respuesta": [
+            "Trébol",
+            "Rosa",
+            "Girasol",
+            "Lirio"
+        ]
+    },
+    {
+        "pregunta": "¿En qué país se encuentra la Estatua de la Libertad?",
+        "respuesta_correcta": "Estados Unidos",
+        "opciones_respuesta": [
+            "Inglaterra",
+            "Francia",
+            "Estados Unidos",
+            "Italia"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el deporte más popular en India?",
+        "respuesta_correcta": "Cricket",
+        "opciones_respuesta": [
+            "Cricket",
+            "Fútbol",
+            "Hockey",
+            "Bádminton"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es la bebida tradicional de los gauchos argentinos?",
+        "respuesta_correcta": "Mate",
+        "opciones_respuesta": [
+            "Vino",
+            "Tereré",
+            "Mate",
+            "Pisco"
+        ]
+    },
+    {
+        "pregunta": "¿En qué país se encuentra el Kremlin?",
+        "respuesta_correcta": "Rusia",
+        "opciones_respuesta": [
+            "Rusia",
+            "Italia",
+            "Grecia",
+            "Noruega"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el deporte nacional de Canadá?",
+        "respuesta_correcta": "Hockey",
+        "opciones_respuesta": [
+            "Hockey",
+            "Lacrosse",
+            "Curling",
+            "Fútbol"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el deporte nacional de Brasil?",
+        "respuesta_correcta": "Fútbol",
+        "opciones_respuesta": [
+            "Fútbol",
+            "Voleibol",
+            "Surf",
+            "Jiu-jitsu"
+        ]
+    },
+    {
+        "pregunta": "¿Qué país es conocido por su festival de carnaval?",
+        "respuesta_correcta": "Brasil",
+        "opciones_respuesta": [
+            "Argentina",
+            "Colombia",
+            "Brasil",
+            "Perú"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el nombre del desierto más grande del mundo?",
+        "respuesta_correcta": "Desierto del Sahara",
+        "opciones_respuesta": [
+            "Desierto del Sahara",
+            "Desierto de Atacama",
+            "Desierto de Gobi",
+            "Desierto de Mojave"
+        ]
+    },
+    {
+        "pregunta": "¿Qué cultura urbana se caracteriza por su interés en la moda vintage, la música indie y la estética retro?",
+        "respuesta_correcta": "Hipsters",
+        "opciones_respuesta": [
+            "Hipsters",
+            "Góticos",
+            "Emos",
+            "Skaters"
+        ]
+    },
+    {
+        "pregunta": "¿Qué cultura urbana se asocia con la música electrónica, festivales de música?",
+        "respuesta_correcta": "Ravers",
+        "opciones_respuesta": [
+            "Ravers",
+            "Skaters",
+            "Emos",
+            "Hip-hop"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes culturas urbanas se caracteriza por su amor por la música rock, el uso de cuero y tachuelas?",
+        "respuesta_correcta": "Metaleros",
+        "opciones_respuesta": [
+            "Metaleros",
+            "Hipsters",
+            "Emos",
+            "Ravers"
+        ]
+    },
+    {
+        "pregunta": "¿Qué tribu urbana se enfoca en la moda inspirada en la cultura del surf, el skateboarding y la música punk?",
+        "respuesta_correcta": "Skaters",
+        "opciones_respuesta": [
+            "Góticos",
+            "Skaters",
+            "Hip-hop",
+            "Ravers"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes culturas urbanas se asocia con la cultura del rap, la moda urbana y el arte callejero?",
+        "respuesta_correcta": "Hip-hop",
+        "opciones_respuesta": [
+            "Ravers",
+            "Hip-hop",
+            "Bikers",
+            "Otakus"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes culturas urbanas se centra en la cultura de los videojuegos, anime y manga?",
+        "respuesta_correcta": "Otakus",
+        "opciones_respuesta": [
+            "Otakus",
+            "Ravers",
+            "Bikers",
+            "Skaters"
+        ]
+    },
+    {
+        "pregunta": "¿Qué tribu urbana se identifica por su amor por la música punk, el activismo político y la moda rebelde?",
+        "respuesta_correcta": "Anarquistas",
+        "opciones_respuesta": [
+            "Rockeros",
+            "Emos",
+            "Anarquistas",
+            "Góticos"
+        ]
+    },
+    {
+        "pregunta": "¿Qué cultura urbana se caracteriza por su interés en la tecnología, la ciencia ficción y la innovación?",
+        "respuesta_correcta": "Cyberpunks",
+        "opciones_respuesta": [
+            "Cyberpunks",
+            "Rockers",
+            "Greasers",
+            "Beatniks"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes tribus urbanas se centra en la moda inspirada en la época victoriana, tecnología a vapor y estética retro-futurista?",
+        "respuesta_correcta": "Steampunks",
+        "opciones_respuesta": [
+            "Ravers",
+            "Steampunks",
+            "Hipsters",
+            "Mods"
+        ]
+    },
+    {
+        "pregunta": "¿Qué cultura urbana se caracteriza por su amor por la música country, la moda western y la vida rural?",
+        "respuesta_correcta": "Cowboys/Cowgirls",
+        "opciones_respuesta": [
+            "Rancheros",
+            "Country Folks",
+            "Cowboys/Cowgirls",
+            "Hillbillies"
+        ]
+    },
+    {
+        "pregunta": "¿Qué cultura urbana se caracteriza por su amor por la música reggae, la moda rastafari y el estilo de vida relajado?",
+        "respuesta_correcta": "Rastas",
+        "opciones_respuesta": [
+            "Rastas",
+            "Reggaetoneros",
+            "Islanders",
+            "Dubsters"
+        ]
+    },
+    {
+        "pregunta": "¿Qué cultura urbana se asocia con la moda grunge, la música alternativa y la actitud anti-consumista?",
+        "respuesta_correcta": "Grungers",
+        "opciones_respuesta": [
+            "Grungers",
+            "Alt Rockers",
+            "Counter Culturists",
+            "Indie Kids"
+        ]
+    }
+]

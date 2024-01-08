@@ -1,0 +1,1132 @@
+[
+    {
+        "pregunta": "¿Cómo se llama el estudio científico de los peces?",
+        "respuesta_correcta": "Ictiología",
+        "opciones_respuesta": [
+            "Piscicología",
+            "Ictiología",
+            "Piscicultura",
+            "Zoología marina"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el animal más rápido en tierra firme?",
+        "respuesta_correcta": "Leopardo",
+        "opciones_respuesta": [
+            "Guepardo",
+            "Leopardo",
+            "Antílope",
+            "Jaguar"
+        ]
+    },
+    {
+        "pregunta": "¿Qué mamífero tiene la gestación más larga en la Tierra?",
+        "respuesta_correcta": "Ballena",
+        "opciones_respuesta": [
+            "Elefante",
+            "Ballena",
+            "Hipopótamo",
+            "Rinoceronte"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el único mamífero que pone huevos en lugar de dar a luz crías vivas?",
+        "respuesta_correcta": "Ornitorrinco",
+        "opciones_respuesta": [
+            "Ornitorrinco",
+            "Musaraña",
+            "Murciélago frugívoro",
+            "Comadreja"
+        ]
+    },
+    {
+        "pregunta": "¿Qué insecto es famoso por su migración masiva de largas distancias cada año?",
+        "respuesta_correcta": "Mariposa Monarca",
+        "opciones_respuesta": [
+            "Mariposa Monarca",
+            "Abeja asiática",
+            "Escarabajo rinoceronte",
+            "Saltamontes real"
+        ]
+    },
+    {
+        "pregunta": "¿Qué colores se relacionan con animales venenosos en el reino animal?",
+        "respuesta_correcta": "Rojo, negro y amarillo.",
+        "opciones_respuesta": [
+            "Rojo, negro y amarillo.",
+            "Verde, rojo y amarillo.",
+            "Rojo, amarillo y azul.",
+            "Amarillo, azul y verde."
+        ]
+    },
+    {
+        "pregunta": "¿A qué reino pertenecen el mayor número de especies conocidas?",
+        "respuesta_correcta": "Animalia",
+        "opciones_respuesta": [
+            "Animalia",
+            "Plantae",
+            "Protista",
+            "Fungi"
+        ]
+    },
+    {
+        "pregunta": "¿A qué filo pertenecen el mayor número de especies conocidas?",
+        "respuesta_correcta": "Arthropoda",
+        "opciones_respuesta": [
+            "Arthropoda",
+            "Chordata",
+            "Mollusca",
+            "Annelida"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es la característica más reconocible del ave petirrojo europeo?",
+        "respuesta_correcta": "El pecho rojo",
+        "opciones_respuesta": [
+            "El pecho rojo",
+            "El canto grave",
+            "El pico rojo",
+            "Las patas rojas"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es la diferencia más reconocible entre el pingüino emperador y el rey?",
+        "respuesta_correcta": "La cría",
+        "opciones_respuesta": [
+            "La cría",
+            "La altura",
+            "La cola",
+            "El peso"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el ave más pesada del mundo?",
+        "respuesta_correcta": "Avestruz",
+        "opciones_respuesta": [
+            "Avestruz",
+            "Avutarda",
+            "Albatros",
+            "Casuario Australiano"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el ave voladora más pesada del mundo?",
+        "respuesta_correcta": "Avutarda",
+        "opciones_respuesta": [
+            "Avutarda",
+            "Albatros",
+            "Avestruz",
+            "Pinguino"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el ave voladora con más envergadura del mundo?",
+        "respuesta_correcta": "Albatros errante",
+        "opciones_respuesta": [
+            "Albatros errante",
+            "Avutarda",
+            "Buitre negro",
+            "Avestruz"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál de estas especies tiene una sociedad estructurada en el matriarcado?",
+        "respuesta_correcta": "Lemures",
+        "opciones_respuesta": [
+            "Lemures",
+            "Lobos",
+            "Avestruz",
+            "Pinguino"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál de estas especies tiene una sociedad estructurada en el matriarcado?",
+        "respuesta_correcta": "Elefantes",
+        "opciones_respuesta": [
+            "Elefantes",
+            "Leones",
+            "Elefantes marinos",
+            "Pingüinos"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál de estas especies tiene una sociedad estructurada en el matriarcado?",
+        "respuesta_correcta": "Hienas",
+        "opciones_respuesta": [
+            "Hienas",
+            "Alces",
+            "Gorriones",
+            "Bisontes"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál de estas especies tiene una sociedad estructurada en el matriarcado?",
+        "respuesta_correcta": "Orcas",
+        "opciones_respuesta": [
+            "Orcas",
+            "Rinocerontes",
+            "Jirafas",
+            "Cebras"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál de estas especies tiene una sociedad estructurada eusocial (colonial)?",
+        "respuesta_correcta": "Hormigas",
+        "opciones_respuesta": [
+            "Hormigas",
+            "Leones",
+            "Avestruces",
+            "Rinocerontes"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál de estas especies tiene una sociedad estructurada eusocial (colonial)?",
+        "respuesta_correcta": "Abejas",
+        "opciones_respuesta": [
+            "Abejas",
+            "Albatros",
+            "Mantis Religiosa",
+            "Pingüinos"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál de estas especies tiene una sociedad estructurada eusocial (colonial)?",
+        "respuesta_correcta": "Termitas",
+        "opciones_respuesta": [
+            "Termitas",
+            "Saltamontes",
+            "Mariposas",
+            "Escarabajo rey"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál de estas especies tiene una sociedad estructurada eusocial (colonial)?",
+        "respuesta_correcta": "Ratas topo desnudas",
+        "opciones_respuesta": [
+            "Ratas topo desnudas",
+            "Bisontes",
+            "Nutrias",
+            "Lobos"
+        ]
+    },
+    {
+        "pregunta": "¿Cómo se llaman las especies del reino plantae que poseen flores y fruto?",
+        "respuesta_correcta": "Angiospermas",
+        "opciones_respuesta": [
+            "Angiospermas",
+            "Gimnospermas",
+            "Briofitos",
+            "Algas pardas"
+        ]
+    },
+    {
+        "pregunta": "¿Cómo se llaman las especies del reino plantae que no poseen flores y fruto?",
+        "respuesta_correcta": "Gimnospermas",
+        "opciones_respuesta": [
+            "Gimnospermas",
+            "Angiospermas",
+            "Briofitos",
+            "Algas pardas"
+        ]
+    },
+    {
+        "pregunta": "¿Qué nombre reciben las setas en las que solían vivir los pitufos?",
+        "respuesta_correcta": "Amanita Muscaria",
+        "opciones_respuesta": [
+            "Amanita Muscaria",
+            "Amanita Phalloides",
+            "Lactarius Deliciosus",
+            "Morchella Cónica"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el género de especies representativo de la península ibérica?",
+        "respuesta_correcta": "Quercus",
+        "opciones_respuesta": [
+            "Quercus",
+            "Acer",
+            "Prunus",
+            "Sorbus"
+        ]
+    },
+    {
+        "pregunta": "¿De qué familia es el árbol representativo de Montpellier?",
+        "respuesta_correcta": "Acer",
+        "opciones_respuesta": [
+            "Acer",
+            "Ilex",
+            "Prunus",
+            "Crataegus"
+        ]
+    },
+    {
+        "pregunta": "¿De qué familia es el árbol representativo de Líbano?",
+        "respuesta_correcta": "Cedrus",
+        "opciones_respuesta": [
+            "Cedrus",
+            "Quercus",
+            "Pinus",
+            "Picea"
+        ]
+    },
+    {
+        "pregunta": "¿Cómo se llama la seta más venenosa del mundo?",
+        "respuesta_correcta": "Amanita Muscaria",
+        "opciones_respuesta": [
+            "Amanita Muscaria",
+            "Amanita Phalloides",
+            "Boletus Satanas",
+            "Gyromitra esculenta"
+        ]
+    },
+    {
+        "pregunta": "¿A qué especie pertenece el árbol con más perímetro del mundo?",
+        "respuesta_correcta": "Taxodium (Ahuehuete)",
+        "opciones_respuesta": [
+            "Taxodium (Ahuehuete)",
+            "Cedrus (Cedro)",
+            "Quercus (Roble)",
+            "Abies (Abeto)"
+        ]
+    },
+    {
+        "pregunta": "¿A qué especie pertenece el árbol más alto del mundo?",
+        "respuesta_correcta": "Sequoia",
+        "opciones_respuesta": [
+            "Sequoia",
+            "Salix",
+            "Pinus",
+            "Picea"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál de estas especies de árboles se le considera un fósil viviente?",
+        "respuesta_correcta": "Ginkgo",
+        "opciones_respuesta": [
+            "Ginkgo",
+            "Brachychiton",
+            "Ailanthus",
+            "Liriodendron"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el proceso mediante el cual las plantas convierten la luz solar en energía?",
+        "respuesta_correcta": "Fotosíntesis",
+        "opciones_respuesta": [
+            "Fotosíntesis",
+            "Glucólisis",
+            "Glucogenogénesis",
+            "Hemólisis"
+        ]
+    },
+    {
+        "pregunta": "¿Qué nombre recibe el tejido que transporta agua y nutrientes en las plantas?",
+        "respuesta_correcta": "Xilema y floema",
+        "opciones_respuesta": [
+            "Xilema y floema",
+            "Cambium",
+            "Xilema",
+            "Floema"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el proceso de reproducción de las plantas con flores?",
+        "respuesta_correcta": "Polinización",
+        "opciones_respuesta": [
+            "Polinización",
+            "Fecundación in vitro",
+            "Gemación",
+            "Bipartición"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el pigmento responsable de la coloración verde en las hojas de las plantas?",
+        "respuesta_correcta": "Clorofila",
+        "opciones_respuesta": [
+            "Clorofila",
+            "Verdina",
+            "Caroteno",
+            "Hulkina"
+        ]
+    },
+    {
+        "pregunta": "¿Qué órgano de las plantas les permite tomar agua y nutrientes del suelo?",
+        "respuesta_correcta": "Raíces",
+        "opciones_respuesta": [
+            "Raíces",
+            "Tallo",
+            "Hojas",
+            "Flores"
+        ]
+    },
+    {
+        "pregunta": "¿Qué tipo de plantas no tienen vasos conductores para el transporte interno de agua y nutrientes?",
+        "respuesta_correcta": "Briofitas (musgos y líquenes)",
+        "opciones_respuesta": [
+            "Briofitas (musgos y líquenes)",
+            "Angiospermas",
+            "Gimnospermas",
+            "Pteridofitas (helechos)"
+        ]
+    },
+    {
+        "pregunta": "¿Qué nombre recibe la parte de la flor que contiene los órganos reproductores masculinos?",
+        "respuesta_correcta": "Estambres",
+        "opciones_respuesta": [
+            "Estambres",
+            "Pistilo",
+            "Gineceo",
+            "Carpelo"
+        ]
+    },
+    {
+        "pregunta": "¿Qué nombre reciben las plantas que obtienen nutrientes de otras plantas a través de conexiones en las raíces?",
+        "respuesta_correcta": "Parásitas",
+        "opciones_respuesta": [
+            "Parásitas",
+            "Simbiontes",
+            "Recolectoras",
+            "Beneficiarias"
+        ]
+    },
+    {
+        "pregunta": "¿A qué género pertenece el famoso árbol sauce boxeador de Harry Potter?",
+        "respuesta_correcta": "Salix",
+        "opciones_respuesta": [
+            "Salix",
+            "Pinus",
+            "Quercus",
+            "Prunus"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál de estas plantas es famosa por su capacidad para 'cerrar' sus hojas cuando se tocan?",
+        "respuesta_correcta": "Mimosa pudica",
+        "opciones_respuesta": [
+            "Drosera",
+            "Venus atrapamoscas",
+            "Mimosa pudica",
+            "Nepenthes"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál de estas plantas es una fuente común de fibra utilizada en la fabricación de cuerdas y tejidos?",
+        "respuesta_correcta": "Cáñamo",
+        "opciones_respuesta": [
+            "Cannabis",
+            "Agave",
+            "Cáñamo",
+            "Yucca"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál de estas plantas es famosa por su uso en la producción de tequila?",
+        "respuesta_correcta": "Agave",
+        "opciones_respuesta": [
+            "Agave",
+            "Yucca",
+            "Aloe vera",
+            "Kalanchoe"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál de estas plantas es conocida por su capacidad para repeler los mosquitos debido a su aroma característico?",
+        "respuesta_correcta": "Citronela",
+        "opciones_respuesta": [
+            "Geranio",
+            "Citronela",
+            "Begonia",
+            "Pensamiento"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál de estas plantas es conocida en la fantasía por ahuyentar a los vampiros?",
+        "respuesta_correcta": "Verbena",
+        "opciones_respuesta": [
+            "Belladonna",
+            "Begonia",
+            "Melisa",
+            "Verbena"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál de estas plantas es conocida en la fantasía por su forma humanoide?",
+        "respuesta_correcta": "Mandragora",
+        "opciones_respuesta": [
+            "Belladonna",
+            "Begonia",
+            "Beleño",
+            "Mandragora"
+        ]
+    },
+    {
+        "pregunta": "¿Qué planta es reconocida por su raíz picante y se utiliza en la cocina asiática?",
+        "respuesta_correcta": "Jengibre",
+        "opciones_respuesta": [
+            "Jengibre",
+            "Cúrcuma",
+            "Cardamomo",
+            "Azafrán"
+        ]
+    },
+    {
+        "pregunta": "¿Qué tipo de roca se forma a partir de la solidificación del magma?",
+        "respuesta_correcta": "Ígnea",
+        "opciones_respuesta": [
+            "Metamórfica",
+            "Ígnea",
+            "Sedimentaria",
+            "Volcánica"
+        ]
+    },
+    {
+        "pregunta": "¿Cómo se llama la roca sedimentaria formada por restos orgánicos compactados?",
+        "respuesta_correcta": "Carbón",
+        "opciones_respuesta": [
+            "Granito",
+            "Pizarra",
+            "Carbón",
+            "Mármol"
+        ]
+    },
+    {
+        "pregunta": "¿Qué nombre recibe el punto en la corteza terrestre donde se origina un terremoto?",
+        "respuesta_correcta": "Epicentro",
+        "opciones_respuesta": [
+            "Epicentro",
+            "Núcleo",
+            "Magma",
+            "Pliegue"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es la escala utilizada para medir la intensidad de los terremotos?",
+        "respuesta_correcta": "Escala de Richter",
+        "opciones_respuesta": [
+            "Escala de Richter",
+            "Escala de Mercalli",
+            "Escala de Magnitud",
+            "Escala de Epicentro"
+        ]
+    },
+    {
+        "pregunta": "¿Qué tipo de límite se da entre placas tectónicas donde una placa se hunde debajo de otra?",
+        "respuesta_correcta": "Convergente",
+        "opciones_respuesta": [
+            "Divergente",
+            "Transformante",
+            "Convergente",
+            "Inactivo"
+        ]
+    },
+    {
+        "pregunta": "¿Qué tipo de roca se forma a partir de la alteración química o física de otras rocas?",
+        "respuesta_correcta": "Metamórfica",
+        "opciones_respuesta": [
+            "Ígnea",
+            "Metamórfica",
+            "Sedimentaria",
+            "Volcánica"
+        ]
+    },
+    {
+        "pregunta": "¿Qué nombre recibe el estudio de las capas de la Tierra y su estructura?",
+        "respuesta_correcta": "Geología",
+        "opciones_respuesta": [
+            "Geografía",
+            "Geodesia",
+            "Geología",
+            "Geomorfología"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el mineral más duro en la escala de Mohs?",
+        "respuesta_correcta": "Diamante",
+        "opciones_respuesta": [
+            "Cuarzo",
+            "Diamante",
+            "Feldespato",
+            "Corindón"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es la capa más externa de la Tierra?",
+        "respuesta_correcta": "Corteza",
+        "opciones_respuesta": [
+            "Manto",
+            "Corteza",
+            "Núcleo",
+            "Astenosfera"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el proceso de formación de montañas debido a la colisión de placas tectónicas?",
+        "respuesta_correcta": "Orogenia",
+        "opciones_respuesta": [
+            "Vulcanismo",
+            "Orogenia",
+            "Sismología",
+            "Meteorización"
+        ]
+    },
+    {
+        "pregunta": "¿Qué tipo de roca se forma a partir del enfriamiento rápido de lava volcánica?",
+        "respuesta_correcta": "Basalto",
+        "opciones_respuesta": [
+            "Granito",
+            "Pizarra",
+            "Basalto",
+            "Arenisca"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el estudio de los terremotos y las ondas sísmicas?",
+        "respuesta_correcta": "Sismología",
+        "opciones_respuesta": [
+            "Paleontología",
+            "Sismología",
+            "Vulcanología",
+            "Estratigrafía"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el proceso geológico responsable de la formación de cuevas en regiones de roca caliza?",
+        "respuesta_correcta": "Erosión kárstica",
+        "opciones_respuesta": [
+            "Meteorización",
+            "Erosión kárstica",
+            "Subducción",
+            "Plegamiento"
+        ]
+    },
+    {
+        "pregunta": "¿Qué nombre recibe el estudio de los fósiles y su distribución en capas de roca?",
+        "respuesta_correcta": "Paleontología",
+        "opciones_respuesta": [
+            "Paleontología",
+            "Estratigrafía",
+            "Petrología",
+            "Geomorfología"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el nombre de la teoría que explica cómo se mueven y cambian las placas de la Tierra?",
+        "respuesta_correcta": "Teoría de la Tectónica de Placas",
+        "opciones_respuesta": [
+            "Teoría del Big Bang",
+            "Teoría de la Deriva Continental",
+            "Teoría de la Tectónica de Placas",
+            "Teoría de la Evolución"
+        ]
+    },
+    {
+        "pregunta": "¿Qué época geológica se caracteriza por la extinción de los dinosaurios?",
+        "respuesta_correcta": "Cretácico",
+        "opciones_respuesta": [
+            "Pérmico",
+            "Cretácico",
+            "Jurásico",
+            "Triásico"
+        ]
+    },
+    {
+        "pregunta": "¿Qué nombre se le da a la teoría sobre la extinción masiva que acabó con los dinosaurios?",
+        "respuesta_correcta": "Teoría del Impacto del Asteroide",
+        "opciones_respuesta": [
+            "Teoría de la Evolución",
+            "Teoría de la Meteorización",
+            "Teoría del Impacto del Asteroide",
+            "Teoría de la Glaciación"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál de estos períodos geológicos es conocido por la explosión de diversidad biológica?",
+        "respuesta_correcta": "Cámbrico",
+        "opciones_respuesta": [
+            "Devónico",
+            "Silúrico",
+            "Cámbrico",
+            "Carbonífero"
+        ]
+    },
+    {
+        "pregunta": "¿Qué período geológico es conocido por la gran diversificación de mamíferos y aves?",
+        "respuesta_correcta": "Cenozoico",
+        "opciones_respuesta": [
+            "Cámbrico",
+            "Pérmico",
+            "Cenozoico",
+            "Triásico"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el nombre de la especie humana más antigua conocida?",
+        "respuesta_correcta": "Australopithecus afarensis",
+        "opciones_respuesta": [
+            "Homo sapiens",
+            "Homo habilis",
+            "Homo erectus",
+            "Australopithecus afarensis"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál fue el primer ser vivo que produjo oxígeno en la atmósfera de la Tierra?",
+        "respuesta_correcta": "Cianobacterias",
+        "opciones_respuesta": [
+            "Bacterias",
+            "Algas",
+            "Cianobacterias",
+            "Protozoos"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes no es una técnica utilizada para datación de fósiles?",
+        "respuesta_correcta": "Datación morfológica",
+        "opciones_respuesta": [
+            "Carbono-14",
+            "Datación por radiación",
+            "Datación relativa",
+            "Datación morfológica"
+        ]
+    },
+    {
+        "pregunta": "¿Qué tipo de fósil es un coprolito?",
+        "respuesta_correcta": "Heces fosilizadas",
+        "opciones_respuesta": [
+            "Restos de plantas",
+            "Huesos fosilizados",
+            "Huellas fosilizadas",
+            "Heces fosilizadas"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el nombre del fósil que presenta características de dos grupos de organismos, como aves y dinosaurios?",
+        "respuesta_correcta": "Archaeopteryx",
+        "opciones_respuesta": [
+            "Archaeopteryx",
+            "Trilobites",
+            "Stegosaurus",
+            "Plesiosaurio"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el nombre de la famosa formación geológica en China que ha proporcionado muchos fósiles excepcionales de dinosaurios emplumados?",
+        "respuesta_correcta": "Yacimiento de Jehol",
+        "opciones_respuesta": [
+            "Valle de la Muerte",
+            "Formación de Hell Creek",
+            "Yacimiento de Jehol",
+            "Gran Cañón"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál fue el primer homínido en utilizar herramientas de piedra?",
+        "respuesta_correcta": "Homo habilis",
+        "opciones_respuesta": [
+            "Homo habilis",
+            "Australopithecus afarensis",
+            "Homo erectus",
+            "Neanderthalensis"
+        ]
+    },
+    {
+        "pregunta": "¿Qué disciplina de la antropología biológica se centra en el estudio de los fósiles humanos y de los primates no humanos?",
+        "respuesta_correcta": "Paleoantropología",
+        "opciones_respuesta": [
+            "Paleopatología",
+            "Paleontología",
+            "Paleoantropología",
+            "Primatología"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál de los siguientes no es un género de primates fósiles relacionado con la evolución humana?",
+        "respuesta_correcta": "Gorillapithecus",
+        "opciones_respuesta": [
+            "Ardipithecus",
+            "Australopithecus",
+            "Paranthropus",
+            "Gorillapithecus"
+        ]
+    },
+    {
+        "pregunta": "¿Qué parte del esqueleto humano es más utilizada por los antropólogos físicos para determinar la edad de un individuo?",
+        "respuesta_correcta": "Fémur",
+        "opciones_respuesta": [
+            "Cráneo",
+            "Fémur",
+            "Costillas",
+            "Húmero"
+        ]
+    },
+    {
+        "pregunta": "¿Qué término describe la ciencia que estudia las enfermedades en restos humanos antiguos?",
+        "respuesta_correcta": "Paleopatología",
+        "opciones_respuesta": [
+            "Paleontología médica",
+            "Osteología patológica",
+            "Paleopatología",
+            "Antropología clínica"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es la región del esqueleto humano más utilizada para determinar el sexo de un individuo?",
+        "respuesta_correcta": "Pelvis",
+        "opciones_respuesta": [
+            "Cráneo",
+            "Pelvis",
+            "Fémur",
+            "Costillas"
+        ]
+    },
+    {
+        "pregunta": "¿Qué especie humana extinta está estrechamente relacionada con los humanos modernos y se encontró en Europa y Asia hace aproximadamente 30,000 años?",
+        "respuesta_correcta": "Homo neanderthalensis",
+        "opciones_respuesta": [
+            "Homo habilis",
+            "Homo erectus",
+            "Homo neanderthalensis",
+            "Homo floresiensis"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes no es una de las teorías sobre la extinción de los neandertales?",
+        "respuesta_correcta": "Cambio climático repentino",
+        "opciones_respuesta": [
+            "Guerra con humanos modernos",
+            "Epidemias",
+            "Cambio climático repentino",
+            "Híbridos con Homo sapiens"
+        ]
+    },
+    {
+        "pregunta": "¿Qué nombre se le da al primer período de la Edad de Piedra, caracterizado por el uso de herramientas de piedra más simples y primitivas?",
+        "respuesta_correcta": "Paleolítico",
+        "opciones_respuesta": [
+            "Paleolítico",
+            "Mesolítico",
+            "Neolítico",
+            "Edad del Hierro"
+        ]
+    },
+    {
+        "pregunta": "¿Qué especie de homínido fue la primera en controlar el fuego?",
+        "respuesta_correcta": "Homo erectus",
+        "opciones_respuesta": [
+            "Homo sapiens",
+            "Homo erectus",
+            "Homo neanderthalensis",
+            "Homo habilis"
+        ]
+    },
+    {
+        "pregunta": "¿Qué período de la prehistoria se asocia con la domesticación de plantas y animales?",
+        "respuesta_correcta": "Neolítico",
+        "opciones_respuesta": [
+            "Paleolítico",
+            "Neolítico",
+            "Mesolítico",
+            "Edad del Bronce"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el nombre del proceso que describe la adaptación biológica a las presiones ambientales y culturales?",
+        "respuesta_correcta": "Plasticidad fenotípica",
+        "opciones_respuesta": [
+            "Selección artificial",
+            "Aculturación",
+            "Plasticidad fenotípica",
+            "Selección natural"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes especies humanas prehistóricas se asocia con la creación de arte rupestre en cuevas?",
+        "respuesta_correcta": "Homo sapiens",
+        "opciones_respuesta": [
+            "Homo erectus",
+            "Homo habilis",
+            "Homo sapiens",
+            "Homo neanderthalensis"
+        ]
+    },
+    {
+        "pregunta": "¿Quién propuso la teoría de la evolución por selección natural?",
+        "respuesta_correcta": "Charles Darwin",
+        "opciones_respuesta": [
+            "Charles Darwin",
+            "Gregor Mendel",
+            "Alfred Russel Wallace",
+            "Jean-Baptiste Lamarck"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el nombre del principio que establece que los organismos con características favorables para su entorno tienen más probabilidades de sobrevivir y reproducirse?",
+        "respuesta_correcta": "Selección natural",
+        "opciones_respuesta": [
+            "Ley de Hardy-Weinberg",
+            "Selección artificial",
+            "Selección natural",
+            "Ley de la dominancia"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el proceso mediante el cual especies no relacionadas evolucionan estructuras similares debido a la adaptación a entornos similares?",
+        "respuesta_correcta": "Convergencia evolutiva",
+        "opciones_respuesta": [
+            "Convergencia evolutiva",
+            "Divergencia evolutiva",
+            "Deriva genética",
+            "Selección artificial"
+        ]
+    },
+    {
+        "pregunta": "¿Qué nombre recibe la hipótesis que afirma que los organismos deben evolucionar constantemente para mantener su posición relativa con respecto a otros en un entorno cambiante?",
+        "respuesta_correcta": "Hipótesis de la reina roja",
+        "opciones_respuesta": [
+            "Hipótesis de la reina roja",
+            "Hipótesis del caballo de troya",
+            "Hipótesis de la liebre y la tortuga",
+            "Hipótesis del caballo de carreras"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es la capa más baja de la atmósfera terrestre?",
+        "respuesta_correcta": "Troposfera",
+        "opciones_respuesta": [
+            "Estratosfera",
+            "Troposfera",
+            "Mesosfera",
+            "Termosfera"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el nombre del proceso por el cual las células se dividen para formar células hijas idénticas?",
+        "respuesta_correcta": "Mitosis",
+        "opciones_respuesta": [
+            "Meiosis",
+            "Mitosis",
+            "Fagocitosis",
+            "Pinocitosis"
+        ]
+    },
+    {
+        "pregunta": "¿Qué región geográfica es común para el clima tropical húmedo?",
+        "respuesta_correcta": "África Subsahariana",
+        "opciones_respuesta": [
+            "África Subsahariana",
+            "Europa Central",
+            "Asia Oriental",
+            "América del Norte"
+        ]
+    },
+    {
+        "pregunta": "¿En qué región se encuentra comúnmente el clima mediterráneo?",
+        "respuesta_correcta": "África del Norte",
+        "opciones_respuesta": [
+            "Sudeste Asiático",
+            "Norteamérica",
+            "África del Norte",
+            "América del Sur"
+        ]
+    },
+    {
+        "pregunta": "¿Qué adaptaciones tienen los cactus para sobrevivir en el desierto?",
+        "respuesta_correcta": "Todas las anteriores",
+        "opciones_respuesta": [
+            "Hojas grandes para retener agua",
+            "Espinas contra depredadores",
+            "Raíces profundas para buscar agua",
+            "Todas las anteriores"
+        ]
+    },
+    {
+        "pregunta": "¿Qué tipo de vegetación es típica de la tundra?",
+        "respuesta_correcta": "Musgos, líquenes y pastos bajos",
+        "opciones_respuesta": [
+            "Árboles altos y densos",
+            "Arbustos y matorrales",
+            "Musgos, líquenes y pastos bajos",
+            "Cactus y suculentas"
+        ]
+    },
+    {
+        "pregunta": "¿En qué región del mundo se encuentran principalmente los bosques boreales?",
+        "respuesta_correcta": "Norte de Europa, Asia y América",
+        "opciones_respuesta": [
+            "Regiones ecuatoriales",
+            "Norte de Europa, Asia y América",
+            "Regiones tropicales",
+            "Sur de África"
+        ]
+    },
+    {
+        "pregunta": "¿Qué caracteriza a los ecosistemas de sabana?",
+        "respuesta_correcta": "Vegetación baja y dispersa con árboles esparcidos",
+        "opciones_respuesta": [
+            "Árboles altos y densos",
+            "Vegetación baja y dispersa",
+            "Grandes extensiones de desierto",
+            "Lluvias y temperaturas frías"
+        ]
+    },
+    {
+        "pregunta": "¿Qué tipo de árboles pierden sus hojas en invierno en los bosques templados caducifolios?",
+        "respuesta_correcta": "Árboles de hoja caduca",
+        "opciones_respuesta": [
+            "Árboles perennes",
+            "Árboles de hoja perenne",
+            "Árboles de hoja caduca",
+            "Ninguna de las anteriores"
+        ]
+    },
+    {
+        "pregunta": "¿Qué tipo de vegetación se encuentra predominantemente en las praderas?",
+        "respuesta_correcta": "Pastos y hierbas",
+        "opciones_respuesta": [
+            "Árboles altos y densos",
+            "Arbustos y matorrales",
+            "Pastos y hierbas",
+            "Ninguna de las anteriores"
+        ]
+    },
+    {
+        "pregunta": "¿En qué tipo de hábitat marino se encuentran los manglares?",
+        "respuesta_correcta": "Aguas poco profundas y salobres",
+        "opciones_respuesta": [
+            "Aguas profundas",
+            "Aguas poco profundas y salobres",
+            "Ríos y lagos",
+            "Ninguna de las anteriores"
+        ]
+    },
+    {
+        "pregunta": "¿Qué tipo de árboles predominan en los bosques de coníferas?",
+        "respuesta_correcta": "Árboles de hoja perenne",
+        "opciones_respuesta": [
+            "Árboles de hoja ancha",
+            "Árboles de hoja perenne",
+            "Árboles de hoja caduca",
+            "Árboles frutales"
+        ]
+    },
+    {
+        "pregunta": "¿Qué factor ambiental es más crucial para los ecosistemas acuáticos?",
+        "respuesta_correcta": "Luz solar",
+        "opciones_respuesta": [
+            "Luz solar",
+            "Temperatura del aire",
+            "Velocidad del viento",
+            "Humedad relativa"
+        ]
+    },
+    {
+        "pregunta": "¿Qué función importante desempeñan los humedales en los ecosistemas?",
+        "respuesta_correcta": "Todas las anteriores",
+        "opciones_respuesta": [
+            "Reservorio de dióxido de carbono",
+            "Filtración y purificación del agua",
+            "Absorción de contaminantes",
+            "Todas las anteriores"
+        ]
+    },
+    {
+        "pregunta": "¿Qué tipo de suelo es común en la tundra ártica?",
+        "respuesta_correcta": "Suelo congelado permanentemente (permafrost)",
+        "opciones_respuesta": [
+            "Suelo fértil y rico en nutrientes",
+            "Suelo congelado (permafrost)",
+            "Suelo arenoso y seco",
+            "Suelo volcánico"
+        ]
+    },
+    {
+        "pregunta": "¿Qué tipo de vegetación es característica de las marismas?",
+        "respuesta_correcta": "Hierbas y juncos",
+        "opciones_respuesta": [
+            "Árboles altos y densos",
+            "Hierbas y juncos",
+            "Musgos y líquenes",
+            "Ninguna de las anteriores"
+        ]
+    },
+    {
+        "pregunta": "¿En qué altitud se encuentra la tundra alpina?",
+        "respuesta_correcta": "Altas altitudes",
+        "opciones_respuesta": [
+            "Bajas altitudes",
+            "Altitudes medias",
+            "Altas altitudes",
+            "Ninguna de las anteriores"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál de estas constelaciones es conocida por representar un cazador con un cinturón de tres estrellas?",
+        "respuesta_correcta": "Orión",
+        "opciones_respuesta": [
+            "Orión",
+            "Pegaso",
+            "Géminis",
+            "Tauro"
+        ]
+    },
+    {
+        "pregunta": "¿Qué ocurre cuando un objeto entra en un agujero negro?",
+        "respuesta_correcta": "Todas las anteriores",
+        "opciones_respuesta": [
+            "Disgregarse en partículas subatómicas",
+            "Se estira hasta romperse",
+            "Sufre una fuerza gravitatoria",
+            "Todas las anteriores"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es la galaxia más cercana a la Vía Láctea?",
+        "respuesta_correcta": "Andrómeda",
+        "opciones_respuesta": [
+            "Andrómeda",
+            "Galaxia del Triángulo",
+            "Gran Nube de Magallanes",
+            "Galaxia de Canis Major"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el planeta más grande del Sistema Solar?",
+        "respuesta_correcta": "Júpiter",
+        "opciones_respuesta": [
+            "Marte",
+            "Júpiter",
+            "Neptuno",
+            "Saturno"
+        ]
+    },
+    {
+        "pregunta": "¿Qué tipo de eclipse ocurre cuando la Luna pasa entre la Tierra y el Sol, bloqueando la luz solar?",
+        "respuesta_correcta": "Eclipse solar",
+        "opciones_respuesta": [
+            "Eclipse solar",
+            "Eclipse lunar",
+            "Eclipse anular",
+            "Eclipse parcial"
+        ]
+    },
+    {
+        "pregunta": "¿De qué están compuestos principalmente los cometas?",
+        "respuesta_correcta": "Hielo y polvo",
+        "opciones_respuesta": [
+            "Hielo y polvo",
+            "Roca y metal",
+            "Gas metano",
+            "Helio y hidrógeno"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el planeta más alejado del Sol en nuestro Sistema Solar?",
+        "respuesta_correcta": "Neptuno",
+        "opciones_respuesta": [
+            "Neptuno",
+            "Plutón",
+            "Urano",
+            "Saturno"
+        ]
+    }
+]

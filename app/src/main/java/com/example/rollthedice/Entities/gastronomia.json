@@ -1,0 +1,1482 @@
+[
+    {
+        "pregunta": "¿Cuál es el ingrediente principal en la receta clásica de la salsa pesto?",
+        "respuesta_correcta": "Albahaca",
+        "opciones_respuesta": [
+            "Tomate",
+            "Albahaca",
+            "Espinaca",
+            "Perejil"
+        ]
+    },
+    {
+        "pregunta": "¿Qué tipo de queso se usa tradicionalmente en la elaboración de la auténtica fondue suiza?",
+        "respuesta_correcta": "Emmental",
+        "opciones_respuesta": [
+            "Gouda",
+            "Emmental",
+            "Cheddar",
+            "Brie"
+        ]
+    },
+    {
+        "pregunta": "¿Qué tipo de carne se utiliza para hacer el plato italiano ossobuco?",
+        "respuesta_correcta": "Ternera",
+        "opciones_respuesta": [
+            "Cerdo",
+            "Ternera",
+            "Cordero",
+            "Pollo"
+        ]
+    },
+    {
+        "pregunta": "¿Qué ingrediente es esencial en la elaboración del ceviche, un plato típico de varios países latinoamericanos?",
+        "respuesta_correcta": "Limón",
+        "opciones_respuesta": [
+            "Limón",
+            "Coco",
+            "Vinagre",
+            "Tomate"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el principal componente del hummus, un plato popular en la cocina del Medio Oriente?",
+        "respuesta_correcta": "Garbanzos",
+        "opciones_respuesta": [
+            "Garbanzos",
+            "Lentejas",
+            "Alubias",
+            "Guisantes"
+        ]
+    },
+    {
+        "pregunta": "¿Qué nombre recibe el plato peruano compuesto por pescado crudo marinado en limón?",
+        "respuesta_correcta": "Ceviche",
+        "opciones_respuesta": [
+            "Arepa",
+            "Causa",
+            "Lomo saltado",
+            "Ceviche"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el ingrediente principal en la receta tradicional de la paella española?",
+        "respuesta_correcta": "Arroz",
+        "opciones_respuesta": [
+            "Pollo",
+            "Gambas",
+            "Arroz",
+            "Cerdo"
+        ]
+    },
+    {
+        "pregunta": "¿Qué tipo de queso se utiliza comúnmente en la preparación de la auténtica pizza margarita italiana?",
+        "respuesta_correcta": "Mozzarella",
+        "opciones_respuesta": [
+            "Mozzarella",
+            "Gorgonzola",
+            "Parmesano",
+            "Ricotta"
+        ]
+    },
+    {
+        "pregunta": "¿Qué fruta se utiliza para hacer el plato mexicano de guacamole?",
+        "respuesta_correcta": "Aguacate",
+        "opciones_respuesta": [
+            "Mango",
+            "Aguacate",
+            "Papaya",
+            "Piña"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el ingrediente clave en la preparación del famoso plato francés ratatouille?",
+        "respuesta_correcta": "Hortalizas",
+        "opciones_respuesta": [
+            "Carnes",
+            "Pescados",
+            "Hortalizas",
+            "Caramelo"
+        ]
+    },
+    {
+        "pregunta": "¿Qué ingrediente se usa comúnmente para hacer la salsa tzatziki griega?",
+        "respuesta_correcta": "Yogur",
+        "opciones_respuesta": [
+            "Yogur",
+            "Crema agria",
+            "Mayonesa",
+            "Salsa de tomate"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el nombre del plato de pasta italiano que significa 'pequeños cascos'?",
+        "respuesta_correcta": "Conchiglie",
+        "opciones_respuesta": [
+            "Farfalle",
+            "Penne",
+            "Conchiglie",
+            "Fusilli"
+        ]
+    },
+    {
+        "pregunta": "¿Qué tipo de alga marina se utiliza para envolver sushi japonés tradicional?",
+        "respuesta_correcta": "Nori",
+        "opciones_respuesta": [
+            "Nori",
+            "Wakame",
+            "Kombu",
+            "Hijiki"
+        ]
+    },
+    {
+        "pregunta": "¿Qué ingrediente es esencial en la receta del plato griego moussaka?",
+        "respuesta_correcta": "Berenjena",
+        "opciones_respuesta": [
+            "Berenjena",
+            "Lentejas",
+            "Pepino",
+            "Pimiento"
+        ]
+    },
+    {
+        "pregunta": "¿Qué tipo de queso se usa tradicionalmente en el plato suizo raclette?",
+        "respuesta_correcta": "Emmental",
+        "opciones_respuesta": [
+            "Gouda",
+            "Emmental",
+            "Cheddar",
+            "Feta"
+        ]
+    },
+    {
+        "pregunta": "¿Qué tipo de vino se utiliza comúnmente en la preparación del risotto italiano?",
+        "respuesta_correcta": "Vino blanco",
+        "opciones_respuesta": [
+            "Merlot",
+            "Pinot Noir",
+            "Chardonnay",
+            "Vino blanco"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el ingrediente principal en la receta del plato tailandés pad thai?",
+        "respuesta_correcta": "Fideos de arroz",
+        "opciones_respuesta": [
+            "Tofu",
+            "Arroz",
+            "Fideos de arroz",
+            "Miso"
+        ]
+    },
+    {
+        "pregunta": "¿Qué alimento es el componente principal en el plato español gazpacho?",
+        "respuesta_correcta": "Tomate",
+        "opciones_respuesta": [
+            "Tomate",
+            "Pepino",
+            "Pimiento",
+            "Calabaza"
+        ]
+    },
+    {
+        "pregunta": "¿Qué ingrediente se usa para hacer el tradicional sushi japonés?",
+        "respuesta_correcta": "Arroz",
+        "opciones_respuesta": [
+            "Arroz",
+            "Salmón",
+            "Alga nori",
+            "Wasabi"
+        ]
+    },
+    {
+        "pregunta": "¿Qué componente esencial se utiliza para hacer la salsa de caramelo?",
+        "respuesta_correcta": "Azúcar",
+        "opciones_respuesta": [
+            "Azúcar",
+            "Mantequilla",
+            "Leche",
+            "Miel"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el ingrediente principal en la receta del plato italiano 'Caprese'?",
+        "respuesta_correcta": "Tomate",
+        "opciones_respuesta": [
+            "Tomate",
+            "Espinaca",
+            "Pepino",
+            "Zanahoria"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el ingrediente principal en el ceviche peruano?",
+        "respuesta_correcta": "Pescado",
+        "opciones_respuesta": [
+            "Camarones",
+            "Pescado",
+            "Pulpo",
+            "Langosta"
+        ]
+    },
+    {
+        "pregunta": "¿Qué tipo de chocolate se considera el más puro debido a su alta concentración de cacao?",
+        "respuesta_correcta": "Chocolate amargo",
+        "opciones_respuesta": [
+            "Chocolate blanco",
+            "Chocolate con leche",
+            "Chocolate semiamargo",
+            "Chocolate amargo"
+        ]
+    },
+    {
+        "pregunta": "¿Qué fruto se utiliza para hacer el postre 'Tiramisú'?",
+        "respuesta_correcta": "Café",
+        "opciones_respuesta": [
+            "Fresas",
+            "Plátano",
+            "Café",
+            "Limón"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el ingrediente principal en la receta del plato mexicano 'Tacos al pastor'?",
+        "respuesta_correcta": "Cerdo",
+        "opciones_respuesta": [
+            "Carne de res",
+            "Pollo",
+            "Pescado",
+            "Cerdo"
+        ]
+    },
+    {
+        "pregunta": "¿Qué tipo de pasta se usa para hacer el plato italiano 'Ravioli'?",
+        "respuesta_correcta": "Pasta rellena",
+        "opciones_respuesta": [
+            "Espaguetis",
+            "Penne",
+            "Lasaña",
+            "Pasta rellena"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el nombre del plato típico español que consiste en una sopa fría de tomate, pimiento, ajo y pepino?",
+        "respuesta_correcta": "Gazpacho",
+        "opciones_respuesta": [
+            "Gazpacho",
+            "Salmón ahumado",
+            "Fideuá",
+            "Tortilla española"
+        ]
+    },
+    {
+        "pregunta": "¿Qué embutido español se elabora principalmente con carne de cerdo y especias como el pimentón?",
+        "respuesta_correcta": "Chorizo",
+        "opciones_respuesta": [
+            "Chorizo",
+            "Salchichón",
+            "Jamón serrano",
+            "Morcilla"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el nombre del plato español que consiste en patatas cortadas en rodajas y cocidas con cebolla, huevo?",
+        "respuesta_correcta": "Tortilla española",
+        "opciones_respuesta": [
+            "Paella",
+            "Patatas bravas",
+            "Tortilla española",
+            "Pisto"
+        ]
+    },
+    {
+        "pregunta": "¿Qué bebida alcohólica española se produce principalmente en la región de Andalucía y se obtiene de la destilación del vino?",
+        "respuesta_correcta": "Jerez",
+        "opciones_respuesta": [
+            "Ron",
+            "Vodka",
+            "Vermut",
+            "Jerez"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el nombre del plato típico español que consiste en arroz preparado con tinta de calamar?",
+        "respuesta_correcta": "Arroz negro",
+        "opciones_respuesta": [
+            "Paella",
+            "Fideuá",
+            "Arroz con leche",
+            "Arroz negro"
+        ]
+    },
+    {
+        "pregunta": "¿Qué postre español es una especie de natilla gelatinosa con caramelo líquido por encima?",
+        "respuesta_correcta": "Flan",
+        "opciones_respuesta": [
+            "Tarta de Santiago",
+            "Crema catalana",
+            "Leche frita",
+            "Flan"
+        ]
+    },
+    {
+        "pregunta": "¿Qué plato español se prepara con pan, tomate, aceite de oliva y ajo?",
+        "respuesta_correcta": "Pan tumaca",
+        "opciones_respuesta": [
+            "Croquetas",
+            "Gazpacho",
+            "Pulpo a la gallega",
+            "Pan tumaca"
+        ]
+    },
+    {
+        "pregunta": "¿Qué embutido español se hace con carne picada, generalmente de cerdo, adobada con especias como la pimienta?",
+        "respuesta_correcta": "Morcilla",
+        "opciones_respuesta": [
+            "Chorizo",
+            "Morcilla",
+            "Pavo",
+            "Jamón serrano"
+        ]
+    },
+    {
+        "pregunta": "¿Qué plato típico de la cocina española se hace con garbanzos, chorizo y otros ingredientes?",
+        "respuesta_correcta": "Cocido madrileño",
+        "opciones_respuesta": [
+            "Fabada asturiana",
+            "Cocido madrileño",
+            "Bacalao al pil pil",
+            "Caldereta de langosta"
+        ]
+    },
+    {
+        "pregunta": "¿Qué queso es característico de la región de Galicia en España?",
+        "respuesta_correcta": "Queso Tetilla",
+        "opciones_respuesta": [
+            "Queso Manchego",
+            "Queso Tetilla",
+            "Queso Cabrales",
+            "Queso Idiazábal"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el plato típico de Valencia que lleva arroz, azafrán y diferentes ingredientes como mariscos, pollo y conejo?",
+        "respuesta_correcta": "Paella",
+        "opciones_respuesta": [
+            "Fabada",
+            "Paella",
+            "Gazpacho",
+            "Escudella"
+        ]
+    },
+    {
+        "pregunta": "¿Qué plato típico español lleva pan, chorizo, panceta, alubias y otros ingredientes?",
+        "respuesta_correcta": "Migas",
+        "opciones_respuesta": [
+            "Migas",
+            "Fideuà",
+            "Pisto",
+            "Pincho"
+        ]
+    },
+    {
+        "pregunta": "¿Qué bebida española se obtiene al mezclar vino tinto con refresco de limón o naranja?",
+        "respuesta_correcta": "Tinto de verano",
+        "opciones_respuesta": [
+            "Tinto de verano",
+            "Vermout",
+            "Calimocho",
+            "Rebujito"
+        ]
+    },
+    {
+        "pregunta": "¿Qué tipo de embutido es típico de la región de Cataluña?",
+        "respuesta_correcta": "Fuet",
+        "opciones_respuesta": [
+            "Chorizo",
+            "Morcilla",
+            "Fuet",
+            "Salchichón"
+        ]
+    },
+    {
+        "pregunta": "¿Qué ingrediente se usa para hacer la salsa alioli?",
+        "respuesta_correcta": "Ajo y aceite de oliva",
+        "opciones_respuesta": [
+            "Ajo y aceite de oliva",
+            "Tomate y pimientos",
+            "Cebolla y vinagre",
+            "Limón y hierbas"
+        ]
+    },
+    {
+        "pregunta": "¿Qué tipo de queso es originario de la región de Extremadura?",
+        "respuesta_correcta": "Torta del Casar",
+        "opciones_respuesta": [
+            "Cabrales",
+            "Manchego",
+            "Torta del Casar",
+            "Idiazábal"
+        ]
+    },
+    {
+        "pregunta": "Cuál es el dulce típico de la Navidad en España hecho con almendras, azúcar y clara de huevo?",
+        "respuesta_correcta": "Mazapán",
+        "opciones_respuesta": [
+            "Polvorones",
+            "Mazapán",
+            "Roscón de Reyes",
+            "Panellets"
+        ]
+    },
+    {
+        "pregunta": "Qué bebida es conocida por su origen en la región de Asturias y se produce a partir de manzanas fermentadas?",
+        "respuesta_correcta": "Sidra",
+        "opciones_respuesta": [
+            "Cava",
+            "Sidra",
+            "Vermut",
+            "Orujo"
+        ]
+    },
+    {
+        "pregunta": "Qué postre típico de la región de Asturias se hace con una masa de hojaldre rellena de crema pastelera?",
+        "respuesta_correcta": "Casadielles",
+        "opciones_respuesta": [
+            "Tarta de la abuela",
+            "Arroz con leche",
+            "Casadielles",
+            "Milhojas"
+        ]
+    },
+    {
+        "pregunta": "Qué postre se hace en la región de Galicia con almendras, azúcar, huevo y limón?",
+        "respuesta_correcta": "Tarta de Santiago",
+        "opciones_respuesta": [
+            "Leche frita",
+            "Tarta de Santiago",
+            "Crema catalana",
+            "Cuajada"
+        ]
+    },
+    {
+        "pregunta": "Cuál es el plato típico de Cataluña que consiste en una salsa de tomate con almendras, avellanas, ajo y ñora?",
+        "respuesta_correcta": "Romesco",
+        "opciones_respuesta": [
+            "Escudella i carn d'olla",
+            "Fideuà",
+            "Romesco",
+            "Esqueixada"
+        ]
+    },
+    {
+        "pregunta": "Qué dulce típico de Cataluña se hace con masa de hojaldre y crema pastelera?",
+        "respuesta_correcta": "Xuixo",
+        "opciones_respuesta": [
+            "Panellets",
+            "Crema catalana",
+            "Ensaimada",
+            "Xuixo"
+        ]
+    },
+    {
+        "pregunta": "Cuál es el embutido característico de Cataluña hecho con carne de cerdo, pimienta y especias?",
+        "respuesta_correcta": "Butifarra",
+        "opciones_respuesta": [
+            "Butifarra",
+            "Fuet",
+            "Botifarra",
+            "Llonganissa"
+        ]
+    },
+    {
+        "pregunta": "Qué plato típico de Cataluña se elabora con patatas, cebolla, huevos y a menudo incluye diferentes ingredientes como chorizo o butifarra?",
+        "respuesta_correcta": "Trinxat",
+        "opciones_respuesta": [
+            "Escudella",
+            "Fideuà",
+            "Tarta de Santiago",
+            "Trinxat"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el postre tradicional de Cataluña hecho con almendras, azúcar, huevo y ralladura de limón?",
+        "respuesta_correcta": "Panellets",
+        "opciones_respuesta": [
+            "Panellets",
+            "Tarta de Santiago",
+            "Crema catalana",
+            "Mel i mató"
+        ]
+    },
+    {
+        "pregunta": "¿Qué plato catalán típico se prepara con pescado fresco, tomate, cebolla, ajo y pimientos?",
+        "respuesta_correcta": "Esqueixada",
+        "opciones_respuesta": [
+            "Esqueixada",
+            "Zarzuela",
+            "Escalivada",
+            "Suquet de peix"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el plato de arroz catalán que se prepara con pescado, mariscos y azafrán?",
+        "respuesta_correcta": "Fideuà",
+        "opciones_respuesta": [
+            "Paella",
+            "Fideuà",
+            "Arroz negro",
+            "Arroz caldoso"
+        ]
+    },
+    {
+        "pregunta": "¿Qué bebida típica de Cataluña se elabora con vino tinto, frutas y azúcar?",
+        "respuesta_correcta": "Clarea",
+        "opciones_respuesta": [
+            "Sangría",
+            "Cava",
+            "Horchata",
+            "Clarea"
+        ]
+    },
+    {
+        "pregunta": "¿Qué plato catalán se hace con berenjena, tomate, cebolla, pimiento y aceite de oliva?",
+        "respuesta_correcta": "Samfaina",
+        "opciones_respuesta": [
+            "Samfaina",
+            "Escudella",
+            "Trinxat",
+            "Fideuà"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el postre catalán que se elabora con requesón y miel?",
+        "respuesta_correcta": "Mel i mató",
+        "opciones_respuesta": [
+            "Mel i mató",
+            "Crema catalana",
+            "Xuixo",
+            "Tarta de Santiago"
+        ]
+    },
+    {
+        "pregunta": "¿Qué postre gallego se prepara con masa de harina, leche, huevos y se rellena con crema o chocolate?",
+        "respuesta_correcta": "Filloas",
+        "opciones_respuesta": [
+            "Filloas",
+            "Tarta de Santiago",
+            "Bica blanca",
+            "Rosquillas"
+        ]
+    },
+    {
+        "pregunta": "¿Qué postre típico de Andalucía se hace con rebanadas de pan, leche, huevo y canela?",
+        "respuesta_correcta": "Torrijas",
+        "opciones_respuesta": [
+            "Torrijas",
+            "Pestiños",
+            "Roscos fritos",
+            "Leche frita"
+        ]
+    },
+    {
+        "pregunta": "¿Qué plato andaluz se elabora con trozos de carne de cerdo adobada y frita?",
+        "respuesta_correcta": "Chicharrones",
+        "opciones_respuesta": [
+            "Rabo de toro",
+            "Altramuces",
+            "Averroes",
+            "Chicharrones"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el postre típico de Andalucía hecho con miel, harina, aceite y ajonjolí?",
+        "respuesta_correcta": "Pestiños",
+        "opciones_respuesta": [
+            "Roscos fritos",
+            "Pestiños",
+            "Torrijas",
+            "Leche frita"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el plato andaluz que consiste en un guiso de garbanzos con chorizo, morcilla y otras carnes?",
+        "respuesta_correcta": "Potaje",
+        "opciones_respuesta": [
+            "Gazpacho",
+            "Migas",
+            "Potaje",
+            "Paella"
+        ]
+    },
+    {
+        "pregunta": "¿Qué plato murciano se hace con calabacín, huevo, cebolla y pimiento?",
+        "respuesta_correcta": "Zarangollo",
+        "opciones_respuesta": [
+            "Caldero",
+            "Zarangollo",
+            "Michirones",
+            "Paparajote"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el plato típico murciano que consiste en habas secas con chorizo, panceta y pimentón?",
+        "respuesta_correcta": "Michirones",
+        "opciones_respuesta": [
+            "Caldero",
+            "Zarangollo",
+            "Michirones",
+            "Paparajote"
+        ]
+    },
+    {
+        "pregunta": "¿Qué postre murciano se elabora con hojas de limonero, masa de harina, huevo y azúcar?",
+        "respuesta_correcta": "Paparajote",
+        "opciones_respuesta": [
+            "Gachas",
+            "Paparajote",
+            "Pastel de carne",
+            "Tocino de cielo"
+        ]
+    },
+    {
+        "pregunta": "¿Qué postre murciano se hace con yema de huevo, azúcar y agua?",
+        "respuesta_correcta": "Tocino de cielo",
+        "opciones_respuesta": [
+            "Gachas",
+            "Paparajote",
+            "Tocino de cielo",
+            "Pastel de carne"
+        ]
+    },
+    {
+        "pregunta": "¿Qué plato árabe se compone principalmente de garbanzos, especias y hierbas, y se suele servir en forma de croquetas fritas?",
+        "respuesta_correcta": "Falafel",
+        "opciones_respuesta": [
+            "Shawarma",
+            "Kebab",
+            "Falafel",
+            "Hummus"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el plato árabe compuesto por trigo bulgur, perejil, menta, tomate y pepino?",
+        "respuesta_correcta": "Tabbouleh",
+        "opciones_respuesta": [
+            "Tabbouleh",
+            "Shawarma",
+            "Kebab",
+            "Falafel"
+        ]
+    },
+    {
+        "pregunta": "¿Qué plato marroquí se caracteriza por ser un pastel de hojaldre relleno de carne de paloma o pollo, almendras y canela?",
+        "respuesta_correcta": "Pastela",
+        "opciones_respuesta": [
+            "Tajine de cordero",
+            "Pastela",
+            "Harira",
+            "Mechoui"
+        ]
+    },
+    {
+        "pregunta": "¿Qué plato es una sopa espesa marroquí hecha con tomate, legumbres, carne y especias?",
+        "respuesta_correcta": "Harira",
+        "opciones_respuesta": [
+            "Tajine de cordero",
+            "Pastilla",
+            "Harira",
+            "Mechoui"
+        ]
+    },
+    {
+        "pregunta": "¿Qué plato marroquí es un cordero asado a la parrilla lentamente?",
+        "respuesta_correcta": "Mechoui",
+        "opciones_respuesta": [
+            "Tajine de cordero",
+            "Pastilla",
+            "Harira",
+            "Mechoui"
+        ]
+    },
+    {
+        "pregunta": "¿Qué plato marroquí es un guiso tradicional con sémola de trigo, verduras y carne de cordero o pollo?",
+        "respuesta_correcta": "Couscous",
+        "opciones_respuesta": [
+            "Tajine de cordero",
+            "Pastilla",
+            "Harira",
+            "Couscous"
+        ]
+    },
+    {
+        "pregunta": "¿Qué plato portugués es una sopa tradicionalmente hecha con puré de patata, col, cebolla y ajo?",
+        "respuesta_correcta": "Caldo verde",
+        "opciones_respuesta": [
+            "Caldo verde",
+            "Bacalhau à Brás",
+            "Francesinha",
+            "Caldereta"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el plato portugués que consiste en filetes de ternera rellenos de jamón y salchichas, cubiertos con queso y salsa?",
+        "respuesta_correcta": "Francesinha",
+        "opciones_respuesta": [
+            "Ternera en salsa de perejil",
+            "Bacalhau e ternera à Brás",
+            "Francesinha",
+            "Filetes rusos du obrador"
+        ]
+    },
+    {
+        "pregunta": "¿Qué postre portugués son pequeños pasteles de crema y hojaldre, espolvoreados con azúcar glas?",
+        "respuesta_correcta": "Pastéis de nata",
+        "opciones_respuesta": [
+            "Trozos de san andrés",
+            "Tocino de cielo",
+            "Francesinha",
+            "Pastéis de nata"
+        ]
+    },
+    {
+        "pregunta": "¿Qué plato portugués es una sopa de pescado con tomate, cebolla y azafrán?",
+        "respuesta_correcta": "Sopa de peixe",
+        "opciones_respuesta": [
+            "Caldo verde",
+            "Bacalhau à Brás",
+            "Francesinha",
+            "Sopa de peixe"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el plato típico de Francia compuesto por carne de res estofada en vino tinto con verduras?",
+        "respuesta_correcta": "Coq au vin",
+        "opciones_respuesta": [
+            "Coq au vin",
+            "Ratatouille",
+            "Bouillabaisse",
+            "Cassoulet"
+        ]
+    },
+    {
+        "pregunta": "¿Qué postre francés es una masa hojaldrada con crema pastelera?",
+        "respuesta_correcta": "Millefeuille",
+        "opciones_respuesta": [
+            "Éclair",
+            "Tarte Tatin",
+            "Macaron",
+            "Millefeuille"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el plato francés que consiste en un guiso de verduras como berenjena, tomate, calabacín y pimientos?",
+        "respuesta_correcta": "Ratatouille",
+        "opciones_respuesta": [
+            "Coq au vin",
+            "Ratatouille",
+            "Bouillabaisse",
+            "Cassoulet"
+        ]
+    },
+    {
+        "pregunta": "¿Qué plato francés es un guiso de pescado y mariscos originario de Marsella?",
+        "respuesta_correcta": "Bouillabaisse",
+        "opciones_respuesta": [
+            "Coq au vin",
+            "Ratatouille",
+            "Bouillabaisse",
+            "Cassoulet"
+        ]
+    },
+    {
+        "pregunta": "¿Qué postre francés es un pastel invertido de manzanas caramelizadas?",
+        "respuesta_correcta": "Tarte Tatin",
+        "opciones_respuesta": [
+            "Éclair",
+            "Tarte Tatin",
+            "Macaron",
+            "Millefeuille"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el plato francés hecho con pato, confit de pato, salchichas, cerdo y frijoles blancos?",
+        "respuesta_correcta": "Cassoulet",
+        "opciones_respuesta": [
+            "Coq au vin",
+            "Ratatouille",
+            "Bouillabaisse",
+            "Cassoulet"
+        ]
+    },
+    {
+        "pregunta": "¿Qué postre francés es una masa de merengue y almendras con diversos sabores?",
+        "respuesta_correcta": "Macaron",
+        "opciones_respuesta": [
+            "Éclair",
+            "Tarte Tatin",
+            "Macaron",
+            "Millefeuille"
+        ]
+    },
+    {
+        "pregunta": "¿Qué plato francés es un pastel relleno de crema o chocolate?",
+        "respuesta_correcta": "Éclair",
+        "opciones_respuesta": [
+            "Éclair",
+            "Ratatouille",
+            "Macaron",
+            "Millefeuille"
+        ]
+    },
+    {
+        "pregunta": "¿Qué plato típico francés es un rollo de carne relleno de huevo duro y pepinillos?",
+        "respuesta_correcta": "Pâté de campagne",
+        "opciones_respuesta": [
+            "Quiche Lorraine",
+            "Pot-au-feu",
+            "Bouillabaisse",
+            "Pâté de campagne"
+        ]
+    },
+    {
+        "pregunta": "¿Qué postre francés es un pastel de chocolate con centro líquido?",
+        "respuesta_correcta": "Fondant au chocolat",
+        "opciones_respuesta": [
+            "Clafoutis",
+            "Tarte Tatin",
+            "Fondant au chocolat",
+            "Crème brûlée"
+        ]
+    },
+    {
+        "pregunta": "¿Qué plato francés es una sopa de cebolla gratinada con queso?",
+        "respuesta_correcta": "Soupe à l'oignon",
+        "opciones_respuesta": [
+            "Soupe au pistou",
+            "Vichyssoise",
+            "Potage Parmentier",
+            "Soupe à l'oignon"
+        ]
+    },
+    {
+        "pregunta": "¿Qué postre francés es una tarta de frutas sobre una base de crema de almendras?",
+        "respuesta_correcta": "Tarte aux fruits",
+        "opciones_respuesta": [
+            "Clafoutis",
+            "Tarte Tatin",
+            "Galette des rois",
+            "Tarte aux fruits"
+        ]
+    },
+    {
+        "pregunta": "¿Qué plato típico francés es un guiso de carne con papas, zanahorias y vino tinto?",
+        "respuesta_correcta": "Blanquette de veau",
+        "opciones_respuesta": [
+            "Blanquette de veau",
+            "Coq au vin",
+            "Cassoulet",
+            "Pot-au-feu"
+        ]
+    },
+    {
+        "pregunta": "¿Qué postre francés es un pastel tradicionalmente elaborado con cerezas?",
+        "respuesta_correcta": "Clafoutis",
+        "opciones_respuesta": [
+            "Clafoutis",
+            "Tarte Tatin",
+            "Galette des rois",
+            "Tarte aux fruits"
+        ]
+    },
+    {
+        "pregunta": "¿Qué plato francés es un guiso de ternera con verduras y hierbas?",
+        "respuesta_correcta": "Pot-au-feu",
+        "opciones_respuesta": [
+            "Blanquette de veau",
+            "Coq au vin",
+            "Cassoulet",
+            "Pot-au-feu"
+        ]
+    },
+    {
+        "pregunta": "¿Qué plato francés es un guiso de alubias blancas con embutidos y carne de cerdo?",
+        "respuesta_correcta": "Cassoulet",
+        "opciones_respuesta": [
+            "Blanquette de veau",
+            "Coq au vin",
+            "Cassoulet",
+            "Pot-au-feu"
+        ]
+    },
+    {
+        "pregunta": "¿Qué postre francés es un pastel de hojaldre relleno de almendra y servido el Día de Reyes?",
+        "respuesta_correcta": "Galette des rois",
+        "opciones_respuesta": [
+            "Clafoutis",
+            "Tarte Tatin",
+            "Galette des rois",
+            "Tarte aux fruits"
+        ]
+    },
+    {
+        "pregunta": "¿Qué plato francés es una mezcla de carne picada con hierbas, envuelta en hojaldre y horneada?",
+        "respuesta_correcta": "Pâté en croûte",
+        "opciones_respuesta": [
+            "Quiche Lorraine",
+            "Bœuf bourguignon",
+            "Coq au vin",
+            "Pâté en croûte"
+        ]
+    },
+    {
+        "pregunta": "¿Qué postre francés es un bizcocho esponjoso con forma de anillo?",
+        "respuesta_correcta": "Savarin",
+        "opciones_respuesta": [
+            "Madeleine",
+            "Financier",
+            "Savarin",
+            "Brioche"
+        ]
+    },
+    {
+        "pregunta": "¿Qué plato típico de la región de Normandía es una cazuela de mariscos con una salsa cremosa de ajo y vino blanco?",
+        "respuesta_correcta": "Matelote",
+        "opciones_respuesta": [
+            "Bouillabaisse",
+            "Coquilles Saint-Jacques",
+            "Moules Marinière",
+            "Matelote"
+        ]
+    },
+    {
+        "pregunta": "¿Qué plato francés es un estofado de carne de ternera con cebollas y vino tinto, cubierto con una masa de hojaldre?",
+        "respuesta_correcta": "Bœuf en daube",
+        "opciones_respuesta": [
+            "Bœuf en daube",
+            "Coq au vin",
+            "Cassoulet",
+            "Beef Wellington"
+        ]
+    },
+    {
+        "pregunta": "¿Qué postre francés es una masa de choux rellena de crema batida o natillas?",
+        "respuesta_correcta": "Profiteroles",
+        "opciones_respuesta": [
+            "Profiteroles",
+            "Millefeuille",
+            "Éclair",
+            "Crêpe suzette"
+        ]
+    },
+    {
+        "pregunta": "¿Qué plato francés es un estofado de carne de cordero con verduras y hierbas provenzales?",
+        "respuesta_correcta": "Navarin d'agneau",
+        "opciones_respuesta": [
+            "Navarin d'agneau",
+            "Blanquette de veau",
+            "Coq au vin",
+            "Bœuf bourguignon"
+        ]
+    },
+    {
+        "pregunta": "¿Qué postre francés es una torta de frutas de la región de Alsacia con masa de levadura y crema pastelera?",
+        "respuesta_correcta": "Kouglof",
+        "opciones_respuesta": [
+            "Tarte Tatin",
+            "Clafoutis",
+            "Tarte Flambée",
+            "Kouglof"
+        ]
+    },
+    {
+        "pregunta": "¿Qué plato típico de la región de Alsacia es una tarta flan salada con crema, huevos y tocino?",
+        "respuesta_correcta": "Quiche Lorraine",
+        "opciones_respuesta": [
+            "Quiche Lorraine",
+            "Ratatouille",
+            "Bouillabaisse",
+            "Cassoulet"
+        ]
+    },
+    {
+        "pregunta": "¿Qué postre francés es una masa de hojaldre rellena de crema de almendra y glaseada?",
+        "respuesta_correcta": "Religieuse",
+        "opciones_respuesta": [
+            "Millefeuille",
+            "Éclair",
+            "Religieuse",
+            "Tarte aux fraises"
+        ]
+    },
+    {
+        "pregunta": "¿Qué plato francés es un guiso de pollo cocido con champiñones, cebolla, vino blanco y crema?",
+        "respuesta_correcta": "Blanquette de veau",
+        "opciones_respuesta": [
+            "Coq au vin",
+            "Blanquette de veau",
+            "Bouillabaisse",
+            "Ratatouille"
+        ]
+    },
+    {
+        "pregunta": "¿Qué postre francés es una masa de hojaldre rellena de crema pastelera y chocolate?",
+        "respuesta_correcta": "Tarte au chocolat",
+        "opciones_respuesta": [
+            "Religieuse",
+            "Éclair",
+            "Millefeuille",
+            "Tarte au chocolat"
+        ]
+    },
+    {
+        "pregunta": "¿Qué plato francés es un pastel tradicional de carne picada con capas de puré de patatas?",
+        "respuesta_correcta": "Hachis Parmentier",
+        "opciones_respuesta": [
+            "Quiche Lorraine",
+            "Parmentier",
+            "Hachis Parmentier",
+            "Ratatouille"
+        ]
+    },
+    {
+        "pregunta": "¿Qué plato típico francés es una sopa fría hecha de pepino, yogur y hierbas?",
+        "respuesta_correcta": "Soupe au pistou",
+        "opciones_respuesta": [
+            "Vichyssoise",
+            "Soupe au pistou",
+            "Soupe à l'oignon",
+            "Soupe de poisson"
+        ]
+    },
+    {
+        "pregunta": "¿Qué postre francés es un bizcocho esponjoso en forma de concha?",
+        "respuesta_correcta": "Madeleine",
+        "opciones_respuesta": [
+            "Madeleine",
+            "Financier",
+            "Cannele",
+            "Savarin"
+        ]
+    },
+    {
+        "pregunta": "¿Qué plato inglés es un estofado de carne de res con cebollas, zanahorias y patatas?",
+        "respuesta_correcta": "Roast Beef",
+        "opciones_respuesta": [
+            "Shepherd's Pie",
+            "Fish and Chips",
+            "Beef Wellington",
+            "Roast Beef"
+        ]
+    },
+    {
+        "pregunta": "¿Qué plato inglés es un pastel de carne picada cubierto de puré de patatas?",
+        "respuesta_correcta": "Shepherd's Pie",
+        "opciones_respuesta": [
+            "Shepherd's Pie",
+            "Fish and Chips",
+            "Beef Wellington",
+            "Bangers and Mash"
+        ]
+    },
+    {
+        "pregunta": "¿Qué plato inglés es un plato de pescado frito y patatas fritas?",
+        "respuesta_correcta": "Fish and Chips",
+        "opciones_respuesta": [
+            "Shepherd's Pie",
+            "Fish and Chips",
+            "Beef Wellington",
+            "Bangers and Mash"
+        ]
+    },
+    {
+        "pregunta": "¿Qué postre inglés es una tarta con dátiles y una salsa de caramelo?",
+        "respuesta_correcta": "Sticky Toffee Pudding",
+        "opciones_respuesta": [
+            "Trifle",
+            "Sticky Toffee Pudding",
+            "Bread and Butter Pudding",
+            "Christmas Pudding"
+        ]
+    },
+    {
+        "pregunta": "¿Qué plato alemán es una salchicha típica, generalmente servida con mostaza y pan?",
+        "respuesta_correcta": "Bratwurst",
+        "opciones_respuesta": [
+            "Bratwurst",
+            "Sauerkraut",
+            "Schnitzel",
+            "Currywurst"
+        ]
+    },
+    {
+        "pregunta": "¿Qué postre alemán es un pastel de chocolate con capas de crema batida y cerezas?",
+        "respuesta_correcta": "Black Forest Cake",
+        "opciones_respuesta": [
+            "Black Forest Cake",
+            "Apfelstrudel",
+            "Linzer Torte",
+            "Sachertorte"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el plato alemán que consiste en salchichas bañadas en salsa de curry?",
+        "respuesta_correcta": "Currywurst",
+        "opciones_respuesta": [
+            "Bratwurst",
+            "Sauerkraut",
+            "Schnitzel",
+            "Currywurst"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el plato alemán que consiste en col fermentada?",
+        "respuesta_correcta": "Sauerkraut",
+        "opciones_respuesta": [
+            "Bratwurst",
+            "Sauerkraut",
+            "Schnitzel",
+            "Currywurst"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el postre turco hecho con capas de masa filo, nueces trituradas y almíbar?",
+        "respuesta_correcta": "Baklava",
+        "opciones_respuesta": [
+            "Baklava",
+            "Kunefe",
+            "Lokum",
+            "Sütlaç"
+        ]
+    },
+    {
+        "pregunta": "¿Qué plato turco es una pizza tradicional con carne picada y especias?",
+        "respuesta_correcta": "Lahmacun",
+        "opciones_respuesta": [
+            "Kebab",
+            "Baklava",
+            "Dolma",
+            "Lahmacun"
+        ]
+    },
+    {
+        "pregunta": "¿Qué plato chino es un método de cocción donde se cocinan varios ingredientes en un caldo hirviendo en la mesa?",
+        "respuesta_correcta": "Hot Pot",
+        "opciones_respuesta": [
+            "Peking Duck",
+            "Chow Mein",
+            "Hot Pot",
+            "Wonton Soup"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el nombre del plato chino de albóndigas envueltas en masa y cocidas al vapor o hervidas?",
+        "respuesta_correcta": "Dumplings",
+        "opciones_respuesta": [
+            "Dumplings",
+            "Wonton",
+            "Peking duck",
+            "Xiao Long Bao"
+        ]
+    },
+    {
+        "pregunta": "¿Qué plato chino es una mezcla de verduras salteadas con salsa de ostras y pollo o carne?",
+        "respuesta_correcta": "Chop Suey",
+        "opciones_respuesta": [
+            "Chop Suey",
+            "Moo Shu",
+            "Chow Mein",
+            "Ternera agridulce"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el nombre del plato tailandés que consiste en fideos de arroz salteados con huevo, tofu, gambas y cacahuetes?",
+        "respuesta_correcta": "Pad Thai",
+        "opciones_respuesta": [
+            "Tom Kha Gai",
+            "Som Tam",
+            "Pad See Ew",
+            "Pad Thai"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es la pasta italiana en forma de tubo largo y hueco, perfecta para salsas espesas y condimentadas?",
+        "respuesta_correcta": "Penne",
+        "opciones_respuesta": [
+            "Penne",
+            "Spaghetti",
+            "Farfalle",
+            "Fusilli"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el plato italiano que consiste en capas de pasta, salsa de tomate, queso y carne molida?",
+        "respuesta_correcta": "Lasagna",
+        "opciones_respuesta": [
+            "Pizza",
+            "Lasagna",
+            "Carbonara",
+            "Risotto"
+        ]
+    },
+    {
+        "pregunta": "¿Qué tipo de pizza se compone de tomate, mozzarella y albahaca fresca?",
+        "respuesta_correcta": "Pizza Margherita",
+        "opciones_respuesta": [
+            "Pizza Margherita",
+            "Pizza Marinara",
+            "Pizza Diavola",
+            "Pizza Quattro Stagioni"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el plato italiano que consiste en una pasta en forma de pequeñas piezas rellenas de carne, queso o verduras?",
+        "respuesta_correcta": "Ravioli",
+        "opciones_respuesta": [
+            "Lasagna",
+            "Risotto",
+            "Cannelloni",
+            "Ravioli"
+        ]
+    },
+    {
+        "pregunta": "¿Qué tipo de pizza es una pizza sin salsa de tomate, solo aceite de oliva, ajo y orégano?",
+        "respuesta_correcta": "Pizza Bianca",
+        "opciones_respuesta": [
+            "Pizza Margherita",
+            "Pizza Marinara",
+            "Pizza Diavola",
+            "Pizza Bianca"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el plato italiano que consiste en una pasta en forma de pequeñas conchas, perfecta para retener salsas?",
+        "respuesta_correcta": "Conchiglie",
+        "opciones_respuesta": [
+            "Penne",
+            "Spaghetti",
+            "Farfalle",
+            "Conchiglie"
+        ]
+    },
+    {
+        "pregunta": "¿Qué tipo de pizza lleva tomate, mozzarella, jamón, alcachofas, aceitunas y champiñones?",
+        "respuesta_correcta": "Pizza Quattro Stagioni",
+        "opciones_respuesta": [
+            "Pizza Margherita",
+            "Pizza Marinara",
+            "Pizza Diavola",
+            "Pizza Quattro Stagioni"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el plato italiano que consiste en una masa frita rellena de crema de ricotta y chocolate?",
+        "respuesta_correcta": "Cannoli",
+        "opciones_respuesta": [
+            "Cannoli",
+            "Tiramisú",
+            "Panna Cotta",
+            "Zabaione"
+        ]
+    },
+    {
+        "pregunta": "¿Qué tipo de pasta italiana es corta y con forma de espiral o hélice?",
+        "respuesta_correcta": "Fusilli",
+        "opciones_respuesta": [
+            "Penne",
+            "Spaghetti",
+            "Farfalle",
+            "Fusilli"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el plato italiano que consiste en capas de berenjenas fritas, salsa de tomate y queso, gratinado al horno?",
+        "respuesta_correcta": "Melanzane alla Parmigiana",
+        "opciones_respuesta": [
+            "Lasagna",
+            "Melanzane alla Parmigiana",
+            "Cannelloni",
+            "Focaccia"
+        ]
+    },
+    {
+        "pregunta": "¿Qué tipo de pizza tiene solo tomate, ajo, orégano y aceite de oliva?",
+        "respuesta_correcta": "Pizza Marinara",
+        "opciones_respuesta": [
+            "Pizza Margherita",
+            "Pizza Marinara",
+            "Pizza Diavola",
+            "Pizza Quattro Stagioni"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el plato italiano que consiste en finas rebanadas de carne cruda aliñada con aceite de oliva, limón y parmesano?",
+        "respuesta_correcta": "Carpaccio",
+        "opciones_respuesta": [
+            "Carpaccio",
+            "Bruschetta",
+            "Caprese",
+            "Prosciutto"
+        ]
+    },
+    {
+        "pregunta": "¿Qué tipo de pasta italiana es parecida a los espaguetis pero más gruesa y hueca por dentro?",
+        "respuesta_correcta": "Rigatoni",
+        "opciones_respuesta": [
+            "Penne",
+            "Spaghetti",
+            "Rigatoni",
+            "Linguine"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el plato italiano que consiste en bolitas de arroz rellenas con queso y fritas?",
+        "respuesta_correcta": "Arancini",
+        "opciones_respuesta": [
+            "Cannoli",
+            "Arancini",
+            "Tiramisú",
+            "Panna Cotta"
+        ]
+    },
+    {
+        "pregunta": "¿Qué tipo de pasta italiana es plana y ancha, ideal para salsas más cremosas?",
+        "respuesta_correcta": "Tagliatelle",
+        "opciones_respuesta": [
+            "Penne",
+            "Spaghetti",
+            "Tagliatelle",
+            "Fusilli"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el plato italiano que consiste en láminas de pasta rellenas de carne, queso o verduras y cocidas al horno con salsa?",
+        "respuesta_correcta": "Cannelloni",
+        "opciones_respuesta": [
+            "Lasagna",
+            "Risotto",
+            "Cannelloni",
+            "Gnocchi"
+        ]
+    },
+    {
+        "pregunta": "¿Qué tipo de pizza tiene tomate, mozzarella, anchoas y aceitunas negras?",
+        "respuesta_correcta": "Pizza Siciliana",
+        "opciones_respuesta": [
+            "Pizza Margherita",
+            "Pizza Marinara",
+            "Pizza Diavola",
+            "Pizza Siciliana"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el plato italiano que consiste en una tarta con base de galleta y crema de mascarpone?",
+        "respuesta_correcta": "Tiramisú",
+        "opciones_respuesta": [
+            "Cannoli",
+            "Arancini",
+            "Tiramisú",
+            "Cheesecake"
+        ]
+    },
+    {
+        "pregunta": "¿Qué tipo de pasta italiana es similar a los espaguetis, pero más delgada y larga?",
+        "respuesta_correcta": "Linguine",
+        "opciones_respuesta": [
+            "Penne",
+            "Fettuccine",
+            "Linguine",
+            "Rigatoni"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el nombre del plato mexicano que consiste en tortillas de maíz rellenas de queso y otros ingredientes, dobladas y cocinadas?",
+        "respuesta_correcta": "Quesadillas",
+        "opciones_respuesta": [
+            "Enchiladas",
+            "Tamales",
+            "Quesadillas",
+            "Gorditas"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el nombre del plato mexicano que consiste en carne de cerdo marinada y cocida lentamente en adobo?",
+        "respuesta_correcta": "Cochinita Pibil",
+        "opciones_respuesta": [
+            "Tacos al Pastor",
+            "Birria",
+            "Cochinita Pibil",
+            "Mole Poblano"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el plato estadounidense que consiste en una mezcla de pasta y queso, tradicionalmente con cheddar, horneada hasta gratinar?",
+        "respuesta_correcta": "Mac and Cheese",
+        "opciones_respuesta": [
+            "Hot Dog",
+            "Hamburger",
+            "Meatloaf",
+            "Mac and Cheese"
+        ]
+    },
+    {
+        "pregunta": "¿Qué plato típico de desayuno estadounidense son panqueques apilados con mantequilla y jarabe de arce?",
+        "respuesta_correcta": "Pancakes",
+        "opciones_respuesta": [
+            "Pancakes",
+            "Waffles",
+            "French Toast",
+            "Bagels"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el plato estadounidense que consiste en trozos de pollo rebozados y fritos, a menudo servidos con salsa picante?",
+        "respuesta_correcta": "Fried Chicken",
+        "opciones_respuesta": [
+            "Fried Chicken",
+            "BBQ Ribs",
+            "Clam Chowder",
+            "Lobster Roll"
+        ]
+    },
+    {
+        "pregunta": "¿Qué plato estadounidense es una sopa espesa hecha de almejas, patatas, cebolla y tocino?",
+        "respuesta_correcta": "Clam Chowder",
+        "opciones_respuesta": [
+            "Fried Chicken",
+            "BBQ Ribs",
+            "Clam Chowder",
+            "Lobster Roll"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el plato típico del sur de Estados Unidos que consiste en costillas de cerdo cocidas lentamente y glaseadas con salsa barbacoa?",
+        "respuesta_correcta": "BBQ Ribs",
+        "opciones_respuesta": [
+            "Fried Chicken",
+            "BBQ Ribs",
+            "Clam Chowder",
+            "Lobster Roll"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el plato estadounidense que consiste en un sándwich de langosta servido en un panecillo tostado con mantequilla?",
+        "respuesta_correcta": "Lobster Roll",
+        "opciones_respuesta": [
+            "Fried Chicken",
+            "BBQ Ribs",
+            "Clam Chowder",
+            "Lobster Roll"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el plato típico de desayuno estadounidense que consiste en rebanadas de pan sumergidas en huevo batido y luego fritas?",
+        "respuesta_correcta": "French Toast",
+        "opciones_respuesta": [
+            "Pancakes",
+            "Waffles",
+            "French Toast",
+            "Bagels"
+        ]
+    }
+]

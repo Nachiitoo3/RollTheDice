@@ -1,0 +1,1752 @@
+[
+    {
+        "pregunta": "¿Quién era el rey de los dioses en la mitología griega?",
+        "respuesta_correcta": "Zeus",
+        "opciones_respuesta": [
+            "Hades",
+            "Zeus",
+            "Chronos",
+            "Poseidón"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era la esposa de Zeus?",
+        "respuesta_correcta": "Hera",
+        "opciones_respuesta": [
+            "Afrodita",
+            "Atenea",
+            "Hera",
+            "Deméter"
+        ]
+    },
+    {
+        "pregunta": "¿Qué diosa griega era conocida por ser la diosa del amor y la belleza?",
+        "respuesta_correcta": "Afrodita",
+        "opciones_respuesta": [
+            "Hera",
+            "Deméter",
+            "Artemisa",
+            "Afrodita"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era el dios del sol en la mitología griega?",
+        "respuesta_correcta": "Helios",
+        "opciones_respuesta": [
+            "Helios",
+            "Apolo",
+            "Zeus",
+            "Hefesto"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál era el nombre del dios del mar en la mitología griega?",
+        "respuesta_correcta": "Poseidón",
+        "opciones_respuesta": [
+            "Hades",
+            "Apolo",
+            "Dionisio",
+            "Poseidón"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era el mensajero de los dioses en la mitología griega?",
+        "respuesta_correcta": "Hermes",
+        "opciones_respuesta": [
+            "Hermes",
+            "Ares",
+            "Dionisio",
+            "Hefesto"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál era la ciudad griega asociada con la diosa Atenea?",
+        "respuesta_correcta": "Atenas",
+        "opciones_respuesta": [
+            "Esparta",
+            "Corinto",
+            "Atenas",
+            "Tebas"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era el dios del vino en la mitología griega?",
+        "respuesta_correcta": "Dionisio",
+        "opciones_respuesta": [
+            "Apolo",
+            "Hermes",
+            "Dionisio",
+            "Zeus"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál era el animal sagrado de Artemisa, la diosa de la caza?",
+        "respuesta_correcta": "El ciervo",
+        "opciones_respuesta": [
+            "El ciervo",
+            "El león",
+            "El lobo",
+            "El oso"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era el dios de la guerra en la mitología griega?",
+        "respuesta_correcta": "Ares",
+        "opciones_respuesta": [
+            "Ares",
+            "Apolo",
+            "Hefesto",
+            "Hermes"
+        ]
+    },
+    {
+        "pregunta": "¿Qué titán fue castigado a cargar el mundo en sus hombros?",
+        "respuesta_correcta": "Atlas",
+        "opciones_respuesta": [
+            "Cronos",
+            "Océano",
+            "Atlas",
+            "Prometeo"
+        ]
+    },
+    {
+        "pregunta": "¿Quién fue la primera mujer en la Tierra según la mitología griega?",
+        "respuesta_correcta": "Pandora",
+        "opciones_respuesta": [
+            "Helena",
+            "Clitemnestra",
+            "Penélope",
+            "Pandora"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál era uno de los ríos de los muertos en la mitología griega?",
+        "respuesta_correcta": "El río Estigia",
+        "opciones_respuesta": [
+            "El río Estigia",
+            "El río Mortis",
+            "El río Tanater",
+            "El río Rin"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era el famoso héroe que mató a la hidra de Lerna?",
+        "respuesta_correcta": "Heracles",
+        "opciones_respuesta": [
+            "Perseo",
+            "Teseo",
+            "Heracles",
+            "Aquiles"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál era el animal que tiraba del carro de Hades, el dios del inframundo?",
+        "respuesta_correcta": "Caballos",
+        "opciones_respuesta": [
+            "Caballos",
+            "Leones",
+            "Serpientes",
+            "Búfalos"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era el héroe que lideró la expedición de los argonautas en busca del vellocino de oro?",
+        "respuesta_correcta": "Jasón",
+        "opciones_respuesta": [
+            "Teseo",
+            "Perseo",
+            "Heracles",
+            "Jasón"
+        ]
+    },
+    {
+        "pregunta": "¿Qué héroe era conocido por su talón débil?",
+        "respuesta_correcta": "Aquiles",
+        "opciones_respuesta": [
+            "Teseo",
+            "Jasón",
+            "Aquiles",
+            "Perseo"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era el famoso inventor y constructor del laberinto de Creta?",
+        "respuesta_correcta": "Dédalo",
+        "opciones_respuesta": [
+            "Ícaro",
+            "Dédalo",
+            "Davinci",
+            "Orfeo"
+        ]
+    },
+    {
+        "pregunta": "¿Qué criatura mitológica tenía la cabeza de un toro y el cuerpo de un hombre?",
+        "respuesta_correcta": "El Minotauro",
+        "opciones_respuesta": [
+            "El Minotauro",
+            "El Quimera",
+            "El Fauno",
+            "El Centauro"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era el dios del fuego en la mitología griega?",
+        "respuesta_correcta": "Hefesto",
+        "opciones_respuesta": [
+            "Hades",
+            "Prometeo",
+            "Hefesto",
+            "Ignis"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál era el monstruo que convertía a las personas en piedra con su mirada?",
+        "respuesta_correcta": "Medusa",
+        "opciones_respuesta": [
+            "Medusa",
+            "La Quimera",
+            "La hidra",
+            "Las Gorgonas"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era el famoso músico que tocaba la lira y conquistaba a los animales con su música?",
+        "respuesta_correcta": "Orfeo",
+        "opciones_respuesta": [
+            "Orfeo",
+            "Hermes",
+            "Apolo",
+            "Dionisio"
+        ]
+    },
+    {
+        "pregunta": "¿Qué bestia mitológica era mitad león y mitad águila?",
+        "respuesta_correcta": "El Quimera",
+        "opciones_respuesta": [
+            "El Quimera",
+            "La Esfinge",
+            "La Arpía",
+            "El Grifo"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era el rey de Ítaca y el protagonista de la Odisea?",
+        "respuesta_correcta": "Ulises",
+        "opciones_respuesta": [
+            "Aquiles",
+            "Heracles",
+            "Ulises",
+            "Jasón"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál era la diosa de la cosecha en la mitología griega?",
+        "respuesta_correcta": "Deméter",
+        "opciones_respuesta": [
+            "Hera",
+            "Deméter",
+            "Atenea",
+            "Perséfone"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era el titán que robó el fuego para dárselo a los humanos?",
+        "respuesta_correcta": "Prometeo",
+        "opciones_respuesta": [
+            "Atlas",
+            "Prometeo",
+            "Tifón",
+            "Hefesto"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era el padre de los dioses, titanes y otros seres en la mitología griega?",
+        "respuesta_correcta": "Urano",
+        "opciones_respuesta": [
+            "Cronos",
+            "Urano",
+            "Atlas",
+            "Zeus"
+        ]
+    },
+    {
+        "pregunta": "¿Qué famosa construcción fue erigida para encerrar al Minotauro?",
+        "respuesta_correcta": "El laberinto de Creta",
+        "opciones_respuesta": [
+            "La torre de Babel",
+            "El Coliseo Romano",
+            "La Acrópolis de Tebas",
+            "El laberinto de Creta"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era el dios de los mares en la mitología romana?",
+        "respuesta_correcta": "Neptuno",
+        "opciones_respuesta": [
+            "Neptuno",
+            "Plutón",
+            "Mercurio",
+            "Hidrogenes"
+        ]
+    },
+    {
+        "pregunta": "¿Qué héroe mató al jabalí de Erimanto?",
+        "respuesta_correcta": "Atalanta",
+        "opciones_respuesta": [
+            "Jasón",
+            "Perseo",
+            "Atalanta",
+            "Ulises"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál era el nombre del dios del sueño en la mitología griega?",
+        "respuesta_correcta": "Hipnos",
+        "opciones_respuesta": [
+            "Hipnos",
+            "Thanatos",
+            "Morfeo",
+            "Cronos"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era la diosa de la sabiduría en la mitología griega?",
+        "respuesta_correcta": "Atenea",
+        "opciones_respuesta": [
+            "Atenea",
+            "Artemisa",
+            "Afrodita",
+            "Hera"
+        ]
+    },
+    {
+        "pregunta": "¿Qué ser mitológico tenía la capacidad de convertir todo lo que tocaba en oro?",
+        "respuesta_correcta": "El rey Midas",
+        "opciones_respuesta": [
+            "El rey Midas",
+            "El principe Maquiavelo",
+            "Medusa",
+            "La Esfinge"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál era el nombre del barquero que transportaba las almas de los muertos al inframundo?",
+        "respuesta_correcta": "Caronte",
+        "opciones_respuesta": [
+            "Caronte",
+            "Tánatos",
+            "Hades",
+            "Cerbero"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era la madre de Perseo, el famoso héroe que mató a Medusa?",
+        "respuesta_correcta": "Dánae",
+        "opciones_respuesta": [
+            "Electra",
+            "Dánae",
+            "Casiopea",
+            "Andrómeda"
+        ]
+    },
+    {
+        "pregunta": "¿Qué objeto llevaba Perseo para evitar mirar directamente a Medusa?",
+        "respuesta_correcta": "Un escudo",
+        "opciones_respuesta": [
+            "Un espejo",
+            "Un anillo",
+            "Un escudo",
+            "Un antifaz"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era el centauro famoso por ser sabio y tutor de héroes como Aquiles y Jasón?",
+        "respuesta_correcta": "Quirón",
+        "opciones_respuesta": [
+            "Quirón",
+            "Neso",
+            "Filoctetes",
+            "Folo"
+        ]
+    },
+    {
+        "pregunta": "¿Qué permitió a Odiseo escuchar el canto de las sirenas?",
+        "respuesta_correcta": "Atarse al mástil del barco",
+        "opciones_respuesta": [
+            "Cera en los oídos",
+            "Tapones",
+            "Atarse al mástil del barco",
+            "Encerrar a las sirenas en una caja"
+        ]
+    },
+    {
+        "pregunta": "¿Qué objeto otorgaba a su portador el poder de volar, utilizado por Perseo en su búsqueda?",
+        "respuesta_correcta": "Las sandalias aladas",
+        "opciones_respuesta": [
+            "Las alas de Hermes",
+            "El yelmo de Hades",
+            "Las sandalias aladas",
+            "El bastón de Persefone"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era el dios del comercio y los viajeros en la mitología griega?",
+        "respuesta_correcta": "Hermes",
+        "opciones_respuesta": [
+            "Hermes",
+            "Dionisio",
+            "Apolo",
+            "Ares"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál era el animal asociado con Atenea, la diosa de la sabiduría?",
+        "respuesta_correcta": "La lechuza",
+        "opciones_respuesta": [
+            "La lechuza",
+            "La paloma",
+            "El águila",
+            "El cuervo"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era el titán que gobernaba el monte Olimpo antes de ser derrocado por Zeus?",
+        "respuesta_correcta": "Cronos",
+        "opciones_respuesta": [
+            "Cronos",
+            "Urano",
+            "Atlas",
+            "Prometeo"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era el dios del amor y deseo sexual en la mitología griega?",
+        "respuesta_correcta": "Eros",
+        "opciones_respuesta": [
+            "Afrodita",
+            "Eros",
+            "Dionisio",
+            "Hefesto"
+        ]
+    },
+    {
+        "pregunta": "¿Qué criatura mitológica tenía cuerpo de león, cabeza de cabra y cola de serpiente?",
+        "respuesta_correcta": "La Quimera",
+        "opciones_respuesta": [
+            "La Quimera",
+            "El Minotauro",
+            "El Cíclope",
+            "El Centauro"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era el dios del inframundo en la mitología griega?",
+        "respuesta_correcta": "Hades",
+        "opciones_respuesta": [
+            "Hades",
+            "Thanatos",
+            "Urano",
+            "Tártaro"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál era la famosa caja que no debía ser abierta, pero lo fue por curiosidad, liberando males al mundo?",
+        "respuesta_correcta": "La caja de Pandora",
+        "opciones_respuesta": [
+            "La caja de la Demeter",
+            "La caja de la venganza",
+            "La caja de Pandora",
+            "La caja del Persefone"
+        ]
+    },
+    {
+        "pregunta": "¿Quién fue el padre de los monstruos en la mitología griega?",
+        "respuesta_correcta": "Tifón",
+        "opciones_respuesta": [
+            "Tifón",
+            "Cronos",
+            "Urano",
+            "Atlas"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era el dios del arte, la música y la poesía en la mitología griega?",
+        "respuesta_correcta": "Apolo",
+        "opciones_respuesta": [
+            "Orfeo",
+            "Apolo",
+            "Hermes",
+            "Dionisio"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál era el nombre del héroe que luchó contra la hidra con la ayuda de su tío?",
+        "respuesta_correcta": "Yolao",
+        "opciones_respuesta": [
+            "Yolao",
+            "Jasón",
+            "Filoctetes",
+            "Patroclo"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era el monstruo designado para torturar a Prometeo por robar el fuego en la mitología romana?",
+        "respuesta_correcta": "Etón, el águila del caucaso",
+        "opciones_respuesta": [
+            "Etón, el águila del caucaso",
+            "El león de Nemea",
+            "La hidra de Lerna",
+            "La esfinge de Tebas"
+        ]
+    },
+    {
+        "pregunta": "¿A quién se le designó el castigo de ser devorado todos los días por un águila en la mitología romana?",
+        "respuesta_correcta": "Prometeo",
+        "opciones_respuesta": [
+            "Prometeo",
+            "Hefesto",
+            "Hades",
+            "Apolo"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era la diosa de la caza en la mitología romana?",
+        "respuesta_correcta": "Diana",
+        "opciones_respuesta": [
+            "Artemisa",
+            "Atenea",
+            "Afrodita",
+            "Diana"
+        ]
+    },
+    {
+        "pregunta": "¿Qué ser mitológico tenía la cabeza de un hombre y el cuerpo de un caballo?",
+        "respuesta_correcta": "El Centauro",
+        "opciones_respuesta": [
+            "El Minotauro",
+            "El Quimera",
+            "El Centauro",
+            "El Cíclope"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era la diosa del hogar y la familia en la mitología romana?",
+        "respuesta_correcta": "Vesta",
+        "opciones_respuesta": [
+            "Juno",
+            "Venus",
+            "Ceres",
+            "Vesta"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era el rey de los dioses en la mitología romana?",
+        "respuesta_correcta": "Júpiter",
+        "opciones_respuesta": [
+            "Marte",
+            "Neptuno",
+            "Júpiter",
+            "Plutón"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál era el nombre del héroe que mató al Minotauro en Creta?",
+        "respuesta_correcta": "Teseo",
+        "opciones_respuesta": [
+            "Heracles",
+            "Perseo",
+            "Teseo",
+            "Jasón"
+        ]
+    },
+    {
+        "pregunta": "¿Qué objeto mágico permitía a su portador volverse invisible?",
+        "respuesta_correcta": "El yelmo de Hades",
+        "opciones_respuesta": [
+            "El yelmo de Hades",
+            "La lira de Orfeo",
+            "La espada de Zeus",
+            "El cinturón de Afrodita"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era el dios del tiempo en la mitología griega?",
+        "respuesta_correcta": "Chronos",
+        "opciones_respuesta": [
+            "Chronos",
+            "Eolo",
+            "Apolo",
+            "Hefesto"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era el dios del sol en la mitología romana?",
+        "respuesta_correcta": "Apolo",
+        "opciones_respuesta": [
+            "Helios",
+            "Apolo",
+            "Dionisio",
+            "Hefesto"
+        ]
+    },
+    {
+        "pregunta": "¿Qué héroe fue conocido por su astucia y por crear el famoso caballo de Troya?",
+        "respuesta_correcta": "Ulises",
+        "opciones_respuesta": [
+            "Aquiles",
+            "Perseo",
+            "Ulises",
+            "Jasón"
+        ]
+    },
+    {
+        "pregunta": "¿Qué famosa mujer se convirtió en árbol para escapar de un pretendiente en la mitología griega?",
+        "respuesta_correcta": "Daphne",
+        "opciones_respuesta": [
+            "Europa",
+            "Andrómeda",
+            "Medusa",
+            "Daphne"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era la diosa de la discordia en la mitología griega?",
+        "respuesta_correcta": "Eris",
+        "opciones_respuesta": [
+            "Eris",
+            "Atenea",
+            "Hera",
+            "Artemisa"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál era el nombre del dios del viento en la mitología griega?",
+        "respuesta_correcta": "Eolo",
+        "opciones_respuesta": [
+            "Bóreas",
+            "Eolo",
+            "Eurus",
+            "Noto"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál era el nombre del héroe que intentó volar con alas hechas de cera y plumas?",
+        "respuesta_correcta": "Ícaro",
+        "opciones_respuesta": [
+            "Dédalo",
+            "Ícaro",
+            "Hermes",
+            "Prometeo"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era el dios de la guerra en la mitología romana?",
+        "respuesta_correcta": "Marte",
+        "opciones_respuesta": [
+            "Ares",
+            "Marte",
+            "Hades",
+            "Apolo"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era la diosa de la agricultura en la mitología romana?",
+        "respuesta_correcta": "Ceres",
+        "opciones_respuesta": [
+            "Deméter",
+            "Ceres",
+            "Perséfone",
+            "Hestia"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál era el nombre del dios de la muerte en la mitología griega?",
+        "respuesta_correcta": "Thanatos",
+        "opciones_respuesta": [
+            "Hades",
+            "Thanatos",
+            "Erebus",
+            "Hermes"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál era el nombre de las tres hermanas que compartían un solo ojo en la mitología griega?",
+        "respuesta_correcta": "Las Moiras",
+        "opciones_respuesta": [
+            "Las Parcas",
+            "Las Graias",
+            "Las Moiras",
+            "Las Nereidas"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era la diosa de la venganza en la mitología griega?",
+        "respuesta_correcta": "Némesis",
+        "opciones_respuesta": [
+            "Nemesis",
+            "Némesis",
+            "Atenea",
+            "Hera"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál era el nombre de la diosa del amanecer en la mitología griega, cuyos lamentos por la muerte de su hijo, fueron transformados en el canto del ruiseñor?",
+        "respuesta_correcta": "Aurora",
+        "opciones_respuesta": [
+            "Selene",
+            "Aurora",
+            "Eos",
+            "Artemisa"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era el padre de todos los dioses en la mitología nórdica?",
+        "respuesta_correcta": "Odín",
+        "opciones_respuesta": [
+            "Thor",
+            "Loki",
+            "Freyr",
+            "Odín"
+        ]
+    },
+    {
+        "pregunta": "¿A cambio de qué intercambió Odín su ojo?",
+        "respuesta_correcta": "Sabiduría",
+        "opciones_respuesta": [
+            "Riquezas",
+            "Poder",
+            "Sabiduría",
+            "Inmortalidad"
+        ]
+    },
+    {
+        "pregunta": "¿Qué dio a cambio de la sabiduría infinita Odín?",
+        "respuesta_correcta": "Su ojo",
+        "opciones_respuesta": [
+            "Su ojo",
+            "Su martillo",
+            "Su espada",
+            "Su primogénito"
+        ]
+    },
+    {
+        "pregunta": "¿Quiénes eran los encargados de transportar a los muertos al Valhalla?",
+        "respuesta_correcta": "Valkirias",
+        "opciones_respuesta": [
+            "Valkirias",
+            "Berserkers",
+            "Enanos",
+            "Elfos de luz"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál era el martillo mágico usado por Thor en la mitología nórdica?",
+        "respuesta_correcta": "Mjölnir",
+        "opciones_respuesta": [
+            "Gungnir",
+            "Draupnir",
+            "Skidbladnir",
+            "Mjölnir"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál era el nombre del árbol que conectaba los nueve mundos en la mitología nórdica?",
+        "respuesta_correcta": "Yggdrasil",
+        "opciones_respuesta": [
+            "Yggdrasil",
+            "Bifröst",
+            "Fensalir",
+            "Víðbláinn"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era la personificación del engaño en la mitología nórdica?",
+        "respuesta_correcta": "Loki",
+        "opciones_respuesta": [
+            "Freyr",
+            "Baldr",
+            "Heimdall",
+            "Loki"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era el padre de Fenrir el lobo de la mitología nórdica?",
+        "respuesta_correcta": "Loki",
+        "opciones_respuesta": [
+            "Odín",
+            "Thor",
+            "Freyr",
+            "Loki"
+        ]
+    },
+    {
+        "pregunta": "¿A quién estaba predestinado que mataría Fenrir el lobo gigante en la mitología nórdica?",
+        "respuesta_correcta": "Odín",
+        "opciones_respuesta": [
+            "Thor",
+            "Loki",
+            "Freyr",
+            "Odín"
+        ]
+    },
+    {
+        "pregunta": "¿A quién estaba predestinado que mataría Jörmundgander, la serpiente marina en la mitología nórdica?",
+        "respuesta_correcta": "Thor",
+        "opciones_respuesta": [
+            "Loki",
+            "Thor",
+            "Freyr",
+            "Baldr"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era el padre de Jörmundgander, la serpiente marina de la mitología nórdica?",
+        "respuesta_correcta": "Loki",
+        "opciones_respuesta": [
+            "Baldr",
+            "Freyr",
+            "Loki",
+            "Thor"
+        ]
+    },
+    {
+        "pregunta": "¿Qué nombre recibe el puente que une los reinos de Asgard y Midgard?",
+        "respuesta_correcta": "Bifröst",
+        "opciones_respuesta": [
+            "Bifröst",
+            "Yggdrasil",
+            "Heimdallr",
+            "Mjölnir"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál era el nombre del lobo gigante que estaba destinado a devorar al dios Odín durante el Ragnarök?",
+        "respuesta_correcta": "Fenrir",
+        "opciones_respuesta": [
+            "Sköll",
+            "Hati",
+            "Fenrir",
+            "Sleipnir"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era el dios de la guerra en la mitología nórdica?",
+        "respuesta_correcta": "Tyr",
+        "opciones_respuesta": [
+            "Baldr",
+            "Freyr",
+            "Tyr",
+            "Thor"
+        ]
+    },
+    {
+        "pregunta": "¿Qué sacrificó Tyr para poder encadenar a Fenrir?",
+        "respuesta_correcta": "Su mano",
+        "opciones_respuesta": [
+            "Su mano",
+            "Su pierna",
+            "Su ojo",
+            "Su lobo"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál era el lugar donde los guerreros caídos en batalla eran llevados en la mitología nórdica?",
+        "respuesta_correcta": "Valhalla",
+        "opciones_respuesta": [
+            "Valhalla",
+            "Helheim",
+            "Jotunheim",
+            "Niflheim"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era el gigante fundador de la raza de los gigantes, que era el enemigo eterno de los dioses nórdicos?",
+        "respuesta_correcta": "Ymir",
+        "opciones_respuesta": [
+            "Ymir",
+            "Surtr",
+            "Jotun",
+            "Skaði"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál era el nombre de la serpiente que rodeaba el mundo en la mitología nórdica?",
+        "respuesta_correcta": "Jormungandr",
+        "opciones_respuesta": [
+            "Jormungandr",
+            "Nidhogg",
+            "Fafnir",
+            "Surtr"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era la diosa de la sabiduría, la profecía y del cielo en la mitología nórdica?",
+        "respuesta_correcta": "Frigg",
+        "opciones_respuesta": [
+            "Frigg",
+            "Sif",
+            "Idun",
+            "Mimir"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál era el nombre del caballo de Odín en la mitología nórdica?",
+        "respuesta_correcta": "Sleipnir",
+        "opciones_respuesta": [
+            "Sleipnir",
+            "Gullfaxi",
+            "Grani",
+            "Árvakr"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era el dios del mar en la mitología nórdica?",
+        "respuesta_correcta": "Ægir",
+        "opciones_respuesta": [
+            "Njord",
+            "Ægir",
+            "Ran",
+            "Fimafeng"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál era el hogar de los gigantes de hielo en la mitología nórdica?",
+        "respuesta_correcta": "Jotunheim",
+        "opciones_respuesta": [
+            "Jotunheim",
+            "Muspelheim",
+            "Helheim",
+            "Niflheim"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era la diosa del invierno en la mitología nórdica?",
+        "respuesta_correcta": "Skadi",
+        "opciones_respuesta": [
+            "Skadi",
+            "Hel",
+            "Freyja",
+            "Idhun"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era el dios del sol en la mitología nórdica?",
+        "respuesta_correcta": "Sol",
+        "opciones_respuesta": [
+            "Sol",
+            "Baldr",
+            "Freyr",
+            "Heimdall"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál era el nombre del gigante constructor que fue engañado por Loki para construir las murallas de Asgard?",
+        "respuesta_correcta": "Hrimthurs",
+        "opciones_respuesta": [
+            "Suttungr",
+            "Thjazi",
+            "Hrungnir",
+            "Hrimthurs"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era el dios de la agricultura en la mitología nórdica?",
+        "respuesta_correcta": "Freyr",
+        "opciones_respuesta": [
+            "Freyr",
+            "Baldr",
+            "Tyr",
+            "Njord"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál era el nombre del barco que llevaba a los muertos al reino de Hel en la mitología nórdica?",
+        "respuesta_correcta": "Naglfar",
+        "opciones_respuesta": [
+            "Skíðblaðnir",
+            "Naglfar",
+            "Hringhorni",
+            "Dromi"
+        ]
+    },
+    {
+        "pregunta": "¿De qué material está hecho el barco Naglfar que transporta los muertos al reino de Hel en la mitología nórdica?",
+        "respuesta_correcta": "Uñas",
+        "opciones_respuesta": [
+            "Huesos",
+            "Madera",
+            "Uñas",
+            "Piedra"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era el herrero de los dioses en la mitología nórdica?",
+        "respuesta_correcta": "Sindri",
+        "opciones_respuesta": [
+            "Volund",
+            "Mimir",
+            "Ivaldi",
+            "Sindri"
+        ]
+    },
+    {
+        "pregunta": "¿Qué tesoro enano forjado por Sindri y con forma de anillo le fue otorgado a Odín?",
+        "respuesta_correcta": "Draupnir",
+        "opciones_respuesta": [
+            "Andvaranaut",
+            "Draupnir",
+            "Brísingamen",
+            "Gungnir"
+        ]
+    },
+    {
+        "pregunta": "¿Qué tesoro enano forjado por Sindri y con forma de lanza le fue otorgado a Odín?",
+        "respuesta_correcta": "Gungnir",
+        "opciones_respuesta": [
+            "Gungnir",
+            "Mjölnir",
+            "Gram",
+            "Tyrfing"
+        ]
+    },
+    {
+        "pregunta": "¿Qué nombre recibe la diosa de las cosechas y fertilidad y esposa de Thor en la mitología nórdica?",
+        "respuesta_correcta": "Sif",
+        "opciones_respuesta": [
+            "Idun",
+            "Freyja",
+            "Sif",
+            "Eir"
+        ]
+    },
+    {
+        "pregunta": "¿Qué es lo que le hace Loki a Sif por envidia que desata la ira de Thor?",
+        "respuesta_correcta": "Le corta el cabello",
+        "opciones_respuesta": [
+            "Le corta la mano",
+            "Le corta el cabello",
+            "Le roba su martillo",
+            "Le envenena"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál era el nombre de la montaña que separaba a Asgard de Jotunheim en la mitología nórdica?",
+        "respuesta_correcta": "Þrymheimr",
+        "opciones_respuesta": [
+            "Himinbjörg",
+            "Útgarðar",
+            "Thrymheim",
+            "Þrymheimr"
+        ]
+    },
+    {
+        "pregunta": "¿Desde dónde vigila Heimdal a los Jotuns en la mitología nórdica?",
+        "respuesta_correcta": "En Himinbjörg al extremo del Bifröst",
+        "opciones_respuesta": [
+            "En Himinbjörg al extremo del Bifröst",
+            "Desde el Valhalla",
+            "Desde las raíces de Yggdrasil",
+            "Desde Asgard"
+        ]
+    },
+    {
+        "pregunta": "¿Quién es el encargado de vigilar el Bifröst, puente que une Asgard y Midgard?",
+        "respuesta_correcta": "Heimdal",
+        "opciones_respuesta": [
+            "Freyr",
+            "Vidar",
+            "Heimdal",
+            "Tyr"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era el dios de la poesía y los bardos en la mitología nórdica?",
+        "respuesta_correcta": "Bragi",
+        "opciones_respuesta": [
+            "Bragi",
+            "Forseti",
+            "Ullr",
+            "Höðr"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál era el nombre de los cuervos que informaban a Odín sobre lo que sucedía en el mundo?",
+        "respuesta_correcta": "Hugin y Munin",
+        "opciones_respuesta": [
+            "Hugin y Munin",
+            "Geri y Freki",
+            "Sköll y Hati",
+            "Sleipnir y Gullfaxi"
+        ]
+    },
+    {
+        "pregunta": "¿Qué animales informaban a Odín de lo que sucedía en el mundo?",
+        "respuesta_correcta": "Cuervos",
+        "opciones_respuesta": [
+            "Cuervos",
+            "Lobos",
+            "Caballos",
+            "Serpientes"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era la diosa de la muerte en la mitología nórdica?",
+        "respuesta_correcta": "Hel",
+        "opciones_respuesta": [
+            "Hel",
+            "Ran",
+            "Skadi",
+            "Freyja"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál era el nombre del gigante que guardaba el puente hacia el reino de los muertos?",
+        "respuesta_correcta": "Modgurd",
+        "opciones_respuesta": [
+            "Modgurd",
+            "Hrym",
+            "Thrym",
+            "Garm"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era el padre de todos los gigantes en la mitología nórdica?",
+        "respuesta_correcta": "Ymir",
+        "opciones_respuesta": [
+            "Ymir",
+            "Surtr",
+            "Jotun",
+            "Skaði"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál era el nombre del barco de Freyr que podía navegar por tierra y mar?",
+        "respuesta_correcta": "Skíðblaðnir",
+        "opciones_respuesta": [
+            "Skíðblaðnir",
+            "Hringhorni",
+            "Naglfar",
+            "Dromi"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era la diosa del amor, la fertilidad y el sexo en la mitología nórdica?",
+        "respuesta_correcta": "Freyja",
+        "opciones_respuesta": [
+            "Frigg",
+            "Hel",
+            "Freyja",
+            "Sif"
+        ]
+    },
+    {
+        "pregunta": "¿Dónde se encuentra la fuente que llena el pozo del conocimiento, custodiado por Mimir?",
+        "respuesta_correcta": "En las raíces de Yggdrasil",
+        "opciones_respuesta": [
+            "En las raíces de Yggdrasil",
+            "En Asgard",
+            "En Jotunheim",
+            "En Helheim"
+        ]
+    },
+    {
+        "pregunta": "¿Quién custodia el pozo del conocimiento que se encuentra en las raíces de Yggdrasil?",
+        "respuesta_correcta": "Mimir",
+        "opciones_respuesta": [
+            "Mimir",
+            "Odin",
+            "Heimdall",
+            "Freyr"
+        ]
+    },
+    {
+        "pregunta": "¿Qué nombre recibe el reino de los humanos en la mitología nórdica?",
+        "respuesta_correcta": "Midgard",
+        "opciones_respuesta": [
+            "Midgard",
+            "Helheim",
+            "Asgard",
+            "Niflheim"
+        ]
+    },
+    {
+        "pregunta": "¿Qué nombre recibe el reino de los muertos en la mitología nórdica?",
+        "respuesta_correcta": "Helheim",
+        "opciones_respuesta": [
+            "Helheim",
+            "Midgard",
+            "Asgard",
+            "Jotunheim"
+        ]
+    },
+    {
+        "pregunta": "¿Qué nombre recibe el reino de la oscuridad y las tinieblas en la mitología nórdica?",
+        "respuesta_correcta": "Niflheim",
+        "opciones_respuesta": [
+            "Niflheim",
+            "Muspelheim",
+            "Jotunheim",
+            "Svartalfaheim"
+        ]
+    },
+    {
+        "pregunta": "¿Qué nombre recibe el reino de los elfos de luz en la mitología nórdica?",
+        "respuesta_correcta": "Alfheim",
+        "opciones_respuesta": [
+            "Alfheim",
+            "Vanaheim",
+            "Asgard",
+            "Midgard"
+        ]
+    },
+    {
+        "pregunta": "¿Qué nombre recibe el reino primordial del fuego en la mitología nórdica?",
+        "respuesta_correcta": "Muspelheim",
+        "opciones_respuesta": [
+            "Muspelheim",
+            "Niflheim",
+            "Jotunheim",
+            "Svartalfaheim"
+        ]
+    },
+    {
+        "pregunta": "¿Qué nombre recibe el reino de los Aesir (dioses) en la mitología nórdica?",
+        "respuesta_correcta": "Asgard",
+        "opciones_respuesta": [
+            "Asgard",
+            "Vanaheim",
+            "Alfheim",
+            "Midgard"
+        ]
+    },
+    {
+        "pregunta": "¿Qué nombre recibe el reino de los Vanir en la mitología nórdica?",
+        "respuesta_correcta": "Vanaheim",
+        "opciones_respuesta": [
+            "Vanaheim",
+            "Asgard",
+            "Helheim",
+            "Midgard"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál era el nombre del lobo que devoraría el sol durante el Ragnarök?",
+        "respuesta_correcta": "Sköll",
+        "opciones_respuesta": [
+            "Sköll",
+            "Hati",
+            "Fenrir",
+            "Garm"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál era el nombre del lobo que devoraría la luna durante el Ragnarök?",
+        "respuesta_correcta": "Hati",
+        "opciones_respuesta": [
+            "Hati",
+            "Sköll",
+            "Fenrir",
+            "Garm"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál era el nombre del rey enano que forjó el martillo Mjölnir?",
+        "respuesta_correcta": "Sindri",
+        "opciones_respuesta": [
+            "Brokk",
+            "Sindri",
+            "Útgarða-Loki",
+            "Thrym"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál era el nombre del gigante con el que Thor y Loki se desafiaron en varias competiciones?",
+        "respuesta_correcta": "Útgarða-Loki",
+        "opciones_respuesta": [
+            "Hrungnir",
+            "Útgarða-Loki",
+            "Thrym",
+            "Surt"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál era el origen del hidromiel que otorgaba el poder de la poesía en la mitología nórdica?",
+        "respuesta_correcta": "Una mezcla de miel y la sangre del dios Kvasir",
+        "opciones_respuesta": [
+            "Una mezcla de miel y la sangre del dios Kvasir",
+            "Agua bendita",
+            "El rocío de la mañana",
+            "La leche de una vaca divina"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era el gigante de hielo que trató de robar el martillo de Thor?",
+        "respuesta_correcta": "Thrym",
+        "opciones_respuesta": [
+            "Jotun",
+            "Thrym",
+            "Hrym",
+            "Skrymir"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál era el nombre de la espada mágica de Freyr?",
+        "respuesta_correcta": "Sumarbrandr",
+        "opciones_respuesta": [
+            "Gram",
+            "Sumarbrandr",
+            "Hofund",
+            "Tyrfing"
+        ]
+    },
+    {
+        "pregunta": "¿Quién fue uno de los progenitores de Sleipnir, el caballo de Odín?",
+        "respuesta_correcta": "Loki",
+        "opciones_respuesta": [
+            "Ymir",
+            "Loki",
+            "Thrym",
+            "Surt"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era el gigante que construyó el barco Naglfar usando las uñas de los muertos?",
+        "respuesta_correcta": "Gymir",
+        "opciones_respuesta": [
+            "Hrungnir",
+            "Thrym",
+            "Hrym",
+            "Gymir"
+        ]
+    },
+    {
+        "pregunta": "¿Qué animal se encarga de torturar a Loki en su cautiverio previo al Ragnarok?",
+        "respuesta_correcta": "Una serpiente",
+        "opciones_respuesta": [
+            "Un lobo",
+            "Un dragón",
+            "Una serpiente",
+            "Un escorpión"
+        ]
+    },
+    {
+        "pregunta": "¿Qué nombre recibe la diosa y esposa de Loki?",
+        "respuesta_correcta": "Sigyn",
+        "opciones_respuesta": [
+            "Angrboda",
+            "Sigyn",
+            "Gullveig",
+            "Idun"
+        ]
+    },
+    {
+        "pregunta": "¿Quién es el dios de la luz y la justicia en la mitología nórdica?",
+        "respuesta_correcta": "Forseti",
+        "opciones_respuesta": [
+            "Forseti",
+            "Baldr",
+            "Vidar",
+            "Höðr"
+        ]
+    },
+    {
+        "pregunta": "¿Quién es el encargado de vigilar el Bifröst, puente que une Asgard y Midgard?",
+        "respuesta_correcta": "Heimdal",
+        "opciones_respuesta": [
+            "Freyr",
+            "Vidar",
+            "Heimdal",
+            "Tyr"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era el dios de la poesía y los bardos en la mitología nórdica?",
+        "respuesta_correcta": "Bragi",
+        "opciones_respuesta": [
+            "Bragi",
+            "Forseti",
+            "Ullr",
+            "Höðr"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál era el nombre de los cuervos que informaban a Odín sobre lo que sucedía en el mundo?",
+        "respuesta_correcta": "Hugin y Munin",
+        "opciones_respuesta": [
+            "Hugin y Munin",
+            "Geri y Freki",
+            "Sköll y Hati",
+            "Sleipnir y Gullfaxi"
+        ]
+    },
+    {
+        "pregunta": "¿Qué animales informaban a Odín de lo que sucedía en el mundo?",
+        "respuesta_correcta": "Cuervos",
+        "opciones_respuesta": [
+            "Cuervos",
+            "Lobos",
+            "Caballos",
+            "Serpientes"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era la diosa de la muerte en la mitología nórdica?",
+        "respuesta_correcta": "Hel",
+        "opciones_respuesta": [
+            "Hel",
+            "Ran",
+            "Skadi",
+            "Freyja"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál era el nombre del gigante que guardaba el puente hacia el reino de los muertos?",
+        "respuesta_correcta": "Modgurd",
+        "opciones_respuesta": [
+            "Modgurd",
+            "Hrym",
+            "Thrym",
+            "Garm"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era el padre de todos los gigantes en la mitología nórdica?",
+        "respuesta_correcta": "Ymir",
+        "opciones_respuesta": [
+            "Ymir",
+            "Surtr",
+            "Jotun",
+            "Skaði"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál era el nombre del barco de Freyr que podía navegar por tierra y mar?",
+        "respuesta_correcta": "Skíðblaðnir",
+        "opciones_respuesta": [
+            "Skíðblaðnir",
+            "Hringhorni",
+            "Naglfar",
+            "Dromi"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era la diosa del amor, la fertilidad y el sexo en la mitología nórdica?",
+        "respuesta_correcta": "Freyja",
+        "opciones_respuesta": [
+            "Frigg",
+            "Hel",
+            "Freyja",
+            "Sif"
+        ]
+    },
+    {
+        "pregunta": "¿Dónde se encuentra la fuente que llena el pozo del conocimiento, custodiado por Mimir?",
+        "respuesta_correcta": "En las raíces de Yggdrasil",
+        "opciones_respuesta": [
+            "En las raíces de Yggdrasil",
+            "En Asgard",
+            "En Jotunheim",
+            "En Helheim"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era el dios del sol del mediodía en la mitología egipcia?",
+        "respuesta_correcta": "Ra",
+        "opciones_respuesta": [
+            "Anubis",
+            "Osiris",
+            "Ra",
+            "Horus"
+        ]
+    },
+    {
+        "pregunta": "¿Qué dios se asociaba con un hombre con cabeza de halcón y un disco rojo sobre su cabeza?",
+        "respuesta_correcta": "Horus",
+        "opciones_respuesta": [
+            "Anubis",
+            "Osiris",
+            "Horus",
+            "Ra"
+        ]
+    },
+    {
+        "pregunta": "Según la mitología egipcia, ¿quién fue el primer faraón de Egipto?",
+        "respuesta_correcta": "Ra",
+        "opciones_respuesta": [
+            "Osiris",
+            "Thot",
+            "Horus",
+            "Ra"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era la diosa de la magia y la curación en la mitología egipcia?",
+        "respuesta_correcta": "Isis",
+        "opciones_respuesta": [
+            "Hathor",
+            "Sekhmet",
+            "Bastet",
+            "Isis"
+        ]
+    },
+    {
+        "pregunta": "Según el mito de Osiris de la mitología egipcia, ¿quién fue el asesino de Osiris?",
+        "respuesta_correcta": "Set",
+        "opciones_respuesta": [
+            "Isis",
+            "Set",
+            "Horus",
+            "Anubis"
+        ]
+    },
+    {
+        "pregunta": "Según el mito de Osiris de la mitología egipcia, ¿quién fue el encargado de revivir a Osiris?",
+        "respuesta_correcta": "Isis",
+        "opciones_respuesta": [
+            "Hathor",
+            "Isis",
+            "Bastet",
+            "Nephthys"
+        ]
+    },
+    {
+        "pregunta": "Cuál era el nombre del dios de la religión, la agricultura, la muerte y el más allá en la mitología egipcia?",
+        "respuesta_correcta": "Osiris",
+        "opciones_respuesta": [
+            "Anubis",
+            "Osiris",
+            "Horus",
+            "Ra"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era la diosa león y protectora del hogar en la mitología egipcia?",
+        "respuesta_correcta": "Bastet",
+        "opciones_respuesta": [
+            "Hathor",
+            "Bastet",
+            "Sekhmet",
+            "Isis"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál era el nombre de la diosa representaba la venganza y la guerra?",
+        "respuesta_correcta": "Sekhmet",
+        "opciones_respuesta": [
+            "Hathor",
+            "Bastet",
+            "Sekhmet",
+            "Isis"
+        ]
+    },
+    {
+        "pregunta": "¿Qué diosa fue la encargada de masacrar a todo aquel que osaba difamar el nombre de Ra?",
+        "respuesta_correcta": "Sekhmet",
+        "opciones_respuesta": [
+            "Hathor",
+            "Bastet",
+            "Sekhmet",
+            "Isis"
+        ]
+    },
+    {
+        "pregunta": "¿Cómo consiguió Ra calmar la ira de su hija Sekhmet y cesar la masacre que estaba causando?",
+        "respuesta_correcta": "Engañándola y haciéndola beber cerveza en vez de sangre",
+        "opciones_respuesta": [
+            "Haciendo una ofrenda de oro",
+            "Ofreciéndole joyas preciosas",
+            "Engañándola y haciéndola beber cerveza en vez de sangre",
+            "Haciendo una promesa de tierras fértiles"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál era la diosa de la alegría, el amor, la sexualidad y el cuidado materno además de asumir el papel del ojo de Ra?",
+        "respuesta_correcta": "Hathor",
+        "opciones_respuesta": [
+            "Hathor",
+            "Bastet",
+            "Sekhmet",
+            "Isis"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál era el nombre del dios chacal que representaba la muerte, el embalsamamiento y la guía de los difuntos?",
+        "respuesta_correcta": "Anubis",
+        "opciones_respuesta": [
+            "Thot",
+            "Anubis",
+            "Osiris",
+            "Ptah"
+        ]
+    },
+    {
+        "pregunta": "¿Qué nombre recibe el inframundo en la mitología egipcia?",
+        "respuesta_correcta": "Duat",
+        "opciones_respuesta": [
+            "Anubis",
+            "Duat",
+            "Aaru",
+            "Neter-khertek"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era el dios con cabeza de ibis asociado con la sabiduría en la mitología egipcia?",
+        "respuesta_correcta": "Thot",
+        "opciones_respuesta": [
+            "Thot",
+            "Anubis",
+            "Osiris",
+            "Ptah"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál era el nombre de la diosa de la verdad, la justicia y la armonía en la mitología egipcia?",
+        "respuesta_correcta": "Maat",
+        "opciones_respuesta": [
+            "Hathor",
+            "Bastet",
+            "Sekhmet",
+            "Maat"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era el dios del caos y la discordia en la mitología egipcia?",
+        "respuesta_correcta": "Seth",
+        "opciones_respuesta": [
+            "Horus",
+            "Osiris",
+            "Seth",
+            "Anubis"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál era el nombre de la diosa escorpión de la naturaleza, animales, magia y curación de picaduras y mordeduras venenosas de la mitología egipcia?",
+        "respuesta_correcta": "Serket",
+        "opciones_respuesta": [
+            "Serket",
+            "Hathor",
+            "Bastet",
+            "Sekhmet"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál era el nombre del dios del viento en la mitología egipcia?",
+        "respuesta_correcta": "Shu",
+        "opciones_respuesta": [
+            "Shu",
+            "Ptah",
+            "Anubis",
+            "Thot"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era el dios 'Maestro constructor', inventor de la albañilería, patrón de los arquitectos y artesanos en la mitología egipcia?",
+        "respuesta_correcta": "Ptah",
+        "opciones_respuesta": [
+            "Ptah",
+            "Anubis",
+            "Osiris",
+            "Thot"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál era el nombre de la diosa escarabajo que representaba el renacimiento y la transformación en la mitología egipcia?",
+        "respuesta_correcta": "Khepri",
+        "opciones_respuesta": [
+            "Hathor",
+            "Bastet",
+            "Khepri",
+            "Sekhmet"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era el dios halcón del cielo y el sol de la mañana en la mitología egipcia?",
+        "respuesta_correcta": "Atum",
+        "opciones_respuesta": [
+            "Osiris",
+            "Anubis",
+            "Ra",
+            "Atum"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era la diosa del río Nilo en la mitología egipcia?",
+        "respuesta_correcta": "Hapi",
+        "opciones_respuesta": [
+            "Isis",
+            "Hathor",
+            "Hapi",
+            "Sekhmet"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era el dios del cielo nocturno en la mitología egipcia?",
+        "respuesta_correcta": "Nut",
+        "opciones_respuesta": [
+            "Hathor",
+            "Nut",
+            "Bastet",
+            "Sekhmet"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era el dios del caos primordial en la mitología egipcia?",
+        "respuesta_correcta": "Nun",
+        "opciones_respuesta": [
+            "Ra",
+            "Osiris",
+            "Nun",
+            "Anubis"
+        ]
+    },
+    {
+        "pregunta": "¿Quién era el dios de la tierra fértil y la agricultura en la mitología egipcia?",
+        "respuesta_correcta": "Geb",
+        "opciones_respuesta": [
+            "Osiris",
+            "Ra",
+            "Geb",
+            "Anubis"
+        ]
+    },
+    {
+        "pregunta": "¿Qué papel desempeñan los jeroglíficos en la cultura egipcia?",
+        "respuesta_correcta": "Un sistema para registrar eventos",
+        "opciones_respuesta": [
+            "Eran una forma de adivinación",
+            "Eran una forma de música",
+            "Un sistema para registrar eventos",
+            "Eran una forma de arte decorativo"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál era el propósito principal de las pirámides en el Antiguo Egipto?",
+        "respuesta_correcta":"Servir como tumbas para faraones",
+        "opciones_respuesta": [
+            "Templos religiosos",
+            "Observatorios astronómicos",
+            "Servir como tumbas para faraones",
+            "Protección contra invasiones"
+        ]
+    },
+    {
+        "pregunta": "¿Qué era el mito del 'Libro de los Muertos' en la antigua cultura egipcia?",
+        "respuesta_correcta": "Una colección de textos funerarios",
+        "opciones_respuesta": [
+            "Una colección de textos agricolas",
+            "Una guía de batalla",
+            "Una colección de textos funerarios",
+            "Un manual de construcción"
+        ]
+    },
+    {
+        "pregunta": "¿Qué rol desempeñan las esfinges en la cultura egipcia y qué significado tenían?",
+        "respuesta_correcta": "Guardianas de tumbas y templos",
+        "opciones_respuesta": [
+            "Guardianas de tumbas y templos",
+            "Representaban la fertilidad",
+            "Figuras para la protección de cultivos",
+            "Símbolos de unidad y armonía"
+        ]
+    }
+]

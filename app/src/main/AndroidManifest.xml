@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RollTheDice"
+        tools:targetApi="31">
+        <activity
+            android:name=".View.LoginView"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".View.DiceView"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
+            android:exported="true"
+            android:parentActivityName=".View.MainView"
+            />
+        <activity
+            android:name=".View.RegisterView"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
+            android:exported="true"
+            android:parentActivityName=".View.LoginView"
+            />
+        <activity
+            android:name=".View.MainView"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
+            android:exported="true"
+            android:parentActivityName=".View.LoginView"
+            />
+        <activity
+            android:name=".View.QuestionView"
+            android:exported="true"
+            />
+        <activity
+            android:name=".View.RecordsView"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
+            android:exported="true"
+            android:parentActivityName=".View.MainView"
+            />
+        <activity
+            android:name=".View.SplashView"
+            android:exported="true"
+            />
+        <activity
+            android:name=".View.StatisticsView"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
+            android:exported="true"
+            android:parentActivityName=".View.MainView"/>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

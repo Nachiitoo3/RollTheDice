@@ -1,0 +1,1032 @@
+[
+    {
+        "pregunta": "¿Qué significa la sigla 'HTML'?",
+        "respuesta_correcta": "Hyper Text Markup Language",
+        "opciones_respuesta": [
+            "Hyper Text Markup Language",
+            "High Technology Markup Language",
+            "Hyperlinks & Text Markup Language",
+            "Home Tool Markup Language"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes opciones es un sistema operativo de código abierto?",
+        "respuesta_correcta": "Linux",
+        "opciones_respuesta": [
+            "Windows",
+            "macOS",
+            "Linux",
+            "iOS"
+        ]
+    },
+    {
+        "pregunta": "¿Qué lenguaje de programación se usa principalmente para el desarrollo web?",
+        "respuesta_correcta": "JavaScript",
+        "opciones_respuesta": [
+            "Python",
+            "Java",
+            "JavaScript",
+            "C++"
+        ]
+    },
+    {
+        "pregunta": "¿Qué significa 'URL'?",
+        "respuesta_correcta": "Universal Resource Locator",
+        "opciones_respuesta": [
+            "Universal Resource Locator",
+            "Uniform Resource Language",
+            "Unified Resource Locator",
+            "Universal Remote Link"
+        ]
+    },
+    {
+        "pregunta": "¿Qué tipo de almacenamiento utiliza la tecnología de 'Cloud Computing'?",
+        "respuesta_correcta": "Almacenamiento remoto",
+        "opciones_respuesta": [
+            "Almacenamiento local",
+            "Almacenamiento en red",
+            "Almacenamiento remoto",
+            "Almacenamiento físico"
+        ]
+    },
+    {
+        "pregunta": "¿Qué es un SSD en informática?",
+        "respuesta_correcta": "Solid State Drive",
+        "opciones_respuesta": [
+            "Super Speed Drive",
+            "System Storage Device",
+            "Solid State Drive",
+            "Software Storage Device"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el fundador de SpaceX?",
+        "respuesta_correcta": "Elon Musk",
+        "opciones_respuesta": [
+            "Jeff Bezos",
+            "Bill Gates",
+            "Elon Musk",
+            "Mark Zuckerberg"
+        ]
+    },
+    {
+        "pregunta": "¿Qué es un 'algoritmo' en el contexto de la informática?",
+        "respuesta_correcta": "Una secuencia de pasos lógicos",
+        "opciones_respuesta": [
+            "Una secuencia de pasos lógicos ",
+            "Un dispositivo de entrada y salida",
+            "Una unidad de almacenamiento",
+            "Un tipo de lenguaje de programación"
+        ]
+    },
+    {
+        "pregunta": "¿Qué es un 'firewall' en el ámbito de la seguridad informática?",
+        "respuesta_correcta": "Una barrera de seguridad",
+        "opciones_respuesta": [
+            "Un dispositivo para enfriar pcs",
+            "Un software antivirus",
+            "Una barrera de seguridad",
+            "Un dispositivo de hardware"
+        ]
+    },
+    {
+        "pregunta": "¿Qué es un 'hashtag' en redes sociales?",
+        "respuesta_correcta": "Un símbolo que categoriza temas",
+        "opciones_respuesta": [
+            "Un enlace a un sitio web",
+            "Una imagen de perfil",
+            "Un símbolo que categoriza temas",
+            "Una forma de encriptación"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es la unidad básica de información en informática?",
+        "respuesta_correcta": "Byte",
+        "opciones_respuesta": [
+            "Byte",
+            "Megabyte",
+            "Gigabyte",
+            "Terabyte"
+        ]
+    },
+    {
+        "pregunta": "¿Qué es un 'phishing' en términos de seguridad informática?",
+        "respuesta_correcta": "Un engaño para obtener información",
+        "opciones_respuesta": [
+            "Un tipo de software malicioso",
+            "Una técnica para robar contraseñas",
+            "Un engaño para obtener información",
+            "Un programa antivirus"
+        ]
+    },
+    {
+        "pregunta": "¿Qué es un 'emoji'?",
+        "respuesta_correcta": "Un tipo de emoticono",
+        "opciones_respuesta": [
+            "Tipo de emoticono",
+            "Programa de edición de imágenes",
+            "Sistema de almacenamiento en red",
+            "Dispositivo de entrada"
+        ]
+    },
+    {
+        "pregunta": "¿Qué es una 'cookie' en términos de internet?",
+        "respuesta_correcta": "Archivo que guarda información",
+        "opciones_respuesta": [
+            "Dispositivo de entrada",
+            "Archivo que guarda información",
+            "Virus informático",
+            "Programa de seguridad"
+        ]
+    },
+    {
+        "pregunta": "¿Qué significa 'VPN' en el ámbito de la tecnología?",
+        "respuesta_correcta": "Virtual Private Network",
+        "opciones_respuesta": [
+            "Virtual Private Network",
+            "Very Personal Network",
+            "Visual Product Navigator",
+            "Video Programming Network"
+        ]
+    },
+    {
+        "pregunta": "¿Qué es un 'bit' en informática?",
+        "respuesta_correcta": "La unidad más pequeña de datos",
+        "opciones_respuesta": [
+            "Una unidad de memoria RAM",
+            "La unidad más pequeña de datos",
+            "Un tipo de lenguaje de programación",
+            "Un tipo de dispositivo de entrada"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el navegador web desarrollado por Google?",
+        "respuesta_correcta": "Chrome",
+        "opciones_respuesta": [
+            "Internet Explorer",
+            "Firefox",
+            "Chrome",
+            "Safari"
+        ]
+    },
+    {
+        "pregunta": "¿Qué es un 'hackathon'?",
+        "respuesta_correcta": "Maratón de programación",
+        "opciones_respuesta": [
+            "Evento de piratería informática",
+            "Maratón de programación",
+            "Convención de seguridad cibernética",
+            "Feria de productos tecnológicos"
+        ]
+    },
+    {
+        "pregunta": "¿Qué es un 'malware'?",
+        "respuesta_correcta": "Programa informático malicioso",
+        "opciones_respuesta": [
+            "Tipo de software antivirus",
+            "Programa informático malicioso",
+            "Sistema operativo obsoleto",
+            "Aplicación de mensajería"
+        ]
+    },
+    {
+        "pregunta": "¿Qué es un 'router' en una red informática?",
+        "respuesta_correcta": "Aparato que guía el tráfico de red",
+        "opciones_respuesta": [
+            "Conecta dispositivos entre sí",
+            "Un programa para buscar redes Wi-Fi",
+            "Aparato que guía el tráfico de red",
+            "Un software para compartir archivos"
+        ]
+    },
+    {
+        "pregunta": "¿Qué es 'HTML5' en términos de desarrollo web?",
+        "respuesta_correcta": "Estándar de estructura web",
+        "opciones_respuesta": [
+            "Quinta versión del sistema operativo",
+            "Lenguaje de programación móvil",
+            "Estándar de estructura web",
+            "Internet de quinta generación"
+        ]
+    },
+    {
+        "pregunta": "¿Qué es un 'pixel' en términos de imagen digital?",
+        "respuesta_correcta": "Unidad básica de una imagen digital",
+        "opciones_respuesta": [
+            "Dispositivo de entrada en tablets",
+            "Unidad básica de una imagen digital",
+            "Un tipo de impresora",
+            "Medida de la velocidad de internet"
+        ]
+    },
+    {
+        "pregunta": "¿Qué es un 'bot' en el contexto de internet?",
+        "respuesta_correcta": "Programa que automatiza tareas",
+        "opciones_respuesta": [
+            "Programa que automatiza tareas",
+            "Un dispositivo de entrada y salida",
+            "Un servicio de alojamiento web",
+            "Una aplicación de mensajería"
+        ]
+    },
+    {
+        "pregunta": "¿Qué significa 'HTTP' en términos de navegación web?",
+        "respuesta_correcta": "Hypertext Transfer Protocol",
+        "opciones_respuesta": [
+            "Hypertext Transfer Protocol",
+            "Home Tool for Text and Pictures",
+            "Hyperlinking Text and Pictures",
+            "High Transfer Protocol"
+        ]
+    },
+    {
+        "pregunta": "¿Qué hace un sistema operativo?",
+        "respuesta_correcta": "Gestiona los recursos y servicios",
+        "opciones_respuesta": [
+            "Un programa antivirus",
+            "Gestiona los recursos y servicios",
+            "Programa para editar imágenes",
+            "Herramienta de edición de texto"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es la función principal de un antivirus en una computadora?",
+        "respuesta_correcta": "Proteger contra amenazas maliciosas",
+        "opciones_respuesta": [
+            "Acelerar la velocidad",
+            "Proteger contra amenazas maliciosas",
+            "Editar archivos de sistema",
+            "Optimizar el disco duro"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el propósito de un QR code?",
+        "respuesta_correcta": "Almacenar datos con acceso rápido",
+        "opciones_respuesta": [
+            "Acceder a contenido en remoto",
+            "Almacenar datos con acceso rápido",
+            "Enviar mensajes de texto",
+            "Escanear imágenes en HD"
+        ]
+    },
+    {
+        "pregunta": "¿Qué es un USB?",
+        "respuesta_correcta": "Un estándar de conexión",
+        "opciones_respuesta": [
+            "Un tipo de procesador",
+            "Un estándar de conexión",
+            "Unidad de almacenamiento virtual",
+            "Sistema operativo móvil"
+        ]
+    },
+    {
+        "pregunta": "¿Qué es Bluetooth?",
+        "respuesta_correcta": "Transferencia inalambrica de datos",
+        "opciones_respuesta": [
+            "Transferencia inalambrica de datos",
+            "Un tipo de auriculares",
+            "Un estándar de monitores",
+            "Un sistema de seguridad"
+        ]
+    },
+    {
+        "pregunta": "¿Qué es el blockchain en tecnología?",
+        "respuesta_correcta": "Una base de datos de transacciones",
+        "opciones_respuesta": [
+            "Un tipo de cadena de bloques",
+            "Una base de datos de transacciones",
+            "Software para bloquear anuncios",
+            "Plataforma de edición de videos"
+        ]
+    },
+    {
+        "pregunta": "¿Qué es un dron?",
+        "respuesta_correcta": "Aparato aéreo manejado remotamente",
+        "opciones_respuesta": [
+            "Dispositivo de almacenamiento cloud",
+            "Aparato aéreo manejado remotamente",
+            "Una aplicación de mensajería",
+            "Sistema de gestión de proyectos"
+        ]
+    },
+    {
+        "pregunta": "¿Qué es el machine learning (aprendizaje automático)?",
+        "respuesta_correcta": "Un campo de inteligencia artificial",
+        "opciones_respuesta": [
+            "Un software antivirus avanzado",
+            "Un campo de inteligencia artificial",
+            "Una herramienta de edición de fotos",
+            "Un sistema de puntos educativo"
+        ]
+    },
+    {
+        "pregunta": "¿Qué es un bug en programación?",
+        "respuesta_correcta": "Un error en un programa informático",
+        "opciones_respuesta": [
+            "Un error en un programa informático",
+            "Un virus informático",
+            "Un tipo de virus de ordenador",
+            "Un dispositivo de entrada"
+        ]
+    },
+    {
+        "pregunta": "¿Qué es VPN (Virtual Private Network)?",
+        "respuesta_correcta": "Una conexión segura a red",
+        "opciones_respuesta": [
+            "Un sistema operativo para redes",
+            "Una conexión segura a red",
+            "Un programa de edición de video",
+            "Un tipo de red social"
+        ]
+    },
+    {
+        "pregunta": "¿Qué es un streaming en internet?",
+        "respuesta_correcta": "Transmisión en tiempo real",
+        "opciones_respuesta": [
+            "Tipo de conexión de alta velocidad",
+            "Transmisión en tiempo real",
+            "Técnica de codificación de datos",
+            "Plataforma de intercambio de archivos"
+        ]
+    },
+    {
+        "pregunta": "¿Qué es un plug-in en el contexto de internet?",
+        "respuesta_correcta": "Extension de software adicional",
+        "opciones_respuesta": [
+            "Dispositivo de conexión a internet",
+            "Extension de software adicional",
+            "Una técnica de seguridad en línea",
+            "Un protocolo de red"
+        ]
+    },
+    {
+        "pregunta": "¿Qué significa FTP en términos de internet?",
+        "respuesta_correcta": "File Transfer Protocol",
+        "opciones_respuesta": [
+            "File Transfer Protocol",
+            "Fast Text Processing",
+            "File Tracking Program",
+            "Firewall Testing Platform"
+        ]
+    },
+    {
+        "pregunta": "¿Qué es un proxy?",
+        "respuesta_correcta": "Un servidor intermediario",
+        "opciones_respuesta": [
+            "Un servidor intermediario",
+            "Una herramienta de análisis de datos",
+            "Un protocolo para compartir archivos",
+            "Un sistema operativo para servidores"
+        ]
+    },
+    {
+        "pregunta": "¿Qué es Unicode?",
+        "respuesta_correcta": "Estándar de caracteres",
+        "opciones_respuesta": [
+            "Estándar de caracteres",
+            "Técnica de compresión de datos",
+            "Modelo de programación en la nube",
+            "Herramienta de encriptación"
+        ]
+    },
+    {
+        "pregunta": "¿Qué es el modo avión en un dispositivo electrónico?",
+        "respuesta_correcta": "Desactiva las conexiones inalámbricas",
+        "opciones_respuesta": [
+            "Desactiva las conexiones inalámbricas",
+            "Un modo de ahorro de energía",
+            "Un modo para evitar llamadas",
+            "Un modo para tener más cobertura"
+        ]
+    },
+    {
+        "pregunta": "¿Qué significa UX en el diseño de aplicaciones y sitios web?",
+        "respuesta_correcta": "User Experience",
+        "opciones_respuesta": [
+            "User Experience",
+            "United Xperion,
+            "User Xenon",
+            "United Experience"
+        ]
+    },
+    {
+        "pregunta": "¿Qué es un troll en internet?",
+        "respuesta_correcta": "Alguien que genera discordia",
+        "opciones_respuesta": [
+            "Una herramienta de edición de videos",
+            "Alguien que genera discordia",
+            "Un sistema de mensajería en línea",
+            "Un modelo de programación"
+        ]
+    },
+    {
+        "pregunta": "¿Qué es Deep Web?",
+        "respuesta_correcta": "Una parte de internet sin indexar",
+        "opciones_respuesta": [
+            "Una parte de internet sin indexar",
+            "Un tipo de red social en línea",
+            "Herramienta de edición de imágenes",
+            "Un modelo de programación"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál fue el primer navegador web gráfico ampliamente utilizado?",
+        "respuesta_correcta": "Mosaic",
+        "opciones_respuesta": [
+            "Mozilla Firefox",
+            "Internet Explorer",
+            "Mosaic",
+            "Netscape Navigator"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál fue la primera red social en línea, lanzada en 1997?",
+        "respuesta_correcta": "SixDegrees",
+        "opciones_respuesta": [
+            "Friendster",
+            "MySpace",
+            "SixDegrees",
+            "Facebook"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál fue el primer servicio de correo electrónico disponible públicamente?",
+        "respuesta_correcta": "Hotmail",
+        "opciones_respuesta": [
+            "Outlook",
+            "Hotmail",
+            "Yahoo Mail",
+            "Gmail"
+        ]
+    },
+    {
+        "pregunta": "¿Qué evento se considera como el precursor de la creación de Internet?",
+        "respuesta_correcta": "El Proyecto ARPANET",
+        "opciones_respuesta": [
+            "La Guerra Fría",
+            "La invención del transistor",
+            "El Proyecto ARPANET",
+            "La creación de la World Wide Web"
+        ]
+    },
+    {
+        "pregunta": "¿Qué plataforma de redes sociales limitaba originalmente los mensajes a 140 caracteres?",
+        "respuesta_correcta": "Twitter",
+        "opciones_respuesta": [
+            "Facebook",
+            "Twitter",
+            "Instagram",
+            "Snapchat"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál fue el primer navegador web popularizado para el público en general?",
+        "respuesta_correcta": "Netscape Navigator",
+        "opciones_respuesta": [
+            "Google Chrome",
+            "Internet Explorer",
+            "Netscape Navigator",
+            "Mozilla Firefox"
+        ]
+    },
+    {
+        "pregunta": "¿Qué red social se enfoca principalmente en conexiones profesionales y oportunidades laborales?",
+        "respuesta_correcta": "LinkedIn",
+        "opciones_respuesta": [
+            "Instagram",
+            "Twitter",
+            "LinkedIn",
+            "TikTok"
+        ]
+    },
+    {
+        "pregunta": "¿Qué famoso fenómeno de Internet involucra a los gatos en videos virales?",
+        "respuesta_correcta": "Grumpy Cat",
+        "opciones_respuesta": [
+            "Doge",
+            "Rickrolling",
+            "Grumpy Cat",
+            "Harlem Shake"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál fue el primer servicio de mensajería instantánea ampliamente utilizado?",
+        "respuesta_correcta": "ICQ",
+        "opciones_respuesta": [
+            "WhatsApp",
+            "Telegram",
+            "ICQ",
+            "Skype"
+        ]
+    },
+    {
+        "pregunta": "¿Qué plataforma de videojuegos en streaming se lanzó en 2011 y fue adquirida por Amazon en 2014?",
+        "respuesta_correcta": "Twitch",
+        "opciones_respuesta": [
+            "Mixer",
+            "Twitch",
+            "YouTube Gaming",
+            "Steam"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál fue la primera red social en alcanzar mil millones de usuarios activos mensuales?",
+        "respuesta_correcta": "Facebook",
+        "opciones_respuesta": [
+            "Facebook",
+            "Instagram",
+            "Snapchat",
+            "Twitter"
+        ]
+    },
+    {
+        "pregunta": "¿Qué red social se originó como una plataforma para compartir imágenes de moda y estilo de vida?",
+        "respuesta_correcta": "Pinterest",
+        "opciones_respuesta": [
+            "Tumblr",
+            "Flickr",
+            "Pinterest",
+            "We Heart It"
+        ]
+    },
+    {
+        "pregunta": "¿Qué fenómeno de Internet surgió a partir de una foto de un perro Shiba Inu con subtítulos en Comic Sans MS?",
+        "respuesta_correcta": "Doge",
+        "opciones_respuesta": [
+            "Nyan Cat",
+            "Doge",
+            "Keyboard Cat",
+            "Grumpy Cat"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es la sigla de tres letras utilizada para referirse a reírse a carcajadas en conversaciones en línea?",
+        "respuesta_correcta": "LOL",
+        "opciones_respuesta": [
+            "LOL",
+            "OMG",
+            "BRB",
+            "ROFL"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál de estos términos se refiere a una táctica en marketing digital que busca mejorar la visibilidad de un sitio web en los resultados de búsqueda de Google?",
+        "respuesta_correcta": "SEO (Search Engine Optimization)",
+        "opciones_respuesta": [
+            "SEO (Search Engine Optimization)",
+            "PPC (Pay-Per-Click)",
+            "CTR (Click-Through Rate)",
+            "CMS (Content Management System)"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál de los siguientes servicios de mensajería es conocido por sus mensajes que desaparecen después de ser vistos?",
+        "respuesta_correcta": "Snapchat",
+        "opciones_respuesta": [
+            "WhatsApp",
+            "Telegram",
+            "Signal",
+            "Snapchat"
+        ]
+    },
+    {
+        "pregunta": "¿Qué plataforma de videos cortos se ha convertido en un fenómeno cultural especialmente entre la generación más joven?",
+        "respuesta_correcta": "TikTok",
+        "opciones_respuesta": [
+            "TikTok",
+            "Vine",
+            "Dubsmash",
+            "Triller"
+        ]
+    },
+    {
+        "pregunta": "¿Qué evento anual reúne a desarrolladores, empresas y entusiastas de la tecnología para presentar nuevos productos y anuncios?",
+        "respuesta_correcta": "CES (Consumer Electronics Show)",
+        "opciones_respuesta": [
+            "CES (Consumer Electronics Show)",
+            "E3 (Electronic Entertainment Expo)",
+            "WWDC (Worldwide Developers Conf)",
+            "Google I/O"
+        ]
+    },
+    {
+        "pregunta": "¿Qué red social se basa en publicaciones de contenido efímero que desaparecen después de 24 horas?",
+        "respuesta_correcta": "Instagram",
+        "opciones_respuesta": [
+            "Twitter",
+            "Facebook",
+            "Instagram",
+            "LinkedIn"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál de los siguientes no es un navegador web conocido?",
+        "respuesta_correcta": "Table",
+        "opciones_respuesta": [
+            "Safari",
+            "Opera",
+            "Brave",
+            "Table"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál fue la primera red social en permitir la transmisión en vivo?",
+        "respuesta_correcta": "Facebook Live",
+        "opciones_respuesta": [
+            "Facebook Live",
+            "Periscope",
+            "Twitch",
+            "YouTube"
+        ]
+    },
+    {
+        "pregunta": "¿Qué término se refiere a la práctica de enviar mensajes electrónicos no solicitados de forma masiva?",
+        "respuesta_correcta": "Spam",
+        "opciones_respuesta": [
+            "Spam",
+            "Phishing",
+            "Malware",
+            "Adware"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál de los siguientes servicios es conocido por su función de alojamiento de código fuente y colaboración en programación?",
+        "respuesta_correcta": "GitHub",
+        "opciones_respuesta": [
+            "GitLab",
+            "GitHub",
+            "Bitbucket",
+            "SourceForge"
+        ]
+    },
+    {
+        "pregunta": "¿Qué término se utiliza para referirse a la práctica de usar un nombre falso en línea para ocultar la identidad?",
+        "respuesta_correcta": "Nick",
+        "opciones_respuesta": [
+            "Anonimato",
+            "Nate",
+            "Nick",
+            "Incógnito"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál fue la primera red social en permitir a los usuarios crear perfiles y conectar con amigos en línea?",
+        "respuesta_correcta": "MySpace",
+        "opciones_respuesta": [
+            "MySpace",
+            "Friendster",
+            "Hi5",
+            "Orkut"
+        ]
+    },
+    {
+        "pregunta": "Cuál de las siguientes plataformas de streaming es conocida por su enfoque en transmisiones de videojuegos?",
+        "respuesta_correcta": "Twitch",
+        "opciones_respuesta": [
+            "Twitch",
+            "Netflix",
+            "Hulu",
+            "Disney+"
+        ]
+    },
+    {
+        "pregunta": "¿Qué fenómeno de Internet se popularizó mediante videos cortos sincronizados con una canción?",
+        "respuesta_correcta": "TikTok",
+        "opciones_respuesta": [
+            "Rickrolling",
+            "Nyan Cat",
+            "Harlem Shake",
+            "TikTok"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál de los siguientes términos se refiere a la práctica de crear contenido falso para desinformar en línea?",
+        "respuesta_correcta": "Fake News",
+        "opciones_respuesta": [
+            "Trolling",
+            "Flaming",
+            "Doxxing",
+            "Fake News"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál fue la primera red social en popularizar la función de me gusta en publicaciones?",
+        "respuesta_correcta": "Facebook",
+        "opciones_respuesta": [
+            "Facebook",
+            "Twitter",
+            "Instagram",
+            "Snapchat"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el género de videojuegos más popular en la actualidad?",
+        "respuesta_correcta": "Juegos de rol (RPG)",
+        "opciones_respuesta": [
+            "Battle Royale",
+            "Estrategia en tiempo real",
+            "Juegos de rol (RPG)",
+            "Deportes"
+        ]
+    },
+    {
+        "pregunta": "¿Qué evento anual es considerado uno de los más importantes para la industria de los videojuegos?",
+        "respuesta_correcta": "E3",
+        "opciones_respuesta": [
+            "Gamescom",
+            "Tokyo Game Show",
+            "E3",
+            "PAX"
+        ]
+    },
+    {
+        "pregunta": "¿Qué juego es conocido por ser el más vendido en la historia?",
+        "respuesta_correcta": "Minecraft",
+        "opciones_respuesta": [
+            "Grand Theft Auto V",
+            "Tetris",
+            "Minecraft",
+            "Wii Sports"
+        ]
+    },
+    {
+        "pregunta": "¿Qué término se refiere a la práctica de completar un juego lo más rápido posible?",
+        "respuesta_correcta": "Speedrunning",
+        "opciones_respuesta": [
+            "Speedrunning",
+            "Quickscoping",
+            "Speedgaming",
+            "Fastplay"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el género de juegos que se enfoca en la simulación de situaciones de guerra?",
+        "respuesta_correcta": "FPS",
+        "opciones_respuesta": [
+            "Estrategia en tiempo real",
+            "FPS",
+            "MOBA",
+            "Survival Horror"
+        ]
+    },
+    {
+        "pregunta": "¿Qué término se utiliza para describir competiciones profesionales de videojuegos?",
+        "respuesta_correcta": "Esports",
+        "opciones_respuesta": [
+            "Videojuegos en línea",
+            "Gaming",
+            "Esports",
+            "Gamificación"
+        ]
+    },
+    {
+        "pregunta": "¿Qué consola lanzó el primer juego de Super Mario en 1985?",
+        "respuesta_correcta": "Nintendo Entertainment System (NES)",
+        "opciones_respuesta": [
+            "Nintendo Entertainment System (NES)",
+            "Sega Genesis",
+            "Atari 2600",
+            "Super Nintendo Entertainment System"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál de los siguientes juegos es conocido por su enfoque en construir y crear mundos infinitos?",
+        "respuesta_correcta": "Minecraft",
+        "opciones_respuesta": [
+            "The Witcher 3",
+            "No Man's Sky",
+            "Minecraft",
+            "Stardew Valley"
+        ]
+    },
+    {
+        "pregunta": "¿Qué género de juegos se centra en la resolución de rompecabezas y acertijos para avanzar en la historia?",
+        "respuesta_correcta": "Aventura gráfica",
+        "opciones_respuesta": [
+            "Aventura gráfica",
+            "Estrategia por turnos",
+            "Shooter",
+            "Plataforma"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es la plataforma más conocida para comprar y descargar juegos en línea?",
+        "respuesta_correcta": "Steam",
+        "opciones_respuesta": [
+            "Steam",
+            "Epic Games Store",
+            "GOG",
+            "Origin"
+        ]
+    },
+    {
+        "pregunta": "¿Qué juego de disparos en primera persona (FPS) es conocido por su batalla entre terroristas y contra-terroristas?",
+        "respuesta_correcta": "Counter-Strike",
+        "opciones_respuesta": [
+            "Counter-Strike",
+            "Battlefield",
+            "Call of Duty",
+            "Rainbow Six Siege"
+        ]
+    },
+    {
+        "pregunta": "¿Qué término se utiliza para la acción de disparar rápidamente y de forma precisa en juegos de disparos?",
+        "respuesta_correcta": "Quickscoping",
+        "opciones_respuesta": [
+            "Quickscoping",
+            "Spray and pray",
+            "Aimbot",
+            "Twitch shooting"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el término que se refiere a una versión preliminar de un juego que se utiliza para probar y corregir errores antes del lanzamiento oficial?",
+        "respuesta_correcta": "Beta",
+        "opciones_respuesta": [
+            "Alfa",
+            "Beta",
+            "Delta",
+            "Omega"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál de estos juegos es conocido por sus elementos supervivencia durante un apocalipsis zombi?",
+        "respuesta_correcta": "DayZ",
+        "opciones_respuesta": [
+            "DayZ",
+            "The Forest",
+            "Rust",
+            "Minecraft"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el término que describe la práctica de modificar un juego para cambiar su funcionamiento original?",
+        "respuesta_correcta": "Modding",
+        "opciones_respuesta": [
+            "Modding",
+            "Hacking",
+            "Parche",
+            "Emulación"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el término utilizado para describir la estrategia en la que un jugador espera para emboscar a otros oponentes?",
+        "respuesta_correcta": "Campear",
+        "opciones_respuesta": [
+            "Campear",
+            "Agresión pasiva",
+            "Rush",
+            "Sneak Attack"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el juego conocido por su mundo de fantasía épica y su sistema de juego de rol?",
+        "respuesta_correcta": "The Elder Scrolls V",
+        "opciones_respuesta": [
+            "The Elder Scrolls V",
+            "Los sims",
+            "Minecraft",
+            "GTA V"
+        ]
+    },
+    {
+        "pregunta": "¿Qué género de juegos se caracteriza por la exploración de mundos abiertos y la realización de misiones?",
+        "respuesta_correcta": "Mundo abierto",
+        "opciones_respuesta": [
+            "Sandbox",
+            "Juegos de aventura",
+            "Mundo abierto",
+            "Simuladores de vida"
+        ]
+    },
+    {
+        "pregunta": "¿Qué consola es conocida por su innovador controlador con sensor de movimiento llamado 'Kinect'?",
+        "respuesta_correcta": "Xbox 360",
+        "opciones_respuesta": [
+            "Xbox 360",
+            "PlayStation 3",
+            "Wii",
+            "Xbox One"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál fue el primer videojuego comercialmente exitoso?",
+        "respuesta_correcta": "Pac-Man",
+        "opciones_respuesta": [
+            "Pong",
+            "Space Invaders",
+            "Pac-Man",
+            "Donkey Kong"
+        ]
+    },
+    {
+        "pregunta": "¿Qué consola fue la primera en utilizar cartuchos intercambiables?",
+        "respuesta_correcta": "Atari 2600",
+        "opciones_respuesta": [
+            "Atari 2600",
+            "Nintendo Entertainment System (NES)",
+            "Sega Genesis",
+            "Magnavox Odyssey"
+        ]
+    },
+    {
+        "pregunta": "¿Qué Juego popularizó el género de los juegos de plataformas en la década de 1980?",
+        "respuesta_correcta": "Super Mario Bros.",
+        "opciones_respuesta": [
+            "Super Mario Bros.",
+            "The Legend of Zelda",
+            "Sonic the Hedgehog",
+            "Donkey Kong"
+        ]
+    },
+    {
+        "pregunta": "¿Qué consola de videojuegos fue la primera en utilizar CDs?",
+        "respuesta_correcta": "PlayStation",
+        "opciones_respuesta": [
+            "Sega Saturn",
+            "PlayStation",
+            "Xbox",
+            "Atari Jaguar CD"
+        ]
+    },
+    {
+        "pregunta": "¿Qué empresa desarrolló y lanzó la primera consola popular en ventas de videojuegos?",
+        "respuesta_correcta": "Atari",
+        "opciones_respuesta": [
+            "Nintendo",
+            "Sega",
+            "Sony",
+            "Atari"
+        ]
+    },
+    {
+        "pregunta": "¿Qué juego es considerado uno de los primeros en introducir el concepto de 'mundo abierto'?",
+        "respuesta_correcta": "The Legend of Zelda",
+        "opciones_respuesta": [
+            "The Legend of Zelda",
+            "Super Mario Bros.",
+            "Metroid",
+            "Final Fantasy"
+        ]
+    },
+    {
+        "pregunta": "¿Qué consola se destacó por popularizar los gráficos 3D y el uso exitoso de controles analógicos?",
+        "respuesta_correcta": "PlayStation",
+        "opciones_respuesta": [
+            "PlayStation",
+            "Nintendo 64",
+            "Sega Saturn",
+            "Dreamcast"
+        ]
+    },
+    {
+        "pregunta": "¿Quién es el creador de la serie de videojuegos 'Final Fantasy'?",
+        "respuesta_correcta": "Hironobu Sakaguchi",
+        "opciones_respuesta": [
+            "Shigeru Miyamoto",
+            "Hironobu Sakaguchi",
+            "Yuji Naka",
+            "Tim Schafer"
+        ]
+    },
+    {
+        "pregunta": "¿Qué juego introdujo a la mascota icónica de Sega?",
+        "respuesta_correcta": "Sonic the Hedgehog",
+        "opciones_respuesta": [
+            "Sonic the Hedgehog",
+            "Streets of Rage",
+            "Golden Axe",
+            "Altered Beast"
+        ]
+    },
+    {
+        "pregunta": "¿Qué juego es considerado uno de los primeros en introducir el género de los juegos de rol (RPG) en la década de 1980?",
+        "respuesta_correcta": "Dragon Quest",
+        "opciones_respuesta": [
+            "The Legend of Zelda",
+            "Dragon Quest",
+            "Final Fantasy",
+            "Chrono Trigger"
+        ]
+    },
+    {
+        "pregunta": "¿Qué consola fue la primera en implementar un lector de CD-ROM y gráficos en 32 bits?",
+        "respuesta_correcta": "PlayStation",
+        "opciones_respuesta": [
+            "Sega Saturn",
+            "PlayStation",
+            "Atari Jaguar",
+            "Sega CD"
+        ]
+    },
+    {
+        "pregunta": "¿Qué juego marcó el debut del personaje de videojuegos 'Link' de la serie 'The Legend of Zelda'?",
+        "respuesta_correcta": "The Legend of Zelda",
+        "opciones_respuesta": [
+            "A Link to the Past",
+            "Link's Awakening",
+            "The Legend of Zelda",
+            "Ocarina of Time"
+        ]
+    }
+]
