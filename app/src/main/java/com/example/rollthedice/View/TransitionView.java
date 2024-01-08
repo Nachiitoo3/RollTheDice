@@ -1,21 +1,18 @@
 package com.example.rollthedice.View;
 
 import android.content.Intent;
-import android.graphics.drawable.ColorDrawable;
+
 import android.os.Bundle;
 import android.os.Handler;
-import android.view.View;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
-import android.widget.Button;
+
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
+
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.rollthedice.R;
-import com.example.rollthedice.Router.Router;
+
 
 public class TransitionView extends AppCompatActivity {
 

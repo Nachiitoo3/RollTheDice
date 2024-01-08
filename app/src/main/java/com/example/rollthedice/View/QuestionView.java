@@ -3,17 +3,19 @@ package com.example.rollthedice.View;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.Switch;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import androidx.annotation.ColorInt;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.rollthedice.Entities.Question;
+import com.example.rollthedice.Interactor.QuestionInteractor;
 import com.example.rollthedice.R;
+
+import java.util.List;
 
 public class QuestionView extends AppCompatActivity {
 
+    String correctAnswer;
 
 
     public void onCreate(Bundle savedInstanceState) {
@@ -23,15 +25,58 @@ public class QuestionView extends AppCompatActivity {
         if (getIntent().hasExtra("categoria")) {
             numeroRecibido = getIntent().getIntExtra("categoria", -1);
         }
+        setColors(numeroRecibido);
+        setQuestion(numeroRecibido);
+
+    }
+
+    public void setQuestion(int categoria){
+
+        String JSONString = null;
         TextView questionText = findViewById(R.id.questionTextViewQuestionView);
         ImageView questionImage = findViewById(R.id.questionImageQuestionView);
         Button answer1 = findViewById(R.id.answer1ButtonQuestionView);
         Button answer2 = findViewById(R.id.answer2ButtonQuestionView);
         Button answer3 = findViewById(R.id.answer3ButtonQuestionView);
         Button answer4 = findViewById(R.id.answer4ButtonQuestionView);
-        setColors(numeroRecibido);
+
+        switch (categoria) {
+            case 0:
+                JSONString = "naturaleza";
+                break;
+            case 1:
+                JSONString = "mitologia";
+                break;
+            case 2:
+                JSONString = "gastronomia";
+                break;
+            case 3:
+                JSONString = "viajes";
+                break;
+            case 4:
+                JSONString = "tecnologia";
+                break;
+
+        }
+        QuestionInteractor questionReader = new QuestionInteractor();
+        Question preguntaAleatoria = questionReader.getRandomQuestion(this, JSONString);
+
+        if (preguntaAleatoria != null) {
+            String pregunta = preguntaAleatoria.getQuestion();
+            String respuestaCorrecta = preguntaAleatoria.getCorrectAnswer();
+            List<String> opciones = preguntaAleatoria.getOptions();
+            questionText.setText(pregunta);
+            answer1.setText(opciones.get(0));
+            answer2.setText(opciones.get(1));
+            answer3.setText(opciones.get(2));
+            answer4.setText(opciones.get(3));
+            correctAnswer = respuestaCorrecta;
+
+        }
 
     }
+
+
 
     public void setColors(int categoria){
 
