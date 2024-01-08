@@ -9,6 +9,9 @@ import com.example.rollthedice.Router.Router;
 
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
+
+import java.util.Random;
 
 public class DiceView extends AppCompatActivity {
 
@@ -22,9 +25,18 @@ public class DiceView extends AppCompatActivity {
         diceButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Router.openActivity(DiceView.this, TransitionView.class);
+                int randomInt = generarNumeroAleatorio();
+                Router.openQuestion(DiceView.this, TransitionView.class, randomInt);
+
+
             }
         });
+    }
+    public int generarNumeroAleatorio() {
+        Random random = new Random();
+        int randomNumber = random.nextInt(5);
+        return randomNumber;
+
     }
 }
 

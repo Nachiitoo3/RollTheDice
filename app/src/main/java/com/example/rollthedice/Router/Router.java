@@ -13,4 +13,10 @@ public class Router extends AppCompatActivity {
         context.startActivity(intent);
     }
 
+    public static void openQuestion(Context context, Class<?> cls, int randomNumber) {
+        Intent intent = new Intent(context, cls);
+        intent.putExtra("categoria", randomNumber);
+        context.startActivity(intent);
+    }
+
 }
