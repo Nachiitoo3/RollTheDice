@@ -22,7 +22,7 @@ public class DiceView extends AppCompatActivity {
         diceButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Router.openActivity(DiceView.this, QuestionView.class);
+                Router.openActivity(DiceView.this, TransitionView.class);
             }
         });
     }
