@@ -10,13 +10,9 @@
         android:id="@+id/configImageMainView"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginStart="327dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="719dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_options" />
 
@@ -24,7 +20,7 @@
         android:id="@+id/logoImageMainView"
         android:layout_width="250dp"
         android:layout_height="200dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="100dp"
         app:layout_constraintBottom_toTopOf="@+id/playButtonMainView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
