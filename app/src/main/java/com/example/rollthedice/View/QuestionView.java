@@ -1,7 +1,5 @@
 package com.example.rollthedice.View;
 
-import android.annotation.SuppressLint;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
@@ -11,6 +9,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.rollthedice.Entities.Counter;
 import com.example.rollthedice.Entities.Question;
 import com.example.rollthedice.Interactor.QuestionInteractor;
 import com.example.rollthedice.R;
@@ -87,8 +86,10 @@ public class QuestionView extends AppCompatActivity {
             }
         }
 
+
         if (answer.equals(correctAnswer)) {
             buttonPressed.setBackgroundColor(getResources().getColor(R.color.greenCorrect));
+
         } else {
             buttonPressed.setBackgroundColor(getResources().getColor(R.color.redError));
             correctButton.setBackgroundColor(getResources().getColor(R.color.greenCorrect));
@@ -98,6 +99,7 @@ public class QuestionView extends AppCompatActivity {
             @Override
             public void run() {
                 if (answer.equals(correctAnswer)) {
+                    Counter.increment();
                     Router.openActivity(QuestionView.this, DiceView.class);
                 } else {
                     Router.openActivity(QuestionView.this, ResultsView.class);

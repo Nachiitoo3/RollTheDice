@@ -18,12 +18,14 @@ import java.util.Random;
 
 public class DiceView extends AppCompatActivity {
 
+
     private int[] coloresResources = {R.color.yellowMitology, R.color.redFood, R.color.greenNature, R.color.purpleTecnology, R.color.orangeTrips};
     private int duracionTransicion = 5000;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.diceview);
         cambiarColorDeFondo();
+
 
         Button diceButton = findViewById(R.id.diceButtonDiceView);
 
