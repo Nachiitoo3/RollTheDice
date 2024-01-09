@@ -6,10 +6,11 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.rollthedice.Presenter.RegisterPresenter;
 import com.example.rollthedice.R;
 import com.example.rollthedice.Router.Router;
 
-public class RegisterView extends AppCompatActivity {
+public class RegisterView extends RegisterPresenter {
 
 
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,7 +18,6 @@ public class RegisterView extends AppCompatActivity {
         setContentView(R.layout.registerview);
 
         Button registerButton = findViewById(R.id.registerButtonRegisterView);
-
         registerButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

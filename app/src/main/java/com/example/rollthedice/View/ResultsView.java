@@ -17,11 +17,12 @@ public class ResultsView extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.resultsview);
+
         TextView resultsText = findViewById(R.id.resultTextResultsView);
-        String result = String.valueOf(Counter.getCount());
-        resultsText.setText(result);
         Button mainButton = findViewById(R.id.mainButtonResultsView);
 
+        String result = String.valueOf(Counter.getCount());
+        resultsText.setText(result);
         mainButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

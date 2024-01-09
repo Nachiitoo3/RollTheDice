@@ -13,10 +13,6 @@ public class Counter {
         count++;
     }
 
-    public static void decrement() {
-        count--;
-    }
-
     public static void reset() {
         count = 0;
     }
