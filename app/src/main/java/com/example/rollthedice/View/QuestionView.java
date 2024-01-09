@@ -2,23 +2,11 @@ package com.example.rollthedice.View;
 
 import android.content.Context;
 import android.os.Bundle;
-import android.os.Handler;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageView;
-import android.widget.TextView;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import com.example.rollthedice.Entities.Counter;
-import com.example.rollthedice.Entities.Question;
-import com.example.rollthedice.Interactor.QuestionInteractor;
 import com.example.rollthedice.Presenter.QuestionPresenter;
 import com.example.rollthedice.R;
-import com.example.rollthedice.Router.Router;
-
-import java.util.Collections;
-import java.util.List;
 
 public class QuestionView extends QuestionPresenter {
 

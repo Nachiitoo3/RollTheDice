@@ -4,11 +4,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import com.example.rollthedice.Presenter.MainPresenter;
 import com.example.rollthedice.R;
-import com.example.rollthedice.Router.Router;
+import com.example.rollthedice.NavigatorController.NavigatorController;
 
 public class MainView extends MainPresenter {
 
@@ -24,21 +22,21 @@ public class MainView extends MainPresenter {
         playButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Router.openActivity(MainView.this, DiceView.class);
+                NavigatorController.openActivity(MainView.this, DiceView.class);
             }
         });
 
         recordsButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Router.openActivity(MainView.this, RecordsView.class);
+                NavigatorController.openActivity(MainView.this, RecordsView.class);
             }
         });
 
         statisticsButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Router.openActivity(MainView.this, StatisticsView.class);
+                NavigatorController.openActivity(MainView.this, StatisticsView.class);
             }
         });
     }

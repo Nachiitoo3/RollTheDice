@@ -5,7 +5,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.rollthedice.Entities.Counter;
+import com.example.rollthedice.Model.Counter;
 import com.example.rollthedice.R;
 
 public class ResultsPresenter extends AppCompatActivity {

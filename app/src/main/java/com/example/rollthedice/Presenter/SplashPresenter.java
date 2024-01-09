@@ -7,7 +7,7 @@ import android.os.Handler;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.rollthedice.View.LoginView;
-import com.example.rollthedice.View.SplashView;
+
 
 public class SplashPresenter extends AppCompatActivity {
 

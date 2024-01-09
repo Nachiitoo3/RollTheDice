@@ -4,11 +4,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import com.example.rollthedice.Presenter.RegisterPresenter;
 import com.example.rollthedice.R;
-import com.example.rollthedice.Router.Router;
+import com.example.rollthedice.NavigatorController.NavigatorController;
 
 public class RegisterView extends RegisterPresenter {
 
@@ -21,7 +19,7 @@ public class RegisterView extends RegisterPresenter {
         registerButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Router.openActivity(RegisterView.this, LoginView.class);
+                NavigatorController.openActivity(RegisterView.this, LoginView.class);
             }
         });
 

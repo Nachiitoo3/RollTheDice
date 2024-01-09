@@ -1,4 +1,4 @@
-package com.example.rollthedice.Entities;
+package com.example.rollthedice.Model;
 
 import java.util.List;
 

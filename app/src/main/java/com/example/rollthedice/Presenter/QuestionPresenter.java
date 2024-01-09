@@ -1,11 +1,11 @@
 package com.example.rollthedice.Presenter;
 
-import static com.example.rollthedice.Entities.Counter.increment;
-import static com.example.rollthedice.Entities.Counter.incrementFoodCount;
-import static com.example.rollthedice.Entities.Counter.incrementMitCount;
-import static com.example.rollthedice.Entities.Counter.incrementNatCount;
-import static com.example.rollthedice.Entities.Counter.incrementTechCount;
-import static com.example.rollthedice.Entities.Counter.incrementTripCount;
+import static com.example.rollthedice.Model.Counter.increment;
+import static com.example.rollthedice.Model.Counter.incrementFoodCount;
+import static com.example.rollthedice.Model.Counter.incrementMitCount;
+import static com.example.rollthedice.Model.Counter.incrementNatCount;
+import static com.example.rollthedice.Model.Counter.incrementTechCount;
+import static com.example.rollthedice.Model.Counter.incrementTripCount;
 
 import android.content.Context;
 import android.os.Handler;
@@ -15,11 +15,10 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.rollthedice.Entities.Counter;
-import com.example.rollthedice.Entities.Question;
-import com.example.rollthedice.Interactor.QuestionInteractor;
+import com.example.rollthedice.Model.Question;
+import com.example.rollthedice.Model.QuestionInteractor;
 import com.example.rollthedice.R;
-import com.example.rollthedice.Router.Router;
+import com.example.rollthedice.NavigatorController.NavigatorController;
 import com.example.rollthedice.View.DiceView;
 import com.example.rollthedice.View.ResultsView;
 
@@ -90,9 +89,9 @@ public class QuestionPresenter extends AppCompatActivity {
                             break;
 
                     }
-                    Router.openActivity(context, DiceView.class);
+                    NavigatorController.openActivity(context, DiceView.class);
                 } else {
-                    Router.openActivity(context, ResultsView.class);
+                    NavigatorController.openActivity(context, ResultsView.class);
                 }
             }
         }, 1500);

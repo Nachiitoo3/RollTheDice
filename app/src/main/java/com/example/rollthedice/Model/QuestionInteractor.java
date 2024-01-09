@@ -1,9 +1,9 @@
-package com.example.rollthedice.Interactor;
+package com.example.rollthedice.Model;
 
 import android.content.Context;
 
 
-import com.example.rollthedice.Entities.Question;
+import com.example.rollthedice.Model.Question;
 
 import org.json.JSONArray;
 import org.json.JSONException;

@@ -9,11 +9,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.rollthedice.Presenter.LoginPresenter;
 import com.example.rollthedice.R;
-import com.example.rollthedice.Router.Router;
+import com.example.rollthedice.NavigatorController.NavigatorController;
 
 
-public class LoginView extends LoginPresenter {
+public class LoginView extends AppCompatActivity {
 
+    public LoginPresenter presenter;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,14 +25,14 @@ public class LoginView extends LoginPresenter {
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Router.openActivity(LoginView.this, MainView.class);
+                NavigatorController.openActivity(LoginView.this, MainView.class);
             }
         });
 
         registerButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Router.openActivity(LoginView.this, RegisterView.class);
+                NavigatorController.openActivity(LoginView.this, RegisterView.class);
             }
         });
 
