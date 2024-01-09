@@ -1,6 +1,10 @@
 package com.example.rollthedice.View;
 
+import android.annotation.SuppressLint;
+import android.graphics.Color;
 import android.os.Bundle;
+import android.os.Handler;
+import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -10,7 +14,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.rollthedice.Entities.Question;
 import com.example.rollthedice.Interactor.QuestionInteractor;
 import com.example.rollthedice.R;
+import com.example.rollthedice.Router.Router;
 
+import java.util.Collections;
 import java.util.List;
 
 public class QuestionView extends AppCompatActivity {
@@ -27,9 +33,91 @@ public class QuestionView extends AppCompatActivity {
         }
         setColors(numeroRecibido);
         setQuestion(numeroRecibido);
+        Button answer1 = findViewById(R.id.answer1ButtonQuestionView);
+        Button answer2 = findViewById(R.id.answer2ButtonQuestionView);
+        Button answer3 = findViewById(R.id.answer3ButtonQuestionView);
+        Button answer4 = findViewById(R.id.answer4ButtonQuestionView);
+        answer1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                checkAnswer(answer1);
+            }
+        });
+
+        answer2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                checkAnswer(answer2);
+            }
+        });
+
+        answer3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                checkAnswer(answer3);
+            }
+        });
+
+        answer4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                checkAnswer(answer4);
+            }
+        });
+    }
+
+
+
+    private void checkAnswer(Button buttonPressed) {
+        lockButtons();
+        String answer = buttonPressed.getText().toString();
+        Button correctButton = null;
+
+        if (answer.equals(correctAnswer)) {
+            correctButton = buttonPressed;
+        } else {
+            Button[] buttons = {findViewById(R.id.answer1ButtonQuestionView), findViewById(R.id.answer2ButtonQuestionView),
+                    findViewById(R.id.answer3ButtonQuestionView), findViewById(R.id.answer4ButtonQuestionView)};
+
+            for (Button button : buttons) {
+                if (button.getText().toString().equals(correctAnswer)) {
+                    correctButton = button;
+                    break;
+                }
+            }
+        }
+
+        if (answer.equals(correctAnswer)) {
+            buttonPressed.setBackgroundColor(getResources().getColor(R.color.greenCorrect));
+        } else {
+            buttonPressed.setBackgroundColor(getResources().getColor(R.color.redError));
+            correctButton.setBackgroundColor(getResources().getColor(R.color.greenCorrect));
+        }
+
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                if (answer.equals(correctAnswer)) {
+                    Router.openActivity(QuestionView.this, DiceView.class);
+                } else {
+                    Router.openActivity(QuestionView.this, ResultsView.class);
+                }
+            }
+        }, 1500);
 
     }
 
+    private void lockButtons() {
+        Button answer1 = findViewById(R.id.answer1ButtonQuestionView);
+        Button answer2 = findViewById(R.id.answer2ButtonQuestionView);
+        Button answer3 = findViewById(R.id.answer3ButtonQuestionView);
+        Button answer4 = findViewById(R.id.answer4ButtonQuestionView);
+
+        answer1.setEnabled(false);
+        answer2.setEnabled(false);
+        answer3.setEnabled(false);
+        answer4.setEnabled(false);
+    }
     public void setQuestion(int categoria){
 
         String JSONString = null;
@@ -66,6 +154,7 @@ public class QuestionView extends AppCompatActivity {
             String respuestaCorrecta = preguntaAleatoria.getCorrectAnswer();
             List<String> opciones = preguntaAleatoria.getOptions();
             questionText.setText(pregunta);
+            Collections.shuffle(opciones);
             answer1.setText(opciones.get(0));
             answer2.setText(opciones.get(1));
             answer3.setText(opciones.get(2));
