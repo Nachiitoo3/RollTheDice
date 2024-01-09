@@ -6,35 +6,20 @@ import android.os.Handler;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.rollthedice.Presenter.SplashPresenter;
 import com.example.rollthedice.R;
 
-public class SplashView extends AppCompatActivity {
+public class SplashView extends SplashPresenter {
 
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splashview);
-        transition();
+
+        transition(this);
 
 
     }
-    private void transition() {
 
-        Handler handler = new Handler();
-        handler.postDelayed(new Runnable()
-        {
-            @Override
-            public void run() {
-                Intent intent = new Intent(SplashView
-                        .this, LoginView.class);
-                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
-                startActivity(intent);
-
-            }
-        }, 5000);
-
-
-    }
 
 }

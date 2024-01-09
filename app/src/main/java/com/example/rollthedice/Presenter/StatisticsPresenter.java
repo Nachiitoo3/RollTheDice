@@ -1,4 +1,6 @@
 package com.example.rollthedice.Presenter;
 
-public class StatisticsPresenter {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class StatisticsPresenter extends AppCompatActivity {
 }
