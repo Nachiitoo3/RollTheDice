@@ -1,5 +1,12 @@
 package com.example.rollthedice.Presenter;
 
+import static com.example.rollthedice.Entities.Counter.increment;
+import static com.example.rollthedice.Entities.Counter.incrementFoodCount;
+import static com.example.rollthedice.Entities.Counter.incrementMitCount;
+import static com.example.rollthedice.Entities.Counter.incrementNatCount;
+import static com.example.rollthedice.Entities.Counter.incrementTechCount;
+import static com.example.rollthedice.Entities.Counter.incrementTripCount;
+
 import android.content.Context;
 import android.os.Handler;
 import android.widget.Button;
@@ -22,10 +29,12 @@ import java.util.List;
 public class QuestionPresenter extends AppCompatActivity {
 
     String correctAnswer;
+    int categoria;
     protected int getCategoria(){
         int numeroRecibido = 0;
         if (getIntent().hasExtra("categoria")) {
             numeroRecibido = getIntent().getIntExtra("categoria", -1);
+            categoria = numeroRecibido;
         }
         return numeroRecibido;
     }
@@ -62,7 +71,25 @@ public class QuestionPresenter extends AppCompatActivity {
             @Override
             public void run() {
                 if (answer.equals(correctAnswer)) {
-                    Counter.increment();
+                    increment();
+                    switch (categoria){
+                        case 0:
+                            incrementNatCount();
+                            break;
+                        case 1:
+                            incrementMitCount();
+                            break;
+                        case 2:
+                            incrementFoodCount();
+                            break;
+                        case 3:
+                            incrementTripCount();
+                            break;
+                        case 4:
+                            incrementTechCount();
+                            break;
+
+                    }
                     Router.openActivity(context, DiceView.class);
                 } else {
                     Router.openActivity(context, ResultsView.class);
