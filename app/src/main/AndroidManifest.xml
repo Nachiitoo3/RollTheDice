@@ -33,6 +33,10 @@
             android:exported="true"
             />
         <activity
+            android:name=".View.ResultsView"
+            android:exported="true"
+            />
+        <activity
             android:name=".View.MainView"
             android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
             android:exported="true"
