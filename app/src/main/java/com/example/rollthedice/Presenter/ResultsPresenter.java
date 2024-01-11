@@ -15,7 +15,7 @@ public class ResultsPresenter extends AppCompatActivity {
         TextView maxNumber = findViewById(R.id.topNumberYResultsView);
         TextView halfNumber = findViewById(R.id.halfCounterResultsView);
         maxNumber.setText(String.valueOf(Counter.getCount()+1));
-        halfNumber.setText(String.valueOf(Counter.getCount()/2));
+        halfNumber.setText(String.valueOf((Counter.getCount()+1)/2));
         resultsText.setText(String.valueOf(Counter.getCount()));
     }
 
