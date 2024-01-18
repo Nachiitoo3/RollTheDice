@@ -8,6 +8,7 @@ import static com.example.rollthedice.Entities.Counter.incrementTechCount;
 import static com.example.rollthedice.Entities.Counter.incrementTripCount;
 
 import android.content.Context;
+import android.content.res.Resources;
 import android.os.Handler;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -15,7 +16,6 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.rollthedice.Entities.Counter;
 import com.example.rollthedice.Entities.Question;
 import com.example.rollthedice.Interactor.QuestionInteractor;
 import com.example.rollthedice.R;
@@ -27,7 +27,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class QuestionPresenter extends AppCompatActivity {
-
+    int colorBase;
     String correctAnswer;
     int categoria;
     protected int getCategoria(){
@@ -60,11 +60,11 @@ public class QuestionPresenter extends AppCompatActivity {
 
 
         if (answer.equals(correctAnswer)) {
-            buttonPressed.setBackgroundColor(getResources().getColor(R.color.greenCorrect));
+            buttonPressed.setBackgroundColor(colorBase);
 
         } else {
             buttonPressed.setBackgroundColor(getResources().getColor(R.color.redError));
-            correctButton.setBackgroundColor(getResources().getColor(R.color.greenCorrect));
+            correctButton.setBackgroundColor(colorBase);
         }
 
         new Handler().postDelayed(new Runnable() {
@@ -160,7 +160,6 @@ public class QuestionPresenter extends AppCompatActivity {
 
 
     public void setColors(int categoria) {
-
         TextView colorType = findViewById(R.id.colorTypeTextViewQuestionView);
         TextView colorBar1 = findViewById(R.id.color1BarQuestionView);
         TextView colorBar2 = findViewById(R.id.color2BarQuestionView);
@@ -171,36 +170,41 @@ public class QuestionPresenter extends AppCompatActivity {
                 colorType.setBackgroundResource(R.color.greenNature);
                 colorBar1.setBackgroundResource(R.color.greenNatureBar1);
                 colorBar2.setBackgroundResource(R.color.greenNatureBar2);
-                getWindow().getDecorView().setBackgroundColor(getResources().getColor(R.color.greenNature2));
+                //getWindow().getDecorView().setBackgroundColor(getResources().getColor(R.color.greenNature2));
                 questionTypeIcon.setImageResource(R.drawable.natureicon);
+                colorBase = getColor(R.color.greenNature);
                 break;
             case 1:
                 colorType.setBackgroundResource(R.color.yellowMitology);
                 colorBar1.setBackgroundResource(R.color.yellowMitologyBar1);
                 colorBar2.setBackgroundResource(R.color.yellowMitologyBar2);
-                getWindow().getDecorView().setBackgroundColor(getResources().getColor(R.color.yellowMitology2));
+                //getWindow().getDecorView().setBackgroundColor(getResources().getColor(R.color.yellowMitology2));
                 questionTypeIcon.setImageResource(R.drawable.mitologyicon);
+                colorBase = getColor(R.color.yellowMitology);
                 break;
             case 2:
                 colorType.setBackgroundResource(R.color.redFood);
                 colorBar1.setBackgroundResource(R.color.redFoodBar1);
                 colorBar2.setBackgroundResource(R.color.redFoodBar2);
-                getWindow().getDecorView().setBackgroundColor(getResources().getColor(R.color.redFood2));
+               // getWindow().getDecorView().setBackgroundColor(getResources().getColor(R.color.redFood2));
                 questionTypeIcon.setImageResource(R.drawable.foodicon);
+                colorBase = getColor(R.color.redFood);
                 break;
             case 3:
                 colorType.setBackgroundResource(R.color.orangeTrips);
                 colorBar1.setBackgroundResource(R.color.orangeTripsBar1);
                 colorBar2.setBackgroundResource(R.color.orangeTripsBar2);
-                getWindow().getDecorView().setBackgroundColor(getResources().getColor(R.color.orangeTrips2));
+               // getWindow().getDecorView().setBackgroundColor(getResources().getColor(R.color.orangeTrips2));
                 questionTypeIcon.setImageResource(R.drawable.tripsicon);
+                colorBase = getColor(R.color.orangeTrips);
                 break;
             case 4:
                 colorType.setBackgroundResource(R.color.purpleTecnology);
                 colorBar1.setBackgroundResource(R.color.purpleTecnologyBar1);
                 colorBar2.setBackgroundResource(R.color.purpleTecnologyBar2);
-                getWindow().getDecorView().setBackgroundColor(getResources().getColor(R.color.purpleTecnology2));
+              //  getWindow().getDecorView().setBackgroundColor(getResources().getColor(R.color.purpleTecnology2));
                 questionTypeIcon.setImageResource(R.drawable.techicon);
+                colorBase = getColor(R.color.purpleTecnology);
                 break;
 
         }

@@ -2,5 +2,12 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/acme</item>
+        <item>@font/archivo</item>
+        <item>@font/baloo</item>
+        <item>@font/baloo_bhai_2</item>
+        <item>@font/cardo</item>
+        <item>@font/faustina</item>
+        <item>@font/hind</item>
+        <item>@font/inria_sans_light</item>
     </array>
 </resources>

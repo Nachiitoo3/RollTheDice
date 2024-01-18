@@ -61,6 +61,7 @@
             android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
             android:exported="true"
             android:parentActivityName=".View.MainView"/>
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
