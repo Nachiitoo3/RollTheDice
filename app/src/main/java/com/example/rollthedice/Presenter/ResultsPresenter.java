@@ -27,11 +27,11 @@ public class ResultsPresenter extends AppCompatActivity {
         ProgressBar tripProgressBar = findViewById(R.id.tripsProgressBarResultsView);
         ProgressBar techProgressBar = findViewById(R.id.techProgressBarResultsView);
 
-        mitProgressBar.setMax(Counter.getCount());
-        natProgressBar.setMax(Counter.getCount());
-        foodProgressBar.setMax(Counter.getCount());
-        tripProgressBar.setMax(Counter.getCount());
-        techProgressBar.setMax(Counter.getCount());
+        mitProgressBar.setMax(Counter.getCount()+1);
+        natProgressBar.setMax(Counter.getCount()+1);
+        foodProgressBar.setMax(Counter.getCount()+1);
+        tripProgressBar.setMax(Counter.getCount()+1);
+        techProgressBar.setMax(Counter.getCount()+1);
 
         mitProgressBar.setProgress(Counter.getMitCount());
         natProgressBar.setProgress(Counter.getNatCount());
