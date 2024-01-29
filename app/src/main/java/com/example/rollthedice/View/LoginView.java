@@ -1,14 +1,15 @@
 package com.example.rollthedice.View;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.rollthedice.R;
 import com.example.rollthedice.Router.Router;
-
 
 public class LoginView extends AppCompatActivity {
 
@@ -18,7 +19,7 @@ public class LoginView extends AppCompatActivity {
         setContentView(R.layout.loginview);
 
         Button loginButton = findViewById(R.id.loginButtonLoginView);
-        Button registerButton = findViewById(R.id.registerButtonLoginView);
+        TextView registerText = findViewById(R.id.signupTextLoginView);
 
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -27,12 +28,13 @@ public class LoginView extends AppCompatActivity {
             }
         });
 
-        registerButton.setOnClickListener(new View.OnClickListener() {
+        registerText.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Router.openActivity(LoginView.this, RegisterView.class);
             }
         });
+
 
     }
 }

@@ -13,23 +13,13 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="LOGIN!!"
+        android:text="@string/login"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toBottomOf="@+id/GroupPasswordLoginView" />
 
-    <Button
-        android:id="@+id/registerButtonLoginView"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
-        android:text="REGISTER"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/guideline2"
-        app:layout_constraintStart_toStartOf="@+id/guideline" />
-
     <ImageView
-        android:id="@+id/logoImageRegisterView"
+        android:id="@+id/logoImageLoginView"
         android:layout_width="250dp"
         android:layout_height="250dp"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
@@ -44,7 +34,7 @@
         android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="@id/guideline2"
         app:layout_constraintStart_toStartOf="@id/guideline"
-        app:layout_constraintTop_toBottomOf="@+id/logoImageRegisterView"
+        app:layout_constraintTop_toBottomOf="@+id/logoImageLoginView"
         app:startIconDrawable="@drawable/ic_name_gmail">
 
         <EditText
@@ -68,7 +58,7 @@
         app:startIconDrawable="@drawable/ic_name_password">
 
         <EditText
-            android:id="@+id/passwordRegisterView"
+            android:id="@+id/passwordLoginView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
@@ -76,6 +66,19 @@
             android:hint="Password"
             android:inputType="textPassword" />
     </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/signupTextLoginView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="DON'T HAVE AN ACCOUNT? SIGN UP"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline">
+
+    </TextView>
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
