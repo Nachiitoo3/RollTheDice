@@ -1,18 +1,17 @@
 # <center>RollTheDice</center>
 
-RollTheDice: La Fusión Perfecta entre Juego y Aprendizaje
+### RollTheDice: La Fusión Perfecta entre Juego y Aprendizaje
+Bienvenidos a RollTheDice, la app que redefine la educación a través de un enfoque innovador y lúdico. Desarrollada para aquellos que buscan aprender de manera efectiva mientras disfrutan de una experiencia de juego envolvente.
 
-Bienvenidos a RollTheDice, la app que redefine la educación a través de un enfoque innovador y lúdico. Desarrollada para aquellos que buscan aprender de manera efectiva mientras disfrutan de una experiencia de juego envolvente
+Nuestra aplicación presenta:
 
-nuestra aplicación presenta:
+✨ <b>Dado del Conocimiento:</b> Lanza el dado y explora la cinco fascinantes categorías de <b>cultura y viajes</b>, <b>gastronomía</b>, <b>mitología</b>, <b>naturaleza</b> y <b>tecnología</b>, desafiando y ampliando tu conocimiento en cada tirada.
 
-✨ Dado del Conocimiento: Lanza el dado y explora la cinco fascinantes categorías de naturaleza, gastronomía, mitología, cultura y viajes y tecnología, desafiando y ampliando tu conocimiento en cada tirada.
+🌐 <b>Competencia Global:</b> Conéctate con jugadores de todo el mundo, compite en tiempo real y posiciona tus habilidades en nuestra tabla de récords globales. Una experiencia multijugador que trasciende fronteras.
 
-🌐 Competencia Global: Conéctate con jugadores de todo el mundo, compite en tiempo real y posiciona tus habilidades en nuestra tabla de récords globales. Una experiencia multijugador que trasciende fronteras.
+🏆 <b>Logros y Estadísticas Personalizadas:</b> Mide tu progreso con estadísticas detalladas y desbloquea logros exclusivos. Cada partida es una oportunidad para demostrar tu dominio en diversas áreas.
 
-🏆 Logros y Estadísticas Personalizadas: Mide tu progreso con estadísticas detalladas y desbloquea logros exclusivos. Cada partida es una oportunidad para demostrar tu dominio en diversas áreas.
-
-🚀 Modos de Juego Versátiles: Desde el Modo Única Categoría hasta el desafiante Modo Rápido y muchos mas que todavía están por venir.
+🚀 <b>Modos de Juego Versátiles:</b> Desde el Modo Única Categoría hasta el desafiante Modo Rápido y muchos más que todavía están por venir.
 
 Ofrecemos una solución única para la formación continua y el desarrollo personal. Descubre cómo RollTheDice puede transformar el tiempo de juego en una inversión educativa.
 
@@ -36,7 +35,7 @@ La pantalla de menú sirve como centro de comando, ofreciendo opciones para expl
 
 ## DADO
 
-La pantalla del dado va a ser la principal parte lúdica, va a disponer de un dado que al deslizar nos va a dar la categoría de la pregunta y nos va a llevar a la pregunta.
+La pantalla del dado va a ser la principal parte lúdica, va a disponer de un dado que al deslizar nos va a dar la categoría de la pregunta y nos llevará a ella.
 
 ## TRANSICIÓN
 
