@@ -7,11 +7,16 @@ import static com.example.rollthedice.Entities.Counter.incrementNatCount;
 import static com.example.rollthedice.Entities.Counter.incrementTechCount;
 import static com.example.rollthedice.Entities.Counter.incrementTripCount;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
+import android.content.res.ColorStateList;
 import android.content.res.Resources;
+import android.graphics.PorterDuff;
+import android.os.CountDownTimer;
 import android.os.Handler;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -28,7 +33,8 @@ import java.util.List;
 
 public class QuestionPresenter extends AppCompatActivity {
     int colorBase;
-    String correctAnswer;
+    boolean cancelTimer;
+    String correctAnswer, answer;
     int categoria;
     protected int getCategoria(){
         int numeroRecibido = 0;
@@ -40,8 +46,12 @@ public class QuestionPresenter extends AppCompatActivity {
     }
 
     protected void checkAnswer(Button buttonPressed, Context context) {
+        cancelTimer = true;
         lockButtons();
-        String answer = buttonPressed.getText().toString();
+        answer = "asd";
+        if (buttonPressed!=null){
+            answer = buttonPressed.getText().toString();
+        }
         Button correctButton = null;
 
         if (answer.equals(correctAnswer)) {
@@ -63,7 +73,15 @@ public class QuestionPresenter extends AppCompatActivity {
             buttonPressed.setBackgroundColor(colorBase);
 
         } else {
-            buttonPressed.setBackgroundColor(getResources().getColor(R.color.redError));
+            if (buttonPressed!=null){
+            buttonPressed.setBackgroundColor(getResources().getColor(R.color.redError));}
+            else {
+                Button[] buttons = {findViewById(R.id.answer1ButtonQuestionView), findViewById(R.id.answer2ButtonQuestionView),
+                        findViewById(R.id.answer3ButtonQuestionView), findViewById(R.id.answer4ButtonQuestionView)};
+                for (Button button : buttons) {
+                  button.setBackgroundColor(getResources().getColor(R.color.redError));
+                    }
+            }
             correctButton.setBackgroundColor(colorBase);
         }
 
@@ -95,7 +113,7 @@ public class QuestionPresenter extends AppCompatActivity {
                     Router.openActivity(context, ResultsView.class);
                 }
             }
-        }, 1500);
+        }, 1700);
 
     }
 
@@ -159,54 +177,80 @@ public class QuestionPresenter extends AppCompatActivity {
     }
 
 
+
+
     public void setColors(int categoria) {
+        int colorFondo, colorProgreso;
+        ProgressBar timeBar = findViewById(R.id.timeProgressBar);
         TextView colorType = findViewById(R.id.colorTypeTextViewQuestionView);
-        TextView colorBar1 = findViewById(R.id.color1BarQuestionView);
-        TextView colorBar2 = findViewById(R.id.color2BarQuestionView);
         ImageView questionTypeIcon = findViewById(R.id.typeQuestionIconQuestionView);
 
         switch (categoria) {
             case 0:
                 colorType.setBackgroundResource(R.color.greenNature);
-                colorBar1.setBackgroundResource(R.color.greenNatureBar1);
-                colorBar2.setBackgroundResource(R.color.greenNatureBar2);
-                //getWindow().getDecorView().setBackgroundColor(getResources().getColor(R.color.greenNature2));
+                timeBar.setProgressBackgroundTintList(ColorStateList.valueOf(getResources().getColor(R.color.greenNatureBar2)));
+                timeBar.setProgressTintList(ColorStateList.valueOf(getResources().getColor(R.color.greenNatureBar1)));
                 questionTypeIcon.setImageResource(R.drawable.natureicon);
                 colorBase = getColor(R.color.greenNature);
                 break;
             case 1:
                 colorType.setBackgroundResource(R.color.yellowMitology);
-                colorBar1.setBackgroundResource(R.color.yellowMitologyBar1);
-                colorBar2.setBackgroundResource(R.color.yellowMitologyBar2);
-                //getWindow().getDecorView().setBackgroundColor(getResources().getColor(R.color.yellowMitology2));
+                timeBar.setProgressBackgroundTintList(ColorStateList.valueOf(getResources().getColor(R.color.yellowMitologyBar2)));
+                timeBar.setProgressTintList(ColorStateList.valueOf(getResources().getColor(R.color.yellowMitologyBar1)));
                 questionTypeIcon.setImageResource(R.drawable.mitologyicon);
                 colorBase = getColor(R.color.yellowMitology);
                 break;
             case 2:
                 colorType.setBackgroundResource(R.color.redFood);
-                colorBar1.setBackgroundResource(R.color.redFoodBar1);
-                colorBar2.setBackgroundResource(R.color.redFoodBar2);
-               // getWindow().getDecorView().setBackgroundColor(getResources().getColor(R.color.redFood2));
+                timeBar.setProgressBackgroundTintList(ColorStateList.valueOf(getResources().getColor(R.color.redFoodBar2)));
+                timeBar.setProgressTintList(ColorStateList.valueOf(getResources().getColor(R.color.redFoodBar1)));
                 questionTypeIcon.setImageResource(R.drawable.foodicon);
                 colorBase = getColor(R.color.redFood);
                 break;
             case 3:
                 colorType.setBackgroundResource(R.color.orangeTrips);
-                colorBar1.setBackgroundResource(R.color.orangeTripsBar1);
-                colorBar2.setBackgroundResource(R.color.orangeTripsBar2);
-               // getWindow().getDecorView().setBackgroundColor(getResources().getColor(R.color.orangeTrips2));
+                timeBar.setProgressBackgroundTintList(ColorStateList.valueOf(getResources().getColor(R.color.orangeTripsBar2)));
+                timeBar.setProgressTintList(ColorStateList.valueOf(getResources().getColor(R.color.orangeTripsBar1)));
                 questionTypeIcon.setImageResource(R.drawable.tripsicon);
                 colorBase = getColor(R.color.orangeTrips);
                 break;
             case 4:
                 colorType.setBackgroundResource(R.color.purpleTecnology);
-                colorBar1.setBackgroundResource(R.color.purpleTecnologyBar1);
-                colorBar2.setBackgroundResource(R.color.purpleTecnologyBar2);
-              //  getWindow().getDecorView().setBackgroundColor(getResources().getColor(R.color.purpleTecnology2));
+                timeBar.setProgressBackgroundTintList(ColorStateList.valueOf(getResources().getColor(R.color.purpleTecnologyBar2)));
+                timeBar.setProgressTintList(ColorStateList.valueOf(getResources().getColor(R.color.purpleTecnologyBar1)));
                 questionTypeIcon.setImageResource(R.drawable.techicon);
                 colorBase = getColor(R.color.purpleTecnology);
                 break;
 
         }
     }
+    public void timer (Context context){
+        cancelTimer = false;
+        ProgressBar progressBar = findViewById(R.id.timeProgressBar);
+
+        long TIMER_DURATION = 20000;
+        long INTERVAL = 5;
+
+            new CountDownTimer(TIMER_DURATION, INTERVAL) {
+
+
+                @Override
+                public void onTick(long millisUntilFinished) {
+
+                    int progress = (int) ((TIMER_DURATION - millisUntilFinished) / INTERVAL);
+                    progressBar.setProgress(progress);
+                    if (cancelTimer){
+                        cancel();
+                        cancelTimer = false;
+                    }
+
+                }
+
+                @Override
+                public void onFinish() {
+                  checkAnswer(null, context);
+                }
+            }.start();
+        }
+
 }

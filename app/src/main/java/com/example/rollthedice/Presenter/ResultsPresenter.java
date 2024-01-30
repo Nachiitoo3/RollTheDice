@@ -38,5 +38,9 @@ public class ResultsPresenter extends AppCompatActivity {
         foodProgressBar.setProgress(Counter.getFoodCount());
         tripProgressBar.setProgress(Counter.getTripCount());
         techProgressBar.setProgress(Counter.getTechCount());
+
+
+
     }
+
 }

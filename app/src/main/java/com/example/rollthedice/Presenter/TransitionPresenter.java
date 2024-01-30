@@ -24,27 +24,27 @@ public class TransitionPresenter extends AppCompatActivity {
         switch (categoria) {
             case 0:
                 categoryText.setText("Naturaleza");
-                getWindow().getDecorView().setBackgroundColor(getResources().getColor(R.color.greenNature2));
+                getWindow().getDecorView().setBackgroundColor(getResources().getColor(R.color.greenNature));
                 categoryIcon.setImageResource(R.drawable.natureicon);
                 break;
             case 1:
                 categoryText.setText("Mitología");
-                getWindow().getDecorView().setBackgroundColor(getResources().getColor(R.color.yellowMitology2));
+                getWindow().getDecorView().setBackgroundColor(getResources().getColor(R.color.yellowMitology));
                 categoryIcon.setImageResource(R.drawable.mitologyicon);
                 break;
             case 2:
                 categoryText.setText("Gastronomía");
-                getWindow().getDecorView().setBackgroundColor(getResources().getColor(R.color.redFood2));
+                getWindow().getDecorView().setBackgroundColor(getResources().getColor(R.color.redFood));
                 categoryIcon.setImageResource(R.drawable.foodicon);
                 break;
             case 3:
                 categoryText.setText("Viajes y Cultura");
-                getWindow().getDecorView().setBackgroundColor(getResources().getColor(R.color.orangeTrips2));
+                getWindow().getDecorView().setBackgroundColor(getResources().getColor(R.color.orangeTrips));
                 categoryIcon.setImageResource(R.drawable.tripsicon);
                 break;
             case 4:
                 categoryText.setText("Tecnología");
-                getWindow().getDecorView().setBackgroundColor(getResources().getColor(R.color.purpleTecnology2));
+                getWindow().getDecorView().setBackgroundColor(getResources().getColor(R.color.purpleTecnology));
                 categoryIcon.setImageResource(R.drawable.techicon);
                 break;
 

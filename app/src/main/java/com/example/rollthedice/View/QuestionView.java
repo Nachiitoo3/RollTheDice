@@ -1,11 +1,13 @@
 package com.example.rollthedice.View;
 
 import android.content.Context;
+import android.content.res.ColorStateList;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -30,6 +32,7 @@ public class QuestionView extends QuestionPresenter {
         int category = getCategoria();
         setColors(category);
         setQuestion(category);
+        timer(context);
         Button answer1 = findViewById(R.id.answer1ButtonQuestionView);
         Button answer2 = findViewById(R.id.answer2ButtonQuestionView);
         Button answer3 = findViewById(R.id.answer3ButtonQuestionView);
@@ -61,7 +64,12 @@ public class QuestionView extends QuestionPresenter {
                 checkAnswer(answer4, context);
             }
         });
+
+
+
+
     }
+
 
 
 }

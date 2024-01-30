@@ -13,6 +13,7 @@
         android:background="@drawable/roundedcorners"
         app:layout_constraintBottom_toTopOf="@+id/answer1ButtonQuestionView"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -31,48 +32,22 @@
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:layout_marginTop="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/color1BarQuestionView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/blackBarQuestionView"
         app:srcCompat="@drawable/mitologyicon" />
 
-    <TextView
-        android:id="@+id/color1BarQuestionView"
-        android:layout_width="0dp"
-        android:layout_height="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="400dp"
-        android:background="@color/yellowMitologyBar1"
-        app:layout_constraintBottom_toTopOf="@+id/answer1ButtonQuestionView"
-        app:layout_constraintEnd_toStartOf="@+id/color2BarQuestionView"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/typeQuestionIconQuestionView" />
-
-    <TextView
-        android:id="@+id/color2BarQuestionView"
-        android:layout_width="0dp"
-        android:layout_height="8dp"
-        android:layout_marginStart="300dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="400dp"
-        android:background="@color/yellowMitologyBar2"
-        app:layout_constraintBottom_toTopOf="@+id/answer1ButtonQuestionView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/typeQuestionIconQuestionView" />
-
     <ImageView
         android:id="@+id/questionImageQuestionView"
         android:layout_width="0dp"
         android:layout_height="200dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="5dp"
         android:layout_marginBottom="165dp"
         android:background="@color/black2"
         app:layout_constraintBottom_toBottomOf="@+id/colorTypeTextViewQuestionView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/color1BarQuestionView"
+        app:layout_constraintTop_toBottomOf="@+id/timeProgressBar"
         app:srcCompat="@drawable/pregunta" />
 
     <TextView
@@ -141,5 +116,19 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/answer3ButtonQuestionView" />
+
+    <ProgressBar
+        android:id="@+id/timeProgressBar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="0dp"
+        android:layout_height="10dp"
+        android:layout_marginTop="8dp"
+        android:indeterminate="false"
+        android:max="4000"
+        android:progress="5"
+        android:progressBackgroundTintMode="src_over"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/typeQuestionIconQuestionView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
