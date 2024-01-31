@@ -13,6 +13,7 @@
         android:background="@drawable/roundedcorners"
         app:layout_constraintBottom_toTopOf="@+id/answer1ButtonQuestionView"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -31,48 +32,22 @@
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:layout_marginTop="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/color1BarQuestionView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/blackBarQuestionView"
         app:srcCompat="@drawable/mitologyicon" />
 
-    <TextView
-        android:id="@+id/color1BarQuestionView"
-        android:layout_width="0dp"
-        android:layout_height="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="400dp"
-        android:background="@color/yellowMitologyBar1"
-        app:layout_constraintBottom_toTopOf="@+id/answer1ButtonQuestionView"
-        app:layout_constraintEnd_toStartOf="@+id/color2BarQuestionView"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/typeQuestionIconQuestionView" />
-
-    <TextView
-        android:id="@+id/color2BarQuestionView"
-        android:layout_width="0dp"
-        android:layout_height="8dp"
-        android:layout_marginStart="300dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="400dp"
-        android:background="@color/yellowMitologyBar2"
-        app:layout_constraintBottom_toTopOf="@+id/answer1ButtonQuestionView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/typeQuestionIconQuestionView" />
-
     <ImageView
         android:id="@+id/questionImageQuestionView"
         android:layout_width="0dp"
         android:layout_height="200dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="5dp"
         android:layout_marginBottom="165dp"
         android:background="@color/black2"
         app:layout_constraintBottom_toBottomOf="@+id/colorTypeTextViewQuestionView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/color1BarQuestionView"
+        app:layout_constraintTop_toBottomOf="@+id/timeProgressBar"
         app:srcCompat="@drawable/pregunta" />
 
     <TextView
@@ -80,6 +55,7 @@
         android:layout_width="300dp"
         android:layout_height="0dp"
         android:layout_marginTop="18dp"
+        android:fontFamily="@font/baloo_bhai_2"
         android:text="¿Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore?"
         android:textAlignment="center"
         android:textColor="@color/black2"
@@ -95,6 +71,8 @@
         android:id="@+id/answer1ButtonQuestionView"
         style="@style/buttonQuestion"
         android:layout_marginTop="32dp"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/baloo_bhai_2"
         android:gravity="center|center_horizontal|center_vertical"
         android:text="Respuesta 1"
         app:layout_constraintBottom_toTopOf="@+id/answer2ButtonQuestionView"
@@ -106,6 +84,8 @@
         android:id="@+id/answer2ButtonQuestionView"
         style="@style/buttonQuestion"
         android:layout_marginTop="32dp"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/baloo_bhai_2"
         android:text="Respuesta 2"
         app:layout_constraintBottom_toTopOf="@+id/answer3ButtonQuestionView"
         app:layout_constraintEnd_toEndOf="parent"
@@ -116,6 +96,8 @@
         android:id="@+id/answer3ButtonQuestionView"
         style="@style/buttonQuestion"
         android:layout_marginTop="32dp"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/baloo_bhai_2"
         android:text="Respuesta 3"
         app:layout_constraintBottom_toTopOf="@+id/answer4ButtonQuestionView"
         app:layout_constraintEnd_toEndOf="parent"
@@ -127,10 +109,26 @@
         style="@style/buttonQuestion"
         android:layout_marginTop="32dp"
         android:layout_marginBottom="27dp"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/baloo_bhai_2"
         android:text="Respuesta 4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/answer3ButtonQuestionView" />
+
+    <ProgressBar
+        android:id="@+id/timeProgressBar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="0dp"
+        android:layout_height="10dp"
+        android:layout_marginTop="8dp"
+        android:indeterminate="false"
+        android:max="4000"
+        android:progress="5"
+        android:progressBackgroundTintMode="src_over"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/typeQuestionIconQuestionView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

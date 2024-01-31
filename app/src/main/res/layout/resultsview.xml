@@ -6,16 +6,57 @@
     android:layout_height="match_parent"
     android:background="@color/blueMain">
 
+
+    <TextView
+        android:id="@+id/halfCounterResultsView"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="-10dp"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="35"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/halfXBarResultsView"
+        app:layout_constraintEnd_toStartOf="@+id/halfXBarResultsView"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <Button
         android:id="@+id/mainButtonResultsView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="300dp"
-        android:text="MAIN!!!"
+        style="@style/buttonOutlined"
+        android:layout_width="75dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="158dp"
+        android:layout_marginBottom="80dp"
+        android:contentDescription="@string/app_name"
+        app:icon="@drawable/xicon"
+        app:iconGravity="textEnd"
+        app:iconPadding="0dp"
+        app:iconSize="33dp"
+        app:iconTint="@color/redError"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/retryButtonResultsView"
+        app:layout_constraintTop_toBottomOf="@+id/botXBarResultsView" />
+
+    <Button
+        android:id="@+id/retryButtonResultsView"
+        style="@style/buttonOutlined"
+        android:layout_width="75dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="158dp"
+        android:layout_marginBottom="80dp"
+        android:contentDescription="@string/app_name"
+        app:icon="@drawable/retryicon"
+        app:iconGravity="textEnd"
+        app:iconPadding="0dp"
+        app:iconSize="40dp"
+        app:iconTint="@color/greenCorrect"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/mainButtonResultsView"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/botXBarResultsView" />
 
     <TextView
         android:id="@+id/resultTextResultsView"
@@ -28,5 +69,181 @@
         app:layout_constraintBottom_toTopOf="@+id/mainButtonResultsView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.894" />
+
+    <TextView
+        android:id="@+id/yBarResultsView"
+        android:layout_width="2dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="150dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/botXBarResultsView"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/loseTextResultsView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Has perdido !!"
+        android:textColor="@color/white"
+        android:textSize="44sp"
+        app:layout_constraintBottom_toTopOf="@+id/yBarResultsView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/botNumberYResultsView"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="-10dp"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="0"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/botXBarResultsView"
+        app:layout_constraintEnd_toStartOf="@+id/botXBarResultsView"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/topNumberYResultsView"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="132dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="-10dp"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="70"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/xTopBarResultsView"
+        app:layout_constraintEnd_toStartOf="@+id/xTopBarResultsView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/halfXBarResultsView"
+        android:layout_width="0dp"
+        android:layout_height="0.5dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/botXBarResultsView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/xTopBarResultsView" />
+
+    <ProgressBar
+        android:id="@+id/mitProgressBarResultsView"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="255dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="-40dp"
+        android:layout_marginBottom="110dp"
+        android:max="10"
+        android:progress="5"
+        android:progressBackgroundTint="#00FFDADA"
+        android:progressTint="@color/yellowMitology"
+        android:progressTintMode="src_over"
+        android:rotation="270"
+        app:layout_constraintBottom_toTopOf="@+id/botXBarResultsView"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/natProgressBarResultsView"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="255dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="110dp"
+        android:max="10"
+        android:progress="5"
+        android:progressBackgroundTint="#00FFDADA"
+        android:progressTint="@color/greenNature"
+        android:progressTintMode="src_over"
+        android:rotation="270"
+        app:layout_constraintBottom_toTopOf="@+id/botXBarResultsView"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/foodProgressBarResultsView"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="255dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="110dp"
+        android:max="10"
+        android:progress="5"
+        android:progressBackgroundTint="#00FFDADA"
+        android:progressTint="@color/redFood"
+        android:progressTintMode="src_over"
+        android:rotation="270"
+        app:layout_constraintBottom_toTopOf="@+id/botXBarResultsView"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/tripsProgressBarResultsView"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="255dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginBottom="110dp"
+        android:max="2"
+        android:progress="1"
+        android:progressBackgroundTint="#00FFDADA"
+        android:progressTint="@color/orangeTrips"
+        android:progressTintMode="src_over"
+        android:rotation="270"
+        app:layout_constraintBottom_toTopOf="@+id/botXBarResultsView"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/techProgressBarResultsView"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="255dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="200dp"
+        android:max="1"
+        android:progress="1"
+        android:progressBackgroundTint="#00FFDADA"
+        android:progressTint="@color/purpleTecnology"
+        android:progressTintMode="src_over"
+        android:rotation="270"
+        app:layout_constraintBottom_toTopOf="@+id/botXBarResultsView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/xTopBarResultsView" />
+
+    <TextView
+        android:id="@+id/xTopBarResultsView"
+        android:layout_width="0dp"
+        android:layout_height="0.5dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="50dp"
+        android:background="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/botXBarResultsView"
+        android:layout_width="0dp"
+        android:layout_height="8dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="40dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/resultTextResultsView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

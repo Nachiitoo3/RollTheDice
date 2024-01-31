@@ -6,10 +6,11 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.rollthedice.Presenter.StatisticsPresenter;
 import com.example.rollthedice.R;
 import com.example.rollthedice.Router.Router;
 
-public class StatisticsView extends AppCompatActivity {
+public class StatisticsView extends StatisticsPresenter {
 
 
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,7 +18,6 @@ public class StatisticsView extends AppCompatActivity {
         setContentView(R.layout.statisticsview);
 
         Button mainButton = findViewById(R.id.mainButtonResultsView);
-
         mainButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

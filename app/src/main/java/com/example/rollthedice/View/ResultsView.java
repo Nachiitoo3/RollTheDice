@@ -8,19 +8,23 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.rollthedice.Entities.Counter;
+import com.example.rollthedice.Presenter.ResultsPresenter;
 import com.example.rollthedice.R;
 import com.example.rollthedice.Router.Router;
 
-public class ResultsView extends AppCompatActivity {
+public class ResultsView extends ResultsPresenter {
 
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.resultsview);
-        TextView resultsText = findViewById(R.id.resultTextResultsView);
-        String result = String.valueOf(Counter.getCount());
-        resultsText.setText(result);
+
+        setNumbers();
         Button mainButton = findViewById(R.id.mainButtonResultsView);
+        Button retryButton = findViewById(R.id.retryButtonResultsView);
+        setProgressBar();
+
+
 
         mainButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -29,6 +33,14 @@ public class ResultsView extends AppCompatActivity {
                 Router.openActivity(ResultsView.this, MainView.class);
             }
         });
+        retryButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Counter.reset();
+                Router.openActivity(ResultsView.this, DiceView.class);
+            }
+        });
+
 
     }
 }

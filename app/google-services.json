@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "909689915391",
+    "project_id": "rollthedice-e850f",
+    "storage_bucket": "rollthedice-e850f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:909689915391:android:7f74a9dc46f64a479709ca",
+        "android_client_info": {
+          "package_name": "com.example.rollthedice"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRGSmjO_2KIOxwqAEdfokixn42NTYL_gg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

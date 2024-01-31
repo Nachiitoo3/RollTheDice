@@ -6,10 +6,11 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.rollthedice.Presenter.MainPresenter;
 import com.example.rollthedice.R;
 import com.example.rollthedice.Router.Router;
 
-public class MainView extends AppCompatActivity {
+public class MainView extends MainPresenter {
 
 
     protected void onCreate(Bundle savedInstanceState) {

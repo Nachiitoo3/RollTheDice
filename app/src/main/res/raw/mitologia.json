@@ -183,10 +183,10 @@
         "pregunta": "¿Qué criatura mitológica tenía la cabeza de un toro y el cuerpo de un hombre?",
         "respuesta_correcta": "El Minotauro",
         "opciones_respuesta": [
-            "El Minotauro",
-            "El Quimera",
-            "El Fauno",
-            "El Centauro"
+            "Minotauro",
+            "Quimera",
+            "Fauno",
+            "Centauro"
         ]
     },
     {
@@ -221,12 +221,12 @@
     },
     {
         "pregunta": "¿Qué bestia mitológica era mitad león y mitad águila?",
-        "respuesta_correcta": "El Quimera",
+        "respuesta_correcta": "Grifo",
         "opciones_respuesta": [
-            "El Quimera",
-            "La Esfinge",
-            "La Arpía",
-            "El Grifo"
+            "Quimera",
+            "Esfinge",
+            "Arpía",
+            "Grifo"
         ]
     },
     {
@@ -521,12 +521,12 @@
     },
     {
         "pregunta": "¿Qué ser mitológico tenía la cabeza de un hombre y el cuerpo de un caballo?",
-        "respuesta_correcta": "El Centauro",
+        "respuesta_correcta": "Centauro",
         "opciones_respuesta": [
-            "El Minotauro",
-            "El Quimera",
-            "El Centauro",
-            "El Cíclope"
+            "Minotauro",
+            "Quimera",
+            "Centauro",
+            "Cíclope"
         ]
     },
     {
