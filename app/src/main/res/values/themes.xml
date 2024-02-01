@@ -4,6 +4,8 @@
         <item name="android:fontFamily">@font/acme</item>
         <item name="android:windowIsTranslucent">true</item>
 
+
+
     </style>
 
     <style name="Theme.RollTheDice" parent="Base.Theme.RollTheDice" />

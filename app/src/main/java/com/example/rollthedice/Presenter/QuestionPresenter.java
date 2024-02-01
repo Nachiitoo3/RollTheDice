@@ -21,6 +21,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.rollthedice.Entities.GameMode;
 import com.example.rollthedice.Entities.Question;
 import com.example.rollthedice.Interactor.QuestionInteractor;
 import com.example.rollthedice.R;
@@ -180,7 +181,6 @@ public class QuestionPresenter extends AppCompatActivity {
 
 
     public void setColors(int categoria) {
-        int colorFondo, colorProgreso;
         ProgressBar timeBar = findViewById(R.id.timeProgressBar);
         TextView colorType = findViewById(R.id.colorTypeTextViewQuestionView);
         ImageView questionTypeIcon = findViewById(R.id.typeQuestionIconQuestionView);
@@ -228,8 +228,16 @@ public class QuestionPresenter extends AppCompatActivity {
         cancelTimer = false;
         ProgressBar progressBar = findViewById(R.id.timeProgressBar);
 
-        long TIMER_DURATION = 20000;
+
+        long TIMER_DURATION = GameMode.duration;
         long INTERVAL = 5;
+
+        if (TIMER_DURATION == 20000){
+            progressBar.setMax(4000);
+        } else {
+            progressBar.setMax(2000);
+        }
+
 
             new CountDownTimer(TIMER_DURATION, INTERVAL) {
 
@@ -252,5 +260,6 @@ public class QuestionPresenter extends AppCompatActivity {
                 }
             }.start();
         }
+
 
 }

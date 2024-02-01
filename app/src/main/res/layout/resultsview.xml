@@ -4,8 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/blueMain">
+    android:background="@drawable/gradient">
 
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="50dp"
+        android:background="#95FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/botXBarResultsView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/yBarResultsView"
+        app:layout_constraintTop_toBottomOf="@+id/xTopBarResultsView" />
 
     <TextView
         android:id="@+id/halfCounterResultsView"
@@ -16,7 +28,7 @@
         android:layout_marginBottom="-10dp"
         android:gravity="center|center_horizontal|center_vertical"
         android:text="35"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/halfXBarResultsView"
         app:layout_constraintEnd_toStartOf="@+id/halfXBarResultsView"
         app:layout_constraintHorizontal_bias="0.1"
@@ -29,6 +41,7 @@
         android:layout_height="83dp"
         android:layout_marginTop="158dp"
         android:layout_marginBottom="80dp"
+        android:backgroundTint="#2CFFFFFF"
         android:contentDescription="@string/app_name"
         app:icon="@drawable/xicon"
         app:iconGravity="textEnd"
@@ -47,6 +60,7 @@
         android:layout_height="83dp"
         android:layout_marginTop="158dp"
         android:layout_marginBottom="80dp"
+        android:backgroundTint="#2CFFFFFF"
         android:contentDescription="@string/app_name"
         app:icon="@drawable/retryicon"
         app:iconGravity="textEnd"
@@ -64,7 +78,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
         android:text="70"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="60sp"
         app:layout_constraintBottom_toTopOf="@+id/mainButtonResultsView"
         app:layout_constraintEnd_toEndOf="parent"
@@ -88,7 +102,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Has perdido !!"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="44sp"
         app:layout_constraintBottom_toTopOf="@+id/yBarResultsView"
         app:layout_constraintEnd_toEndOf="parent"
@@ -105,7 +119,7 @@
         android:layout_marginBottom="-10dp"
         android:gravity="center|center_horizontal|center_vertical"
         android:text="0"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/botXBarResultsView"
         app:layout_constraintEnd_toStartOf="@+id/botXBarResultsView"
         app:layout_constraintStart_toStartOf="parent" />
@@ -120,7 +134,7 @@
         android:layout_marginBottom="-10dp"
         android:gravity="center|center_horizontal|center_vertical"
         android:text="70"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/xTopBarResultsView"
         app:layout_constraintEnd_toStartOf="@+id/xTopBarResultsView"
         app:layout_constraintHorizontal_bias="0.0"
@@ -211,6 +225,7 @@
         android:layout_width="255dp"
         android:layout_height="30dp"
         android:layout_marginStart="200dp"
+        android:layout_marginBottom="110dp"
         android:max="1"
         android:progress="1"
         android:progressBackgroundTint="#00FFDADA"
@@ -218,8 +233,7 @@
         android:progressTintMode="src_over"
         android:rotation="270"
         app:layout_constraintBottom_toTopOf="@+id/botXBarResultsView"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/xTopBarResultsView" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/xTopBarResultsView"

@@ -7,6 +7,7 @@ import android.content.Context;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 
+import com.example.rollthedice.Entities.GameMode;
 import com.example.rollthedice.R;
 import com.example.rollthedice.View.DiceView;
 
@@ -39,9 +40,15 @@ public class DicePresenter extends AppCompatActivity {
     }
 
     public static int generarNumeroAleatorio() {
-        Random random = new Random();
-        int randomNumber = random.nextInt(5);
-        return randomNumber;
+        if (GameMode.categoria == -2) {
 
+            Random random = new Random();
+            int randomNumber = random.nextInt(5);
+            return randomNumber;
+        }
+        else {
+            int number = GameMode.indexSpinner;
+            return number;
+        }
     }
 }

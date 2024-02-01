@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/blueMain">
+    android:background="@drawable/gradient">
 
 
     <ImageView
@@ -14,17 +14,29 @@
         app:layout_constraintEnd_toEndOf="@id/guideline2"
         app:layout_constraintStart_toStartOf="@id/guideline"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logowhiteletters" />
+        app:srcCompat="@drawable/logoroll" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/GroupEmailRegisterView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/black"
+        app:boxBackgroundColor="#2CFFFFFF"
+        app:boxStrokeColor="@color/black"
+        app:counterTextColor="@color/black"
+        app:endIconTint="@color/black"
+        app:helperTextTextColor="@color/black"
+        app:hintTextColor="@color/black"
         app:layout_constraintEnd_toEndOf="@id/guideline2"
         app:layout_constraintStart_toStartOf="@id/guideline"
         app:layout_constraintTop_toBottomOf="@+id/GroupNameRegisterView"
-        app:startIconDrawable="@drawable/ic_name_gmail">
+        app:passwordToggleTint="@color/black"
+        app:placeholderTextColor="@color/black"
+        app:prefixTextColor="@color/black"
+        app:startIconDrawable="@drawable/ic_name_gmail"
+        app:startIconTint="@color/black"
+        app:suffixTextColor="@color/black">
 
         <EditText
             android:id="@+id/emailRegisterView"
@@ -41,12 +53,24 @@
         android:id="@+id/GroupPasswordRegisterView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/black"
+        app:boxBackgroundColor="#2CFFFFFF"
+        app:boxStrokeColor="@color/black"
+        app:counterTextColor="@color/black"
+        app:endIconTint="@color/black"
+        app:helperTextTextColor="@color/black"
+        app:hintTextColor="@color/black"
         app:layout_constraintEnd_toEndOf="@id/guideline2"
         app:layout_constraintStart_toStartOf="@id/guideline"
         app:layout_constraintTop_toBottomOf="@+id/GroupEmailRegisterView"
         app:passwordToggleEnabled="true"
-        app:startIconDrawable="@drawable/ic_name_password">
+        app:passwordToggleTint="@color/black"
+        app:placeholderTextColor="@color/black"
+        app:prefixTextColor="@color/black"
+        app:startIconDrawable="@drawable/ic_name_password"
+        app:startIconTint="@color/black"
+        app:suffixTextColor="@color/black">
 
         <EditText
             android:id="@+id/passwordRegisterView"
@@ -55,8 +79,7 @@
             android:layout_marginTop="25dp"
             android:ems="10"
             android:hint="Password"
-            android:inputType="textPassword"
-            />
+            android:inputType="textPassword" />
     </com.google.android.material.textfield.TextInputLayout>
 
 
@@ -65,20 +88,37 @@
         style="@style/buttonRegiser"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="70dp"
+        android:backgroundTint="#2CFFFFFF"
         android:text="@string/register"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@id/guideline2"
-        app:layout_constraintStart_toStartOf="@+id/guideline" />
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:strokeColor="@color/black" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/GroupNameRegisterView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:scrollbarThumbHorizontal="@color/black"
+        android:scrollbarThumbVertical="@color/black"
+        android:textColorHint="@color/black"
+        app:boxBackgroundColor="#2CFFFFFF"
+        app:boxBackgroundMode="outline"
+        app:boxStrokeColor="@color/black"
+        app:endIconTint="@color/black"
+        app:helperTextTextColor="@color/black"
+        app:hintTextColor="@color/black"
         app:layout_constraintEnd_toEndOf="@id/guideline2"
         app:layout_constraintStart_toStartOf="@id/guideline"
         app:layout_constraintTop_toBottomOf="@+id/logoImageLoginView"
-        app:startIconDrawable="@drawable/ic_name_username">
+        app:passwordToggleTint="@color/black"
+        app:placeholderTextColor="@color/black"
+        app:prefixTextColor="@color/black"
+        app:startIconDrawable="@drawable/ic_name_username"
+        app:startIconTint="@color/black"
+        app:suffixTextColor="@color/black">
 
         <EditText
             android:id="@+id/nameRegisterView"
@@ -94,19 +134,32 @@
         android:id="@+id/GroupConfirmPasswordRegisterView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/black"
+        app:boxBackgroundColor="#2CFFFFFF"
         app:boxBackgroundMode="outline"
+        app:boxStrokeColor="@color/black"
+        app:counterTextColor="@color/black"
+        app:endIconTint="@color/black"
+        app:helperTextTextColor="@color/black"
+        app:hintTextColor="@color/black"
         app:layout_constraintEnd_toEndOf="@id/guideline2"
         app:layout_constraintStart_toStartOf="@id/guideline"
         app:layout_constraintTop_toBottomOf="@+id/GroupPasswordRegisterView"
         app:passwordToggleEnabled="true"
-        app:startIconDrawable="@drawable/ic_name_password">
+        app:passwordToggleTint="@color/black"
+        app:placeholderTextColor="@color/black"
+        app:prefixTextColor="@color/black"
+        app:startIconDrawable="@drawable/ic_name_password"
+        app:startIconTint="@color/black"
+        app:suffixTextColor="@color/black">
 
         <EditText
             android:id="@+id/confirmPasswordRegisterView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
+            android:drawableTint="@color/black"
             android:ems="10"
             android:hint="Confirm Password"
             android:inputType="textPassword" />
@@ -117,15 +170,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.2"/>
+        app:layout_constraintGuide_percent="0.2" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.8"/>
-
+        app:layout_constraintGuide_percent="0.8" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
