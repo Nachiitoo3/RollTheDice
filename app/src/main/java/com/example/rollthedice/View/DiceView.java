@@ -8,6 +8,7 @@ import com.example.rollthedice.Router.Router;
 
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
 
 public class DiceView extends DicePresenter {
@@ -16,8 +17,8 @@ public class DiceView extends DicePresenter {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.diceview);
         cambiarColorDeFondo(this);
-        Button diceButton = findViewById(R.id.diceButtonDiceView);
-        diceButton.setOnClickListener(new View.OnClickListener() {
+        ImageView diceImage = findViewById(R.id.diceImageView);
+        diceImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 int randomInt = generarNumeroAleatorio();

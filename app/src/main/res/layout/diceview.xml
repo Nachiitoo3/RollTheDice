@@ -6,15 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/diceButtonDiceView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="DADO!!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+
 
     <ImageView
         android:id="@+id/logoImageDiceView"
@@ -50,5 +42,15 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/diceButtonDiceView" />
+        app:layout_constraintTop_toBottomOf="@+id/diceImageView" />
+
+    <ImageView
+        android:id="@+id/diceImageView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/dice"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
