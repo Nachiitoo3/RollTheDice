@@ -21,6 +21,10 @@ La aplicación cuenta con distintas <strong>vistas</strong>:
 
 La pantalla de bienvenida ofrece una entrada dinámica a la app, estableciendo la conexión inicial con los usuarios.
 
+<p align="center">
+<img src="img/Splash.PNG" alt="Splash" />
+</p>
+
 ## LOGIN
 
 La pantalla de inicio de sesión proporciona un acceso rápido y seguro a la plataforma, permitiendo a los usuarios gestionar sus perfiles personalizados y acceder a las funciones exclusivas de la aplicación.
@@ -81,5 +85,12 @@ La pantalla de records nos va a mostrar una clasificación global con diferentes
 La pantalla de estadísticas nos va a servir para ver nuestro progreso individual en la aplicación y conseguir diferentes logros con los que probar nuestro conocimiento.
 
 
+<p>
+</p>
+<br>
+Nuestro prototipo de aplicación esta diseñado en FIGMA es el siguiente:
+<p align="center">
+<a href="https://www.figma.com/file/GePEVWoaB0HHXy5nMlyRQ2/RollTheDice-Prototype?type=design&node-id=1033-18&mode=design&t=njBSW7btAlYHYFmr-0"><img src="img/FIGMA.PNG" alt="Prototipo FIGMA"/></a>
+</p>
 
-
+<p align="right">Hecho por Álvaro Guadalupe,Adrián Merillas e Ignacio Ramírez.</p>
