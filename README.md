@@ -44,7 +44,7 @@ En la pantalla de registro, los usuarios pueden crear cuentas personalizadas par
 
 La pantalla de menú sirve como centro de comando, ofreciendo opciones para explorar los diversos modos de juego, ajustar configuraciones y explorar tus records y estadísticas.
 <p align="center">
-<img src="img/Menu.png" alt="Menu Principal" width="392" height="756"/>
+<img src="img/Menu.PNG" alt="Menu Principal" width="392" height="756"/>
 </p>
 
 ## DADO
