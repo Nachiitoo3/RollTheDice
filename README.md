@@ -85,6 +85,12 @@ La pantalla de records nos va a mostrar una clasificación global con diferentes
 La pantalla de estadísticas nos va a servir para ver nuestro progreso individual en la aplicación y conseguir diferentes logros con los que probar nuestro conocimiento.
 
 
+### MANUAL DE USO
+https://github.com/Nachiitoo3/RollTheDice/assets/131858630/49005f03-3177-4635-a907-bfacca8d9b72
+
+
+
+
 <p>
 </p>
 <br>
