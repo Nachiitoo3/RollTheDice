@@ -6,13 +6,16 @@
 
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/blueMain">
+    android:background="@drawable/gradient"
+>
 
     <Button
         android:id="@+id/loginButtonLoginView"
+        style="@style/buttonOutlined"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:backgroundTint="#2CFFFFFF"
         android:text="@string/login"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintStart_toStartOf="@+id/guideline"
@@ -25,17 +28,31 @@
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logowhiteletters" />
+        app:srcCompat="@drawable/logoroll" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/GroupEmailLoginView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:textColorHint="@color/black"
+        app:boxBackgroundColor="#2CFFFFFF"
+        app:boxBackgroundMode="outline"
+        app:boxStrokeColor="@color/black"
+        app:boxStrokeWidth="1dp"
+        app:boxStrokeWidthFocused="2dp"
+        app:counterTextColor="@color/black2"
+        app:endIconTint="@color/black"
+        app:helperTextTextColor="@color/black"
+        app:hintTextColor="@color/black"
         app:layout_constraintEnd_toEndOf="@id/guideline2"
         app:layout_constraintStart_toStartOf="@id/guideline"
         app:layout_constraintTop_toBottomOf="@+id/logoImageLoginView"
-        app:startIconDrawable="@drawable/ic_name_gmail">
+        app:placeholderTextColor="@color/black"
+        app:prefixTextColor="@color/black"
+        app:startIconDrawable="@drawable/ic_name_gmail"
+        app:startIconTint="@color/black"
+        app:suffixTextColor="@color/black">
 
         <EditText
             android:id="@+id/emailLoginView"
@@ -43,7 +60,11 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Email"
-            android:inputType="textEmailAddress"></EditText>
+            android:inputType="textEmailAddress"
+            android:textColor="@color/black2"
+            android:textColorHighlight="@color/black2"
+            android:textColorHint="@color/black2"
+            android:textColorLink="@color/black2"></EditText>
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -51,11 +72,23 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:textColorHint="@color/black"
+        app:boxBackgroundColor="#2CFFFFFF"
+        app:boxStrokeColor="@color/black"
+        app:counterTextColor="@color/black2"
+        app:helperTextTextColor="@color/black2"
+        app:hintTextColor="@color/black2"
         app:layout_constraintEnd_toEndOf="@id/guideline2"
         app:layout_constraintStart_toStartOf="@id/guideline"
         app:layout_constraintTop_toBottomOf="@+id/GroupEmailLoginView"
         app:passwordToggleEnabled="true"
-        app:startIconDrawable="@drawable/ic_name_password">
+        app:passwordToggleTint="@color/black"
+        app:placeholderTextColor="@color/black"
+        app:prefixTextColor="@color/black"
+        app:startIconDrawable="@drawable/ic_name_password"
+        app:startIconTint="@color/black"
+        app:startIconTintMode="src_in"
+        app:suffixTextColor="@color/black">
 
         <EditText
             android:id="@+id/passwordLoginView"
@@ -72,6 +105,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
+        android:background="#2CFFFFFF"
+        android:fontFamily="@font/baloo_bhai_2"
         android:text="DON'T HAVE AN ACCOUNT? SIGN UP"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"

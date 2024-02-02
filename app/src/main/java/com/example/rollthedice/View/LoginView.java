@@ -1,6 +1,10 @@
 package com.example.rollthedice.View;
 
+import android.graphics.Color;
 import android.os.Bundle;
+import android.text.Spannable;
+import android.text.SpannableString;
+import android.text.style.ForegroundColorSpan;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -20,6 +24,7 @@ public class LoginView extends AppCompatActivity {
 
         Button loginButton = findViewById(R.id.loginButtonLoginView);
         TextView registerText = findViewById(R.id.signupTextLoginView);
+        setSignUpColor();
 
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -35,6 +40,20 @@ public class LoginView extends AppCompatActivity {
             }
         });
 
+
+
+    }
+
+    public void setSignUpColor(){
+
+        TextView textView = findViewById(R.id.signupTextLoginView);
+        String fullText = "DON'T HAVE AN ACCOUNT? SIGN UP";
+        SpannableString spannableString = new SpannableString(fullText);
+        int startIndex = fullText.indexOf("SIGN UP");
+        if (startIndex != -1) {
+            spannableString.setSpan(new ForegroundColorSpan(Color.MAGENTA), startIndex, startIndex + "SIGN UP".length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+        }
+        textView.setText(spannableString);
 
     }
 }

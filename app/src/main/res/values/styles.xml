@@ -4,9 +4,10 @@
     <style name="buttonOutlined" parent="Widget.MaterialComponents.Button.OutlinedButton">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColor">@android:color/black</item>
         <item name="cornerRadius">20dp</item>
-        <item name="strokeColor">@android:color/white</item>
+        <item name="strokeColor">@android:color/black</item>
+        <item name="backgroundTint">@color/grey2</item>
     </style>
     <style name="buttonQuestion" parent="Widget.MaterialComponents.ExtendedFloatingActionButton.Icon">
         <item name="android:layout_width">332dp</item>

@@ -8,6 +8,8 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.rollthedice.Entities.Counter;
+import com.example.rollthedice.Entities.GameMode;
+import com.example.rollthedice.Presenter.MainPresenter;
 import com.example.rollthedice.Presenter.ResultsPresenter;
 import com.example.rollthedice.R;
 import com.example.rollthedice.Router.Router;
@@ -31,6 +33,7 @@ public class ResultsView extends ResultsPresenter {
             public void onClick(View v) {
                 Counter.reset();
                 Router.openActivity(ResultsView.this, MainView.class);
+                MainPresenter.setClasicGame();
             }
         });
         retryButton.setOnClickListener(new View.OnClickListener() {

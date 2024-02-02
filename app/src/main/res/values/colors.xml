@@ -17,7 +17,7 @@
     <color name="redFoodBar1">#E13351</color>
     <color name="redFoodBar2">#95031C</color>
     <color name="redFood2">#D8566D</color>
-    <color name="orangeTrips">#FDBF88</color>
+    <color name="orangeTrips">#FFA14E</color>
     <color name="orangeTripsBar1">#DC802E</color>
     <color name="orangeTripsBar2">#A15C20</color>
     <color name="orangeTrips2">#E19C5F</color>
@@ -27,4 +27,7 @@
     <color name="purpleTecnology2">#9F74D1</color>
     <color name="redError">#F90B0B</color>
     <color name="greenCorrect">#13D31A</color>
+    <color name="grey">#9E9E9E</color>
+    <color name="grey2">#2CFFFFFF</color>
+
 </resources>

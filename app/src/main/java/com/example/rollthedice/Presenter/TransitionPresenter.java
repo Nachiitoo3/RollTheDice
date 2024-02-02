@@ -18,6 +18,7 @@ public class TransitionPresenter extends AppCompatActivity {
 
     public void setScreen(int categoria) {
 
+
         TextView categoryText = findViewById(R.id.textViewTransitionView);
         ImageView categoryIcon = findViewById(R.id.imageViewTransitionView);
 
