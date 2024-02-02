@@ -21,7 +21,7 @@ public class SplashPresenter extends AppCompatActivity {
                 startActivity(intent);
 
             }
-        }, 12000);
+        }, 8500);
 
 
     }
