@@ -1,5 +1,6 @@
 package com.example.rollthedice.Presenter;
 
+import android.app.Dialog;
 import android.content.Context;
 import android.graphics.Color;
 import android.view.View;
@@ -59,5 +60,13 @@ public class MainPresenter  {
         GameMode.duration = 20000;
         GameMode.categoria = -1;
 
+    }
+
+    public static void showOptionsMenuDialog(Context context) {
+        Dialog optionsDialog = new Dialog(context);
+        optionsDialog.setContentView(R.layout.options_menu);
+        optionsDialog.setTitle("Opciones");
+
+        optionsDialog.show();
     }
 }

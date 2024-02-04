@@ -1,5 +1,8 @@
 package com.example.rollthedice.View;
 
+import static com.example.rollthedice.Presenter.MainPresenter.showOptionsMenuDialog;
+
+import android.app.Dialog;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Color;
@@ -9,7 +12,9 @@ import android.graphics.drawable.Drawable;
 import android.graphics.drawable.GradientDrawable;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
 
@@ -41,6 +46,16 @@ public class MainView extends AppCompatActivity {
         Button setCrono = findViewById(R.id.speedButtonMainView);
         Button setClassic = findViewById(R.id.classicButtonMainView);
         Button setCategory = findViewById(R.id.categoryButtonMainView);
+
+        ImageView btnOpenMenu = findViewById(R.id.configImageMainView);
+
+
+        btnOpenMenu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                showOptionsMenuDialog(context);
+            }
+        });
 
         playButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -149,4 +164,6 @@ public class MainView extends AppCompatActivity {
             }
         });
     }
+
+
 }
