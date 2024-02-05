@@ -6,11 +6,10 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.rollthedice.Presenter.StatisticsPresenter;
 import com.example.rollthedice.R;
 import com.example.rollthedice.Router.Router;
 
-public class StatisticsView extends StatisticsPresenter {
+public class StatisticsView extends AppCompatActivity {
 
 
     protected void onCreate(Bundle savedInstanceState) {

@@ -6,11 +6,10 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.rollthedice.Presenter.RecordsPresenter;
 import com.example.rollthedice.R;
 import com.example.rollthedice.Router.Router;
 
-public class RecordsView extends RecordsPresenter {
+public class RecordsView extends AppCompatActivity {
 
 
     protected void onCreate(Bundle savedInstanceState) {

@@ -3,13 +3,9 @@ package com.example.rollthedice.View;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
-
-import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.rollthedice.Entities.Counter;
 import com.example.rollthedice.Entities.GameMode;
-import com.example.rollthedice.Presenter.MainPresenter;
 import com.example.rollthedice.Presenter.ResultsPresenter;
 import com.example.rollthedice.R;
 import com.example.rollthedice.Router.Router;
@@ -32,8 +28,10 @@ public class ResultsView extends ResultsPresenter {
             @Override
             public void onClick(View v) {
                 Counter.reset();
+                GameMode.setDuration(20000);
+                GameMode.setCategoria(-2);
                 Router.openActivity(ResultsView.this, MainView.class);
-                MainPresenter.setClasicGame();
+                ;
             }
         });
         retryButton.setOnClickListener(new View.OnClickListener() {

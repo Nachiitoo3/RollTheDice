@@ -5,12 +5,10 @@ import android.view.View;
 import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
-
-import com.example.rollthedice.Presenter.RegisterPresenter;
 import com.example.rollthedice.R;
 import com.example.rollthedice.Router.Router;
 
-public class RegisterView extends RegisterPresenter {
+public class RegisterView extends AppCompatActivity {
 
 
     protected void onCreate(Bundle savedInstanceState) {
