@@ -5,11 +5,11 @@ import android.view.View;
 import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 import com.nadrial.rollthedice.R;
 import com.nadrial.rollthedice.Navigator;
 
 public class Register extends AppCompatActivity {
-
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,6 +22,5 @@ public class Register extends AppCompatActivity {
                 Navigator.openActivity(Register.this, Login.class);
             }
         });
-
     }
 }

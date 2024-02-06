@@ -8,20 +8,17 @@ import android.widget.ImageView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.bumptech.glide.Glide;
+
 import com.nadrial.rollthedice.R;
 import com.nadrial.rollthedice.Navigator;
 
 public class Splash extends AppCompatActivity {
-
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splashview);
 
         splash();
-
-
-
     }
 
     public static void transition(Context context, Class<?> cls) {
@@ -32,12 +29,10 @@ public class Splash extends AppCompatActivity {
             public void run() {
                 Navigator.openActivity(context, Login.class);
             }
-        }, 8500);
-
-
+        }, 10500);
     }
 
-    private void splash(){
+    private void splash() {
 
         ImageView mSplash = findViewById(R.id.fondo);
 
@@ -48,9 +43,7 @@ public class Splash extends AppCompatActivity {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
         transition(this, Login.class);
-
     }
 
 }

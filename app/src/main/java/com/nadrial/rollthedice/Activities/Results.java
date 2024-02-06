@@ -15,17 +15,14 @@ import com.nadrial.rollthedice.Navigator;
 
 public class Results extends AppCompatActivity {
 
-
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.resultsview);
 
-        setNumbers();
         Button mainButton = findViewById(R.id.mainButtonResultsView);
         Button retryButton = findViewById(R.id.retryButtonResultsView);
+        setNumbers();
         setProgressBar();
-
-
 
         mainButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -34,7 +31,6 @@ public class Results extends AppCompatActivity {
                 GameMode.setDuration(20000);
                 GameMode.setMode(0);
                 Navigator.openActivity(Results.this, MainMenu.class);
-                ;
             }
         });
         retryButton.setOnClickListener(new View.OnClickListener() {
@@ -44,10 +40,7 @@ public class Results extends AppCompatActivity {
                 Navigator.openActivity(Results.this, Dice.class);
             }
         });
-
-
     }
-
 
     protected void setNumbers(){
         TextView resultsText = findViewById(R.id.resultTextResultsView);
@@ -75,9 +68,5 @@ public class Results extends AppCompatActivity {
         foodProgressBar.setProgress(Counter.getFoodCount());
         tripProgressBar.setProgress(Counter.getTripCount());
         techProgressBar.setProgress(Counter.getTechCount());
-
-
-
     }
-
 }

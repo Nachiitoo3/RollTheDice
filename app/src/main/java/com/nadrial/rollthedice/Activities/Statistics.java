@@ -23,6 +23,5 @@ public class Statistics extends AppCompatActivity {
                 Navigator.openActivity(Statistics.this, MainMenu.class);
             }
         });
-
     }
 }

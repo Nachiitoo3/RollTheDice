@@ -1,13 +1,10 @@
 package com.nadrial.rollthedice.Activities;
 
 import android.content.Context;
-
 import android.os.Bundle;
 import android.os.Handler;
-
 import android.widget.ImageView;
 import android.widget.TextView;
-
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -23,8 +20,8 @@ public class TransitionDiceIntoQuestion extends AppCompatActivity {
         setContentView(R.layout.transitionview);
         setScreen();
         transition(this, Question.class);
-
     }
+
     public void setScreen() {
 
         TextView categoryText = findViewById(R.id.textViewTransitionView);
@@ -56,7 +53,6 @@ public class TransitionDiceIntoQuestion extends AppCompatActivity {
                 getWindow().getDecorView().setBackgroundColor(getResources().getColor(R.color.purpleTecnology));
                 categoryIcon.setImageResource(R.drawable.techicon);
                 break;
-
         }
     }
 
@@ -69,10 +65,5 @@ public class TransitionDiceIntoQuestion extends AppCompatActivity {
                 Navigator.openActivity(context, Question.class);
             }
         }, 500);
-
-
     }
-
-
-
 }

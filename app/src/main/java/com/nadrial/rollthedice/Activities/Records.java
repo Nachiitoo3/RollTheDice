@@ -11,7 +11,6 @@ import com.nadrial.rollthedice.Navigator;
 
 public class Records extends AppCompatActivity {
 
-
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.recordsview);
@@ -23,7 +22,5 @@ public class Records extends AppCompatActivity {
                 Navigator.openActivity(Records.this, MainMenu.class);
             }
         });
-
-
     }
 }
