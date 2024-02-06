@@ -1,14 +1,14 @@
-package com.nadrial.rollthedice.View;
+package com.nadrial.rollthedice.Activities;
 
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.nadrial.rollthedice.Presenter.RegisterPresenter;
+import androidx.appcompat.app.AppCompatActivity;
 import com.nadrial.rollthedice.R;
-import com.nadrial.rollthedice.Router.Router;
+import com.nadrial.rollthedice.Navigator;
 
-public class RegisterView extends RegisterPresenter {
+public class Register extends AppCompatActivity {
 
 
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +19,7 @@ public class RegisterView extends RegisterPresenter {
         registerButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Router.openActivity(RegisterView.this, LoginView.class);
+                Navigator.openActivity(Register.this, Login.class);
             }
         });
 

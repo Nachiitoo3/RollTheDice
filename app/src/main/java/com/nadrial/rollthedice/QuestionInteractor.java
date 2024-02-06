@@ -1,4 +1,4 @@
-package com.nadrial.rollthedice.Interactor;
+package com.nadrial.rollthedice;
 
 import android.content.Context;
 
@@ -22,7 +22,7 @@ public class QuestionInteractor {
     public Question getRandomQuestion(Context context, String JSONName) {
         List<Question> questions = loadQuestions(context, JSONName);
 
-        if (questions != null && questions.size() > 0) {
+        if (questions.size() > 0) {
             Random random = new Random();
             return questions.get(random.nextInt(questions.size()));
         }

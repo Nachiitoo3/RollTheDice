@@ -52,7 +52,7 @@ public class Counter {
         mitCount++;
     }
 
-   public static void incrementNatCount() {
+    public static void incrementNatCount() {
         natCount++;
     }
 

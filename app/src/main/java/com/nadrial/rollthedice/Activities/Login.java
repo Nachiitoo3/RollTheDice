@@ -1,4 +1,4 @@
-package com.nadrial.rollthedice.View;
+package com.nadrial.rollthedice.Activities;
 
 import android.graphics.Color;
 import android.os.Bundle;
@@ -12,9 +12,9 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.nadrial.rollthedice.R;
-import com.nadrial.rollthedice.Router.Router;
+import com.nadrial.rollthedice.Navigator;
 
-public class LoginView extends AppCompatActivity {
+public class Login extends AppCompatActivity {
 
 
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,14 +28,14 @@ public class LoginView extends AppCompatActivity {
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Router.openActivity(LoginView.this, MainView.class);
+                Navigator.openActivity(Login.this, MainMenu.class);
             }
         });
 
         registerText.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Router.openActivity(LoginView.this, RegisterView.class);
+                Navigator.openActivity(Login.this, Register.class);
             }
         });
 
@@ -49,9 +49,7 @@ public class LoginView extends AppCompatActivity {
         String fullText = "DON'T HAVE AN ACCOUNT? SIGN UP";
         SpannableString spannableString = new SpannableString(fullText);
         int startIndex = fullText.indexOf("SIGN UP");
-        if (startIndex != -1) {
-            spannableString.setSpan(new ForegroundColorSpan(Color.MAGENTA), startIndex, startIndex + "SIGN UP".length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
-        }
+        spannableString.setSpan(new ForegroundColorSpan(Color.MAGENTA), startIndex, startIndex + "SIGN UP".length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
         textView.setText(spannableString);
 
     }

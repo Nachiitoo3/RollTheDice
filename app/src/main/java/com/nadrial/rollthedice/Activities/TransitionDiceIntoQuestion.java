@@ -1,28 +1,36 @@
-package com.nadrial.rollthedice.Presenter;
+package com.nadrial.rollthedice.Activities;
 
 import android.content.Context;
-import android.content.Intent;
+
+import android.os.Bundle;
 import android.os.Handler;
+
 import android.widget.ImageView;
 import android.widget.TextView;
 
+
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.nadrial.rollthedice.Entities.GameMode;
 import com.nadrial.rollthedice.R;
-import com.nadrial.rollthedice.View.QuestionView;
+import com.nadrial.rollthedice.Navigator;
 
 
-public class TransitionPresenter extends AppCompatActivity {
+public class TransitionDiceIntoQuestion extends AppCompatActivity {
 
-    int numberReceived = 0;
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.transitionview);
+        setScreen();
+        transition(this, Question.class);
 
-    public void setScreen(int categoria) {
-
+    }
+    public void setScreen() {
 
         TextView categoryText = findViewById(R.id.textViewTransitionView);
         ImageView categoryIcon = findViewById(R.id.imageViewTransitionView);
 
-        switch (categoria) {
+        switch (GameMode.getCategory()) {
             case 0:
                 categoryText.setText("Naturaleza");
                 getWindow().getDecorView().setBackgroundColor(getResources().getColor(R.color.greenNature));
@@ -52,29 +60,19 @@ public class TransitionPresenter extends AppCompatActivity {
         }
     }
 
-    protected int getNumber() {
-        if (getIntent().hasExtra("categoria")) {
-            numberReceived = getIntent().getIntExtra("categoria", -1);
-        }
-        return numberReceived;
-    }
-
-    protected void transition(Context context) {
+    public static void transition(Context context, Class<?> cls) {
 
         Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(context, QuestionView.class);
-                intent.putExtra("categoria", numberReceived);
-                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
-                startActivity(intent);
-
+                Navigator.openActivity(context, Question.class);
             }
-        }, 1000);
+        }, 500);
 
 
     }
+
+
 
 }

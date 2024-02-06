@@ -1,14 +1,15 @@
-package com.nadrial.rollthedice.View;
+package com.nadrial.rollthedice.Activities;
 
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.nadrial.rollthedice.Presenter.StatisticsPresenter;
-import com.nadrial.rollthedice.R;
-import com.nadrial.rollthedice.Router.Router;
+import androidx.appcompat.app.AppCompatActivity;
 
-public class StatisticsView extends StatisticsPresenter {
+import com.nadrial.rollthedice.R;
+import com.nadrial.rollthedice.Navigator;
+
+public class Statistics extends AppCompatActivity {
 
 
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +20,7 @@ public class StatisticsView extends StatisticsPresenter {
         mainButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Router.openActivity(StatisticsView.this, MainView.class);
+                Navigator.openActivity(Statistics.this, MainMenu.class);
             }
         });
 

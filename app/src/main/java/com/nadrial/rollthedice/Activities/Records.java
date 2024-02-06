@@ -1,14 +1,15 @@
-package com.nadrial.rollthedice.View;
+package com.nadrial.rollthedice.Activities;
 
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.nadrial.rollthedice.Presenter.RecordsPresenter;
-import com.nadrial.rollthedice.R;
-import com.nadrial.rollthedice.Router.Router;
+import androidx.appcompat.app.AppCompatActivity;
 
-public class RecordsView extends RecordsPresenter {
+import com.nadrial.rollthedice.R;
+import com.nadrial.rollthedice.Navigator;
+
+public class Records extends AppCompatActivity {
 
 
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +20,7 @@ public class RecordsView extends RecordsPresenter {
         mainButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Router.openActivity(RecordsView.this, MainView.class);
+                Navigator.openActivity(Records.this, MainMenu.class);
             }
         });
 

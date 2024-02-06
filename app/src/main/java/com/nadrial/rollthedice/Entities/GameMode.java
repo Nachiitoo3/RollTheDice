@@ -11,17 +11,27 @@ public class GameMode {
         duration = newDuration;
     }
 
-    public static int getCategoria() {
-        return categoria;
+    public static int getCategory() {
+        return category;
     }
 
-    public static void setCategoria(int newCategoria) {
-        categoria = newCategoria;
+    public static void setCategory(int newCategoria) {
+        category = newCategoria;
     }
 
     public static long duration = 20000;
 
-    public static int categoria = -2;
+    public static int category = -2;
+
+    public static int getMode() {
+        return mode;
+    }
+
+    public static void setMode(int newMode) {
+        mode = newMode;
+    }
+
+    public static int mode = 0;
 
     public static int getIndexSpinner() {
         return indexSpinner;
