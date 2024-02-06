@@ -130,7 +130,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="15dp"
         android:fontFamily="@font/baloo_bhai_2"
-        android:text="Modo classic"
+        android:text="Classic Mode"
         android:textColor="@color/black"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/classicButtonMainView"
