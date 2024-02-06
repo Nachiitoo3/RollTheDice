@@ -15,6 +15,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
         android:text="Sonido"
+        android:textColor="@color/black"
         android:textSize="22sp" />
 
     <SeekBar
@@ -30,7 +31,6 @@
         />
 
 
-
     <TextView
         android:id="@+id/barMusicTextView"
         android:layout_width="wrap_content"
@@ -38,6 +38,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="30dp"
         android:text="Música"
+        android:textColor="@color/black"
         android:textSize="22sp" />
 
     <SeekBar
@@ -56,10 +57,11 @@
         android:id="@+id/languageTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Idioma"
-        android:textSize="22sp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="30dp"/>
+        android:layout_marginTop="30dp"
+        android:text="Idioma"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
 
 
     <RadioGroup
@@ -96,7 +98,7 @@
         android:layout_marginTop="30dp"
         android:text="Nuestra politica de privacidad"
 
-        />
+        android:textColor="@color/black" />
 
 
 

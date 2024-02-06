@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.rollthedice"
+    namespace = "com.nadrial.rollthedice"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.rollthedice"
+        applicationId = "com.nadrial.rollthedice"
         minSdk = 24
         targetSdk = 33
         versionCode = 1
