@@ -16,12 +16,5 @@ public class Statistics extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.statisticsview);
 
-        Button mainButton = findViewById(R.id.mainButtonResultsView);
-        mainButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Navigator.openActivity(Statistics.this, MainMenu.class);
-            }
-        });
     }
 }
