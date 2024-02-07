@@ -32,6 +32,7 @@ public class Results extends AppCompatActivity {
                 GameMode.setDuration(20000);
                 GameMode.setMode(0);
                 Navigator.openActivity(Results.this, MainMenu.class);
+                finish();
             }
         });
         retryButton.setOnClickListener(new View.OnClickListener() {
@@ -39,6 +40,7 @@ public class Results extends AppCompatActivity {
             public void onClick(View v) {
                 Counter.reset();
                 Navigator.openActivity(Results.this, Dice.class);
+                finish();
             }
         });
     }

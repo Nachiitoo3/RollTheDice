@@ -199,8 +199,10 @@ public class Question extends AppCompatActivity {
                             break;
                     }
                     Navigator.openActivity(context, Dice.class);
+                    finish();
                 } else {
                     Navigator.openActivity(context, Results.class);
+                    finish();
                 }
             }
         }, 1700);

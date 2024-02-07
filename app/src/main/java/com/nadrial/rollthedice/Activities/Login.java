@@ -29,6 +29,7 @@ public class Login extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Navigator.openActivity(Login.this, MainMenu.class);
+                finish();
             }
         });
         registerText.setOnClickListener(new View.OnClickListener() {
@@ -47,4 +48,6 @@ public class Login extends AppCompatActivity {
         spannableString.setSpan(new ForegroundColorSpan(Color.MAGENTA), startIndex, startIndex + "SIGN UP".length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
         textView.setText(spannableString);
     }
+
+
 }

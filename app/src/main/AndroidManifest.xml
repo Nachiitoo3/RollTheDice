@@ -47,7 +47,7 @@
             android:exported="true"
             />
         <activity
-            android:name="com.nadrial.rollthedice.Activities.Records"
+            android:name="com.nadrial.rollthedice.Activities.Statistics"
             android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
             android:exported="true"
             android:parentActivityName="com.nadrial.rollthedice.Activities.MainMenu"
@@ -61,8 +61,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.nadrial.rollthedice.Activities.Statistics"
-            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
+            android:name="com.nadrial.rollthedice.Activities.Rankings"
             android:exported="true"
             android:parentActivityName="com.nadrial.rollthedice.Activities.MainMenu"/>
 

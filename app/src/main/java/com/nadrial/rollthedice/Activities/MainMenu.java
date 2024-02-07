@@ -66,6 +66,7 @@ public class MainMenu extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Navigator.openActivity(MainMenu.this, Dice.class);
+                finish();
                 if (GameMode.getMode() == 2) {
                     Category.setCategory(categorySpinner.getSelectedItemPosition());
                 }
@@ -89,16 +90,16 @@ public class MainMenu extends AppCompatActivity {
                 setJustOneGame();
             }
         });
-        recordsButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Navigator.openActivity(MainMenu.this, Records.class);
-            }
-        });
         statisticsButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Navigator.openActivity(MainMenu.this, Statistics.class);
+            }
+        });
+        recordsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Navigator.openActivity(MainMenu.this, Rankings.class);
             }
         });
     }

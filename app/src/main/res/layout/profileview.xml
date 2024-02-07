@@ -169,7 +169,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/baloo_bhai_2"
-        android:text="Cerrar sesion"
+        android:text="Cerrar sesión"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="@+id/logOutBackground"
         app:layout_constraintEnd_toEndOf="@+id/logOutBackground"

@@ -33,13 +33,14 @@ public class TransitionDiceIntoQuestion extends AppCompatActivity {
         categoryIcon.setImageResource(Category.getCategoryIcon());
     }
 
-    public static void transition(Context context, Class<?> cls) {
+    public void transition(Context context, Class<?> cls) {
 
         Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
                 Navigator.openActivity(context, Question.class);
+                finish();
             }
         }, 500);
     }

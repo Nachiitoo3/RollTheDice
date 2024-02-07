@@ -42,6 +42,7 @@ public class Dice extends AppCompatActivity {
             public void onClick(View v) {
                 randomCategoryGenerator();
                 Navigator.openActivity(Dice.this, TransitionDiceIntoQuestion.class);
+                finish();
             }
         });
     }

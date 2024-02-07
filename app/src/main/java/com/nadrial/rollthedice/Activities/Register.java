@@ -48,7 +48,10 @@ public class Register extends AppCompatActivity {
 
                 String nameUser = Name.getText().toString().trim();
                 String emailUser = Email.getText().toString().trim();
-                String passUser = Password.getText().toString().trim();
+                String passUser = null;
+                if (RPassword.getText().toString().trim().equals(Password.getText().toString().trim())) {
+                    passUser = Password.getText().toString().trim();
+                }
 
                 if(nameUser.isEmpty() && emailUser.isEmpty() && passUser.isEmpty()){
                     Toast.makeText(Register.this, "Complete los datos", Toast.LENGTH_SHORT).show();

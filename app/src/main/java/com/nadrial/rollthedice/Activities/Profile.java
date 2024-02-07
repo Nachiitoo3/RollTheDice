@@ -28,6 +28,7 @@ public class Profile extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Navigator.openActivity(Profile.this, MainMenu.class);
+                finish();
             }
         });
 
@@ -35,6 +36,7 @@ public class Profile extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Navigator.openActivity(Profile.this, Login.class);
+                finish();
             }
         });
 
