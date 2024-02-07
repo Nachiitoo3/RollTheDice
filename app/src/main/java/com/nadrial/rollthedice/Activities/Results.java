@@ -21,6 +21,7 @@ public class Results extends AppCompatActivity {
 
         Button mainButton = findViewById(R.id.mainButtonResultsView);
         Button retryButton = findViewById(R.id.retryButtonResultsView);
+
         setNumbers();
         setProgressBar();
 
@@ -42,14 +43,14 @@ public class Results extends AppCompatActivity {
         });
     }
 
-    protected void setNumbers(){
+    protected void setNumbers() {
         TextView resultsText = findViewById(R.id.resultTextResultsView);
         TextView maxNumber = findViewById(R.id.topNumberYResultsView);
-        maxNumber.setText(String.valueOf(Counter.getCount()+1));
+        maxNumber.setText(String.valueOf(Counter.getCount() + 1));
         resultsText.setText(String.valueOf(Counter.getCount()));
     }
 
-    protected void setProgressBar(){
+    protected void setProgressBar() {
 
         ProgressBar mitProgressBar = findViewById(R.id.mitProgressBarResultsView);
         ProgressBar natProgressBar = findViewById(R.id.natProgressBarResultsView);
@@ -57,11 +58,11 @@ public class Results extends AppCompatActivity {
         ProgressBar tripProgressBar = findViewById(R.id.tripsProgressBarResultsView);
         ProgressBar techProgressBar = findViewById(R.id.techProgressBarResultsView);
 
-        mitProgressBar.setMax(Counter.getCount()+1);
-        natProgressBar.setMax(Counter.getCount()+1);
-        foodProgressBar.setMax(Counter.getCount()+1);
-        tripProgressBar.setMax(Counter.getCount()+1);
-        techProgressBar.setMax(Counter.getCount()+1);
+        mitProgressBar.setMax(Counter.getCount() + 1);
+        natProgressBar.setMax(Counter.getCount() + 1);
+        foodProgressBar.setMax(Counter.getCount() + 1);
+        tripProgressBar.setMax(Counter.getCount() + 1);
+        techProgressBar.setMax(Counter.getCount() + 1);
 
         mitProgressBar.setProgress(Counter.getMitCount());
         natProgressBar.setProgress(Counter.getNatCount());

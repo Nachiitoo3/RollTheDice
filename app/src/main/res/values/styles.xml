@@ -19,13 +19,14 @@
         <item name="backgroundTint">@color/white2</item>
         <item name="strokeColor">@android:color/white</item>
     </style>
-    <style name="buttonRegiser" parent="Widget.MaterialComponents.Button.OutlinedButton">
+    <style name="buttonRegister" parent="Widget.MaterialComponents.Button.OutlinedButton">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">@android:color/white</item>
         <item name="cornerRadius">20dp</item>
         <item name="strokeColor">@android:color/white</item>
     </style>
+
 
 
 </resources>

@@ -1,12 +1,11 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.RollTheDice" parent="Theme.Material3.DayNight.NoActionBar">
-        <item name="android:fontFamily">@font/acme</item>
-        <item name="android:windowIsTranslucent">true</item>
-
+        <item name="android:fontFamily">@font/baloo</item>
+        <item name="android:textColorPrimary">@color/black</item>
 
 
     </style>
 
-    <style name="Theme.RollTheDice" parent="Base.Theme.RollTheDice" />
+
 </resources>

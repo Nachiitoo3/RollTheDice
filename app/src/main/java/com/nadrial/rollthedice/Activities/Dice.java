@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
+import com.nadrial.rollthedice.Entities.Category;
 import com.nadrial.rollthedice.Entities.GameMode;
 import com.nadrial.rollthedice.R;
 import com.nadrial.rollthedice.Navigator;
@@ -67,8 +68,10 @@ public class Dice extends AppCompatActivity {
     public void randomCategoryGenerator() {
         if (GameMode.mode != 2) {
             Random random = new Random();
-            GameMode.setCategory(random.nextInt(5));
+            Category.setCategory(random.nextInt(5));
+
         }
+
     }
 }
 

@@ -19,21 +19,6 @@
         app:layout_constraintStart_toEndOf="@+id/yBarResultsView"
         app:layout_constraintTop_toBottomOf="@+id/xTopBarResultsView" />
 
-    <TextView
-        android:id="@+id/halfCounterResultsView"
-        android:layout_width="25dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="9dp"
-        android:layout_marginBottom="-10dp"
-        android:gravity="center|center_horizontal|center_vertical"
-        android:text="35"
-        android:textColor="@color/black"
-        app:layout_constraintBottom_toTopOf="@+id/halfXBarResultsView"
-        app:layout_constraintEnd_toStartOf="@+id/halfXBarResultsView"
-        app:layout_constraintHorizontal_bias="0.1"
-        app:layout_constraintStart_toStartOf="parent" />
-
     <Button
         android:id="@+id/mainButtonResultsView"
         style="@style/buttonOutlined"
