@@ -20,10 +20,7 @@ La aplicación cuenta con distintas <strong>vistas</strong>:
 ## SPLASH
 
 La pantalla de bienvenida ofrece una entrada dinámica a la app, estableciendo la conexión inicial con los usuarios.
-
-<p align="center">
-![Splash GIF](img/Splash.gif)
-</p>
+https://github.com/Nachiitoo3/RollTheDice/blob/Main/img/Splash.gif
 
 ## LOGIN
 
