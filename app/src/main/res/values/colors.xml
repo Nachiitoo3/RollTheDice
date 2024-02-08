@@ -29,5 +29,7 @@
     <color name="greenCorrect">#13D31A</color>
     <color name="grey">#9E9E9E</color>
     <color name="grey2">#2CFFFFFF</color>
+    <color name="completed">#777777</color>
+
 
 </resources>

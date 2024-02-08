@@ -102,7 +102,7 @@ public class Rankings extends AppCompatActivity {
     }
 
 
-    public void selectRankingMode (Button button, TextView textView, ImageView imageView){
+    public void selectRankingMode(Button button, TextView textView, ImageView imageView){
         ObjectAnimator animation1 = ObjectAnimator.ofFloat(button, "translationY", -120f);
         ObjectAnimator animation2 = ObjectAnimator.ofFloat(textView, "translationY", -120f);
         ObjectAnimator animation3 = ObjectAnimator.ofFloat(imageView, "translationY", -120f);

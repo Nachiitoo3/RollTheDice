@@ -191,8 +191,8 @@
         android:layout_marginBottom="-150dp"
         android:backgroundTint="#61FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toStartOf="@id/just1ModeRanking"
+        app:layout_constraintStart_toEndOf="@id/speedRankingMode" />
 
     <ImageView
         android:id="@+id/silverMedalImage"

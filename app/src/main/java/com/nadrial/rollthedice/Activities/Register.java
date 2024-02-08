@@ -47,7 +47,7 @@ public class Register extends AppCompatActivity {
 
                 String nameUser = Name.getText().toString().trim();
                 String emailUser = Email.getText().toString().trim();
-                String passUser = null;
+                String passUser = "";
                 if (RPassword.getText().toString().trim().equals(Password.getText().toString().trim())) {
                     passUser = Password.getText().toString().trim();
                 }

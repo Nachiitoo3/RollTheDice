@@ -48,7 +48,6 @@
             />
         <activity
             android:name="com.nadrial.rollthedice.Activities.Statistics"
-            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
             android:exported="true"
             android:parentActivityName="com.nadrial.rollthedice.Activities.MainMenu"
             />

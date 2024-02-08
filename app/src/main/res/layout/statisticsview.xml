@@ -6,13 +6,115 @@
     android:layout_height="match_parent"
     android:background="@drawable/gradient">
 
-    <Button
-        android:id="@+id/mainButtonRecordsView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="MAIN!!!"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewStats"
+        android:layout_width="300dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="150dp"
+        android:background="#3EFFFFFF"
+        android:scrollbars="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/statsLabel" />
+
+    <Button
+        android:id="@+id/achievementsMode"
+        style="@style/buttonOutlined"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="-150dp"
+        android:backgroundTint="#61FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/statsMode" />
+
+    <Button
+        android:id="@+id/statsMode"
+        style="@style/buttonOutlined"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="-150dp"
+        android:backgroundTint="#61FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/achievementsMode"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/statsImage"
+        style="@style/buttonOutlined"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:scaleType="fitCenter"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:tint="#0C0101"
+        app:layout_constraintEnd_toEndOf="@+id/statsMode"
+        app:layout_constraintStart_toStartOf="@+id/statsMode"
+        app:layout_constraintTop_toTopOf="@+id/statsMode"
+        app:srcCompat="@drawable/estadisticas" />
+
+    <ImageButton
+        android:id="@+id/achievementsImage"
+        style="@style/buttonOutlined"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:scaleType="fitCenter"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        app:layout_constraintEnd_toEndOf="@+id/achievementsMode"
+        app:layout_constraintStart_toStartOf="@+id/achievementsMode"
+        app:layout_constraintTop_toTopOf="@+id/achievementsMode"
+        app:srcCompat="@drawable/logros" />
+
+    <TextView
+        android:id="@+id/statsModeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stats"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toTopOf="@+id/statsMode"
+        app:layout_constraintEnd_toEndOf="@+id/statsImage"
+        app:layout_constraintStart_toStartOf="@+id/statsImage" />
+
+    <TextView
+        android:id="@+id/achievementsLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:text="Logros"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toTopOf="@+id/achievementsMode"
+        app:layout_constraintEnd_toEndOf="@+id/achievementsImage"
+        app:layout_constraintStart_toStartOf="@+id/achievementsImage" />
+
+    <TextView
+        android:id="@+id/statsLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="S T A T S"
+        android:textSize="44sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/backButton"
+        style="@android:style/Widget.Holo.Light.ImageButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:scaleX="0.5"
+        android:scaleY="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/backarrow" />
 </androidx.constraintlayout.widget.ConstraintLayout>
