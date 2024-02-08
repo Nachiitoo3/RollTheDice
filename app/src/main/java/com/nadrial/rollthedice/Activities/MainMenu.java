@@ -12,6 +12,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -21,6 +22,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 
+import com.nadrial.rollthedice.Entities.Category;
 import com.nadrial.rollthedice.Entities.GameMode;
 import com.nadrial.rollthedice.R;
 import com.nadrial.rollthedice.Navigator;
@@ -37,6 +39,7 @@ public class MainMenu extends AppCompatActivity {
         setContentView(R.layout.mainmenuview);
 
         Button playButton = findViewById(R.id.playButtonMainView);
+        ImageButton profileButton = findViewById(R.id.profileButton);
         Button recordsButton = findViewById(R.id.recordsButtonMainView);
         Button statisticsButton = findViewById(R.id.statisticsButtonMainView);
         ImageView configIcon = findViewById(R.id.configImageMainView);
@@ -47,6 +50,12 @@ public class MainMenu extends AppCompatActivity {
         categorySpinner = findViewById(R.id.categorySpinnerMainView);
         setUpSpinner(getResources().getStringArray(R.array.categorias), categorySpinner);
 
+        profileButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Navigator.openActivity(MainMenu.this, Profile.class);
+            }
+        });
         configIcon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -57,8 +66,9 @@ public class MainMenu extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Navigator.openActivity(MainMenu.this, Dice.class);
+                finish();
                 if (GameMode.getMode() == 2) {
-                    GameMode.setCategory(categorySpinner.getSelectedItemPosition());
+                    Category.setCategory(categorySpinner.getSelectedItemPosition());
                 }
             }
         });
@@ -80,16 +90,16 @@ public class MainMenu extends AppCompatActivity {
                 setJustOneGame();
             }
         });
-        recordsButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Navigator.openActivity(MainMenu.this, Records.class);
-            }
-        });
         statisticsButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Navigator.openActivity(MainMenu.this, Statistics.class);
+            }
+        });
+        recordsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Navigator.openActivity(MainMenu.this, Rankings.class);
             }
         });
     }

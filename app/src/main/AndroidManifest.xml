@@ -10,14 +10,19 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_rollthedice_foreground"
         android:supportsRtl="true"
-        android:theme="@style/Theme.RollTheDice"
+        android:theme="@style/Base.Theme.RollTheDice"
         tools:targetApi="31">
+        <activity
+            android:name="com.nadrial.rollthedice.Activities.Dice"
+            android:exported="true"
+            />
         <activity
             android:name="com.nadrial.rollthedice.Activities.Login"
             android:exported="true">
         </activity>
+
         <activity
-            android:name="com.nadrial.rollthedice.Activities.Dice"
+            android:name="com.nadrial.rollthedice.Activities.Profile"
             android:exported="true"
             />
         <activity
@@ -36,15 +41,13 @@
             />
         <activity
             android:name="com.nadrial.rollthedice.Activities.MainMenu"
-            android:exported="true"
-            />
+            android:exported="true"/>
         <activity
             android:name="com.nadrial.rollthedice.Activities.Question"
             android:exported="true"
             />
         <activity
-            android:name="com.nadrial.rollthedice.Activities.Records"
-            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
+            android:name="com.nadrial.rollthedice.Activities.Statistics"
             android:exported="true"
             android:parentActivityName="com.nadrial.rollthedice.Activities.MainMenu"
             />
@@ -57,8 +60,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.nadrial.rollthedice.Activities.Statistics"
-            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
+            android:name="com.nadrial.rollthedice.Activities.Rankings"
             android:exported="true"
             android:parentActivityName="com.nadrial.rollthedice.Activities.MainMenu"/>
 

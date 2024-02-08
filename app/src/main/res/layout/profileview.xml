@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient">
+
+    <TextView
+        android:id="@+id/backgoundProvileView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/roundedcorners"
+        android:backgroundTint="#A4FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/profileImageProfileView"
+        style="@android:style/Widget.DeviceDefault.ImageButton"
+        android:layout_width="186dp"
+        android:layout_height="171dp"
+        android:layout_marginTop="80dp"
+        android:background="#00FFFFFF"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="@+id/backgoundProvileView"
+        app:layout_constraintStart_toStartOf="@+id/backgoundProvileView"
+        app:layout_constraintTop_toTopOf="@+id/backgoundProvileView"
+        app:srcCompat="@drawable/user" />
+
+    <TextView
+        android:id="@+id/profileNameProfileView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Merillas"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="@+id/backgoundProvileView"
+        app:layout_constraintStart_toStartOf="@+id/backgoundProvileView"
+        app:layout_constraintTop_toBottomOf="@+id/profileImageProfileView" />
+
+    <TextView
+        android:id="@+id/gmailTextProfileView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/baloo_bhai_2"
+        android:text="Adrianmpgg@gmail.com"
+        android:textColor="#7C7C7C"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/backgoundProvileView"
+        app:layout_constraintStart_toStartOf="@+id/backgoundProvileView"
+        app:layout_constraintTop_toBottomOf="@+id/profileNameProfileView" />
+
+    <ImageButton
+        android:id="@+id/backButtonProfileView"
+        style="@android:style/Widget.Holo.Light.ImageButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:scaleX="0.5"
+        android:scaleY="0.5"
+        app:layout_constraintStart_toStartOf="@+id/backgoundProvileView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/backarrow" />
+
+    <TextView
+        android:id="@+id/changeNameBackground"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="40dp"
+        android:background="#C5B2B2"
+        android:backgroundTint="#25B6B6B6"
+        app:layout_constraintBottom_toTopOf="@+id/changeProfileImageBackground"
+        app:layout_constraintEnd_toEndOf="@+id/backgoundProvileView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/backgoundProvileView" />
+
+    <TextView
+        android:id="@+id/logOutBackground"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="70dp"
+        android:background="#C5B2B2"
+        android:backgroundTint="#25B6B6B6"
+        app:layout_constraintBottom_toBottomOf="@+id/backgoundProvileView"
+        app:layout_constraintEnd_toEndOf="@+id/backgoundProvileView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/backgoundProvileView" />
+
+    <TextView
+        android:id="@+id/changeProfileImageBackground"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="170dp"
+        android:background="#C5B2B2"
+        android:backgroundTint="#25B6B6B6"
+        app:layout_constraintBottom_toBottomOf="@+id/backgoundProvileView"
+        app:layout_constraintEnd_toEndOf="@+id/backgoundProvileView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/backgoundProvileView" />
+
+    <TextView
+        android:id="@+id/changeNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo_bhai_2"
+        android:text="Cambiar nombre"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/changeNameBackground"
+        app:layout_constraintEnd_toEndOf="@+id/changeNameBackground"
+        app:layout_constraintStart_toStartOf="@+id/changeNameBackground"
+        app:layout_constraintTop_toTopOf="@+id/changeNameBackground"
+        app:layout_constraintVertical_bias="0.512" />
+
+    <ImageView
+        android:id="@+id/changeNameImage"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/changeNameBackground"
+        app:layout_constraintStart_toStartOf="@+id/changeNameBackground"
+        app:layout_constraintTop_toTopOf="@+id/changeNameBackground"
+        app:srcCompat="@drawable/changeprofile" />
+
+    <ImageView
+        android:id="@+id/changeProfileImageImage"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/changeProfileImageBackground"
+        app:layout_constraintStart_toStartOf="@+id/changeProfileImageBackground"
+        app:layout_constraintTop_toTopOf="@+id/changeProfileImageBackground"
+        app:srcCompat="@drawable/changeavatar" />
+
+    <TextView
+        android:id="@+id/changeProfileImageLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo_bhai_2"
+        android:text="Cambiar avatar"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/changeProfileImageBackground"
+        app:layout_constraintEnd_toEndOf="@+id/changeProfileImageBackground"
+        app:layout_constraintStart_toStartOf="@+id/changeProfileImageBackground"
+        app:layout_constraintTop_toTopOf="@+id/changeProfileImageBackground" />
+
+    <ImageView
+        android:id="@+id/logOutImage"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/logOutBackground"
+        app:layout_constraintStart_toStartOf="@+id/logOutBackground"
+        app:layout_constraintTop_toTopOf="@+id/logOutBackground"
+        app:srcCompat="@drawable/logout" />
+
+    <TextView
+        android:id="@+id/logOutLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo_bhai_2"
+        android:text="Cerrar sesión"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/logOutBackground"
+        app:layout_constraintEnd_toEndOf="@+id/logOutBackground"
+        app:layout_constraintStart_toStartOf="@+id/logOutBackground"
+        app:layout_constraintTop_toTopOf="@+id/logOutBackground" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

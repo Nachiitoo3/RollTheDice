@@ -13,7 +13,6 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
-import com.google.firebase.Firebase;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.FirebaseFirestore;
@@ -48,9 +47,12 @@ public class Register extends AppCompatActivity {
 
                 String nameUser = Name.getText().toString().trim();
                 String emailUser = Email.getText().toString().trim();
-                String passUser = Password.getText().toString().trim();
+                String passUser = "";
+                if (RPassword.getText().toString().trim().equals(Password.getText().toString().trim())) {
+                    passUser = Password.getText().toString().trim();
+                }
 
-                if(nameUser.isEmpty() && emailUser.isEmpty() && passUser.isEmpty()){
+                if(nameUser.isEmpty() || emailUser.isEmpty() || passUser.isEmpty()){
                     Toast.makeText(Register.this, "Complete los datos", Toast.LENGTH_SHORT).show();
 
                 }else {
@@ -70,11 +72,11 @@ public class Register extends AppCompatActivity {
                 map.put("id",id);
                 map.put("name",nameUser);
                 map.put("email",emailUser);
-                map.put("password",passUser);
+                //map.put("password",passUser);
 
-                mFirestore.collection("user").document(id).set(map).addOnSuccessListener(new OnSuccessListener<Void>() {
+                mFirestore.collection("user").document(id).set(map).addOnCompleteListener(new OnCompleteListener<Void>() {
                     @Override
-                    public void onSuccess(Void unused) {
+                    public void onComplete(@NonNull Task<Void> task) {
                         finish();
                         Navigator.openActivity(Register.this, Login.class);
                         Toast.makeText(Register.this, "Usuario registrado con éxito", Toast.LENGTH_SHORT).show();
@@ -86,12 +88,11 @@ public class Register extends AppCompatActivity {
                     }
                 });
             }
-        }).addOnFailureListener(new OnFailureListener() {
+      }).addOnFailureListener(new OnFailureListener() {
             @Override
             public void onFailure(@NonNull Exception e) {
                 Toast.makeText(Register.this, "Error al register", Toast.LENGTH_SHORT).show();
             }
         });
-
     }
 }

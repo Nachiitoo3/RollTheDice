@@ -21,9 +21,7 @@ La aplicación cuenta con distintas <strong>vistas</strong>:
 
 La pantalla de bienvenida ofrece una entrada dinámica a la app, estableciendo la conexión inicial con los usuarios.
 
-<p align="center">
-<img src="img/Splash.PNG" alt="Splash" />
-</p>
+![alt-text](https://github.com/Nachiitoo3/RollTheDice/blob/Main/img/Splash.gif)
 
 ## LOGIN
 
@@ -42,16 +40,30 @@ En la pantalla de registro, los usuarios pueden crear cuentas personalizadas par
 
 ## MENU
 
-La pantalla de menú sirve como centro de comando, ofreciendo opciones para explorar los diversos modos de juego, ajustar configuraciones y explorar tus records y estadísticas.
+La pantalla de menú sirve como centro de comando, ofreciendo opciones para explorar los diversos modos de juego, ajustar configuraciones, ver nuestro prefil y explorar tus records y estadísticas.
 <p align="center">
-<img src="img/Menu.PNG" alt="Menu Principal" width="392" height="756"/>
+<img src="img/MainMenu.PNG" alt="Menu Principal" width="392" height="756"/>
 </p>
 
 ## DADO
 
 La pantalla del dado va a ser la principal parte lúdica, va a disponer de un dado que al deslizar nos va a dar la categoría de la pregunta y nos llevará a ella.
 <p align="center">
-<img src="img/Dado.PNG" alt="Pantalla Dado" />
+<img src="img/Dice.PNG" alt="Pantalla Dado" />
+</p>
+
+## PERFIL
+
+La pantalla de perfil nos va a permitir a traves de 3 botones cambiar nuestro nombre de usuario, el avatar de perfil o cerrar sesión
+<p align="center">
+<img src="img/Profile.PNG" alt="Perfil" />
+</p>
+
+## OPCIONES
+
+La pantalla de opciones nos va a permitir cambiar el volumen de la música, el sonido o el idioma
+<p align="center">
+<img src="img/Options.PNG" alt="Opciones" />
 </p>
 
 ## TRANSICIÓN
@@ -73,17 +85,22 @@ Esta pantalla nos va a dar una pregunta con una imagen asociada a ella y cuatro 
 
 En esta pantalla podremos ver un resumen de nuestra partida con el número de preguntas acertadas y un gráfico de barras donde se mostraran el número de preguntas acertadas dependiendo de la categoría. Tambien vamos a tener la opción a través de dos botones de volver al menu inicial o de iniciar una nueva partida.
 <p align="center">
-<img src="img/Resultados.PNG" alt="Resultados" />
+<img src="img/Results.PNG" alt="Resultados" />
 </p>
 
-## RECORDS
+## RANKING
 
-La pantalla de records nos va a mostrar una clasificación global con diferentes modalidades como modo clásico, rápido, categoría única donde podremos competir con diferentes usuarios.
+La pantalla de rankings nos va a mostrar una clasificación global con diferentes modalidades como modo clásico, rápido y categoría única donde podremos competir con diferentes usuarios.
+<p align="center">
+<img src="img/Ranking.PNG" alt="Ranking" />
+</p>
 
 ## ESTADISTÍCAS
 
-La pantalla de estadísticas nos va a servir para ver nuestro progreso individual en la aplicación y conseguir diferentes logros con los que probar nuestro conocimiento.
-
+La pantalla de estadísticas nos va a servir para ver nuestro progreso individual en la aplicación y los diferentes logros con los que probar nuestro conocimiento.
+<p align="center">
+<img src="img/Logros.PNG" alt="Logros" />
+</p>
 
 ### MANUAL DE USO
 https://github.com/Nachiitoo3/RollTheDice/assets/131858630/49005f03-3177-4635-a907-bfacca8d9b72

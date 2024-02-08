@@ -20,6 +20,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.nadrial.rollthedice.Entities.Category;
 import com.nadrial.rollthedice.Entities.GameMode;
 import com.nadrial.rollthedice.QuestionInteractor;
 import com.nadrial.rollthedice.R;
@@ -69,8 +70,6 @@ public class Question extends AppCompatActivity {
             }
         });
     }
-
-    int mainColor;
     boolean cancelTimer;
     String correctAnswer, answer;
 
@@ -79,48 +78,14 @@ public class Question extends AppCompatActivity {
         TextView colorType = findViewById(R.id.colorTypeTextViewQuestionView);
         ImageView questionTypeIcon = findViewById(R.id.typeQuestionIconQuestionView);
 
-        switch (GameMode.getCategory()) {
-            case 0:
-                colorType.setBackgroundResource(R.color.greenNature);
-                timeBar.setProgressBackgroundTintList(ColorStateList.valueOf(getResources().getColor(R.color.greenNatureBar2)));
-                timeBar.setProgressTintList(ColorStateList.valueOf(getResources().getColor(R.color.greenNatureBar1)));
-                questionTypeIcon.setImageResource(R.drawable.natureicon);
-                mainColor = getColor(R.color.greenNature);
-                break;
-            case 1:
-                colorType.setBackgroundResource(R.color.yellowMitology);
-                timeBar.setProgressBackgroundTintList(ColorStateList.valueOf(getResources().getColor(R.color.yellowMitologyBar2)));
-                timeBar.setProgressTintList(ColorStateList.valueOf(getResources().getColor(R.color.yellowMitologyBar1)));
-                questionTypeIcon.setImageResource(R.drawable.mitologyicon);
-                mainColor = getColor(R.color.yellowMitology);
-                break;
-            case 2:
-                colorType.setBackgroundResource(R.color.redFood);
-                timeBar.setProgressBackgroundTintList(ColorStateList.valueOf(getResources().getColor(R.color.redFoodBar2)));
-                timeBar.setProgressTintList(ColorStateList.valueOf(getResources().getColor(R.color.redFoodBar1)));
-                questionTypeIcon.setImageResource(R.drawable.foodicon);
-                mainColor = getColor(R.color.redFood);
-                break;
-            case 3:
-                colorType.setBackgroundResource(R.color.orangeTrips);
-                timeBar.setProgressBackgroundTintList(ColorStateList.valueOf(getResources().getColor(R.color.orangeTripsBar2)));
-                timeBar.setProgressTintList(ColorStateList.valueOf(getResources().getColor(R.color.orangeTripsBar1)));
-                questionTypeIcon.setImageResource(R.drawable.tripsicon);
-                mainColor = getColor(R.color.orangeTrips);
-                break;
-            case 4:
-                colorType.setBackgroundResource(R.color.purpleTecnology);
-                timeBar.setProgressBackgroundTintList(ColorStateList.valueOf(getResources().getColor(R.color.purpleTecnologyBar2)));
-                timeBar.setProgressTintList(ColorStateList.valueOf(getResources().getColor(R.color.purpleTecnologyBar1)));
-                questionTypeIcon.setImageResource(R.drawable.techicon);
-                mainColor = getColor(R.color.purpleTecnology);
-                break;
-        }
+        colorType.setBackgroundColor(Category.getCategoryMainColor());
+        timeBar.setProgressBackgroundTintList(ColorStateList.valueOf(Category.getCategoryBarColor2()));
+        timeBar.setProgressTintList(ColorStateList.valueOf(Category.getCategoryBarColor1()));
+        questionTypeIcon.setImageResource(Category.getCategoryIcon());
     }
 
     public void setQuestion() {
 
-        String JSONString = null;
         TextView questionText = findViewById(R.id.questionTextViewQuestionView);
         ImageView questionImage = findViewById(R.id.questionImageQuestionView);
         Button answer1 = findViewById(R.id.answer1ButtonQuestionView);
@@ -128,25 +93,8 @@ public class Question extends AppCompatActivity {
         Button answer3 = findViewById(R.id.answer3ButtonQuestionView);
         Button answer4 = findViewById(R.id.answer4ButtonQuestionView);
 
-        switch (GameMode.getCategory()) {
-            case 0:
-                JSONString = "naturaleza";
-                break;
-            case 1:
-                JSONString = "mitologia";
-                break;
-            case 2:
-                JSONString = "gastronomia";
-                break;
-            case 3:
-                JSONString = "viajes";
-                break;
-            case 4:
-                JSONString = "tecnologia";
-                break;
-        }
         QuestionInteractor questionReader = new QuestionInteractor();
-        com.nadrial.rollthedice.Entities.Question randomQuestion = questionReader.getRandomQuestion(this, JSONString);
+        com.nadrial.rollthedice.Entities.Question randomQuestion = questionReader.getRandomQuestion(this, Category.getCategoryJSON());
 
         if (randomQuestion != null) {
             String question = randomQuestion.getQuestion();
@@ -214,7 +162,7 @@ public class Question extends AppCompatActivity {
             }
         }
         if (answer.equals(correctAnswer)) {
-            buttonPressed.setBackgroundColor(mainColor);
+            buttonPressed.setBackgroundColor(Category.getCategoryMainColor());
         } else {
             if (buttonPressed != null) {
                 buttonPressed.setBackgroundColor(getResources().getColor(R.color.redError));
@@ -225,7 +173,7 @@ public class Question extends AppCompatActivity {
                     button.setBackgroundColor(getResources().getColor(R.color.redError));
                 }
             }
-            correctButton.setBackgroundColor(mainColor);
+            correctButton.setBackgroundColor(Category.categoryMainColor);
         }
 
         new Handler().postDelayed(new Runnable() {
@@ -233,7 +181,7 @@ public class Question extends AppCompatActivity {
             public void run() {
                 if (answer.equals(correctAnswer)) {
                     increment();
-                    switch (GameMode.getCategory()) {
+                    switch (Category.getCategory()) {
                         case 0:
                             incrementNatCount();
                             break;
@@ -251,8 +199,10 @@ public class Question extends AppCompatActivity {
                             break;
                     }
                     Navigator.openActivity(context, Dice.class);
+                    finish();
                 } else {
                     Navigator.openActivity(context, Results.class);
+                    finish();
                 }
             }
         }, 1700);
