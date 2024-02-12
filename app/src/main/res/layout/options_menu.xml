@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- res/layout/dialog_options.xml -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="300dp"
     android:layout_height="260dp"
-    android:background="@drawable/gradient"
-    android:backgroundTint="#3CF3D9D9"
+    android:background="#16959595"
     android:backgroundTintMode="add"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:ignore="TextSizeCheck">
 
     <TextView
         android:id="@+id/barSoundTextView"
@@ -14,7 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
-        android:text="Sonido"
+        android:text="@string/sonido"
         android:textColor="@color/black"
         android:textSize="22sp" />
 
@@ -37,7 +38,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="30dp"
-        android:text="Música"
+        android:text="@string/musica"
         android:textColor="@color/black"
         android:textSize="22sp" />
 
@@ -59,7 +60,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="30dp"
-        android:text="Idioma"
+        android:text="@string/idioma"
         android:textColor="@color/black"
         android:textSize="22sp" />
 
@@ -79,7 +80,8 @@
             android:buttonTint="@color/black2"
             android:buttonTintMode="multiply"
             android:checked="true"
-            android:text="Español" />
+            android:text="@string/espa_ol"
+            tools:ignore="TouchTargetSizeCheck" />
 
         <RadioButton
             android:id="@+id/radioButtonEnglish"
@@ -87,7 +89,8 @@
             android:layout_height="wrap_content"
             android:buttonTint="@color/black"
             android:buttonTintMode="multiply"
-            android:text="English" />
+            android:text="@string/english"
+            tools:ignore="TouchTargetSizeCheck,VisualLintBounds" />
     </RadioGroup>
 
     <TextView
@@ -99,9 +102,11 @@
         android:autoLink="web"
         android:clickable="true"
         android:focusable="true"
-        android:text="Nuestra politica de privacidad"
+        android:minHeight="48dp"
+        android:text="@string/nuestra_politica_de_privacidad"
         android:textColor="#1650FF"
-        android:textStyle="italic" />
+        android:textStyle="italic"
+        tools:ignore="TouchTargetSizeCheck" />
 
 
 </LinearLayout>

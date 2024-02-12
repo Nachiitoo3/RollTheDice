@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient">
@@ -32,16 +31,17 @@
         app:layout_constraintEnd_toEndOf="@+id/backgoundProvileView"
         app:layout_constraintStart_toStartOf="@+id/backgoundProvileView"
         app:layout_constraintTop_toTopOf="@+id/backgoundProvileView"
-        app:srcCompat="@drawable/user" />
+        app:srcCompat="@drawable/user"
+        android:contentDescription="@string/user" />
 
     <TextView
         android:id="@+id/profileNameProfileView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:text="Merillas"
+        android:text="@string/nombre"
         android:textColor="@color/black"
-        android:textSize="40dp"
+        android:textSize="40sp"
         app:layout_constraintEnd_toEndOf="@+id/backgoundProvileView"
         app:layout_constraintStart_toStartOf="@+id/backgoundProvileView"
         app:layout_constraintTop_toBottomOf="@+id/profileImageProfileView" />
@@ -52,7 +52,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:fontFamily="@font/baloo_bhai_2"
-        android:text="Adrianmpgg@gmail.com"
+        android:text="@string/example_gmail_com"
         android:textColor="#7C7C7C"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="@+id/backgoundProvileView"
@@ -71,7 +71,8 @@
         android:scaleY="0.5"
         app:layout_constraintStart_toStartOf="@+id/backgoundProvileView"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/backarrow" />
+        app:srcCompat="@drawable/backarrow"
+        android:contentDescription="@string/volver" />
 
     <TextView
         android:id="@+id/changeNameBackground"
@@ -126,7 +127,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/baloo_bhai_2"
-        android:text="Cambiar nombre"
+        android:text="@string/cambiar_nombre"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="@+id/changeNameBackground"
         app:layout_constraintEnd_toEndOf="@+id/changeNameBackground"
@@ -142,7 +143,8 @@
         app:layout_constraintBottom_toBottomOf="@+id/changeNameBackground"
         app:layout_constraintStart_toStartOf="@+id/changeNameBackground"
         app:layout_constraintTop_toTopOf="@+id/changeNameBackground"
-        app:srcCompat="@drawable/changeprofile" />
+        app:srcCompat="@drawable/changeprofile"
+        android:contentDescription="@string/nameimagen" />
 
     <ImageView
         android:id="@+id/changeProfileImageImage"
@@ -152,7 +154,8 @@
         app:layout_constraintBottom_toBottomOf="@+id/changeProfileImageBackground"
         app:layout_constraintStart_toStartOf="@+id/changeProfileImageBackground"
         app:layout_constraintTop_toTopOf="@+id/changeProfileImageBackground"
-        app:srcCompat="@drawable/changeavatar" />
+        app:srcCompat="@drawable/changeavatar"
+        android:contentDescription="@string/profileimagen" />
 
     <ImageView
         android:id="@+id/deleteUserImage"
@@ -162,14 +165,15 @@
         app:layout_constraintBottom_toBottomOf="@+id/deleteAccountBackground"
         app:layout_constraintStart_toStartOf="@+id/deleteAccountBackground"
         app:layout_constraintTop_toTopOf="@+id/deleteAccountBackground"
-        app:srcCompat="@drawable/deleteuser" />
+        app:srcCompat="@drawable/deleteuser"
+        android:contentDescription="@string/deleteuser" />
 
     <TextView
         android:id="@+id/changeProfileImageLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/baloo_bhai_2"
-        android:text="Cambiar avatar"
+        android:text="@string/cambiar_avatar"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="@+id/changeProfileImageBackground"
         app:layout_constraintEnd_toEndOf="@+id/changeProfileImageBackground"
@@ -181,7 +185,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/baloo_bhai_2"
-        android:text="Eliminar cuenta"
+        android:text="@string/eliminar_cuenta"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="@+id/deleteAccountBackground"
         app:layout_constraintEnd_toEndOf="@+id/deleteAccountBackground"
@@ -196,14 +200,15 @@
         app:layout_constraintBottom_toBottomOf="@+id/logOutBackground"
         app:layout_constraintStart_toStartOf="@+id/logOutBackground"
         app:layout_constraintTop_toTopOf="@+id/logOutBackground"
-        app:srcCompat="@drawable/logout" />
+        app:srcCompat="@drawable/logout"
+        android:contentDescription="@string/logoutimagen" />
 
     <TextView
         android:id="@+id/logOutLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/baloo_bhai_2"
-        android:text="Cerrar sesión"
+        android:text="@string/cerrar_sesi_n"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="@+id/logOutBackground"
         app:layout_constraintEnd_toEndOf="@+id/logOutBackground"

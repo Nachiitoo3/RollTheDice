@@ -13,9 +13,14 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="22dp"
         android:layout_marginTop="20dp"
+        android:autofillHints="New Name"
         android:ems="10"
+        android:fontFamily="@font/baloo"
+        android:hint="@string/new_name"
         android:inputType="text"
-        android:text="New Name" />
+        android:minHeight="48dp"
+        android:textColor="@color/black2"
+        android:textColorHint="#5C5C5C" />
 
     <Button
         android:id="@+id/changeNameButton"
@@ -23,6 +28,6 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
         android:layout_marginTop="15dp"
-        android:backgroundTint="#A4AEAEAE"
-        android:text="Confirmar" />
+        android:backgroundTint="@color/black2"
+        android:text="@string/confirmar" />
 </LinearLayout>

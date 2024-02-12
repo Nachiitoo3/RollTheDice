@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient">
@@ -51,11 +50,12 @@
         android:scaleType="fitCenter"
         android:scaleX="0.8"
         android:scaleY="0.8"
-        android:tint="#0C0101"
         app:layout_constraintEnd_toEndOf="@+id/statsMode"
         app:layout_constraintStart_toStartOf="@+id/statsMode"
         app:layout_constraintTop_toTopOf="@+id/statsMode"
-        app:srcCompat="@drawable/estadisticas" />
+        app:srcCompat="@drawable/estadisticas"
+        android:contentDescription="@string/stats"
+        app:tint="@color/completed" />
 
     <ImageButton
         android:id="@+id/achievementsImage"
@@ -70,14 +70,17 @@
         app:layout_constraintEnd_toEndOf="@+id/achievementsMode"
         app:layout_constraintStart_toStartOf="@+id/achievementsMode"
         app:layout_constraintTop_toTopOf="@+id/achievementsMode"
-        app:srcCompat="@drawable/logros" />
+        app:srcCompat="@drawable/logros"
+        android:contentDescription="@string/logros"
+        app:tint="@color/completed" />
 
     <TextView
         android:id="@+id/statsModeLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Stats"
-        android:textSize="14dp"
+        android:text="@string/stats2"
+        android:textColor="@color/completed"
+        android:textSize="14sp"
         app:layout_constraintBottom_toTopOf="@+id/statsMode"
         app:layout_constraintEnd_toEndOf="@+id/statsImage"
         app:layout_constraintStart_toStartOf="@+id/statsImage" />
@@ -86,8 +89,9 @@
         android:id="@+id/achievementsLabel"
         android:layout_width="wrap_content"
         android:layout_height="21dp"
-        android:text="Logros"
-        android:textSize="14dp"
+        android:text="@string/logros2"
+        android:textColor="@color/completed"
+        android:textSize="14sp"
         app:layout_constraintBottom_toTopOf="@+id/achievementsMode"
         app:layout_constraintEnd_toEndOf="@+id/achievementsImage"
         app:layout_constraintStart_toStartOf="@+id/achievementsImage" />
@@ -97,7 +101,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
-        android:text="S T A T S"
+        android:text="@string/s_t_a_t_s"
         android:textSize="44sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -116,5 +120,6 @@
         android:scaleY="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/backarrow" />
+        app:srcCompat="@drawable/backarrow"
+        android:contentDescription="@string/back" />
 </androidx.constraintlayout.widget.ConstraintLayout>

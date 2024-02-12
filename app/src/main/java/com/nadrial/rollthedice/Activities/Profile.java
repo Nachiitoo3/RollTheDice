@@ -2,22 +2,19 @@ package com.nadrial.rollthedice.Activities;
 
 import android.app.Dialog;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.google.firebase.auth.FirebaseAuth;
 import com.nadrial.rollthedice.Navigator;
 import com.nadrial.rollthedice.R;
 
 public class Profile extends AppCompatActivity {
 
-    private FirebaseAuth mAuth;
-    int avatar;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.profileview);
@@ -27,33 +24,19 @@ public class Profile extends AppCompatActivity {
         TextView changeProfileImage = findViewById(R.id.changeProfileImageBackground);
         TextView changeName = findViewById(R.id.changeNameBackground);
 
-        backToMenuButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Navigator.openActivity(Profile.this, MainMenu.class);
-                finish();
-            }
+        backToMenuButton.setOnClickListener(v -> {
+            Navigator.openActivity(Profile.this, MainMenu.class);
+            finish();
         });
 
-        logOut.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Navigator.openActivity(Profile.this, Login.class);
-                finish();
-            }
+        logOut.setOnClickListener(v -> {
+            Navigator.openActivity(Profile.this, Login.class);
+            finish();
         });
 
-        changeProfileImage.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {changeProfileImage();
-            }
-        });
+        changeProfileImage.setOnClickListener(v -> changeProfileImage());
 
-        changeName.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {changeName();
-            }
-        });
+        changeName.setOnClickListener(v -> changeName());
 
 
     }
@@ -66,14 +49,19 @@ public class Profile extends AppCompatActivity {
         Button changeNameButton = optionsDialog.findViewById(R.id.changeNameButton);
         EditText nameChangedEditText = optionsDialog.findViewById(R.id.changeNameEditText);
 
-        changeNameButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                TextView nameText = findViewById(R.id.profileNameProfileView);
-                nameText.setText(nameChangedEditText.getText().toString());
-                optionsDialog.dismiss();
+        changeNameButton.setOnClickListener(v -> {
+            String newName = nameChangedEditText.getText().toString().trim();
+
+            if (newName.length() > 16) {
+                Toast.makeText(this, "El nombre no puede tener más de 16 caracteres", Toast.LENGTH_SHORT).show();
+                return;
             }
+
+            TextView nameText = findViewById(R.id.profileNameProfileView);
+            nameText.setText(newName);
+            optionsDialog.dismiss();
         });
+
         optionsDialog.show();
     }
 
@@ -85,12 +73,7 @@ public class Profile extends AppCompatActivity {
 
         Button chageImageButton = profileImages.findViewById(R.id.confirmChangeImageButton);
 
-        chageImageButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                profileImages.dismiss();
-            }
-        });
+        chageImageButton.setOnClickListener(v -> profileImages.dismiss());
 
 
         profileImages.show();

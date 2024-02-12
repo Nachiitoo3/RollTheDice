@@ -3,7 +3,7 @@ package com.nadrial.rollthedice;
 import android.widget.ImageView;
 
 public class ItemAchievement {
-    private Boolean completed = false;
+    private Boolean completed;
     private String nameAchievement;
 
     public ImageView getImgAchivement() {

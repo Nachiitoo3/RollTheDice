@@ -14,7 +14,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/mitologyicon"
-        android:contentDescription="icon" />
+        android:contentDescription="@string/icon" />
 
     <TextView
         android:id="@+id/textViewTransitionView"
@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:fontFamily="@font/acme"
-        android:text="mitologia"
+        android:text="@string/mitologia"
         android:textColor="@color/black"
         android:textSize="44sp"
         app:layout_constraintEnd_toEndOf="parent"

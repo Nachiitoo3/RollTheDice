@@ -4,16 +4,15 @@ import android.animation.ArgbEvaluator;
 import android.animation.ValueAnimator;
 import android.content.Context;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.ImageView;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 import com.nadrial.rollthedice.Entities.Category;
 import com.nadrial.rollthedice.Entities.GameMode;
-import com.nadrial.rollthedice.R;
 import com.nadrial.rollthedice.Navigator;
-
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
+import com.nadrial.rollthedice.R;
 
 import java.util.Random;
 
@@ -31,37 +30,24 @@ public class Dice extends AppCompatActivity {
 
         changeBackgroungColor();
 
-        configIcon.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                MainMenu.showOptionsMenuDialog(context);
-            }
-        });
-        diceImage.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                randomCategoryGenerator();
-                Navigator.openActivity(Dice.this, TransitionDiceIntoQuestion.class);
-                finish();
-            }
+        configIcon.setOnClickListener(v -> MainMenu.showOptionsMenuDialog(context));
+        diceImage.setOnClickListener(v -> {
+            randomCategoryGenerator();
+            Navigator.openActivity(Dice.this, TransitionDiceIntoQuestion.class);
+            finish();
         });
     }
 
     public void changeBackgroungColor() {
-        final ValueAnimator colorAnimation = ValueAnimator.ofObject(new ArgbEvaluator(), getResources().getColor(R.color.yellowMitology), getResources().getColor(R.color.redFood),
-                getResources().getColor(R.color.greenNature),
-                getResources().getColor(R.color.purpleTecnology),
-                getResources().getColor(R.color.orangeTrips));
+        final ValueAnimator colorAnimation = ValueAnimator.ofObject(new ArgbEvaluator(), ContextCompat.getColor(this,R.color.yellowMitology), ContextCompat.getColor(this,R.color.redFood),
+                ContextCompat.getColor(this,R.color.greenNature),
+                ContextCompat.getColor(this,R.color.purpleTecnology),
+                ContextCompat.getColor(this,R.color.orangeTrips));
 
         colorAnimation.setDuration(5000);
         colorAnimation.setRepeatCount(ValueAnimator.INFINITE);
         colorAnimation.setRepeatMode(ValueAnimator.REVERSE);
-        colorAnimation.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
-            @Override
-            public void onAnimationUpdate(@NonNull ValueAnimator animator) {
-                getWindow().getDecorView().setBackgroundColor((int) animator.getAnimatedValue());
-            }
-        });
+        colorAnimation.addUpdateListener(animator -> getWindow().getDecorView().setBackgroundColor((int) animator.getAnimatedValue()));
 
         colorAnimation.start();
     }

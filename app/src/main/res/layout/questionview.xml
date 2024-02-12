@@ -18,7 +18,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VisualLintBounds" />
 
     <TextView
         android:id="@+id/blackBarQuestionView"
@@ -28,7 +29,8 @@
         app:layout_constraintBottom_toTopOf="@+id/colorTypeTextViewQuestionView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VisualLintBounds" />
 
     <ImageView
         android:id="@+id/typeQuestionIconQuestionView"
@@ -38,7 +40,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/blackBarQuestionView"
-        app:srcCompat="@drawable/mitologyicon" />
+        app:srcCompat="@drawable/mitologyicon"
+        android:contentDescription="@string/iconopregunta" />
 
     <ImageView
         android:id="@+id/questionImageQuestionView"
@@ -49,7 +52,8 @@
         app:layout_constraintBottom_toBottomOf="@+id/colorTypeTextViewQuestionView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/timeProgressBar" />
+        app:layout_constraintTop_toBottomOf="@+id/timeProgressBar"
+        android:contentDescription="@string/imagenpregunta" />
 
     <TextView
         android:id="@+id/questionTextViewQuestionView"
@@ -57,7 +61,7 @@
         android:layout_height="0dp"
         android:layout_marginTop="18dp"
         android:fontFamily="@font/baloo_bhai_2"
-        android:text="¿Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore?"
+        android:text="@string/textoPregunta"
         android:textAlignment="center"
         android:textColor="@color/black2"
         android:textSize="22sp"
@@ -66,44 +70,51 @@
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/questionImageQuestionView"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TextSizeCheck" />
 
     <Button
         android:id="@+id/answer1ButtonQuestionView"
         style="@style/buttonQuestion"
+        android:layout_height="48dp"
         android:layout_marginTop="32dp"
         android:backgroundTint="#FFFFFF"
         android:fontFamily="@font/baloo_bhai_2"
         android:gravity="center|center_horizontal|center_vertical"
-        android:text="Respuesta 1"
+        android:text="@string/respuesta_1"
         app:layout_constraintBottom_toTopOf="@+id/answer2ButtonQuestionView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/colorTypeTextViewQuestionView" />
+        app:layout_constraintTop_toBottomOf="@+id/colorTypeTextViewQuestionView"
+        tools:ignore="TextSizeCheck,VisualLintButtonSize" />
 
     <Button
         android:id="@+id/answer2ButtonQuestionView"
         style="@style/buttonQuestion"
+        android:layout_height="48dp"
         android:layout_marginTop="32dp"
         android:backgroundTint="#FFFFFF"
         android:fontFamily="@font/baloo_bhai_2"
-        android:text="Respuesta 2"
+        android:text="@string/respuesta_2"
         app:layout_constraintBottom_toTopOf="@+id/answer3ButtonQuestionView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/answer1ButtonQuestionView" />
+        app:layout_constraintTop_toBottomOf="@+id/answer1ButtonQuestionView"
+        tools:ignore="TextSizeCheck,VisualLintButtonSize" />
 
     <Button
         android:id="@+id/answer3ButtonQuestionView"
         style="@style/buttonQuestion"
+        android:layout_height="48dp"
         android:layout_marginTop="32dp"
         android:backgroundTint="#FFFFFF"
         android:fontFamily="@font/baloo_bhai_2"
-        android:text="Respuesta 3"
+        android:text="@string/respuesta_3"
         app:layout_constraintBottom_toTopOf="@+id/answer4ButtonQuestionView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/answer2ButtonQuestionView" />
+        app:layout_constraintTop_toBottomOf="@+id/answer2ButtonQuestionView"
+        tools:ignore="TextSizeCheck,VisualLintButtonSize" />
 
     <Button
         android:id="@+id/answer4ButtonQuestionView"
@@ -112,11 +123,12 @@
         android:layout_marginBottom="27dp"
         android:backgroundTint="#FFFFFF"
         android:fontFamily="@font/baloo_bhai_2"
-        android:text="Respuesta 4"
+        android:text="@string/respuesta_4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/answer3ButtonQuestionView" />
+        app:layout_constraintTop_toBottomOf="@+id/answer3ButtonQuestionView"
+        tools:ignore="TextSizeCheck,TouchTargetSizeCheck,VisualLintButtonSize" />
 
     <ProgressBar
         android:id="@+id/timeProgressBar"

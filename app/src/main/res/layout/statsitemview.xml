@@ -12,7 +12,9 @@
         android:scaleX="0.3"
         android:scaleY="0.3"
         android:translationY="2dp"
-        app:srcCompat="@drawable/retryicon" />
+        app:srcCompat="@drawable/retryicon"
+        android:contentDescription="@string/statsitem"
+        tools:ignore="VisualLintBounds" />
 
     <TextView
         android:id="@+id/textViewStatItem"
@@ -20,7 +22,7 @@
         android:layout_height="60dp"
         android:layout_toEndOf="@+id/imageStatsItem"
         android:gravity="center"
-        android:text="Preguntas falladas:"
+        android:text="@string/preguntas_falladas"
         android:textColor="@color/black" />
 
     <TextView
@@ -29,5 +31,5 @@
         android:layout_height="60dp"
         android:layout_toEndOf="@+id/textViewStatItem"
         android:gravity="center"
-        android:text="500" />
+        android:text="@string/_500" />
 </RelativeLayout>
