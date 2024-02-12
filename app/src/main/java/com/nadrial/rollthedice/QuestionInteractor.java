@@ -1,6 +1,7 @@
 package com.nadrial.rollthedice;
 
 import android.content.Context;
+import android.net.Uri;
 
 
 import com.nadrial.rollthedice.Entities.Question;
@@ -47,18 +48,16 @@ public class QuestionInteractor {
             JSONArray jsonArray = new JSONArray(stringBuilder.toString());
             for (int i = 0; i < jsonArray.length(); i++) {
                 JSONObject jsonObject = jsonArray.getJSONObject(i);
-
                 Question question = new Question();
                 question.setQuestion(jsonObject.getString("pregunta"));
                 question.setCorrectAnswer(jsonObject.getString("respuesta_correcta"));
-
                 JSONArray optionsArray = jsonObject.getJSONArray("opciones_respuesta");
+                question.setImg(jsonObject.getString("img"));
                 List<String> options = new ArrayList<>();
                 for (int j = 0; j < optionsArray.length(); j++) {
                     options.add(optionsArray.getString(j));
                 }
                 question.setOptions(options);
-
                 questions.add(question);
             }
 

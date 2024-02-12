@@ -4,9 +4,11 @@ package com.nadrial.rollthedice.Activities;
 import android.annotation.SuppressLint;
 import android.app.Dialog;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.PorterDuff;
 import android.graphics.drawable.Drawable;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
@@ -131,6 +133,14 @@ public class MainMenu extends AppCompatActivity {
         Dialog optionsDialog = new Dialog(context);
         optionsDialog.setContentView(R.layout.options_menu);
         optionsDialog.setTitle("Opciones");
+        TextView textViewUrl = optionsDialog.findViewById(R.id.ourPolicy);
+        textViewUrl.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openUrl("https://creativecommons.org/licenses/by-nd/4.0/", context);
+                optionsDialog.dismiss();
+            }
+        });
         optionsDialog.show();
     }
 
@@ -201,4 +211,11 @@ public class MainMenu extends AppCompatActivity {
         drawableJustOne.setBounds(-1, -2, 72, 72);
         setJustOne.setCompoundDrawablesRelative(drawableJustOne, null, null, null);
     }
+
+    private static void openUrl(String url, Context context) {
+        Intent intent = new Intent(Intent.ACTION_VIEW);
+        intent.setData(Uri.parse(url));
+        context.startActivity(intent);
+    }
+
 }

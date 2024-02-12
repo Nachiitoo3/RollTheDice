@@ -1,5 +1,7 @@
 package com.nadrial.rollthedice.Entities;
 
+import android.net.Uri;
+
 import java.util.List;
 
 public class Question {
@@ -9,6 +11,17 @@ public class Question {
     private String correctAnswer;
 
     private List<String> options;
+
+    public String getImg() {
+        return img;
+    }
+
+    public void setImg(String img) {
+        this.img = img;
+    }
+
+    private String img;
+
 
 
     public void setQuestion(String question) {

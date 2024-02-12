@@ -46,12 +46,10 @@
         android:layout_height="200dp"
         android:layout_marginTop="5dp"
         android:layout_marginBottom="165dp"
-        android:background="@color/black2"
         app:layout_constraintBottom_toBottomOf="@+id/colorTypeTextViewQuestionView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/timeProgressBar"
-        app:srcCompat="@drawable/pregunta" />
+        app:layout_constraintTop_toBottomOf="@+id/timeProgressBar" />
 
     <TextView
         android:id="@+id/questionTextViewQuestionView"

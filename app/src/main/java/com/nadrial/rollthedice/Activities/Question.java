@@ -20,6 +20,8 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.nadrial.rollthedice.Entities.Category;
 import com.nadrial.rollthedice.Entities.GameMode;
 import com.nadrial.rollthedice.QuestionInteractor;
@@ -99,6 +101,11 @@ public class Question extends AppCompatActivity {
         if (randomQuestion != null) {
             String question = randomQuestion.getQuestion();
             String questionCorrectAnswer = randomQuestion.getCorrectAnswer();
+            Glide.with(context)
+                    .load(randomQuestion.getImg())
+                    .centerCrop()
+                    .diskCacheStrategy(DiskCacheStrategy.ALL)
+                    .into(questionImage);
             List<String> opciones = randomQuestion.getOptions();
             questionText.setText(question);
             Collections.shuffle(opciones);
