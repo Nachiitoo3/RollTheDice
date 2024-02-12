@@ -119,7 +119,7 @@ public class MainMenu extends AppCompatActivity {
             public View getDropDownView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
                 TextView textView = (TextView) super.getDropDownView(position, convertView, parent);
                 textView.setTextColor(Color.BLACK);
-                textView.setBackgroundResource(R.drawable.gradient2);
+                textView.setBackgroundColor(getResources().getColor(R.color.grey2));
                 textView.setPadding(350, 0, 0, 0);
 
                 return textView;

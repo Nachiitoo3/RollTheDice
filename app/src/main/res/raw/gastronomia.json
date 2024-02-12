@@ -650,7 +650,7 @@
             "Paparajote",
             "Tocino de cielo",
             "Pastel de carne"
-        ], "img": ""
+        ], "img": "https://i.blogs.es/9be371/tocino-de-cielo/1366_2000.jpg"
     },
     {
         "pregunta": "¿Qué plato árabe se compone principalmente de garbanzos, especias y hierbas, y se suele servir en forma de croquetas fritas?",
@@ -660,7 +660,7 @@
             "Kebab",
             "Falafel",
             "Hummus"
-        ], "img": ""
+        ], "img": "https://www.aceitesdeolivadeespana.com/wp-content/uploads/2021/01/receta-falafel.jpg"
     },
     {
         "pregunta": "¿Cuál es el plato árabe compuesto por trigo bulgur, perejil, menta, tomate y pepino?",
@@ -670,7 +670,7 @@
             "Shawarma",
             "Kebab",
             "Falafel"
-        ], "img": ""
+        ], "img": "https://www.tasteofhome.com/wp-content/uploads/2020/10/Tabouleh_EXPS_TOHFM21_250394_E09_22_8b.jpg"
     },
     {
         "pregunta": "¿Qué plato marroquí se caracteriza por ser un pastel de hojaldre relleno de carne de paloma o pollo, almendras y canela?",
@@ -680,7 +680,7 @@
             "Pastela",
             "Harira",
             "Mechoui"
-        ], "img": ""
+        ], "img": "https://imag.bonviveur.com/pastela-de-pollo-marroqui.jpg"
     },
     {
         "pregunta": "¿Qué plato es una sopa espesa marroquí hecha con tomate, legumbres, carne y especias?",
@@ -690,7 +690,7 @@
             "Pastilla",
             "Harira",
             "Mechoui"
-        ], "img": ""
+        ], "img": "https://www.petitchef.es/imgupl/recipe/harira-sopa-marroqui-para-el-ramadan--453626p702950.jpg"
     },
     {
         "pregunta": "¿Qué plato marroquí es un cordero asado a la parrilla lentamente?",
@@ -700,7 +700,7 @@
             "Pastilla",
             "Harira",
             "Mechoui"
-        ], "img": ""
+        ], "img": "https://cdn0.recetasgratis.net/es/posts/9/9/3/mechoui_cordero_asado_a_la_brasa_16399_600_square.jpg"
     },
     {
         "pregunta": "¿Qué plato marroquí es un guiso tradicional con sémola de trigo, verduras y carne de cordero o pollo?",
@@ -710,7 +710,7 @@
             "Pastilla",
             "Harira",
             "Couscous"
-        ], "img": ""
+        ], "img": "https://www.trevijano.com/wp-content/uploads/Receta-couscous-cacahuetes-miel-caseros-1024x680.jpg"
     },
     {
         "pregunta": "¿Qué plato portugués es una sopa tradicionalmente hecha con puré de patata, col, cebolla y ajo?",
@@ -720,7 +720,7 @@
             "Bacalhau à Brás",
             "Francesinha",
             "Caldereta"
-        ], "img": ""
+        ], "img": "https://w.forfun.com/fetch/f6/f65d99d1fead6644a8663d1b68bcb502.jpeg"
     },
     {
         "pregunta": "¿Cuál es el plato portugués que consiste en filetes de ternera rellenos de jamón y salchichas, cubiertos con queso y salsa?",
@@ -730,7 +730,7 @@
             "Bacalhau e ternera à Brás",
             "Francesinha",
             "Filetes rusos du obrador"
-        ], "img": ""
+        ], "img": "https://imag.bonviveur.com/foto-del-interior-de-francesinha.jpg  "
     },
     {
         "pregunta": "¿Qué postre portugués son pequeños pasteles de crema y hojaldre, espolvoreados con azúcar glas?",
