@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.bumptech.glide.Glide;
 
+
 import com.nadrial.rollthedice.R;
 import com.nadrial.rollthedice.Navigator;
 

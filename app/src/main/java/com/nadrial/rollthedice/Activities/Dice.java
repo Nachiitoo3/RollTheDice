@@ -4,9 +4,11 @@ import android.animation.ArgbEvaluator;
 import android.animation.ValueAnimator;
 import android.content.Context;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.View;
 import android.widget.ImageView;
 
+import com.bumptech.glide.Glide;
 import com.nadrial.rollthedice.Entities.Category;
 import com.nadrial.rollthedice.Entities.GameMode;
 import com.nadrial.rollthedice.R;
@@ -41,8 +43,7 @@ public class Dice extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 randomCategoryGenerator();
-                Navigator.openActivity(Dice.this, TransitionDiceIntoQuestion.class);
-                finish();
+                animDice();
             }
         });
     }
@@ -74,6 +75,35 @@ public class Dice extends AppCompatActivity {
         }
 
     }
+
+    public void transitionAnimDice(Context context, Class<?> cls) {
+
+        Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                Navigator.openActivity(context, TransitionDiceIntoQuestion.class);
+                finish();
+            }
+        }, 10500);
+    }
+
+    private void animDice() {
+
+        ImageView dice = findViewById(R.id.diceImageView);
+
+        try {
+            Glide.with(this)
+                    .load(R.drawable.animcultviajes)
+                    .into(dice);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        transitionAnimDice(this, TransitionDiceIntoQuestion.class);
+    }
+
+
+
 }
 
 
