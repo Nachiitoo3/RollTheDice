@@ -85,7 +85,7 @@ public class Dice extends AppCompatActivity {
                 Navigator.openActivity(context, TransitionDiceIntoQuestion.class);
                 finish();
             }
-        }, 10500);
+        }, 6000);
     }
 
     private void animDice() {
