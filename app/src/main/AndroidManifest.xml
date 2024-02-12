@@ -43,12 +43,7 @@
             />
         <activity
             android:name="com.nadrial.rollthedice.Activities.MainMenu"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="true"/>
         <activity
             android:name="com.nadrial.rollthedice.Activities.Question"
             android:exported="true"
@@ -60,13 +55,16 @@
             />
         <activity
             android:name="com.nadrial.rollthedice.Activities.Splash"
-            android:exported="true"/>
-
+            android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
         <activity
             android:name="com.nadrial.rollthedice.Activities.Rankings"
             android:exported="true"
             android:parentActivityName="com.nadrial.rollthedice.Activities.MainMenu"/>
-
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

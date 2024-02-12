@@ -10,11 +10,14 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.firebase.auth.FirebaseAuth;
 import com.nadrial.rollthedice.Navigator;
 import com.nadrial.rollthedice.R;
 
 public class Profile extends AppCompatActivity {
 
+    private FirebaseAuth mAuth;
+    int avatar;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.profileview);
@@ -88,6 +91,8 @@ public class Profile extends AppCompatActivity {
                 profileImages.dismiss();
             }
         });
+
+
         profileImages.show();
     }
 

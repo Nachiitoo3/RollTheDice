@@ -19,8 +19,15 @@ import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 import com.nadrial.rollthedice.R;
 import com.nadrial.rollthedice.Navigator;
+import com.nadrial.rollthedice.Entities.User;
 
 public class Login extends AppCompatActivity {
 
@@ -71,6 +78,7 @@ public class Login extends AppCompatActivity {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if (task.isSuccessful()){
+                    setUser();
                     finish();
                     Navigator.openActivity(Login.this, MainMenu.class);
                 }
@@ -92,4 +100,24 @@ public class Login extends AppCompatActivity {
         spannableString.setSpan(new ForegroundColorSpan(Color.MAGENTA), startIndex, startIndex + "SIGN UP".length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
         textView.setText(spannableString);
     }
+
+    public void setUser(){
+        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+        User.setId(user.getUid());
+        DatabaseReference usersRef = FirebaseDatabase.getInstance().getReference().child("user").child(User.getId());
+        DataSnapshot snapshot;
+        usersRef.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                User.setName(snapshot.child("nombre").getValue(String.class));
+                User.setEmail(snapshot.child("email").getValue(String.class));
+                User.setImgUser(snapshot.child("img").getValue(int.class));
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+
+            }
+        });
+}
 }

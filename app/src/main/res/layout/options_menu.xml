@@ -100,7 +100,8 @@
         android:clickable="true"
         android:focusable="true"
         android:text="Nuestra politica de privacidad"
-        android:textColor="@color/black" />
+        android:textColor="#1650FF"
+        android:textStyle="italic" />
 
 
 </LinearLayout>

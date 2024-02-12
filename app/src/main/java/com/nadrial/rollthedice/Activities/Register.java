@@ -1,9 +1,11 @@
 package com.nadrial.rollthedice.Activities;
 
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -48,6 +50,7 @@ public class Register extends AppCompatActivity {
                 String nameUser = Name.getText().toString().trim();
                 String emailUser = Email.getText().toString().trim();
                 String passUser = "";
+                int imgUser = R.drawable.user;
                 if (RPassword.getText().toString().trim().equals(Password.getText().toString().trim())) {
                     passUser = Password.getText().toString().trim();
                 }
@@ -56,14 +59,14 @@ public class Register extends AppCompatActivity {
                     Toast.makeText(Register.this, "Complete los datos", Toast.LENGTH_SHORT).show();
 
                 }else {
-                    registerUser(nameUser,emailUser,passUser);
+                    registerUser(nameUser,emailUser,passUser,imgUser);
                 }
             }
         });
 
     }
 
-    private void registerUser(String nameUser, String emailUser, String passUser) {
+    private void registerUser(String nameUser, String emailUser, String passUser, int imgUser) {
         mAuth.createUserWithEmailAndPassword(emailUser, passUser).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
@@ -72,6 +75,7 @@ public class Register extends AppCompatActivity {
                 map.put("id",id);
                 map.put("name",nameUser);
                 map.put("email",emailUser);
+                map.put("img",imgUser);
                 //map.put("password",passUser);
 
                 mFirestore.collection("user").document(id).set(map).addOnCompleteListener(new OnCompleteListener<Void>() {
