@@ -7,7 +7,7 @@
             "High Technology Markup Language",
             "Hyperlinks & Text Markup Language",
             "Home Tool Markup Language"
-        ]
+        ], "img":"https://mirayhazlo.com/wp-content/uploads/2018/09/Html5_dise%C3%B1o_web-1.png"
     },
     {
         "pregunta": "¿Cuál de las siguientes opciones es un sistema operativo de código abierto?",
@@ -17,7 +17,7 @@
             "macOS",
             "Linux",
             "iOS"
-        ]
+        ], "img":"https://www.areatecnologia.com/informatica/imagenes/so.jpg"
     },
     {
         "pregunta": "¿Qué lenguaje de programación se usa principalmente para el desarrollo web?",
@@ -27,7 +27,7 @@
             "Java",
             "JavaScript",
             "C++"
-        ]
+        ], "img":"https://haycanal.com/uploads/noticias/14949/Cualenguaje_programacion.jpg"
     },
     {
         "pregunta": "¿Qué significa 'URL'?",
@@ -37,7 +37,7 @@
             "Uniform Resource Language",
             "Unified Resource Locator",
             "Universal Remote Link"
-        ]
+        ], "img":"https://concepto.de/wp-content/uploads/2018/10/URL1-e1538664726127.jpg"
     },
     {
         "pregunta": "¿Qué tipo de almacenamiento utiliza la tecnología de 'Cloud Computing'?",
@@ -47,7 +47,7 @@
             "Almacenamiento en red",
             "Almacenamiento remoto",
             "Almacenamiento físico"
-        ]
+        ], "img":"https://www.muycomputerpro.com/wp-content/uploads/2021/02/image.jpeg"
     },
     {
         "pregunta": "¿Qué es un SSD en informática?",
@@ -57,7 +57,7 @@
             "System Storage Device",
             "Solid State Drive",
             "Software Storage Device"
-        ]
+        ], "img":"https://d598hd2wips7r.cloudfront.net/magefan_blog/C_mo_instalar_un_disco_duro_de_estado_s_lido_SSD_.png"
     },
     {
         "pregunta": "¿Cuál es el fundador de SpaceX?",
@@ -67,7 +67,7 @@
             "Bill Gates",
             "Elon Musk",
             "Mark Zuckerberg"
-        ]
+        ], "img":"https://thehill.com/wp-content/uploads/sites/2/2021/05/ca_spacexspherex_020521getty_2.jpg?strip=1"
     },
     {
         "pregunta": "¿Qué es un 'algoritmo' en el contexto de la informática?",
@@ -77,7 +77,7 @@
             "Un dispositivo de entrada y salida",
             "Una unidad de almacenamiento",
             "Un tipo de lenguaje de programación"
-        ]
+        ], "img":"https://concepto.de/wp-content/uploads/2023/01/algoritmo.jpg"
     },
     {
         "pregunta": "¿Qué es un 'firewall' en el ámbito de la seguridad informática?",
@@ -87,7 +87,7 @@
             "Un software antivirus",
             "Una barrera de seguridad",
             "Un dispositivo de hardware"
-        ]
+        ], "img":"https://dinahosting.com/blog/upload/2018/04/firewalldns.jpg"
     },
     {
         "pregunta": "¿Qué es un 'hashtag' en redes sociales?",
@@ -97,7 +97,7 @@
             "Una imagen de perfil",
             "Un símbolo que categoriza temas",
             "Una forma de encriptación"
-        ]
+        ], "img":"https://www.beedigital.es/wp-content/uploads/2021/09/crear-hashtag-empresa.jpg"
     },
     {
         "pregunta": "¿Cuál es la unidad básica de información en informática?",
@@ -107,7 +107,7 @@
             "Megabyte",
             "Gigabyte",
             "Terabyte"
-        ]
+        ], "img":"https://concepto.de/wp-content/uploads/2018/10/byte-1-e1539273122454.jpg"
     },
     {
         "pregunta": "¿Qué es un 'phishing' en términos de seguridad informática?",
@@ -117,7 +117,7 @@
             "Una técnica para robar contraseñas",
             "Un engaño para obtener información",
             "Un programa antivirus"
-        ]
+        ], "img":"https://www.lisot.com/wp-content/uploads/2021/06/que-es-phising.jpg"
     },
     {
         "pregunta": "¿Qué es un 'emoji'?",
@@ -127,7 +127,7 @@
             "Programa de edición de imágenes",
             "Sistema de almacenamiento en red",
             "Dispositivo de entrada"
-        ]
+        ], "img":"https://i.blogs.es/ea3fd2/emoji-smileys-candidates/1366_2000.jpeg"
     },
     {
         "pregunta": "¿Qué es una 'cookie' en términos de internet?",
@@ -137,7 +137,7 @@
             "Archivo que guarda información",
             "Virus informático",
             "Programa de seguridad"
-        ]
+        ], "img":"https://uploads-ssl.webflow.com/62e153e41d6ee298cc9a98f7/6391cac635f30c5d66c5a505_cookies.png"
     },
     {
         "pregunta": "¿Qué significa 'VPN' en el ámbito de la tecnología?",
@@ -147,7 +147,7 @@
             "Very Personal Network",
             "Visual Product Navigator",
             "Video Programming Network"
-        ]
+        ], "img":"https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2023/01/vpn-2930744.jpg?tf=3840x"
     },
     {
         "pregunta": "¿Qué es un 'bit' en informática?",
@@ -157,7 +157,7 @@
             "La unidad más pequeña de datos",
             "Un tipo de lenguaje de programación",
             "Un tipo de dispositivo de entrada"
-        ]
+        ], "img":"https://concepto.de/wp-content/uploads/2018/10/bit-e1539272672981-800x400.jpg"
     },
     {
         "pregunta": "¿Cuál es el navegador web desarrollado por Google?",
@@ -167,7 +167,7 @@
             "Firefox",
             "Chrome",
             "Safari"
-        ]
+        ], "img":"https://aratecnia.es/wp-content/uploads/2015/03/navegadores-web.jpg"
     },
     {
         "pregunta": "¿Qué es un 'hackathon'?",
@@ -177,7 +177,7 @@
             "Maratón de programación",
             "Convención de seguridad cibernética",
             "Feria de productos tecnológicos"
-        ]
+        ], "img":"https://media.licdn.com/dms/image/C4D12AQGYL0QQHYmmxA/article-cover_image-shrink_600_2000/0/1622214050531?e=2147483647&v=beta&t=S6ZhDf6-QsnyYuv8B8wCaSrL7tvWrcNeq6vgHfmyY6k"
     },
     {
         "pregunta": "¿Qué es un 'malware'?",
@@ -187,7 +187,7 @@
             "Programa informático malicioso",
             "Sistema operativo obsoleto",
             "Aplicación de mensajería"
-        ]
+        ], "img":"https://content.kaspersky-labs.com/fm/press-releases/63/63459fdac7669bf9de01be2aaf38470b/processed/gettyimages-1353240272-q75.jpg"
     },
     {
         "pregunta": "¿Qué es un 'router' en una red informática?",
@@ -197,7 +197,7 @@
             "Un programa para buscar redes Wi-Fi",
             "Aparato que guía el tráfico de red",
             "Un software para compartir archivos"
-        ]
+        ], "img":"https://i.blogs.es/74505c/netgear-rax50-100eus/650_1200.jpg"
     },
     {
         "pregunta": "¿Qué es 'HTML5' en términos de desarrollo web?",
@@ -207,7 +207,7 @@
             "Lenguaje de programación móvil",
             "Estándar de estructura web",
             "Internet de quinta generación"
-        ]
+        ], "img":"https://cdn.pixabay.com/photo/2018/05/08/21/28/html5-3384014_960_720.png"
     },
     {
         "pregunta": "¿Qué es un 'pixel' en términos de imagen digital?",
@@ -217,7 +217,7 @@
             "Unidad básica de una imagen digital",
             "Un tipo de impresora",
             "Medida de la velocidad de internet"
-        ]
+        ], "img":"https://ptt2017.files.wordpress.com/2017/01/img_como_revivir_un_pixel_muerto_1006_orig.jpg"
     },
     {
         "pregunta": "¿Qué es un 'bot' en el contexto de internet?",
@@ -227,7 +227,7 @@
             "Un dispositivo de entrada y salida",
             "Un servicio de alojamiento web",
             "Una aplicación de mensajería"
-        ]
+        ], "img":"https://www.xlsemanal.com/wp-content/uploads/sites/3/2020/11/que-es-un-bot-y-que-un-trol.jpg"
     },
     {
         "pregunta": "¿Qué significa 'HTTP' en términos de navegación web?",
@@ -237,7 +237,7 @@
             "Home Tool for Text and Pictures",
             "Hyperlinking Text and Pictures",
             "High Transfer Protocol"
-        ]
+        ], "img":"https://concepto.de/wp-content/uploads/2018/02/http-min-e1518717995157-800x402.jpg"
     },
     {
         "pregunta": "¿Qué hace un sistema operativo?",
@@ -247,7 +247,7 @@
             "Gestiona los recursos y servicios",
             "Programa para editar imágenes",
             "Herramienta de edición de texto"
-        ]
+        ], "img":"https://www.ymant.com/wp-content/uploads/sistemas-operativos-YMANT.png"
     },
     {
         "pregunta": "¿Cuál es la función principal de un antivirus en una computadora?",
@@ -257,7 +257,7 @@
             "Proteger contra amenazas maliciosas",
             "Editar archivos de sistema",
             "Optimizar el disco duro"
-        ]
+        ], "img":"https://www.copianube.es/wp-content/uploads/2021/06/Tipos-de-antivirus-y-sus-funciones.jpg"
     },
     {
         "pregunta": "¿Cuál es el propósito de un QR code?",
@@ -267,7 +267,7 @@
             "Almacenar datos con acceso rápido",
             "Enviar mensajes de texto",
             "Escanear imágenes en HD"
-        ]
+        ], "img":"https://ar-media.hptiendaenlinea.com/magefan_blog/hero-peligros_c_digos_qr.jpg"
     },
     {
         "pregunta": "¿Qué es un USB?",
@@ -277,7 +277,7 @@
             "Un estándar de conexión",
             "Unidad de almacenamiento virtual",
             "Sistema operativo móvil"
-        ]
+        ], "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/USB_Type-A_plug_coloured.svg/1200px-USB_Type-A_plug_coloured.svg.png"
     },
     {
         "pregunta": "¿Qué es Bluetooth?",
@@ -287,7 +287,7 @@
             "Un tipo de auriculares",
             "Un estándar de monitores",
             "Un sistema de seguridad"
-        ]
+        ], "img":"https://i.blogs.es/1716e5/bt1/1366_2000.jpg"
     },
     {
         "pregunta": "¿Qué es el blockchain en tecnología?",
@@ -297,7 +297,7 @@
             "Una base de datos de transacciones",
             "Software para bloquear anuncios",
             "Plataforma de edición de videos"
-        ]
+        ], "img":"https://preferredbynature.org/sites/default/files/2021-06/iStock-953499010_0.jpg"
     },
     {
         "pregunta": "¿Qué es un dron?",
@@ -307,7 +307,7 @@
             "Aparato aéreo manejado remotamente",
             "Una aplicación de mensajería",
             "Sistema de gestión de proyectos"
-        ]
+        ], "img":"https://storage.googleapis.com/catalog-pictures-carrefour-es/catalog/pictures/hd_510x_/8445045020637_1.jpg"
     },
     {
         "pregunta": "¿Qué es el machine learning (aprendizaje automático)?",
@@ -317,7 +317,7 @@
             "Un campo de inteligencia artificial",
             "Una herramienta de edición de fotos",
             "Un sistema de puntos educativo"
-        ]
+        ], "img":"https://www.iberdrola.com/documents/20125/40921/machine_learning_746x419.jpg/15ff7571-4cfc-d9f0-5ef4-9c2e9306ad88?t=1627968463400"
     },
     {
         "pregunta": "¿Qué es un bug en programación?",
@@ -327,7 +327,7 @@
             "Un virus informático",
             "Un tipo de virus de ordenador",
             "Un dispositivo de entrada"
-        ]
+        ], "img":"https://www.netkia.es/wp-content/uploads/2019/09/bug.jpg"
     },
     {
         "pregunta": "¿Qué es VPN (Virtual Private Network)?",
@@ -337,7 +337,7 @@
             "Una conexión segura a red",
             "Un programa de edición de video",
             "Un tipo de red social"
-        ]
+        ], "img":"https://latam.kaspersky.com/content/es-mx/images/repository/isc/2020/what-is-a-vpn.jpg"
     },
     {
         "pregunta": "¿Qué es un streaming en internet?",
@@ -347,7 +347,7 @@
             "Transmisión en tiempo real",
             "Técnica de codificación de datos",
             "Plataforma de intercambio de archivos"
-        ]
+        ], "img":"https://media.ldlc.com/bo/images/ldlcv3/guides/cartes%20graphiques/gettyimages-1157159213.jpg"
     },
     {
         "pregunta": "¿Qué es un plug-in en el contexto de internet?",
@@ -357,7 +357,7 @@
             "Extension de software adicional",
             "Una técnica de seguridad en línea",
             "Un protocolo de red"
-        ]
+        ], "img":"https://dinahosting.com/blog/upload/2021/05/PLUGINS2.jpg"
     },
     {
         "pregunta": "¿Qué significa FTP en términos de internet?",
@@ -367,7 +367,7 @@
             "Fast Text Processing",
             "File Tracking Program",
             "Firewall Testing Platform"
-        ]
+        ], "img":"https://tecnosoluciones.com/wp-content/uploads/2023/02/ftp-herramientas.png"
     },
     {
         "pregunta": "¿Qué es un proxy?",
@@ -377,7 +377,7 @@
             "Una herramienta de análisis de datos",
             "Un protocolo para compartir archivos",
             "Un sistema operativo para servidores"
-        ]
+        ], "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Open_proxy_h2g2bob.svg/1200px-Open_proxy_h2g2bob.svg.png"
     },
     {
         "pregunta": "¿Qué es Unicode?",
@@ -387,7 +387,7 @@
             "Técnica de compresión de datos",
             "Modelo de programación en la nube",
             "Herramienta de encriptación"
-        ]
+        ], "img":"https://articles-images.sftcdn.net/wp-content/uploads/sites/2/2014/12/unicode-header-800x450.png"
     },
     {
         "pregunta": "¿Qué es el modo avión en un dispositivo electrónico?",
@@ -397,7 +397,7 @@
             "Un modo de ahorro de energía",
             "Un modo para evitar llamadas",
             "Un modo para tener más cobertura"
-        ]
+        ], "img":"https://somoscomunicacion.es/wp-content/uploads/2018/06/SOMOS.-Modo-Avion.jpg"
     },
     {
         "pregunta": "¿Qué significa UX en el diseño de aplicaciones y sitios web?",
@@ -407,7 +407,7 @@
             "United Xperion",
             "User Xenon",
             "United Experience"
-        ]
+        ], "img":"https://www.cronista.com/files/image/425/425268/61f4bcbd7215e.jpg"
     },
     {
         "pregunta": "¿Qué es un troll en internet?",
@@ -417,7 +417,7 @@
             "Alguien que genera discordia",
             "Un sistema de mensajería en línea",
             "Un modelo de programación"
-        ]
+        ], "img":"https://i.blogs.es/335b73/trolldad/1366_2000.jpeg"
     },
     {
         "pregunta": "¿Qué es Deep Web?",
@@ -427,7 +427,7 @@
             "Un tipo de red social en línea",
             "Herramienta de edición de imágenes",
             "Un modelo de programación"
-        ]
+        ], "img":"https://cloudfront-eu-central-1.images.arcpublishing.com/prisaradio/TVZOXSIAGJMBFPB5VILEZZNZ5A.jpg"
     },
     {
         "pregunta": "¿Cuál fue el primer navegador web gráfico ampliamente utilizado?",
@@ -437,7 +437,7 @@
             "Internet Explorer",
             "Mosaic",
             "Netscape Navigator"
-        ]
+        ], "img":"https://i.blogs.es/8f294a/navegadorr/1366_2000.jpg"
     },
     {
         "pregunta": "¿Cuál fue la primera red social en línea, lanzada en 1997?",
@@ -447,7 +447,7 @@
             "MySpace",
             "SixDegrees",
             "Facebook"
-        ]
+        ], "img":"https://static.acceso360.com/wp-content/uploads/2022/02/redes_sociales.jpg"
     },
     {
         "pregunta": "¿Cuál fue el primer servicio de correo electrónico disponible públicamente?",
@@ -457,7 +457,7 @@
             "Hotmail",
             "Yahoo Mail",
             "Gmail"
-        ]
+        ], "img":"https://media.gcflearnfree.org/content/5b10404e6d5ad52ca4b6e50b_2_2_2013/Imagen%201.png"
     },
     {
         "pregunta": "¿Qué evento se considera como el precursor de la creación de Internet?",
@@ -467,7 +467,7 @@
             "La invención del transistor",
             "El Proyecto ARPANET",
             "La creación de la World Wide Web"
-        ]
+        ], "img":"https://s3.ppllstatics.com/rc/www/multimedia/2023/04/11/cuantas-horas-pasamos-internet-kfDH-U20039963275RQB-1200x840@RC.jpg"
     },
     {
         "pregunta": "¿Qué plataforma de redes sociales limitaba originalmente los mensajes a 140 caracteres?",
@@ -477,7 +477,7 @@
             "Twitter",
             "Instagram",
             "Snapchat"
-        ]
+        ], "img":"https://ibo.pe/blog/wp-content/uploads/2020/05/imagen_decorativa_redes_sociales-1200x642-1-800x428.jpg"
     },
     {
         "pregunta": "¿Cuál fue el primer navegador web popularizado para el público en general?",
@@ -487,7 +487,7 @@
             "Internet Explorer",
             "Netscape Navigator",
             "Mozilla Firefox"
-        ]
+        ], "img":"https://aratecnia.es/wp-content/uploads/2017/09/navegadores-web-mas-usados.jpg"
     },
     {
         "pregunta": "¿Qué red social se enfoca principalmente en conexiones profesionales y oportunidades laborales?",
@@ -497,7 +497,7 @@
             "Twitter",
             "LinkedIn",
             "TikTok"
-        ]
+        ], "img":"https://concepto.de/wp-content/uploads/2014/08/redes-sociales-1-e1551307320533.jpg"
     },
     {
         "pregunta": "¿Qué famoso fenómeno de Internet involucra a los gatos en videos virales?",
@@ -507,7 +507,7 @@
             "Rickrolling",
             "Grumpy Cat",
             "Harlem Shake"
-        ]
+        ], "img":""
     },
     {
         "pregunta": "¿Cuál fue el primer servicio de mensajería instantánea ampliamente utilizado?",
@@ -517,7 +517,7 @@
             "Telegram",
             "ICQ",
             "Skype"
-        ]
+        ], "img":"https://www.informaticogranada.com/wp-content/uploads/2022/05/internet-y-su-funcion.png"
     },
     {
         "pregunta": "¿Qué plataforma de videojuegos en streaming se lanzó en 2011 y fue adquirida por Amazon en 2014?",
@@ -527,7 +527,7 @@
             "Twitch",
             "YouTube Gaming",
             "Steam"
-        ]
+        ], "img":"https://i.blogs.es/dbe774/42b012bd-62b9-46cb-a15e-62aeb8165d67/1366_2000.jpeg"
     },
     {
         "pregunta": "¿Cuál fue la primera red social en alcanzar mil millones de usuarios activos mensuales?",
@@ -537,7 +537,7 @@
             "Instagram",
             "Snapchat",
             "Twitter"
-        ]
+        ], "img":"https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2021/08/11/youtube-tiktok-facebook-instagram-twitter.png"
     },
     {
         "pregunta": "¿Qué red social se originó como una plataforma para compartir imágenes de moda y estilo de vida?",
@@ -547,7 +547,7 @@
             "Flickr",
             "Pinterest",
             "We Heart It"
-        ]
+        ], "img":"https://res.cloudinary.com/boom-creatividad-slu/images/f_auto,q_auto/v1538048199/tendencias-en-redes-sociales-para-este-2018_u7sb7k/tendencias-en-redes-sociales-para-este-2018_u7sb7k.jpg?_i=AA"
     },
     {
         "pregunta": "¿Qué fenómeno de Internet surgió a partir de una foto de un perro Shiba Inu con subtítulos en Comic Sans MS?",
@@ -557,7 +557,7 @@
             "Doge",
             "Keyboard Cat",
             "Grumpy Cat"
-        ]
+        ], "img":"https://okdiario.com/img/2018/11/05/conoce-el-internet-de-las-cosas-655x368.jpg"
     },
     {
         "pregunta": "¿Cuál es la sigla de tres letras utilizada para referirse a reírse a carcajadas en conversaciones en línea?",
@@ -567,7 +567,7 @@
             "OMG",
             "BRB",
             "ROFL"
-        ]
+        ], "img":"https://descargas.intef.es/recursos_educativos/It_didac/Leng_Pri/6/02/La_formacin_de_palabras/imagen_ejemplos_siglas.jpg"
     },
     {
         "pregunta": "¿Cuál de estos términos se refiere a una táctica en marketing digital que busca mejorar la visibilidad de un sitio web en los resultados de búsqueda de Google?",
@@ -577,7 +577,7 @@
             "PPC (Pay-Per-Click)",
             "CTR (Click-Through Rate)",
             "CMS (Content Management System)"
-        ]
+        ], "img":"https://colectivoweb.com/wp-content/uploads/2021/08/para-que-sirve-el-marketing-digital.jpg"
     },
     {
         "pregunta": "¿Cuál de los siguientes servicios de mensajería es conocido por sus mensajes que desaparecen después de ser vistos?",
@@ -587,7 +587,7 @@
             "Telegram",
             "Signal",
             "Snapchat"
-        ]
+        ], "img":"https://www.comunidad.madrid/sites/default/files/styles/imagen_enlace_opcional/public/img/objetos/delivery-3670118_1920.jpg?itok=ZSh1McZU"
     },
     {
         "pregunta": "¿Qué plataforma de videos cortos se ha convertido en un fenómeno cultural especialmente entre la generación más joven?",
@@ -597,7 +597,7 @@
             "Vine",
             "Dubsmash",
             "Triller"
-        ]
+        ], "img":"https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2022/11/23/comparacion-de-precios-de-netflix-hbo-max-prime-video-y-otras-plataformas-para-ver-series-y-peliculas.jpeg"
     },
     {
         "pregunta": "¿Qué evento anual reúne a desarrolladores, empresas y entusiastas de la tecnología para presentar nuevos productos y anuncios?",
@@ -607,7 +607,7 @@
             "E3 (Electronic Entertainment Expo)",
             "WWDC (Worldwide Developers Conf)",
             "Google I/O"
-        ]
+        ], "img":"https://micecatering.com/wp-content/uploads/2021/08/2201202024-NIKON-D800-1-1024x683-1.jpg"
     },
     {
         "pregunta": "¿Qué red social se basa en publicaciones de contenido efímero que desaparecen después de 24 horas?",
@@ -617,7 +617,7 @@
             "Facebook",
             "Instagram",
             "LinkedIn"
-        ]
+        ], "img":"https://www.eventoplus.com/wp-content/uploads/2023/06/WAH_Madrid-2023_06_16-foto-1-WAH_TEATRO-2-1-1024x639.jpg"
     },
     {
         "pregunta": "¿Cuál de los siguientes no es un navegador web conocido?",
@@ -627,7 +627,7 @@
             "Opera",
             "Brave",
             "Table"
-        ]
+        ], "img":"https://assets.isu.pub/document-structure/230217063155-fee480e79df9c5ae909f9ae167b935c3/v1/33e982ae8b97b45349501b9263e422de.jpeg"
     },
     {
         "pregunta": "¿Cuál fue la primera red social en permitir la transmisión en vivo?",
@@ -637,7 +637,7 @@
             "Periscope",
             "Twitch",
             "YouTube"
-        ]
+        ], "img":"https://cdn-e360.s3-sa-east-1.amazonaws.com/redes-sociales-para-empresas-large-JKGhYjKMCp.png"
     },
     {
         "pregunta": "¿Qué término se refiere a la práctica de enviar mensajes electrónicos no solicitados de forma masiva?",
@@ -647,7 +647,7 @@
             "Phishing",
             "Malware",
             "Adware"
-        ]
+        ], "img":""
     },
     {
         "pregunta": "¿Cuál de los siguientes servicios es conocido por su función de alojamiento de código fuente y colaboración en programación?",
@@ -657,7 +657,7 @@
             "GitHub",
             "Bitbucket",
             "SourceForge"
-        ]
+        ], "img":""
     },
     {
         "pregunta": "¿Qué término se utiliza para referirse a la práctica de usar un nombre falso en línea para ocultar la identidad?",
@@ -667,7 +667,7 @@
             "Nate",
             "Nick",
             "Incógnito"
-        ]
+        ], "img":""
     },
     {
         "pregunta": "¿Cuál fue la primera red social en permitir a los usuarios crear perfiles y conectar con amigos en línea?",
@@ -677,7 +677,7 @@
             "Friendster",
             "Hi5",
             "Orkut"
-        ]
+        ], "img":""
     },
     {
         "pregunta": "Cuál de las siguientes plataformas de streaming es conocida por su enfoque en transmisiones de videojuegos?",
@@ -687,7 +687,7 @@
             "Netflix",
             "Hulu",
             "Disney+"
-        ]
+        ], "img":""
     },
     {
         "pregunta": "¿Qué fenómeno de Internet se popularizó mediante videos cortos sincronizados con una canción?",
@@ -697,7 +697,7 @@
             "Nyan Cat",
             "Harlem Shake",
             "TikTok"
-        ]
+        ], "img":""
     },
     {
         "pregunta": "¿Cuál de los siguientes términos se refiere a la práctica de crear contenido falso para desinformar en línea?",
@@ -707,7 +707,7 @@
             "Flaming",
             "Doxxing",
             "Fake News"
-        ]
+        ], "img":""
     },
     {
         "pregunta": "¿Cuál fue la primera red social en popularizar la función de me gusta en publicaciones?",
@@ -717,7 +717,7 @@
             "Twitter",
             "Instagram",
             "Snapchat"
-        ]
+        ], "img":""
     },
     {
         "pregunta": "¿Cuál es el género de videojuegos más popular en la actualidad?",
@@ -727,7 +727,7 @@
             "Estrategia en tiempo real",
             "Juegos de rol (RPG)",
             "Deportes"
-        ]
+        ], "img":""
     },
     {
         "pregunta": "¿Qué evento anual es considerado uno de los más importantes para la industria de los videojuegos?",
@@ -737,7 +737,7 @@
             "Tokyo Game Show",
             "E3",
             "PAX"
-        ]
+        ], "img":""
     },
     {
         "pregunta": "¿Qué juego es conocido por ser el más vendido en la historia?",
@@ -747,7 +747,7 @@
             "Tetris",
             "Minecraft",
             "Wii Sports"
-        ]
+        ], "img":""
     },
     {
         "pregunta": "¿Qué término se refiere a la práctica de completar un juego lo más rápido posible?",
@@ -757,7 +757,7 @@
             "Quickscoping",
             "Speedgaming",
             "Fastplay"
-        ]
+        ], "img":""
     },
     {
         "pregunta": "¿Cuál es el género de juegos que se enfoca en la simulación de situaciones de guerra?",
@@ -767,7 +767,7 @@
             "FPS",
             "MOBA",
             "Survival Horror"
-        ]
+        ], "img":""
     },
     {
         "pregunta": "¿Qué término se utiliza para describir competiciones profesionales de videojuegos?",
@@ -777,7 +777,7 @@
             "Gaming",
             "Esports",
             "Gamificación"
-        ]
+        ], "img":""
     },
     {
         "pregunta": "¿Qué consola lanzó el primer juego de Super Mario en 1985?",
@@ -787,7 +787,7 @@
             "Sega Genesis",
             "Atari 2600",
             "Super Nintendo Entertainment System"
-        ]
+        ], "img":""
     },
     {
         "pregunta": "¿Cuál de los siguientes juegos es conocido por su enfoque en construir y crear mundos infinitos?",
@@ -797,7 +797,7 @@
             "No Man's Sky",
             "Minecraft",
             "Stardew Valley"
-        ]
+        ], "img":""
     },
     {
         "pregunta": "¿Qué género de juegos se centra en la resolución de rompecabezas y acertijos para avanzar en la historia?",
@@ -807,7 +807,7 @@
             "Estrategia por turnos",
             "Shooter",
             "Plataforma"
-        ]
+        ], "img":""
     },
     {
         "pregunta": "¿Cuál es la plataforma más conocida para comprar y descargar juegos en línea?",
@@ -817,7 +817,7 @@
             "Epic Games Store",
             "GOG",
             "Origin"
-        ]
+        ], "img":""
     },
     {
         "pregunta": "¿Qué juego de disparos en primera persona (FPS) es conocido por su batalla entre terroristas y contra-terroristas?",
@@ -827,7 +827,7 @@
             "Battlefield",
             "Call of Duty",
             "Rainbow Six Siege"
-        ]
+        ], "img":""
     },
     {
         "pregunta": "¿Qué término se utiliza para la acción de disparar rápidamente y de forma precisa en juegos de disparos?",
@@ -837,7 +837,7 @@
             "Spray and pray",
             "Aimbot",
             "Twitch shooting"
-        ]
+        ], "img":""
     },
     {
         "pregunta": "¿Cuál es el término que se refiere a una versión preliminar de un juego que se utiliza para probar y corregir errores antes del lanzamiento oficial?",
@@ -847,7 +847,7 @@
             "Beta",
             "Delta",
             "Omega"
-        ]
+        ], "img":""
     },
     {
         "pregunta": "¿Cuál de estos juegos es conocido por sus elementos supervivencia durante un apocalipsis zombi?",
@@ -857,7 +857,7 @@
             "The Forest",
             "Rust",
             "Minecraft"
-        ]
+        ], "img":""
     },
     {
         "pregunta": "¿Cuál es el término que describe la práctica de modificar un juego para cambiar su funcionamiento original?",
@@ -867,7 +867,7 @@
             "Hacking",
             "Parche",
             "Emulación"
-        ]
+        ], "img":""
     },
     {
         "pregunta": "¿Cuál es el término utilizado para describir la estrategia en la que un jugador espera para emboscar a otros oponentes?",
@@ -877,7 +877,7 @@
             "Agresión pasiva",
             "Rush",
             "Sneak Attack"
-        ]
+        ], "img":""
     },
     {
         "pregunta": "¿Cuál es el juego conocido por su mundo de fantasía épica y su sistema de juego de rol?",
@@ -887,7 +887,7 @@
             "Los sims",
             "Minecraft",
             "GTA V"
-        ]
+        ], "img":""
     },
     {
         "pregunta": "¿Qué género de juegos se caracteriza por la exploración de mundos abiertos y la realización de misiones?",
@@ -897,7 +897,7 @@
             "Juegos de aventura",
             "Mundo abierto",
             "Simuladores de vida"
-        ]
+        ], "img":""
     },
     {
         "pregunta": "¿Qué consola es conocida por su innovador controlador con sensor de movimiento llamado 'Kinect'?",
@@ -907,7 +907,7 @@
             "PlayStation 3",
             "Wii",
             "Xbox One"
-        ]
+        ], "img":""
     },
     {
         "pregunta": "¿Cuál fue el primer videojuego comercialmente exitoso?",
@@ -917,7 +917,7 @@
             "Space Invaders",
             "Pac-Man",
             "Donkey Kong"
-        ]
+        ], "img":""
     },
     {
         "pregunta": "¿Qué consola fue la primera en utilizar cartuchos intercambiables?",
@@ -927,7 +927,7 @@
             "Nintendo Entertainment System (NES)",
             "Sega Genesis",
             "Magnavox Odyssey"
-        ]
+        ], "img":""
     },
     {
         "pregunta": "¿Qué Juego popularizó el género de los juegos de plataformas en la década de 1980?",
@@ -937,7 +937,7 @@
             "The Legend of Zelda",
             "Sonic the Hedgehog",
             "Donkey Kong"
-        ]
+        ], "img":""
     },
     {
         "pregunta": "¿Qué consola de videojuegos fue la primera en utilizar CDs?",
@@ -947,7 +947,7 @@
             "PlayStation",
             "Xbox",
             "Atari Jaguar CD"
-        ]
+        ], "img":""
     },
     {
         "pregunta": "¿Qué empresa desarrolló y lanzó la primera consola popular en ventas de videojuegos?",
@@ -957,7 +957,7 @@
             "Sega",
             "Sony",
             "Atari"
-        ]
+        ], "img":""
     },
     {
         "pregunta": "¿Qué juego es considerado uno de los primeros en introducir el concepto de 'mundo abierto'?",
@@ -967,7 +967,7 @@
             "Super Mario Bros.",
             "Metroid",
             "Final Fantasy"
-        ]
+        ], "img":""
     },
     {
         "pregunta": "¿Qué consola se destacó por popularizar los gráficos 3D y el uso exitoso de controles analógicos?",
@@ -977,7 +977,7 @@
             "Nintendo 64",
             "Sega Saturn",
             "Dreamcast"
-        ]
+        ], "img":""
     },
     {
         "pregunta": "¿Quién es el creador de la serie de videojuegos 'Final Fantasy'?",
@@ -987,7 +987,7 @@
             "Hironobu Sakaguchi",
             "Yuji Naka",
             "Tim Schafer"
-        ]
+        ], "img":""
     },
     {
         "pregunta": "¿Qué juego introdujo a la mascota icónica de Sega?",
@@ -997,7 +997,7 @@
             "Streets of Rage",
             "Golden Axe",
             "Altered Beast"
-        ]
+        ], "img":""
     },
     {
         "pregunta": "¿Qué juego es considerado uno de los primeros en introducir el género de los juegos de rol (RPG) en la década de 1980?",
@@ -1007,7 +1007,7 @@
             "Dragon Quest",
             "Final Fantasy",
             "Chrono Trigger"
-        ]
+        ], "img":""
     },
     {
         "pregunta": "¿Qué consola fue la primera en implementar un lector de CD-ROM y gráficos en 32 bits?",
@@ -1017,7 +1017,7 @@
             "PlayStation",
             "Atari Jaguar",
             "Sega CD"
-        ]
+        ], "img":""
     },
     {
         "pregunta": "¿Qué juego marcó el debut del personaje de videojuegos 'Link' de la serie 'The Legend of Zelda'?",
@@ -1027,6 +1027,6 @@
             "Link's Awakening",
             "The Legend of Zelda",
             "Ocarina of Time"
-        ]
+        ], "img":""
     }
 ]
