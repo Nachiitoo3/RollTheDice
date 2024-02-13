@@ -7,14 +7,16 @@ import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.bumptech.glide.Glide;
-
+import pl.droidsonroids.gif.AnimationListener;
+import pl.droidsonroids.gif.GifDrawable;
+import pl.droidsonroids.gif.GifImageView;
 
 import com.nadrial.rollthedice.R;
 import com.nadrial.rollthedice.Navigator;
 
 public class Splash extends AppCompatActivity {
 
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splashview);
@@ -23,31 +25,30 @@ public class Splash extends AppCompatActivity {
     }
 
     public void transition(Context context, Class<?> cls) {
-
-        Handler handler = new Handler();
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                Navigator.openActivity(context, Login.class);
-                finish();
-            }
-        }, 10500);
+        Navigator.openActivity(context, cls);
+        finish();
     }
 
     private void splash() {
-
-        ImageView mSplash = findViewById(R.id.fondo);
+        GifImageView mSplash = findViewById(R.id.fondo);
 
         try {
-            Glide.with(this)
-                    .load(R.drawable.splashgiff)
-                    .into(mSplash);
+            GifDrawable gifDrawable = new GifDrawable(getResources(), R.drawable.splashgiff);
+            mSplash.setImageDrawable(gifDrawable);
+
+
+            gifDrawable.addAnimationListener(new AnimationListener() {
+                @Override
+                public void onAnimationCompleted(int loopNumber) {
+                    // La animación ha terminado, ahora puedes iniciar la transición
+                    transition(Splash.this, Login.class);
+                }
+            });
+
+            // Inicia la animación manualmente
+            gifDrawable.start();
         } catch (Exception e) {
             e.printStackTrace();
         }
-        transition(this, Login.class);
     }
-
 }
-
-
