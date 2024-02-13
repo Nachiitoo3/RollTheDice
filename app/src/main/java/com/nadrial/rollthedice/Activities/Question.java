@@ -12,21 +12,21 @@ import android.content.res.ColorStateList;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.os.Handler;
-import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.nadrial.rollthedice.Entities.Category;
 import com.nadrial.rollthedice.Entities.GameMode;
+import com.nadrial.rollthedice.Navigator;
 import com.nadrial.rollthedice.QuestionInteractor;
 import com.nadrial.rollthedice.R;
-import com.nadrial.rollthedice.Navigator;
 
 import java.util.Collections;
 import java.util.List;
@@ -47,30 +47,10 @@ public class Question extends AppCompatActivity {
         setColors();
         setQuestion();
         timer(context);
-        answer1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                checkAnswer(answer1, context);
-            }
-        });
-        answer2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                checkAnswer(answer2, context);
-            }
-        });
-        answer3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                checkAnswer(answer3, context);
-            }
-        });
-        answer4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                checkAnswer(answer4, context);
-            }
-        });
+        answer1.setOnClickListener(v -> checkAnswer(answer1, context));
+        answer2.setOnClickListener(v -> checkAnswer(answer2, context));
+        answer3.setOnClickListener(v -> checkAnswer(answer3, context));
+        answer4.setOnClickListener(v -> checkAnswer(answer4, context));
     }
     boolean cancelTimer;
     String correctAnswer, answer;
@@ -169,48 +149,47 @@ public class Question extends AppCompatActivity {
             }
         }
         if (answer.equals(correctAnswer)) {
+            assert buttonPressed != null;
             buttonPressed.setBackgroundColor(Category.getCategoryMainColor());
         } else {
             if (buttonPressed != null) {
-                buttonPressed.setBackgroundColor(getResources().getColor(R.color.redError));
+                buttonPressed.setBackgroundColor(ContextCompat.getColor(this,R.color.redError));
             } else {
                 Button[] buttons = {findViewById(R.id.answer1ButtonQuestionView), findViewById(R.id.answer2ButtonQuestionView),
                         findViewById(R.id.answer3ButtonQuestionView), findViewById(R.id.answer4ButtonQuestionView)};
                 for (Button button : buttons) {
-                    button.setBackgroundColor(getResources().getColor(R.color.redError));
+                    button.setBackgroundColor(ContextCompat.getColor(this,R.color.redError));
                 }
             }
+            assert correctButton != null;
             correctButton.setBackgroundColor(Category.categoryMainColor);
         }
 
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                if (answer.equals(correctAnswer)) {
-                    increment();
-                    switch (Category.getCategory()) {
-                        case 0:
-                            incrementNatCount();
-                            break;
-                        case 1:
-                            incrementMitCount();
-                            break;
-                        case 2:
-                            incrementFoodCount();
-                            break;
-                        case 3:
-                            incrementTripCount();
-                            break;
-                        case 4:
-                            incrementTechCount();
-                            break;
-                    }
-                    Navigator.openActivity(context, Dice.class);
-                    finish();
-                } else {
-                    Navigator.openActivity(context, Results.class);
-                    finish();
+        new Handler().postDelayed(() -> {
+            if (answer.equals(correctAnswer)) {
+                increment();
+                switch (Category.getCategory()) {
+                    case 0:
+                        incrementNatCount();
+                        break;
+                    case 1:
+                        incrementMitCount();
+                        break;
+                    case 2:
+                        incrementFoodCount();
+                        break;
+                    case 3:
+                        incrementTripCount();
+                        break;
+                    case 4:
+                        incrementTechCount();
+                        break;
                 }
+                Navigator.openActivity(context, Dice.class);
+                finish();
+            } else {
+                Navigator.openActivity(context, Results.class);
+                finish();
             }
         }, 1700);
 

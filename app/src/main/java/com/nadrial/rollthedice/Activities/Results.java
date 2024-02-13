@@ -1,7 +1,6 @@
 package com.nadrial.rollthedice.Activities;
 
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
@@ -10,8 +9,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.nadrial.rollthedice.Entities.Counter;
 import com.nadrial.rollthedice.Entities.GameMode;
-import com.nadrial.rollthedice.R;
 import com.nadrial.rollthedice.Navigator;
+import com.nadrial.rollthedice.R;
 
 public class Results extends AppCompatActivity {
 
@@ -25,23 +24,17 @@ public class Results extends AppCompatActivity {
         setNumbers();
         setProgressBar();
 
-        mainButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Counter.reset();
-                GameMode.setDuration(20000);
-                GameMode.setMode(0);
-                Navigator.openActivity(Results.this, MainMenu.class);
-                finish();
-            }
+        mainButton.setOnClickListener(v -> {
+            Counter.reset();
+            GameMode.setDuration(20000);
+            GameMode.setMode(0);
+            Navigator.openActivity(Results.this, MainMenu.class);
+            finish();
         });
-        retryButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Counter.reset();
-                Navigator.openActivity(Results.this, Dice.class);
-                finish();
-            }
+        retryButton.setOnClickListener(v -> {
+            Counter.reset();
+            Navigator.openActivity(Results.this, Dice.class);
+            finish();
         });
     }
 

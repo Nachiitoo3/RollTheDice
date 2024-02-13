@@ -7,19 +7,21 @@
     android:background="@drawable/gradient">
 
     <ImageButton
-        android:id="@+id/backButton"
+        android:id="@+id/backButtonRankings"
         style="@android:style/Widget.Holo.Light.ImageButton"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:background="#00FFFFFF"
+        android:contentDescription="@string/back"
         android:scaleType="fitCenter"
         android:scaleX="0.5"
         android:scaleY="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/backarrow" />
+        app:srcCompat="@drawable/backarrow"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/just1ModeRanking"
@@ -30,7 +32,8 @@
         android:layout_marginBottom="-150dp"
         android:backgroundTint="#61FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,VisualLintBounds" />
 
     <TextView
         android:id="@+id/backgroundRankingsNames"
@@ -40,7 +43,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/rankingModeLabel" />
+        app:layout_constraintTop_toBottomOf="@+id/rankingModeLabelRankings" />
 
     <TextView
         android:id="@+id/fourPosition5"
@@ -48,17 +51,17 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="35dp"
         android:layout_marginTop="15dp"
-        android:text="8."
+        android:text="@string/_8"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="@+id/backgroundRankingsNames"
         app:layout_constraintTop_toBottomOf="@+id/fourPosition4" />
 
     <TextView
-        android:id="@+id/rankingsLabel"
+        android:id="@+id/rankingsLabelRankings"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
-        android:text="R A N K I N G"
+        android:text="@string/r_a_n_k_i_n_g"
         android:textSize="44sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -70,7 +73,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="35dp"
         android:layout_marginTop="15dp"
-        android:text="7."
+        android:text="@string/_7"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="@+id/backgroundRankingsNames"
         app:layout_constraintTop_toBottomOf="@+id/fourPosition3" />
@@ -81,7 +84,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="35dp"
         android:layout_marginTop="15dp"
-        android:text="6."
+        android:text="@string/_6"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="@+id/backgroundRankingsNames"
         app:layout_constraintTop_toBottomOf="@+id/fourPosition2" />
@@ -92,7 +95,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginTop="15dp"
-        android:text="Adrian Merillas"
+        android:text="@string/nombre"
         android:textSize="18sp"
         app:layout_constraintStart_toEndOf="@+id/fourPosition3"
         app:layout_constraintTop_toBottomOf="@+id/top5name" />
@@ -103,7 +106,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginTop="15dp"
-        android:text="Adrian Merillas"
+        android:text="@string/nombre"
         android:textSize="18sp"
         app:layout_constraintStart_toEndOf="@+id/fourPosition2"
         app:layout_constraintTop_toBottomOf="@+id/top4name" />
@@ -114,7 +117,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginTop="15dp"
-        android:text="Adrian Merillas"
+        android:text="@string/nombre"
         android:textSize="18sp"
         app:layout_constraintStart_toEndOf="@+id/fourPosition"
         app:layout_constraintTop_toBottomOf="@+id/rank3Background" />
@@ -125,7 +128,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginTop="15dp"
-        android:text="Adrian Merillas"
+        android:text="@string/nombre"
         android:textSize="18sp"
         app:layout_constraintStart_toEndOf="@+id/fourPosition4"
         app:layout_constraintTop_toBottomOf="@+id/top4name2" />
@@ -145,18 +148,20 @@
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_marginStart="28dp"
+        android:contentDescription="@string/top3"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="@+id/rank3Background"
         app:layout_constraintStart_toStartOf="@+id/rank3Background"
         app:layout_constraintTop_toTopOf="@+id/rank3Background"
-        app:srcCompat="@drawable/bronzemedal" />
+        app:srcCompat="@drawable/bronzemedal"
+        tools:ignore="ImageContrastCheck" />
 
     <TextView
         android:id="@+id/top3name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
-        android:text="Adrian Merillas"
+        android:text="@string/nombre"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/rank3Background"
         app:layout_constraintStart_toEndOf="@+id/bronzeMedalImage"
@@ -173,7 +178,7 @@
         app:layout_constraintTop_toBottomOf="@+id/rank1Background" />
 
     <Button
-        android:id="@+id/speedRankingMode"
+        android:id="@+id/speedRankingModeRankings"
         style="@style/buttonOutlined"
         android:layout_width="200dp"
         android:layout_height="200dp"
@@ -181,10 +186,11 @@
         android:layout_marginBottom="-150dp"
         android:backgroundTint="#61FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,VisualLintBounds" />
 
     <Button
-        android:id="@+id/classicRankingMode"
+        android:id="@+id/classicRankingModeRankings"
         style="@style/buttonOutlined"
         android:layout_width="100dp"
         android:layout_height="200dp"
@@ -192,7 +198,8 @@
         android:backgroundTint="#61FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@id/just1ModeRanking"
-        app:layout_constraintStart_toEndOf="@id/speedRankingMode" />
+        app:layout_constraintStart_toEndOf="@id/speedRankingModeRankings"
+        tools:ignore="SpeakableTextPresentCheck,VisualLintBounds" />
 
     <ImageView
         android:id="@+id/silverMedalImage"
@@ -203,14 +210,16 @@
         app:layout_constraintBottom_toBottomOf="@+id/rank2Background"
         app:layout_constraintStart_toStartOf="@+id/rank2Background"
         app:layout_constraintTop_toTopOf="@+id/rank2Background"
-        app:srcCompat="@drawable/silvermedal" />
+        app:srcCompat="@drawable/silvermedal"
+        tools:ignore="ImageContrastCheck"
+        android:contentDescription="@string/top2" />
 
     <TextView
         android:id="@+id/top2name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
-        android:text="Adrian Merillas"
+        android:text="@string/nombre"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/rank2Background"
         app:layout_constraintStart_toEndOf="@+id/silverMedalImage"
@@ -222,7 +231,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginTop="15dp"
-        android:text="Adrian Merillas"
+        android:text="@string/nombre"
         android:textSize="18sp"
         app:layout_constraintStart_toEndOf="@+id/fourPosition5"
         app:layout_constraintTop_toBottomOf="@+id/top6name" />
@@ -241,18 +250,20 @@
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_marginStart="30dp"
+        android:contentDescription="@string/top1"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="@+id/rank1Background"
         app:layout_constraintStart_toStartOf="@+id/rank1Background"
         app:layout_constraintTop_toTopOf="@+id/backgroundRankingsNames"
-        app:srcCompat="@drawable/goldmedal" />
+        app:srcCompat="@drawable/goldmedal"
+        tools:ignore="ImageContrastCheck" />
 
     <TextView
         android:id="@+id/top1name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
-        android:text="Adrian Merillas"
+        android:text="@string/nombre"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/rank1Background"
         app:layout_constraintStart_toEndOf="@+id/goldMedalImage"
@@ -264,7 +275,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="35dp"
         android:layout_marginTop="15dp"
-        android:text="4."
+        android:text="@string/_4"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="@+id/backgroundRankingsNames"
         app:layout_constraintTop_toBottomOf="@+id/rank3Background" />
@@ -275,95 +286,110 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="35dp"
         android:layout_marginTop="15dp"
-        android:text="5."
+        android:text="@string/_5"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="@+id/backgroundRankingsNames"
         app:layout_constraintTop_toBottomOf="@+id/fourPosition" />
 
     <ImageButton
-        android:id="@+id/speedImage"
+        android:id="@+id/speedImageRankings"
         style="@style/buttonOutlined"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="15dp"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
         android:adjustViewBounds="false"
+        android:contentDescription="@string/speed"
         android:cropToPadding="false"
         android:scaleType="fitCenter"
-        android:tint="#0C0101"
-        app:layout_constraintEnd_toEndOf="@+id/speedRankingMode"
-        app:layout_constraintTop_toTopOf="@+id/speedRankingMode"
-        app:srcCompat="@drawable/crono" />
+        android:scaleX="0.7"
+        android:scaleY="0.75"
+        app:layout_constraintEnd_toEndOf="@+id/speedRankingModeRankings"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/speedRankingModeRankings"
+        app:srcCompat="@drawable/crono"
+        app:tint="@color/completed"
+        tools:ignore="SpeakableTextPresentCheck,DuplicateSpeakableTextCheck,VisualLintBounds" />
 
     <ImageButton
-        android:id="@+id/just1Image"
+        android:id="@+id/just1ImageRankings"
         style="@style/buttonOutlined"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="15dp"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
         android:adjustViewBounds="false"
+        android:contentDescription="@string/just_1"
         android:cropToPadding="false"
         android:scaleType="fitCenter"
-        android:tint="#0C0101"
+        android:scaleX="0.6"
+        android:scaleY="0.65"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/just1ModeRanking"
         app:layout_constraintTop_toTopOf="@+id/just1ModeRanking"
-        app:srcCompat="@drawable/opciones" />
+        app:srcCompat="@drawable/opciones"
+        app:tint="@color/completed"
+        tools:ignore="DuplicateSpeakableTextCheck,VisualLintBounds" />
 
     <ImageButton
-        android:id="@+id/classicImage"
+        android:id="@+id/classicImageRankings"
         style="@style/buttonOutlined"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginEnd="5dp"
         android:adjustViewBounds="false"
+        android:contentDescription="@string/logo"
         android:cropToPadding="false"
         android:scaleType="fitCenter"
-        android:tint="#0C0101"
-        app:layout_constraintEnd_toEndOf="@+id/classicRankingMode"
-        app:layout_constraintStart_toStartOf="@+id/classicRankingMode"
-        app:layout_constraintTop_toBottomOf="@+id/classicRankingLabel"
-        app:srcCompat="@drawable/logoroll" />
+        app:layout_constraintEnd_toEndOf="@+id/classicRankingModeRankings"
+        app:layout_constraintStart_toStartOf="@+id/classicRankingModeRankings"
+        app:layout_constraintTop_toBottomOf="@+id/classicRankingLabelRankings"
+        app:srcCompat="@drawable/logoroll"
+        app:tint="@color/completed"
+        tools:ignore="DuplicateSpeakableTextCheck,VisualLintBounds" />
 
     <TextView
-        android:id="@+id/classicRankingLabel"
+        android:id="@+id/classicRankingLabelRankings"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Classic"
-        android:textSize="14dp"
-        app:layout_constraintBottom_toTopOf="@+id/classicRankingMode"
-        app:layout_constraintEnd_toEndOf="@+id/classicRankingMode"
-        app:layout_constraintStart_toStartOf="@+id/classicRankingMode" />
+        android:text="@string/classic"
+        android:textColor="@color/completed"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/classicRankingModeRankings"
+        app:layout_constraintEnd_toEndOf="@+id/classicRankingModeRankings"
+        app:layout_constraintStart_toStartOf="@+id/classicRankingModeRankings"
+        tools:ignore="TextSizeCheck,TextContrastCheck" />
 
     <TextView
-        android:id="@+id/speedRankingLabel"
+        android:id="@+id/speedRankingLabelRankings"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="90dp"
-        android:text="Speed"
-        app:layout_constraintBottom_toTopOf="@+id/speedRankingMode"
-        app:layout_constraintEnd_toEndOf="@+id/speedRankingMode"
-        app:layout_constraintStart_toStartOf="@+id/speedRankingMode" />
+        android:text="@string/speed"
+        android:textColor="@color/completed"
+        app:layout_constraintBottom_toTopOf="@+id/speedRankingModeRankings"
+        app:layout_constraintEnd_toEndOf="@+id/speedRankingModeRankings"
+        app:layout_constraintStart_toStartOf="@+id/speedRankingModeRankings"
+        tools:ignore="TextContrastCheck" />
 
     <TextView
-        android:id="@+id/rankingModeLabel"
+        android:id="@+id/rankingModeLabelRankings"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Classic Mode"
-        android:textSize="20dp"
+        android:text="@string/classic_mode"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/rankingsLabel" />
+        app:layout_constraintTop_toBottomOf="@+id/rankingsLabelRankings"
+        tools:ignore="TextSizeCheck" />
 
     <TextView
-        android:id="@+id/just1RankingLabel"
+        android:id="@+id/just1RankingLabelRankings"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="90dp"
-        android:text="Just 1"
+        android:text="@string/just_1"
+        android:textColor="@color/completed"
         app:layout_constraintBottom_toTopOf="@+id/just1ModeRanking"
         app:layout_constraintEnd_toEndOf="@+id/just1ModeRanking"
-        app:layout_constraintStart_toStartOf="@+id/just1ModeRanking" />
+        app:layout_constraintStart_toStartOf="@+id/just1ModeRanking"
+        tools:ignore="TextContrastCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,7 +1,5 @@
 package com.nadrial.rollthedice.Entities;
 
-import com.nadrial.rollthedice.R;
-
 public class Category {
 
     public static String categoryName, categoryJson;

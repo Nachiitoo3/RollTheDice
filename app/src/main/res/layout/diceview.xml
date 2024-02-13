@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/diceLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -16,7 +15,8 @@
         android:layout_marginTop="8dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logodiceview" />
+        app:srcCompat="@drawable/logodiceview"
+        android:contentDescription="@string/logo" />
 
     <ImageView
         android:id="@+id/configIconDiceView"
@@ -26,7 +26,8 @@
         android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/configicondiceview" />
+        app:srcCompat="@drawable/configicondiceview"
+        android:contentDescription="@string/opciones" />
 
     <TextView
         android:id="@+id/textDiceView"
@@ -36,7 +37,7 @@
         android:fontFamily="@font/acme"
         android:gravity="center|center_horizontal|center_vertical"
         android:lines="2"
-        android:text="Desliza para lanzar !!"
+        android:text="@string/desliza_para_lanzar"
         android:textColor="@color/black"
         android:textSize="44sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -55,5 +56,6 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        android:contentDescription="@string/dado" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient">
@@ -14,7 +13,8 @@
         app:layout_constraintEnd_toEndOf="@id/guideline2"
         app:layout_constraintStart_toStartOf="@id/guideline"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logoroll" />
+        app:srcCompat="@drawable/logoroll"
+        android:contentDescription="@string/logo" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/GroupEmailRegisterView"
@@ -44,9 +44,10 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
             android:ems="10"
-            android:hint="Email"
+            android:hint="@string/email"
             android:inputType="textEmailAddress"
-            android:shadowColor="#F1F1F1" />
+            android:shadowColor="#F1F1F1"
+            android:autofillHints="Email" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -78,8 +79,9 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
             android:ems="10"
-            android:hint="Password"
-            android:inputType="textPassword" />
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:autofillHints="password" />
     </com.google.android.material.textfield.TextInputLayout>
 
 
@@ -126,8 +128,9 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:ems="10"
-            android:hint="Name"
-            android:inputType="text" />
+            android:hint="@string/name"
+            android:inputType="text"
+            android:autofillHints="name" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -161,8 +164,9 @@
             android:layout_marginTop="25dp"
             android:drawableTint="@color/black"
             android:ems="10"
-            android:hint="Confirm Password"
-            android:inputType="textPassword" />
+            android:hint="@string/confirm_password"
+            android:inputType="textPassword"
+            android:autofillHints="confirm password" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <androidx.constraintlayout.widget.Guideline

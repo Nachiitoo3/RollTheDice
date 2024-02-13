@@ -1,8 +1,6 @@
 package com.nadrial.rollthedice;
 
 import android.content.Context;
-import android.net.Uri;
-
 
 import com.nadrial.rollthedice.Entities.Question;
 

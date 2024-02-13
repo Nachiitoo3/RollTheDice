@@ -27,7 +27,7 @@
         android:layout_marginTop="158dp"
         android:layout_marginBottom="80dp"
         android:backgroundTint="#2CFFFFFF"
-        android:contentDescription="@string/app_name"
+        android:contentDescription="@string/volver"
         app:icon="@drawable/xicon"
         app:iconGravity="textEnd"
         app:iconPadding="0dp"
@@ -46,7 +46,7 @@
         android:layout_marginTop="158dp"
         android:layout_marginBottom="80dp"
         android:backgroundTint="#2CFFFFFF"
-        android:contentDescription="@string/app_name"
+        android:contentDescription="@string/reintentar"
         app:icon="@drawable/retryicon"
         app:iconGravity="textEnd"
         app:iconPadding="0dp"
@@ -62,7 +62,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
-        android:text="70"
+        android:text="@string/_70"
         android:textColor="@color/black"
         android:textSize="60sp"
         app:layout_constraintBottom_toTopOf="@+id/mainButtonResultsView"
@@ -103,7 +103,7 @@
         android:layout_marginEnd="9dp"
         android:layout_marginBottom="-10dp"
         android:gravity="center|center_horizontal|center_vertical"
-        android:text="0"
+        android:text="@string/_0"
         android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/botXBarResultsView"
         app:layout_constraintEnd_toStartOf="@+id/botXBarResultsView"
@@ -118,7 +118,7 @@
         android:layout_marginEnd="9dp"
         android:layout_marginBottom="-10dp"
         android:gravity="center|center_horizontal|center_vertical"
-        android:text="70"
+        android:text="@string/_70"
         android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/xTopBarResultsView"
         app:layout_constraintEnd_toStartOf="@+id/xTopBarResultsView"
@@ -154,7 +154,8 @@
         android:progressTintMode="src_over"
         android:rotation="270"
         app:layout_constraintBottom_toTopOf="@+id/botXBarResultsView"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="VisualLintBounds" />
 
     <ProgressBar
         android:id="@+id/natProgressBarResultsView"
@@ -220,7 +221,8 @@
         android:rotation="270"
         app:layout_constraintBottom_toTopOf="@+id/botXBarResultsView"
         app:layout_constraintEnd_toEndOf="@id/textView2"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="VisualLintBounds" />
 
     <TextView
         android:id="@+id/xTopBarResultsView"

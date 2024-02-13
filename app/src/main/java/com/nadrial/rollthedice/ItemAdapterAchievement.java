@@ -2,7 +2,6 @@ package com.nadrial.rollthedice;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
-import android.content.res.ColorStateList;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 
@@ -41,7 +40,7 @@ public class ItemAdapterAchievement extends RecyclerView.Adapter<ViewHolderAchie
                 .diskCacheStrategy(DiskCacheStrategy.ALL)
                 .into(holder.img);
         holder.name.setText(itemsAchievement.get(position).getNameAchievement());
-        if(itemsAchievement.get(position).getCompleted() == false){
+        if(!itemsAchievement.get(position).getCompleted()){
             Glide.with(context)
                     .load(R.drawable.trofeogris)
                     .centerCrop()

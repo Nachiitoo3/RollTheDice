@@ -3,13 +3,13 @@ package com.nadrial.rollthedice.Activities;
 import android.animation.ObjectAnimator;
 import android.content.Context;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -17,8 +17,8 @@ import com.nadrial.rollthedice.ItemAchievement;
 import com.nadrial.rollthedice.ItemAdapterAchievement;
 import com.nadrial.rollthedice.ItemAdapterStats;
 import com.nadrial.rollthedice.ItemStat;
-import com.nadrial.rollthedice.R;
 import com.nadrial.rollthedice.Navigator;
+import com.nadrial.rollthedice.R;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,13 +26,11 @@ import java.util.List;
 public class Statistics extends AppCompatActivity {
 
     private List<ItemStat> getListStats() {
-        setupList setupList = new setupList();
-        return setupList.generateStatsItems();
+        return com.nadrial.rollthedice.Activities.setupList.generateStatsItems();
     }
 
     private List<ItemAchievement> getListAchievements() {
-        setupList setupList = new setupList();
-        return setupList.generateAchievementsItems();
+        return com.nadrial.rollthedice.Activities.setupList.generateAchievementsItems();
     }
 
     public Context context = this;
@@ -46,7 +44,7 @@ public class Statistics extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.statisticsview);
 
-        ImageButton backButton = findViewById(R.id.backButton);
+        ImageButton backButton = findViewById(R.id.backButtonRankings);
 
         recyclerViewStats = findViewById(R.id.recyclerViewStats);
         recyclerViewStats.setLayoutManager(new LinearLayoutManager(this));
@@ -62,44 +60,35 @@ public class Statistics extends AppCompatActivity {
 
         selectMode(statsMode, statsLabel, statsImage);
         statsSelected = true;
-        backButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Navigator.openActivity(Statistics.this, MainMenu.class);
-                finish();
-            }
+        backButton.setOnClickListener(v -> {
+            Navigator.openActivity(Statistics.this, MainMenu.class);
+            finish();
         });
-        statsImage.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (statsSelected == false) {
-                    selectMode(statsMode, statsLabel, statsImage);
-                    recyclerViewStats.setLayoutManager(new LinearLayoutManager(context));
-                    recyclerViewStats.setAdapter(new ItemAdapterStats(getApplicationContext(), getListStats()));
-                    statsSelected = true;
-                }
-                if (achievementsSelected == true) {
-                    deselectMode(achievementsMode, achievementsLabel, achievementsImage);
-                    achievementsSelected = false;
-                }
-
+        statsImage.setOnClickListener(v -> {
+            if (!statsSelected) {
+                selectMode(statsMode, statsLabel, statsImage);
+                recyclerViewStats.setLayoutManager(new LinearLayoutManager(context));
+                recyclerViewStats.setAdapter(new ItemAdapterStats(getApplicationContext(), getListStats()));
+                statsSelected = true;
             }
+            if (achievementsSelected) {
+                deselectMode(achievementsMode, achievementsLabel, achievementsImage);
+                achievementsSelected = false;
+            }
+
         });
-        achievementsImage.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (achievementsSelected == false) {
-                    selectMode(achievementsMode, achievementsLabel, achievementsImage);
-                    recyclerViewStats.setLayoutManager(new LinearLayoutManager(context));
-                    recyclerViewStats.setAdapter(new ItemAdapterAchievement(getApplicationContext(), getListAchievements()));
-                    achievementsSelected = true;
-                }
-                if (statsSelected == true) {
-                    deselectMode(statsMode, statsLabel, statsImage);
-                    statsSelected = false;
-                }
-
+        achievementsImage.setOnClickListener(v -> {
+            if (!achievementsSelected) {
+                selectMode(achievementsMode, achievementsLabel, achievementsImage);
+                recyclerViewStats.setLayoutManager(new LinearLayoutManager(context));
+                recyclerViewStats.setAdapter(new ItemAdapterAchievement(getApplicationContext(), getListAchievements()));
+                achievementsSelected = true;
             }
+            if (statsSelected) {
+                deselectMode(statsMode, statsLabel, statsImage);
+                statsSelected = false;
+            }
+
         });
 
 
@@ -109,17 +98,16 @@ public class Statistics extends AppCompatActivity {
         ObjectAnimator animation1 = ObjectAnimator.ofFloat(button, "translationY", -120f);
         ObjectAnimator animation2 = ObjectAnimator.ofFloat(textView, "translationY", -120f);
         ObjectAnimator animation3 = ObjectAnimator.ofFloat(imageView, "translationY", -120f);
+        imageView.setColorFilter(ContextCompat.getColor(context, R.color.black));
+        textView.setTextColor(ContextCompat.getColor(context, R.color.black));
         statsTittle.setText(textView.getText());
 
         animation1.setDuration(100);
         animation1.start();
-        ;
         animation2.setDuration(100);
         animation2.start();
-        ;
         animation3.setDuration(100);
         animation3.start();
-        ;
 
 
     }
@@ -128,17 +116,16 @@ public class Statistics extends AppCompatActivity {
         ObjectAnimator animation1 = ObjectAnimator.ofFloat(button, "translationY", 0f);
         ObjectAnimator animation2 = ObjectAnimator.ofFloat(textView, "translationY", 0f);
         ObjectAnimator animation3 = ObjectAnimator.ofFloat(imageView, "translationY", 0f);
+        imageView.setColorFilter(ContextCompat.getColor(context, R.color.completed));
+        textView.setTextColor(ContextCompat.getColor(context, R.color.completed));
 
 
         animation1.setDuration(100);
         animation1.start();
-        ;
         animation2.setDuration(100);
         animation2.start();
-        ;
         animation3.setDuration(100);
         animation3.start();
-        ;
 
 
     }

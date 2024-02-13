@@ -52,58 +52,20 @@ public class MainMenu extends AppCompatActivity {
         categorySpinner = findViewById(R.id.categorySpinnerMainView);
         setUpSpinner(getResources().getStringArray(R.array.categorias), categorySpinner);
 
-        profileButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Navigator.openActivity(MainMenu.this, Profile.class);
+        profileButton.setOnClickListener(v -> Navigator.openActivity(MainMenu.this, Profile.class));
+        configIcon.setOnClickListener(v -> showOptionsMenuDialog(context));
+        playButton.setOnClickListener(v -> {
+            Navigator.openActivity(MainMenu.this, Dice.class);
+            finish();
+            if (GameMode.getMode() == 2) {
+                Category.setCategory(categorySpinner.getSelectedItemPosition());
             }
         });
-        configIcon.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                showOptionsMenuDialog(context);
-            }
-        });
-        playButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Navigator.openActivity(MainMenu.this, Dice.class);
-                finish();
-                if (GameMode.getMode() == 2) {
-                    Category.setCategory(categorySpinner.getSelectedItemPosition());
-                }
-            }
-        });
-        setCrono.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                setCronoGame();
-            }
-        });
-        setClassic.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                setClassicGame();
-            }
-        });
-        setJustOne.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                setJustOneGame();
-            }
-        });
-        statisticsButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Navigator.openActivity(MainMenu.this, Statistics.class);
-            }
-        });
-        recordsButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Navigator.openActivity(MainMenu.this, Rankings.class);
-            }
-        });
+        setCrono.setOnClickListener(v -> setCronoGame());
+        setClassic.setOnClickListener(v -> setClassicGame());
+        setJustOne.setOnClickListener(v -> setJustOneGame());
+        statisticsButton.setOnClickListener(v -> Navigator.openActivity(MainMenu.this, Statistics.class));
+        recordsButton.setOnClickListener(v -> Navigator.openActivity(MainMenu.this, Rankings.class));
     }
 
     public void setUpSpinner(String[] data, Spinner spinner) {
@@ -119,7 +81,7 @@ public class MainMenu extends AppCompatActivity {
             public View getDropDownView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
                 TextView textView = (TextView) super.getDropDownView(position, convertView, parent);
                 textView.setTextColor(Color.BLACK);
-                textView.setBackgroundColor(getResources().getColor(R.color.grey2));
+                textView.setBackgroundColor(ContextCompat.getColor(this.getContext(),R.color.grey2));
                 textView.setPadding(350, 0, 0, 0);
 
                 return textView;
@@ -134,12 +96,9 @@ public class MainMenu extends AppCompatActivity {
         optionsDialog.setContentView(R.layout.options_menu);
         optionsDialog.setTitle("Opciones");
         TextView textViewUrl = optionsDialog.findViewById(R.id.ourPolicy);
-        textViewUrl.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openUrl("https://creativecommons.org/licenses/by-nd/4.0/", context);
-                optionsDialog.dismiss();
-            }
+        textViewUrl.setOnClickListener(v -> {
+            openUrl(context);
+            optionsDialog.dismiss();
         });
         optionsDialog.show();
     }
@@ -212,9 +171,9 @@ public class MainMenu extends AppCompatActivity {
         setJustOne.setCompoundDrawablesRelative(drawableJustOne, null, null, null);
     }
 
-    private static void openUrl(String url, Context context) {
+    private static void openUrl(Context context) {
         Intent intent = new Intent(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse(url));
+        intent.setData(Uri.parse("https://creativecommons.org/licenses/by-nd/4.0/"));
         context.startActivity(intent);
     }
 

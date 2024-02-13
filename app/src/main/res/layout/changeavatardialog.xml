@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- res/layout/dialog_options.xml -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="310dp"
     android:layout_height="350dp"
     android:backgroundTint="#00804343"
@@ -18,7 +16,8 @@
         android:layout_marginTop="20dp"
         android:background="#00FFFFFF"
         android:scaleType="centerCrop"
-        android:src="@drawable/avatar1" />
+        android:src="@drawable/avatar1"
+        android:contentDescription="@string/image1" />
 
     <ImageButton
         android:id="@+id/imageButton4"
@@ -29,7 +28,8 @@
         android:layout_marginTop="20dp"
         android:background="#00FFFFFF"
         android:scaleType="centerCrop"
-        android:src="@drawable/avatar4" />
+        android:src="@drawable/avatar4"
+        android:contentDescription="@string/image4" />
 
     <ImageButton
         android:id="@+id/imageButton7"
@@ -40,7 +40,8 @@
         android:layout_marginTop="20dp"
         android:background="#00FFFFFF"
         android:scaleType="centerCrop"
-        android:src="@drawable/avatar7" />
+        android:src="@drawable/avatar7"
+        android:contentDescription="@string/image7" />
     <ImageButton
         android:id="@+id/imageButton2"
         style="@android:style/Widget.Holo.Light.ImageButton"
@@ -50,7 +51,8 @@
         android:layout_marginTop="-250dp"
         android:background="#00FFFFFF"
         android:scaleType="centerCrop"
-        android:src="@drawable/avatar2" />
+        android:src="@drawable/avatar2"
+        android:contentDescription="@string/image2" />
 
     <ImageButton
         android:id="@+id/imageButton5"
@@ -61,7 +63,8 @@
         android:layout_marginTop="20dp"
         android:background="#00FFFFFF"
         android:scaleType="centerCrop"
-        android:src="@drawable/user" />
+        android:src="@drawable/user"
+        android:contentDescription="@string/image5" />
     <ImageButton
         android:id="@+id/imageButton8"
         style="@android:style/Widget.Holo.Light.ImageButton"
@@ -71,7 +74,8 @@
         android:layout_marginTop="20dp"
         android:background="#00FFFFFF"
         android:scaleType="centerCrop"
-        android:src="@drawable/avatar8" />
+        android:src="@drawable/avatar8"
+        android:contentDescription="@string/image8" />
     <ImageButton
         android:id="@+id/imageButton3"
         style="@android:style/Widget.Holo.Light.ImageButton"
@@ -81,7 +85,8 @@
         android:layout_marginTop="-250dp"
         android:background="#00FFFFFF"
         android:scaleType="centerCrop"
-        android:src="@drawable/avatar3" />
+        android:src="@drawable/avatar3"
+        android:contentDescription="@string/image3" />
     <ImageButton
         android:id="@+id/imageButton6"
         style="@android:style/Widget.Holo.Light.ImageButton"
@@ -91,7 +96,8 @@
         android:layout_marginTop="20dp"
         android:background="#00FFFFFF"
         android:scaleType="centerCrop"
-        android:src="@drawable/avatar6" />
+        android:src="@drawable/avatar6"
+        android:contentDescription="@string/image6" />
     <ImageButton
         android:id="@+id/imageButton9"
         style="@android:style/Widget.Holo.Light.ImageButton"
@@ -101,7 +107,8 @@
         android:layout_marginTop="20dp"
         android:background="#00FFFFFF"
         android:scaleType="centerCrop"
-        android:src="@drawable/avatar9" />
+        android:src="@drawable/avatar9"
+        android:contentDescription="@string/image9" />
 
     <Button
         android:id="@+id/confirmChangeImageButton"
@@ -109,9 +116,9 @@
         android:layout_height="50dp"
         android:layout_gravity="center"
         android:layout_marginTop="8dp"
-        android:backgroundTint="#BFBFBF"
-        android:text="Confirmar"
-        android:textColor="@color/black" />
+        android:backgroundTint="@color/black"
+        android:text="@string/confirmar"
+        android:textColor="@color/white" />
 
 
 </LinearLayout>

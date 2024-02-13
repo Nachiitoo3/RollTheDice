@@ -22,15 +22,12 @@ public class Splash extends AppCompatActivity {
         splash();
     }
 
-    public void transition(Context context, Class<?> cls) {
+    public void transition(Context context) {
 
         Handler handler = new Handler();
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                Navigator.openActivity(context, Login.class);
-                finish();
-            }
+        handler.postDelayed(() -> {
+            Navigator.openActivity(context, Login.class);
+            finish();
         }, 10500);
     }
 
@@ -45,7 +42,7 @@ public class Splash extends AppCompatActivity {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        transition(this, Login.class);
+        transition(this);
     }
 
 }
