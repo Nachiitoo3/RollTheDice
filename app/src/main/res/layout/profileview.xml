@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient">
@@ -27,12 +28,12 @@
         android:layout_height="171dp"
         android:layout_marginTop="60dp"
         android:background="#00FFFFFF"
+        android:contentDescription="@string/user"
         android:scaleType="centerInside"
         app:layout_constraintEnd_toEndOf="@+id/backgoundProvileView"
         app:layout_constraintStart_toStartOf="@+id/backgoundProvileView"
         app:layout_constraintTop_toTopOf="@+id/backgoundProvileView"
-        app:srcCompat="@drawable/user"
-        android:contentDescription="@string/user" />
+        app:srcCompat="@drawable/user" />
 
     <TextView
         android:id="@+id/profileNameProfileView"
@@ -42,6 +43,7 @@
         android:text="@string/nombre"
         android:textColor="@color/black"
         android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/gmailTextProfileView"
         app:layout_constraintEnd_toEndOf="@+id/backgoundProvileView"
         app:layout_constraintStart_toStartOf="@+id/backgoundProvileView"
         app:layout_constraintTop_toBottomOf="@+id/profileImageProfileView" />
@@ -50,11 +52,12 @@
         android:id="@+id/gmailTextProfileView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
+        android:layout_marginBottom="40dp"
         android:fontFamily="@font/baloo_bhai_2"
         android:text="@string/example_gmail_com"
         android:textColor="#7C7C7C"
         android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/changeNameBackground"
         app:layout_constraintEnd_toEndOf="@+id/backgoundProvileView"
         app:layout_constraintStart_toStartOf="@+id/backgoundProvileView"
         app:layout_constraintTop_toBottomOf="@+id/profileNameProfileView" />
@@ -66,22 +69,22 @@
         android:layout_height="40dp"
         android:layout_marginTop="16dp"
         android:background="#00FFFFFF"
+        android:contentDescription="@string/volver"
         android:scaleType="fitCenter"
         android:scaleX="0.5"
         android:scaleY="0.5"
         app:layout_constraintStart_toStartOf="@+id/backgoundProvileView"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/backarrow"
-        android:contentDescription="@string/volver" />
+        app:srcCompat="@drawable/backarrow" />
 
     <TextView
         android:id="@+id/changeNameBackground"
         android:layout_width="0dp"
         android:layout_height="60dp"
-        android:layout_marginBottom="360dp"
+        android:layout_marginBottom="30dp"
         android:background="#C5B2B2"
         android:backgroundTint="#25B6B6B6"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/changeProfileImageBackground"
         app:layout_constraintEnd_toEndOf="@+id/backgoundProvileView"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/backgoundProvileView" />
@@ -90,7 +93,7 @@
         android:id="@+id/logOutBackground"
         android:layout_width="0dp"
         android:layout_height="60dp"
-        android:layout_marginBottom="60dp"
+        android:layout_marginBottom="40dp"
         android:background="#C5B2B2"
         android:backgroundTint="#25B6B6B6"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -102,10 +105,10 @@
         android:id="@+id/changeProfileImageBackground"
         android:layout_width="0dp"
         android:layout_height="60dp"
-        android:layout_marginBottom="260dp"
+        android:layout_marginBottom="30dp"
         android:background="#C5B2B2"
         android:backgroundTint="#25B6B6B6"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/deleteAccountBackground"
         app:layout_constraintEnd_toEndOf="@+id/backgoundProvileView"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/backgoundProvileView" />
@@ -114,10 +117,10 @@
         android:id="@+id/deleteAccountBackground"
         android:layout_width="0dp"
         android:layout_height="60dp"
-        android:layout_marginBottom="160dp"
+        android:layout_marginBottom="30dp"
         android:background="#C5B2B2"
         android:backgroundTint="#25B6B6B6"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/logOutBackground"
         app:layout_constraintEnd_toEndOf="@+id/backgoundProvileView"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/backgoundProvileView" />

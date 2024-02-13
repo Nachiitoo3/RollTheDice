@@ -25,17 +25,17 @@ public class Rankings extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.rankingsview);
 
-        ImageButton backToMenuButton = findViewById(R.id.backButton);
-        Button speedRankingModeButton = findViewById(R.id.speedRankingMode);
-        TextView speedRankingLabel = findViewById(R.id.speedRankingLabel);
-        ImageButton speedImage = findViewById(R.id.speedImage);
-        Button classicRankingModeButton = findViewById(R.id.classicRankingMode);
-        TextView classicRankingLabel = findViewById(R.id.classicRankingLabel);
-        ImageButton classicImage = findViewById(R.id.classicImage);
+        ImageButton backToMenuButton = findViewById(R.id.backButtonRankings);
+        Button speedRankingModeButton = findViewById(R.id.speedRankingModeRankings);
+        TextView speedRankingLabel = findViewById(R.id.speedRankingLabelRankings);
+        ImageButton speedImage = findViewById(R.id.speedImageRankings);
+        Button classicRankingModeButton = findViewById(R.id.classicRankingModeRankings);
+        TextView classicRankingLabel = findViewById(R.id.classicRankingLabelRankings);
+        ImageButton classicImage = findViewById(R.id.classicImageRankings);
         Button just1RankingModeButton = findViewById(R.id.just1ModeRanking);
-        TextView just1RankingLabel = findViewById(R.id.just1RankingLabel);
-        ImageButton just1Image = findViewById(R.id.just1Image);
-        rankingName = findViewById(R.id.rankingModeLabel);
+        TextView just1RankingLabel = findViewById(R.id.just1RankingLabelRankings);
+        ImageButton just1Image = findViewById(R.id.just1ImageRankings);
+        rankingName = findViewById(R.id.rankingModeLabelRankings);
 
         selectRankingMode(classicRankingModeButton, classicRankingLabel, classicImage);
         classicSelected = true;

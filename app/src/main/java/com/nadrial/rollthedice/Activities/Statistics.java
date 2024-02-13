@@ -44,7 +44,7 @@ public class Statistics extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.statisticsview);
 
-        ImageButton backButton = findViewById(R.id.backButton);
+        ImageButton backButton = findViewById(R.id.backButtonRankings);
 
         recyclerViewStats = findViewById(R.id.recyclerViewStats);
         recyclerViewStats.setLayoutManager(new LinearLayoutManager(this));

@@ -77,4 +77,5 @@
     <string name="statsitem">statsItem</string>
     <string name="preguntas_falladas">Preguntas falladas:</string>
     <string name="_500">500</string>
+    <string name="reintentar">reintentar</string>
 </resources>
