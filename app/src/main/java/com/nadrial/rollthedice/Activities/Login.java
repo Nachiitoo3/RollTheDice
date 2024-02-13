@@ -12,13 +12,27 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.DocumentSnapshot;
+import com.google.firebase.firestore.FirebaseFirestore;
+import com.nadrial.rollthedice.Entities.User;
 import com.nadrial.rollthedice.Navigator;
 import com.nadrial.rollthedice.R;
 
+import org.checkerframework.checker.nullness.qual.NonNull;
+
 public class Login extends AppCompatActivity {
 
-    EditText email,password;
+    EditText email, password;
     FirebaseAuth mAuth;
 
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,10 +53,10 @@ public class Login extends AppCompatActivity {
             String emailUser = email.getText().toString().trim();
             String passUser = password.getText().toString().trim();
 
-            if (emailUser.isEmpty() || passUser.isEmpty()){
+            if (emailUser.isEmpty() || passUser.isEmpty()) {
                 Toast.makeText(Login.this, "Ingrese los datos", Toast.LENGTH_SHORT).show();
-            }else{
-                loginUser(emailUser,passUser);
+            } else {
+                loginUser(emailUser, passUser);
             }
 
         });
@@ -51,11 +65,11 @@ public class Login extends AppCompatActivity {
 
     private void loginUser(String emailUser, String passUser) {
 
-        mAuth.signInWithEmailAndPassword(emailUser,passUser).addOnCompleteListener(task -> {
-            if (task.isSuccessful()){
+        mAuth.signInWithEmailAndPassword(emailUser, passUser).addOnCompleteListener(task -> {
+            if (task.isSuccessful()) {
                 setUser();
-                finish();
                 Navigator.openActivity(Login.this, MainMenu.class);
+                finish();
             }
         }).addOnFailureListener(e -> Toast.makeText(Login.this, "Error al iniciar sesión", Toast.LENGTH_SHORT).show());
 
@@ -71,6 +85,31 @@ public class Login extends AppCompatActivity {
     }
 
     public void setUser() {
+        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+        User.setId(user.getUid());
+        FirebaseFirestore firebaseFirestore = FirebaseFirestore.getInstance();
+        DocumentReference userReference = firebaseFirestore.collection("user").document(User.getId());
+        userReference.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
+                @Override
+                public void onComplete(@NonNull Task<DocumentSnapshot> task) {
+                    if (task.isSuccessful()) {
+                        DocumentSnapshot document = task.getResult();
+                        if (document.exists()) {
+                            User.setName(document.getString("name"));
+                            User.setEmail(document.getString("email"));
+                            User.setImgUser(document.getString("img"));
+                        } else {
 
+                        }
+                    } else {
+                        // Manejar errores de lectura de Firestore si es necesario
+                        Exception exception = task.getException();
+                    }
+                }
+            });
+        }
     }
-}
+
+
+
+
