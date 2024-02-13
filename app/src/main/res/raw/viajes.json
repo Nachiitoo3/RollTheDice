@@ -1067,7 +1067,7 @@
             "Colombia",
             "Brasil",
             "Perú"
-        ], "img":""
+        ], "img":"https://estaticos-cdn.prensaiberica.es/clip/670b52c7-d791-4eab-9f4a-9f1ac109635a_16-9-discover-aspect-ratio_default_0.jpg"
     },
     {
         "pregunta": "¿Cuál es el nombre del desierto más grande del mundo?",
@@ -1077,7 +1077,7 @@
             "Desierto de Atacama",
             "Desierto de Gobi",
             "Desierto de Mojave"
-        ], "img":""
+        ], "img":"https://www.ngenespanol.com/wp-content/uploads/2023/08/hace-miles-de-anos-el-desierto-del-sahara-era-un-bosque-arido.jpg"
     },
     {
         "pregunta": "¿Qué cultura urbana se caracteriza por su interés en la moda vintage, la música indie y la estética retro?",
@@ -1087,7 +1087,7 @@
             "Góticos",
             "Emos",
             "Skaters"
-        ], "img":""
+        ], "img":"https://media.gq.com.mx/photos/5dfd16630e681900084be9eb/4:3/w_5952,h_4464,c_limit/beard.jpg"
     },
     {
         "pregunta": "¿Qué cultura urbana se asocia con la música electrónica, festivales de música?",
@@ -1097,7 +1097,7 @@
             "Skaters",
             "Emos",
             "Hip-hop"
-        ], "img":""
+        ], "img":"https://images.newrepublic.com/dc7dcb553f8b60eeb9908fda22ec1b74e38578ab.jpeg"
     },
     {
         "pregunta": "¿Cuál de las siguientes culturas urbanas se caracteriza por su amor por la música rock, el uso de cuero y tachuelas?",
@@ -1107,17 +1107,17 @@
             "Hipsters",
             "Emos",
             "Ravers"
-        ], "img":""
+        ], "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeV6TwZ9-63anUqLTfB4j-C7S87-WW3FyjbA&usqp=CAU"
     },
     {
-        "pregunta": "¿Qué tribu urbana se enfoca en la moda inspirada en la cultura del surf, el skateboarding y la música punk?",
+        "pregunta": "¿Qué tribu urbana se enfoca en la moda inspirada en la cultura del surf y la música punk?",
         "respuesta_correcta": "Skaters",
         "opciones_respuesta": [
             "Góticos",
             "Skaters",
             "Hip-hop",
             "Ravers"
-        ], "img":""
+        ], "img":"https://www.teironsurf.com/blog/wp-content/uploads/fjf-1140x641.jpg"
     },
     {
         "pregunta": "¿Cuál de las siguientes culturas urbanas se asocia con la cultura del rap, la moda urbana y el arte callejero?",
@@ -1127,7 +1127,7 @@
             "Hip-hop",
             "Bikers",
             "Otakus"
-        ], "img":""
+        ], "img":"https://img.redbull.com/images/c_limit,w_1500,h_1000,f_auto,q_auto/redbullcom/2023/8/28/qvtufn0c9wpqnkawbheb/hip-hop-dance-for-hope"
     },
     {
         "pregunta": "¿Cuál de las siguientes culturas urbanas se centra en la cultura de los videojuegos, anime y manga?",
@@ -1137,7 +1137,7 @@
             "Ravers",
             "Bikers",
             "Skaters"
-        ], "img":""
+        ], "img":"https://showbuzzrd.com/wp-content/uploads/2021/06/Otaku-Janpon.fw-min-1.png"
     },
     {
         "pregunta": "¿Qué tribu urbana se identifica por su amor por la música punk, el activismo político y la moda rebelde?",
@@ -1147,7 +1147,7 @@
             "Emos",
             "Anarquistas",
             "Góticos"
-        ], "img":""
+        ], "img":"https://www.singulart.com/images/artworks/v2/cropped/6865/main/zoom/1855111_b7a6b784ffc490bde5cc77b7ddc019d2.jpeg"
     },
     {
         "pregunta": "¿Qué cultura urbana se caracteriza por su interés en la tecnología, la ciencia ficción y la innovación?",
@@ -1167,7 +1167,7 @@
             "Steampunks",
             "Hipsters",
             "Mods"
-        ], "img":""
+        ], "img":"https://www.newarkadvertiser.co.uk/_media/img/6Y8O8E7TOVZZMLIUB3ZV.jpg"
     },
     {
         "pregunta": "¿Qué cultura urbana se caracteriza por su amor por la música country, la moda western y la vida rural?",
@@ -1177,7 +1177,7 @@
             "Country Folks",
             "Cowboys/Cowgirls",
             "Hillbillies"
-        ], "img":""
+        ], "img":"https://thesouthtexan.com/wp-content/uploads/2023/12/149232937_country-music.jpg"
     },
     {
         "pregunta": "¿Qué cultura urbana se caracteriza por su amor por la música reggae, la moda rastafari y el estilo de vida relajado?",
@@ -1187,7 +1187,7 @@
             "Reggaetoneros",
             "Islanders",
             "Dubsters"
-        ], "img":""
+        ], "img":"https://www.ancient-origins.es/sites/default/files/field/image/babilonia-en-reggae.jpg"
     },
     {
         "pregunta": "¿Qué cultura urbana se asocia con la moda grunge, la música alternativa y la actitud anti-consumista?",
@@ -1197,6 +1197,6 @@
             "Alt Rockers",
             "Counter Culturists",
             "Indie Kids"
-        ], "img":""
+        ], "img":"https://cloudfront-eu-central-1.images.arcpublishing.com/prisaradiolos40/7V5GQATLAJPXNFPRONVKOUSVUM.jpg"
     }
 ]
