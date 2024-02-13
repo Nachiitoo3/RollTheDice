@@ -40,7 +40,7 @@ public class TransitionDiceIntoQuestion extends AppCompatActivity {
         handler.postDelayed(() -> {
             Navigator.openActivity(context, Question.class);
             finish();
-        }, 500);
+        }, 1000);
     }
 
     public void setCategoryValues() {

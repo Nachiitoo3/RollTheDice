@@ -40,7 +40,7 @@ public class Register extends AppCompatActivity {
             String nameUser = Name.getText().toString().trim();
             String emailUser = Email.getText().toString().trim();
             String passUser = "";
-            int imgUser = R.drawable.user;
+            String imgUser = String.valueOf(R.drawable.user);
             if (RPassword.getText().toString().trim().equals(Password.getText().toString().trim())) {
                 passUser = Password.getText().toString().trim();
             }
@@ -62,7 +62,7 @@ public class Register extends AppCompatActivity {
 
     }
 
-    private void registerUser(String nameUser, String emailUser, String passUser, int imgUser) {
+    private void registerUser(String nameUser, String emailUser, String passUser, String imgUser) {
         mAuth.createUserWithEmailAndPassword(emailUser, passUser).addOnCompleteListener(task -> {
             String id = Objects.requireNonNull(mAuth.getCurrentUser()).getUid();
             Map<String, Object> map = new HashMap<>();

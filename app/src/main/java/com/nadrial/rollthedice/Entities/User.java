@@ -4,9 +4,9 @@ public class User {
 
 
 
-    static int imgUser;
-    static String name,id,email;
-    public String getName() {
+
+    static String name,id,email,imgUser;
+    public static String getName() {
         return name;
     }
 
@@ -24,15 +24,15 @@ public class User {
         return id;
     }
 
-    public String getEmail() {
+    public static String getEmail() {
         return email;
     }
 
-    public int getImgUser() {
+    public static String getImgUser() {
         return imgUser;
     }
 
-    public static void setImgUser(int newImgUser) {
+    public static void setImgUser(String newImgUser) {
         imgUser = newImgUser;
     }
 
