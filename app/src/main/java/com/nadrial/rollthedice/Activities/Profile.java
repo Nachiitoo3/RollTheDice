@@ -28,6 +28,8 @@ import org.checkerframework.checker.nullness.qual.NonNull;
 
 public class Profile extends AppCompatActivity {
 
+    private ImageButton lastSelectedImageBtn;
+    private static String newImg;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,6 +46,7 @@ public class Profile extends AppCompatActivity {
         });
 
         logOut.setOnClickListener(v -> {
+            FirebaseAuth.getInstance().signOut();
             Navigator.openActivity(Profile.this, Login.class);
             finish();
         });
@@ -73,6 +76,7 @@ public class Profile extends AppCompatActivity {
 
             TextView nameText = findViewById(R.id.profileNameProfileView);
             nameText.setText(newName);
+            guardarNombre(newName);
             optionsDialog.dismiss();
         });
 
@@ -121,10 +125,15 @@ public class Profile extends AppCompatActivity {
         String profileImg = User.getImgUser();
         img.setImageResource(Integer.parseInt(profileImg));    }
 
-    public void guardarCambios(){
+    public void guardarNombre(String nuevoNombre){
 
-        FirebaseFirestore firebaseFirestore = FirebaseFirestore.getInstance();
-        DocumentReference userReference = firebaseFirestore.collection("user").document(User.getId());
+        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+        if (user != null){
+            FirebaseFirestore firebaseFirestore = FirebaseFirestore.getInstance();
+            DocumentReference userReference = firebaseFirestore.collection("user").document(user.getUid());
+            userReference.update("name",nuevoNombre);
+            User.setName(nuevoNombre);
+        }
 
     }
 
