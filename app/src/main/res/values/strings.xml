@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">RollTheDice</string>
     <string name="login">INGRESO</string>
-    <string name="register">REGISTAR</string>
+    <string name="register">REGISTRAR</string>
     <string name="logro">logro</string>
     <string name="image1">image1</string>
     <string name="image4">image4</string>
