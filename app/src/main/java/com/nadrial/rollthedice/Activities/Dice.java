@@ -4,42 +4,58 @@ import android.animation.ArgbEvaluator;
 import android.animation.ValueAnimator;
 import android.content.Context;
 import android.os.Bundle;
-import android.os.Handler;
+import android.view.View;
 import android.widget.ImageView;
 
-import com.bumptech.glide.Glide;
+import androidx.appcompat.app.AppCompatActivity;
+
+import pl.droidsonroids.gif.AnimationListener;
+import pl.droidsonroids.gif.GifDrawable;
+import pl.droidsonroids.gif.GifImageView;
+
 import com.nadrial.rollthedice.Entities.Category;
 import com.nadrial.rollthedice.Entities.GameMode;
 import com.nadrial.rollthedice.R;
 import com.nadrial.rollthedice.Navigator;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import java.util.Random;
-
 
 public class Dice extends AppCompatActivity {
 
     Context context = this;
 
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.diceview);
 
-        ImageView diceImage = findViewById(R.id.diceImageView);
+        GifImageView diceImage = findViewById(R.id.diceImageView);
         ImageView configIcon = findViewById(R.id.configIconDiceView);
 
-        changeBackgroungColor();
+        changeBackgroundColor();
 
-        configIcon.setOnClickListener(v -> MainMenu.showOptionsMenuDialog(context));
-        diceImage.setOnClickListener(v -> {
-            randomCategoryGenerator();
-            animDice();
+        configIcon.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                MainMenu.showOptionsMenuDialog(context);
+            }
+        });
+
+        diceImage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Cuando el usuario hace clic en la imagen del dado
+                // Se genera una categoría aleatoria y se inicia la animación
+                randomCategoryGenerator();
+                animDice();
+            }
         });
     }
 
-    public void changeBackgroungColor() {
-        final ValueAnimator colorAnimation = ValueAnimator.ofObject(new ArgbEvaluator(), getResources().getColor(R.color.yellowMitology), getResources().getColor(R.color.redFood),
+    public void changeBackgroundColor() {
+        final ValueAnimator colorAnimation = ValueAnimator.ofObject(new ArgbEvaluator(),
+                getResources().getColor(R.color.yellowMitology),
+                getResources().getColor(R.color.redFood),
                 getResources().getColor(R.color.greenNature),
                 getResources().getColor(R.color.purpleTecnology),
                 getResources().getColor(R.color.orangeTrips));
@@ -47,7 +63,12 @@ public class Dice extends AppCompatActivity {
         colorAnimation.setDuration(5000);
         colorAnimation.setRepeatCount(ValueAnimator.INFINITE);
         colorAnimation.setRepeatMode(ValueAnimator.REVERSE);
-        colorAnimation.addUpdateListener(animator -> getWindow().getDecorView().setBackgroundColor((int) animator.getAnimatedValue()));
+        colorAnimation.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
+            @Override
+            public void onAnimationUpdate(ValueAnimator animator) {
+                getWindow().getDecorView().setBackgroundColor((int) animator.getAnimatedValue());
+            }
+        });
 
         colorAnimation.start();
     }
@@ -56,29 +77,33 @@ public class Dice extends AppCompatActivity {
         if (GameMode.mode != 2) {
             Random random = new Random();
             Category.setCategory(random.nextInt(5));
-
         }
-
     }
-    public void transitionAnimDice(Context context) {
-        Handler handler = new Handler();
-        handler.postDelayed(() -> {
-            Navigator.openActivity(context, TransitionDiceIntoQuestion.class);
-            finish();
-        }, 3500);
-}
+
+    public void transitionAnimDice(Context context, Class<?> cls) {
+        Navigator.openActivity(context, cls);
+        finish();
+    }
+
     private void animDice() {
-        ImageView dice = findViewById(R.id.diceImageView);
+        GifImageView gifImageView = findViewById(R.id.diceImageView);
+
         try {
-            Glide.with(this)
-                    .load(R.drawable.animcultviajes)
-                    .into(dice);
+            GifDrawable gifDrawable = new GifDrawable(getResources(), R.drawable.animcultviajes);
+            gifImageView.setImageDrawable(gifDrawable);
+
+            gifDrawable.addAnimationListener(new AnimationListener() {
+                @Override
+                public void onAnimationCompleted(int loopNumber) {
+                    // La animación ha terminado, ahora puedes iniciar la transición
+                    transitionAnimDice(Dice.this, TransitionDiceIntoQuestion.class);
+                }
+            });
+
+            // Inicia la animación manualmente
+            gifDrawable.start();
         } catch (Exception e) {
             e.printStackTrace();
         }
-        transitionAnimDice(this);
     }
-
 }
-
-

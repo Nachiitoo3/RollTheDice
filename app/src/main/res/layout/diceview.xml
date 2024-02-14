@@ -44,13 +44,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <ImageView
+    <pl.droidsonroids.gif.GifImageView
         android:id="@+id/diceImageView"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="-10dp"
         android:layout_marginTop="100dp"
-        android:src="@drawable/animcultviajes"
+        android:src="@drawable/diceinit"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
