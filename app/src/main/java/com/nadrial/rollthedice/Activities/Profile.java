@@ -3,6 +3,7 @@ package com.nadrial.rollthedice.Activities;
 
 
 import android.app.Dialog;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
@@ -29,7 +30,7 @@ import org.checkerframework.checker.nullness.qual.NonNull;
 public class Profile extends AppCompatActivity {
 
     private ImageButton lastSelectedImageBtn;
-    private static String newImg;
+    private static String newImage;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -83,38 +84,102 @@ public class Profile extends AppCompatActivity {
         optionsDialog.show();
     }
 
-    public void changeProfileImage() {
 
-        Dialog profileImages = new Dialog(this);
-        profileImages.setContentView(R.layout.changeavatardialog);
-        profileImages.setTitle("Cambiar avatar");
+        public void changeProfileImage() {
+            Dialog profileImages = new Dialog(this);
+            profileImages.setContentView(R.layout.changeavatardialog);
+            profileImages.setTitle("Cambiar avatar");
 
-        Button chageImageButton = profileImages.findViewById(R.id.confirmChangeImageButton);
-        ImageView profileImage = findViewById(R.id.profileImageProfileView);
-        ImageButton image1 = profileImages.findViewById(R.id.imageButton1);
-        ImageButton image2 = profileImages.findViewById(R.id.imageButton2);
-        ImageButton image3 = profileImages.findViewById(R.id.imageButton3);
-        image1.setOnClickListener(v -> {
-
-            profileImage.setImageDrawable(image1.getDrawable());
-
-        });
-        image2.setOnClickListener(v -> {
-
-            profileImage.setImageDrawable(image2.getDrawable());
-
-        });
-        image3.setOnClickListener(v -> {
-
-            profileImage.setImageDrawable(image3.getDrawable());
-
-        });
-
-        chageImageButton.setOnClickListener(v -> profileImages.dismiss());
+            Button changeImageButton = profileImages.findViewById(R.id.confirmChangeImageButton);
+            ImageView profileImage = findViewById(R.id.profileImageProfileView);
+            ImageButton image1 = profileImages.findViewById(R.id.imageButton1);
+            ImageButton image2 = profileImages.findViewById(R.id.imageButton2);
+            ImageButton image3 = profileImages.findViewById(R.id.imageButton3);
+            ImageButton image4 = profileImages.findViewById(R.id.imageButton4);
+            ImageButton image5 = profileImages.findViewById(R.id.imageButton5);
+            ImageButton image6 = profileImages.findViewById(R.id.imageButton6);
+            ImageButton image7 = profileImages.findViewById(R.id.imageButton7);
+            ImageButton image8 = profileImages.findViewById(R.id.imageButton8);
+            ImageButton image9 = profileImages.findViewById(R.id.imageButton9);
 
 
-        profileImages.show();
-    }
+            Runnable restoreLastSelectedImageBorder = () -> {
+                if (lastSelectedImageBtn != null) {
+                    lastSelectedImageBtn.setBackgroundColor(Color.TRANSPARENT);
+                }
+            };
+
+            image1.setOnClickListener(v -> {
+                newImage = String.valueOf(R.drawable.avatar1);
+                restoreLastSelectedImageBorder.run();
+                image1.setBackgroundColor(Color.BLACK);
+                lastSelectedImageBtn = image1;
+            });
+
+            image2.setOnClickListener(v -> {
+                newImage = String.valueOf(R.drawable.avatar2);
+                restoreLastSelectedImageBorder.run();
+                image2.setBackgroundColor(Color.BLACK);
+                lastSelectedImageBtn = image2;
+            });
+
+            image3.setOnClickListener(v -> {
+                newImage = String.valueOf(R.drawable.avatar3);
+                restoreLastSelectedImageBorder.run();
+                image3.setBackgroundColor(Color.BLACK);
+                lastSelectedImageBtn = image3;
+            });
+
+            image4.setOnClickListener(v -> {
+                newImage = String.valueOf(R.drawable.avatar4);
+                restoreLastSelectedImageBorder.run();
+                image4.setBackgroundColor(Color.BLACK);
+                lastSelectedImageBtn = image4;
+            });
+
+            image5.setOnClickListener(v -> {
+                newImage = String.valueOf(R.drawable.user);
+                restoreLastSelectedImageBorder.run();
+                image5.setBackgroundColor(Color.BLACK);
+                lastSelectedImageBtn = image5;
+            });
+
+            image6.setOnClickListener(v -> {
+                newImage = String.valueOf(R.drawable.avatar6);
+                restoreLastSelectedImageBorder.run();
+                image6.setBackgroundColor(Color.BLACK);
+                lastSelectedImageBtn = image6;
+            });
+
+            image7.setOnClickListener(v -> {
+                newImage = String.valueOf(R.drawable.avatar7);
+                restoreLastSelectedImageBorder.run();
+                image7.setBackgroundColor(Color.BLACK);
+                lastSelectedImageBtn = image7;
+            });
+
+            image8.setOnClickListener(v -> {
+                newImage = String.valueOf(R.drawable.avatar8);
+                restoreLastSelectedImageBorder.run();
+                image8.setBackgroundColor(Color.BLACK);
+                lastSelectedImageBtn = image8;
+            });
+
+            image9.setOnClickListener(v -> {
+                newImage = String.valueOf(R.drawable.avatar9);
+                restoreLastSelectedImageBorder.run();
+                image9.setBackgroundColor(Color.BLACK);
+                lastSelectedImageBtn = image9;
+            });
+
+            changeImageButton.setOnClickListener(v -> {
+                profileImages.dismiss();
+                profileImage.setImageResource(Integer.parseInt(newImage));
+                guardarImagen(newImage);
+            });
+
+            profileImages.show();
+        }
 
     public void setUpUser(){
         TextView email = findViewById(R.id.gmailTextProfileView);
@@ -137,5 +202,13 @@ public class Profile extends AppCompatActivity {
 
     }
 
-
+    public void guardarImagen(String nuevaImagen) {
+        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+        if (user != null) {
+            FirebaseFirestore firebaseFirestore = FirebaseFirestore.getInstance();
+            DocumentReference userReference = firebaseFirestore.collection("user").document(user.getUid());
+            userReference.update("img", nuevaImagen);
+            User.setImgUser(nuevaImagen);
+        }
+    }
 }
