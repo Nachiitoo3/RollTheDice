@@ -89,7 +89,7 @@ public class Dice extends AppCompatActivity {
         GifImageView gifImageView = findViewById(R.id.diceImageView);
 
         try {
-            GifDrawable gifDrawable = new GifDrawable(getResources(), R.drawable.animcultviajes);
+            GifDrawable gifDrawable = new GifDrawable(getResources(), R.drawable.animtecno);
             gifImageView.setImageDrawable(gifDrawable);
 
             gifDrawable.addAnimationListener(new AnimationListener() {
