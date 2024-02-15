@@ -91,25 +91,32 @@ public class Dice extends AppCompatActivity {
         try {
             int categoryValue = Category.getCategory();
             int gifResource;
+            int diceImageResource;
 
             switch (categoryValue) {
                 case 0:
                     gifResource = R.drawable.animnatur;
+                    diceImageResource = R.drawable.dicenatur;
                     break;
                 case 1:
                     gifResource = R.drawable.animitology;
+                    diceImageResource = R.drawable.dicemitology;
                     break;
                 case 2:
                     gifResource = R.drawable.animgastro;
+                    diceImageResource = R.drawable.dicegastro;
                     break;
                 case 3:
                     gifResource = R.drawable.animcultviajes;
+                    diceImageResource = R.drawable.dicecultviajes;
                     break;
                 case 4:
                     gifResource = R.drawable.animtecno;
+                    diceImageResource = R.drawable.dicetecno;
                     break;
                 default:
-                    gifResource = R.drawable.diceinit; // Define un recurso por defecto si es necesario
+                    gifResource = R.drawable.diceinit;
+                    diceImageResource = R.drawable.diceinit;
                     break;
             }
 
@@ -119,7 +126,11 @@ public class Dice extends AppCompatActivity {
             gifDrawable.addAnimationListener(new AnimationListener() {
                 @Override
                 public void onAnimationCompleted(int loopNumber) {
-                    // La animación ha terminado, ahora puedes iniciar la transición
+                    // La animación ha terminado, ahora puedes cambiar la imagen de diceinit
+                    ImageView diceInitImage = findViewById(R.id.diceImageView);
+                    diceInitImage.setImageResource(diceImageResource);
+
+                    // También puedes iniciar la transición si es necesario
                     transitionAnimDice(Dice.this, TransitionDiceIntoQuestion.class);
                 }
             });
@@ -130,5 +141,6 @@ public class Dice extends AppCompatActivity {
             e.printStackTrace();
         }
     }
+
 
 }
