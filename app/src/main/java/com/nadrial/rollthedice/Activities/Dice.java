@@ -89,7 +89,31 @@ public class Dice extends AppCompatActivity {
         GifImageView gifImageView = findViewById(R.id.diceImageView);
 
         try {
-            GifDrawable gifDrawable = new GifDrawable(getResources(), R.drawable.animtecno);
+            int categoryValue = Category.getCategory();
+            int gifResource;
+
+            switch (categoryValue) {
+                case 0:
+                    gifResource = R.drawable.animnatur;
+                    break;
+                case 1:
+                    gifResource = R.drawable.animitology;
+                    break;
+                case 2:
+                    gifResource = R.drawable.animgastro;
+                    break;
+                case 3:
+                    gifResource = R.drawable.animcultviajes;
+                    break;
+                case 4:
+                    gifResource = R.drawable.animtecno;
+                    break;
+                default:
+                    gifResource = R.drawable.diceinit; // Define un recurso por defecto si es necesario
+                    break;
+            }
+
+            GifDrawable gifDrawable = new GifDrawable(getResources(), gifResource);
             gifImageView.setImageDrawable(gifDrawable);
 
             gifDrawable.addAnimationListener(new AnimationListener() {
@@ -106,4 +130,5 @@ public class Dice extends AppCompatActivity {
             e.printStackTrace();
         }
     }
+
 }
