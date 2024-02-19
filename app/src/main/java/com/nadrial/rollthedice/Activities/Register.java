@@ -20,6 +20,9 @@ public class Register extends AppCompatActivity {
 
     Button  btn_register;
     EditText Name,Email,Password,RPassword;
+    int[] stats  = new int[]{};
+    int[] ranking = new int[]{};
+    boolean[] logros = new boolean[]{};
     FirebaseFirestore mFirestore;
     FirebaseAuth mAuth;
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,6 +44,11 @@ public class Register extends AppCompatActivity {
             String emailUser = Email.getText().toString().trim();
             String passUser = "";
             String imgUser = String.valueOf(R.drawable.user);
+            String statsUser;
+            String logrosUser;
+
+
+
             if (RPassword.getText().toString().trim().equals(Password.getText().toString().trim())) {
                 passUser = Password.getText().toString().trim();
             }
@@ -56,13 +64,13 @@ public class Register extends AppCompatActivity {
 
                 }
             }  else {
-                registerUser(nameUser,emailUser,passUser,imgUser);
+                registerUser(nameUser,emailUser,passUser,imgUser, stats,logros);
             }
         });
 
     }
 
-    private void registerUser(String nameUser, String emailUser, String passUser, String imgUser) {
+    private void registerUser(String nameUser, String emailUser, String passUser, String imgUser , int[] stats, boolean[] logros) {
         mAuth.createUserWithEmailAndPassword(emailUser, passUser).addOnCompleteListener(task -> {
             String id = Objects.requireNonNull(mAuth.getCurrentUser()).getUid();
             Map<String, Object> map = new HashMap<>();
@@ -70,6 +78,8 @@ public class Register extends AppCompatActivity {
             map.put("name",nameUser);
             map.put("email",emailUser);
             map.put("img",imgUser);
+            map.put("stats",stats);
+            map.put("logros",logros);
             //map.put("password",passUser);
 
             mFirestore.collection("user").document(id).set(map).addOnCompleteListener(task1 -> {
