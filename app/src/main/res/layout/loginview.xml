@@ -85,7 +85,7 @@
         app:passwordToggleTint="@color/black"
         app:placeholderTextColor="@color/black"
         app:prefixTextColor="@color/black"
-        app:startIconDrawable="@drawable/ic_name_password"
+        app:startIconDrawable="@drawable/ic_password_close"
         app:startIconTint="@color/black"
         app:startIconTintMode="src_in"
         app:suffixTextColor="@color/black">

@@ -73,7 +73,7 @@
         app:passwordToggleTint="@color/black"
         app:placeholderTextColor="@color/black"
         app:prefixTextColor="@color/black"
-        app:startIconDrawable="@drawable/ic_name_password"
+        app:startIconDrawable="@drawable/ic_password_close"
         app:startIconTint="@color/black"
         app:suffixTextColor="@color/black">
 
@@ -126,7 +126,7 @@
         app:passwordToggleTint="@color/black"
         app:placeholderTextColor="@color/black"
         app:prefixTextColor="@color/black"
-        app:startIconDrawable="@drawable/ic_name_username"
+        app:startIconDrawable="@drawable/ic_action_name"
         app:startIconTint="@color/black"
         app:suffixTextColor="@color/black">
 
@@ -165,7 +165,7 @@
         app:passwordToggleTint="@color/black"
         app:placeholderTextColor="@color/black"
         app:prefixTextColor="@color/black"
-        app:startIconDrawable="@drawable/ic_name_password"
+        app:startIconDrawable="@drawable/ic_password_close"
         app:startIconTint="@color/black"
         app:suffixTextColor="@color/black">
 
